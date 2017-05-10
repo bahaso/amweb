@@ -1,0 +1,37 @@
+.logo{
+	max-height: 90%;
+}
+
+.bg-footer{
+	background: #0099ff;
+	color: white;
+	padding: 20px;
+}
+
+.bg-footer a, .white{
+	color: white;
+}
+
+input{
+	color: black;
+}
+
+.button-tabs .active .tab-title, .button-tabs .active .tab-title:hover{
+	background: #0099ff;
+}
+
+.img-detail{
+	height: 200px;
+	width: 200px;
+}
+
+.tile-left, .tile-right{
+	min-width: 250px;
+	min-height: 200px;
+	width: inherit;
+	text-align: left;	
+}
+
+section{
+	padding: 30px;
+}
