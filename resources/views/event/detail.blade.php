@@ -17,7 +17,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="uppercase mb100">Event Schedule</h4>
+                <h2 class="uppercase mb100">Event Schedule</h2>
                 <p>Prepare for a full day of discussion from some of the web's best and brightest</p>
             </div>
         </div>

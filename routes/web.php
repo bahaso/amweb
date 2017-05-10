@@ -23,9 +23,12 @@ Route::get('/event/detail', function () {
     return view('event.detail');
 });
 
-
-Route::get('/vti/about/{locale}', function ($locale) {
-    App::setLocale($locale);
-    return view('vti.about');
+Route::get('/vti/about', function () {
+    return view('vti.index');
 });
+
+// Route::get('/vti/about/{locale}', function ($locale) {
+//     App::setLocale($locale);
+//     return view('vti.about');
+// });
 
