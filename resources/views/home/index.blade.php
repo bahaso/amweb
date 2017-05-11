@@ -3,7 +3,7 @@
 
 <section class="element-to-be-covered parallax" style = "height: 720px">
     <div class="background-image-holder">
-        <img alt="Image" src="{{ asset('img/logo_am.jpeg') }}" />
+        <img alt="Image" src="{{ asset('img/background_vti.png') }}" />
     </div>
     
     <div class="container">
@@ -13,7 +13,7 @@
     </div>
 </section>
 
-<section class="bg-secondary page-title page-title-4 section_blue">
+<section class="bg-secondary page-title page-title-4 section_blue_cloud">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -22,12 +22,8 @@
             </div>
         </div>
         <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>
+        <br><br>
 
-<section class="bg-secondary section_blue">
-    <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
                     <p>
@@ -47,7 +43,6 @@
     <!--end of container-->
 </section>
 
-
 <section class="bg-secondary page-title page-title-4">
     <div class="container">
         <div class="row">
@@ -57,6 +52,13 @@
             </div>
         </div>
         <!--end of row-->
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-12">
+             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+            </div>
+        </div>
     </div>
     <!--end of container-->
 </section>
@@ -65,22 +67,52 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-12">
                 <div class="image-slider slider-all-controls controls-inside">
                     <ul class="slides">
                         <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-                            <img alt="Image" src="{{ asset('img/cover14.jpg') }}" draggable="false">
+                            <div class = "image-caption cast-shadow hover-caption">
+                                <img alt="Image" src="{{ asset('img/cover14.jpg') }}" draggable="false">
+                                <div class = "caption">
+                                    <div class = "caption_title">Teamwork</div>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+                                    Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+                                    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
-                            <img alt="Image" src="{{ asset('img/cover15.jpg') }}" draggable="false">
+                            <div class = "image-caption cast-shadow hover-caption">
+                                <img alt="Image" src="{{ asset('img/cover15.jpg') }}" draggable="false">
+                                <div class = "caption">
+                                    <div class = "caption_title">Accuracy</div>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+                                    Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+                                    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                         <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
-                            <img alt="Image" src="{{ asset('img/cover16.jpg') }}" draggable="false">
+                            <div class = "image-caption cast-shadow hover-caption">
+                                <img alt="Image" src="{{ asset('img/cover16.jpg') }}" draggable="false">
+                                <div class = "caption">
+                                    <div class = "caption_title">Realibility</div>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+                                    Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+                                    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 <ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div>

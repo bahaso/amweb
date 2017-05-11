@@ -97,9 +97,21 @@ section{
 	color: white;
 }
 
-.section_blue_light{
-	background-color: #1ad1ff !important;
+.section_blue_cloud{
+	background-image: url('../img/background_cloud_blue.png');
 	color: white;
+	height: 350px;
+}
+
+.section_blue_light{
+	background-color: #33cccc !important;
+	color: white;
+}
+
+.section_blue_light_cloud{
+	background-image: url('../img/background_cloud_blue_light.png');
+	color: white;
+	height: 350px;
 }
 
 .uppercase{
@@ -115,4 +127,10 @@ section{
 .panel-body{
 	max-height: 300px;
 	overflow-y: auto;
+}
+
+.caption_title{
+	font-size: 20pt;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
