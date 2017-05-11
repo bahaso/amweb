@@ -1,7 +1,7 @@
 @extends('structure')
 @section('content')
 
-<section class="element-to-be-covered parallax" style = "height: 720px">
+<section class="element-to-be-covered parallax">
     <div class="background-image-holder">
         <img alt="Image" src="{{ asset('img/background_vti.png') }}" />
     </div>

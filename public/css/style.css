@@ -1,3 +1,6 @@
+.element-to-be-covered{
+	height: 445px;
+}
 .logo{
 	max-height: 180%;
 	margin-top: -25px;
@@ -88,9 +91,6 @@ section{
 }
 
 .under_title{
-	/*width: 80px;
-	color: orange;
-	text-align: center;*/
 	height: .25rem;
 	width: 5%;
 	margin:0;
@@ -107,6 +107,8 @@ section{
 	background-image: url('../img/background_cloud_blue.png');
 	color: white;
 	height: 350px;
+
+	margin-top: -10px
 }
 
 .section_blue_light{
