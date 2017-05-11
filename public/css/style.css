@@ -1,5 +1,11 @@
 .logo{
-	max-height: 90%;
+	max-height: 180%;
+	margin-top: -25px;
+}
+
+.nav-bar{
+	height: 100px !important;
+	max-height: 100px !important;
 }
 
 .bg-footer{

@@ -18,7 +18,7 @@
         <div class="nav-container">
             <a id="top"></a>
             <nav>   
-                <div class="nav-bar">
+                <div class="nav-bar v-align-children">
                     <div class="module left">
                         <a href="{{ URL::to('/') }}">
                             <img class="logo logo-light" alt="AM 2018 Bali" src="{{ asset('img/logo-light.png') }}" />
