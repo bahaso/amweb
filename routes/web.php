@@ -27,6 +27,14 @@ Route::get('/vti/about', function () {
     return view('vti.index');
 });
 
+Route::get('/about/imf', function () {
+    return view('about.imf');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact-us.index');
+});
+
 // Route::get('/vti/about/{locale}', function ($locale) {
 //     App::setLocale($locale);
 //     return view('vti.about');

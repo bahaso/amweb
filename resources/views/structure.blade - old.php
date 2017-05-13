@@ -27,13 +27,21 @@
                         <i class="ti-email">&nbsp;</i>
                         <span class="sub">hello@foundry.net</span>
                     </div>
+                    <div class="module right">
+                        <a class="btn btn-sm hidden-xs hidden-sm hidden-md" href="variant/builder.html">Try Builder</a>
+                        <a class="btn btn-sm btn-filled" href="#">Buy Now</a>
+                    </div>
                 </div>
-
+                
                 <div class="nav-bar v-align-children">
                     <div class="module left">
                         <a href="{{ URL::to('/') }}">
                             <img class="logo logo-light" alt="AM 2018 Bali" src="{{ asset('img/logo-light.png') }}" />
-                            <img class="logo logo-dark" alt="AM 2018 Bali" src="{{ asset('img/logo_am.jpg') }}" />
+                            <img class="logo logo-dark" alt="AM 2018 Bali" src="{{ asset('img/logo_am.jpeg') }}" />
+                        </a>
+                        <a href="{{ URL::to('/vti/about') }}">
+                            <img class="logo logo-light" alt="AM 2018 Bali" src="{{ asset('img/logo-light.png') }}" />
+                            <img class="logo logo-dark" alt="AM 2018 Bali" src="{{ asset('img/logo_vti.jpeg') }}" />
                         </a>
                     </div>
                     <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -48,7 +56,7 @@
                                     </a>                                    
                                 </li>
                                 <li>
-                                    <a href="{{ URL::to('/about/imf') }}">
+                                    <a href="{{ URL::to('/vti/about') }}">
                                         About
                                     </a>
                                 </li>
@@ -59,9 +67,6 @@
                                     <ul>
                                         <li>
                                             <a href="{{ URL::to('/event/detail') }}">Speakers</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ URL::to('/contact-us') }}">Contact Us</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -112,105 +117,122 @@
             <footer class="footer-1 bg-dark">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="widget">
-                                <h6 class="title">About</h6>
+                                <h4 class="title header_title">VOYAGE TO INDONESIA</h4>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                                </p>
+                            </div>
+
+                            <span class = "num_followers">15k</span> followers
+                            <hr class = "separator">
+                            <span class = "white"><i> Follow Us: </i>&nbsp;</span>
+                            <ul class="list-inline social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-instagram blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-pinterest blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-google blue"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-youtube blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-dribbble blue"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-tumblr-alt blue"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <br><br>
+
+                            <div class = "row">
+                                <div class = "col-md-7 newsletter">
+                                    <input type="text" placeholder="Your Email..." />
+                                </div>
+                                <div class = "col-md-5 btn-newsletter">
+                                    <a class="btn btn-lg btn-filled" href="#">NEWSLETTER</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">BLOGS</h6>
                                 <hr>
-                                <ul class="">
+                                
+                                <ul class="cart-overview">
                                     <li>
-                                        <a href="#">IMF - WB Annual Meeting 2018</a>
+                                        <a href="#">
+                                            <img alt="blog" src="{{ asset('img/capital2.jpg') }}">
+                                            <div class="description">
+                                                <span class = "upperline"> Hugging pugs is super trendy</span>
+                                                <span>Feb 14, 2015</span>   
+                                            </div>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#">IMF</a>
+                                        <a href="#">
+                                            <img alt="blog" src="{{ asset('img/capital3.jpg') }}">
+                                            <div class="description">
+                                                <span class = "upperline"> Hugging pugs is super trendy</span>
+                                                <span>Feb 14, 2015</span>   
+                                            </div>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#">World Bank</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Indonesia and IMF - World Bank</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">FAQ</a>
+                                        <a href="#">
+                                            <img alt="blog" src="{{ asset('img/capital4.jpg') }}">
+                                            <div class="description">
+                                                <span class = "upperline"> Hugging pugs is super trendy</span>
+                                                <span>Feb 14, 2015</span>   
+                                            </div>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                             <!--end of widget-->
                         </div>
-                        <div class="col-md-2 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="widget">
-                                <h6 class="title">Events</h6>
+                                <h6 class="title white">INSTAGRAM</h6>
                                 <hr>
-                                <ul class="">
-                                    <li>
-                                        <a href="#">Main Events</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Side Events</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Venues Map</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Maps: Bali and Venues</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--end of widget-->
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h6 class="title">Voyage to Indonesia</h6>
-                                <hr>
-                                <ul class="">
-                                    <li>
-                                        <a href="#">About VTI</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Seminar</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Exhibition</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--end of widget-->
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="widget">
-                                <h6 class="title">Discover Indonesia</h6>
-                                <hr>
-                                <ul class="">
-                                    <li>
-                                        <a href="#">5 Destinasi Pariwisata Indonesia</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">11 Destinasi Bali</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--end of widget-->
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="widget">
-                                <h6 class="title">Media and Publications</h6>
-                                <hr>
-                                <ul class="">
-                                    <li>
-                                        <a href="#">Gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Seminar Materials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Press Release</a>
-                                    </li>
-                                </ul>
+                                <div class="instafeed" data-user-name="mrareweb">
+                                    <ul></ul>
+                                </div>
                             </div>
                             <!--end of widget-->
                         </div>
                     </div>
                     <!--end of row-->
-                    
                 </div>
                 <!--end of container-->
             </footer>

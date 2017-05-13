@@ -1,9 +1,10 @@
 .element-to-be-covered{
-	height: 445px;
+	height: 500px;
 }
+
 .logo{
-	max-height: 180%;
-	margin-top: -25px;
+	max-height: 170%;
+	margin-top: -20px;
 }
 
 .nav-bar{
@@ -42,6 +43,10 @@ input{
 }
 
 section{
+	padding: 30px;
+}
+
+footer{
 	padding: 30px;
 }
 

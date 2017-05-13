@@ -1,24 +1,37 @@
 @extends('structure')
 @section('content')
 
-<section class="element-to-be-covered parallax" style = "height: 720px">
-    <div class="background-image-holder">
-        <img alt="Image" src="{{ asset('img/logo_am.jpeg') }}" />
-    </div>
-    
+<section class="page-title page-title-4 bg-secondary">
     <div class="container">
         <div class="row">
-            ...
+            <div class="col-md-6">
+                <h3 class="uppercase mb0">Event Detail</h3>
+            </div>
+            <div class="col-md-6 text-right">
+                <ol class="breadcrumb breadcrumb-2">
+                    <li>
+                        <a href="{{ URL::to('/') }}">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Event</a>
+                    </li>
+                    <li class="active">Detail</li>
+                </ol>
+            </div>
         </div>
+        <!--end of row-->
     </div>
+    <!--end of container-->
 </section>
+
+@include('parallax');
 
 <section class="bg-secondary page-title page-title-4">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="uppercase mb100">Event Schedule</h2>
-                <p>Prepare for a full day of discussion from some of the web's best and brightest</p>
+                <p class = "mb0">Prepare for a full day of discussion from some of the web's best and brightest</p>
             </div>
         </div>
         <!--end of row-->
@@ -32,163 +45,70 @@
             <div class="col-md-12 text-center">
                 
                 <div class="tabbed-content button-tabs">
-                    <ul class="tabs">
+                    <ul class="tabs thirds mb64 mb-xs-24">
                         <li class="active">
                             <div class="tab-title">
                                 <span>Morning</span>
                             </div>
-                            <div class="tab-content">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-1.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        9:30 AM - 10:30 AM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
+                            <div class="tab-content text-left">
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar1.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">9:30am - 10:30am</h6>
+                                            <h4>Alice French - E-Commerce & Fashion</h4>
                                         </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
-
                                     </div>
+                                    <p>
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
                                 </div>
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-1.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        9:30 AM - 10:30 AM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar2.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">11:00am - 12:00pm</h6>
+                                            <h4>Luke Hess - Better Selling Technique</h4>
                                         </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
                                     </div>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
                                 </div>
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-1.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        9:30 AM - 10:30 AM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
-                                    </div>
-                                </div>
-
                             </div>
                         </li>
                         <li>
                             <div class="tab-title">
                                 <span>Afternoon</span>
                             </div>
-                            <div class="tab-content">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-3.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        12:30 AM - 3:00 PM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
+                            <div class="tab-content text-left">
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar3.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">1:30pm - 02:30pm</h6>
+                                            <h4>Porter Ricks - Abstract Angulr</h4>
                                         </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
                                     </div>
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda.
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
                                 </div>
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-3.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        12:30 AM - 3:00 PM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar4.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">3:00pm - 4:00pm</h6>
+                                            <h4>Jesse Tare - Producing Spacious Beats</h4>
                                         </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
                                     </div>
+                                    <p>
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
                                 </div>
                             </div>
                         </li>
@@ -196,34 +116,32 @@
                             <div class="tab-title">
                                 <span>Evening</span>
                             </div>
-                            <div class="tab-content">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="horizontal-tile">
-                                            <div class="tile-left">
-                                                <a href="#">
-                                                    <div class="background-image-holder img-detail">
-                                                        <img alt="image" class="background-image" src="{{ asset('img/project-single-3.jpg') }}" />
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="tile-right bg-secondary">
-                                                <div class="description">
-                                                    <h6 class="uppercase">
-                                                        6:30 PM - 9:00 PM
-                                                    </h6>
-                                                    <h4 class="mb8">Registration Open</h4>
-                                                </div>
-                                            </div>
+                            <div class="tab-content text-left">
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar5.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">5:30pm - 06:30pm</h6>
+                                            <h4>Kane Thompson - Blasting Pesky Bugs</h4>
                                         </div>
-                                        <!--end of horizontal tile-->
-                                        <div class = "text-left">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                        <hr>
                                     </div>
+                                    <p>
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
+                                </div>
+                                <div>
+                                    <div class="overflow-hidden">
+                                        <img alt="Pic" class="mb24 pull-left" src="{{ asset('img/avatar6.png') }}" />
+                                        <div class="pull-left p32 p0-xs pt24">
+                                            <h6 class="uppercase mb8 number">7:00pm - 08:00pm</h6>
+                                            <h4>Grace Adler - Tolerating Canned Laughter</h4>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda.
+                                    </p>
+                                    <hr class="mt40 mb40 mt-xs-0 mb-xs-24">
                                 </div>
                             </div>
                         </li>
@@ -236,5 +154,8 @@
     </div>
     <!--end of container-->
 </section>
+
+@include('countdown')
+@include('collaborator')
 
 @stop
