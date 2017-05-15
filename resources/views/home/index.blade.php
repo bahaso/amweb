@@ -1,23 +1,6 @@
 @extends('structure')
 @section('content')
 
-<section class="page-title page-title-4 bg-secondary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="uppercase mb0">HOME</h3>
-            </div>
-            <div class="col-md-6 text-right">
-                <ol class="breadcrumb breadcrumb-2">
-                    <li class="active">Home</li>
-                </ol>
-            </div>
-        </div>
-        <!--end of row-->
-    </div>
-    <!--end of container-->
-</section>
-
 @include('parallax')
 
 <section class="bg-secondary">
@@ -31,8 +14,8 @@
                 </div>
                 <div class="row masonry mb40">
                     <div class="col-sm-6 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32">
-                            <img alt="Captioned Image" src="img/home7.jpg">
+                        <div class="image-caption cast-shadow mb-xs-32 img-home">
+                            <img alt="Captioned Image" src="img/home_1.jpg" class = "img-home">
                             <div class="caption text-center">
                                 <p>
                                     <a class="btn btn-md btn-filled" href="">Learn More</a>
@@ -42,41 +25,8 @@
                     </div>
                     <!--end of snippet-->
                     <div class="col-sm-6 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32">
-                            <img alt="Captioned Image" src="img/home7.jpg">
-                            <div class="caption text-center">
-                                <p>
-                                    <a class="btn btn-md btn-filled" href="#">Learn More</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of snippet-->
-                    <div class="col-sm-6 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32">
-                            <img alt="Captioned Image" src="img/home7.jpg">
-                            <div class="caption text-center">
-                                <p>
-                                    <a class="btn btn-md btn-filled" href="#">Learn More</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of snippet-->
-                    <div class="col-sm-6 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32">
-                            <img alt="Captioned Image" src="img/home7.jpg">
-                            <div class="caption text-center">
-                                <p>
-                                    <a class="btn btn-md btn-filled" href="#">Learn More</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of snippet-->
-                    <div class="col-sm-6 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32">
-                            <img alt="Captioned Image" src="img/home7.jpg">
+                        <div class="image-caption cast-shadow mb-xs-32 ">
+                            <img alt="Captioned Image" src="img/home_2.jpg" class = "img-home">
                             <div class="caption text-center">
                                 <p>
                                     <a class="btn btn-md btn-filled" href="#">Learn More</a>

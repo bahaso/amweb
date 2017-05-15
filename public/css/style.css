@@ -1,5 +1,5 @@
 .element-to-be-covered{
-	height: 500px;
+	height: 720px;
 }
 
 .logo{
@@ -146,4 +146,8 @@ footer{
 	font-size: 20pt;
 	font-weight: bold;
 	margin-bottom: 10px;
+}
+
+.img-home{
+	height: 300px;
 }

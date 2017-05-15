@@ -47,38 +47,91 @@
                                         Home
                                     </a>                                    
                                 </li>
-                                <li>
-                                    <a href="{{ URL::to('/about/imf') }}">
+                                <li class="has-dropdown">
+                                    <a href="#">
                                         About
                                     </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">IMF - WB Annual Meeting 2018</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ URL::to('/about/imf') }}">IMF</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">World Bank</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Indonesia and IMF - World Bank</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="has-dropdown">
-                                    <a href="{{ URL::to('/event') }}">
+                                    <a href="">
                                         Event
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="{{ URL::to('/event/detail') }}">Speakers</a>
+                                            <a href="{{ URL::to('/event') }}">Main Events</a>
                                         </li>
                                         <li>
-                                            <a href="{{ URL::to('/contact-us') }}">Contact Us</a>
+                                            <a href="{{ URL::to('/event') }}">Side Events</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Venues Map</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Maps: Bali and Venues</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="{{ URL::to('/event/detail') }}">
+                                <li class="has-dropdown">
+                                    <a href="#">
                                         Voyage To Indonesia
                                     </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">About VTI</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Seminar</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Exhibition</a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
+                                <li class="has-dropdown">
                                     <a href="#">
                                         Discover Indonesia
                                     </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">5 Destinasi Pariwisata Indonesia</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">11 Destinasi Bali</a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
+                                <li class="has-dropdown">
                                     <a href="#">
                                         Media and Publication
                                     </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Seminar Materials</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Press Release</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -121,7 +174,7 @@
                                         <a href="#">IMF - WB Annual Meeting 2018</a>
                                     </li>
                                     <li>
-                                        <a href="#">IMF</a>
+                                        <a href="{{ URL::to('/about/imf') }}">IMF</a>
                                     </li>
                                     <li>
                                         <a href="#">World Bank</a>
