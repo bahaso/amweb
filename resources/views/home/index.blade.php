@@ -6,6 +6,19 @@
 <section class="bg-secondary">
     <div class="container">
         <div class = "row">
+            <div class = "col-md-3">   
+                <img alt="Image" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false" class = "img-placeholder">
+            </div>
+            <div class = "col-md-9 feature bordered">
+                <h4 class="uppercase mb100">Voyage To Indonesia</h4>
+                <p>
+                    "Voyage To Indonesia" (VTI) is the big theme of IMF - WB Annual Meetings 2018 preparation, taken form the essence of 'voyage' as a hourney toward new place and discovery. The objective is to leverage the benefits of the event for national interest and International community.
+                </p>
+                <a class="btn btn-sm" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class = "row">
             <div class="col-md-9 col-md-push-3">
                 <div class="row masonry-loader">
                     <div class="col-sm-12 text-center">

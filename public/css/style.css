@@ -134,7 +134,9 @@ footer{
 .big_number{
 	font-size: 40pt;
 	font-weight: bold;
-	margin: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
 }
 
 .panel-body{
@@ -150,4 +152,9 @@ footer{
 
 .img-home{
 	height: 300px;
+}
+
+.img-placeholder{
+	width: 250px;
+	height: 250px;
 }
