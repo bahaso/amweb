@@ -20,12 +20,7 @@
             <nav>
                 <div class="nav-utility">
                     <div class="module left">
-                        <i class="ti-location-arrow">&nbsp;</i>
-                        <span class="sub">68 Cardamon Place, Melbourne Vic 3000</span>
-                    </div>
-                    <div class="module left">
-                        <i class="ti-email">&nbsp;</i>
-                        <span class="sub">hello@foundry.net</span>
+                        <span class="sub">IMF - World Bank Annual Meetings 2018 in Bali, Indonesia, October 14-20, 2018</span>
                     </div>
                 </div>
 
@@ -53,13 +48,13 @@
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#">IMF - WB Annual Meeting 2018</a>
+                                            <a href="{{ URL::to('/about/imf-wbam') }}">IMF - WB Annual Meeting 2018</a>
                                         </li>
                                         <li>
                                             <a href="{{ URL::to('/about/imf') }}">IMF</a>
                                         </li>
                                         <li>
-                                            <a href="#">World Bank</a>
+                                            <a href="{{ URL::to('/about/worldbank') }}">World Bank</a>
                                         </li>
                                         <li>
                                             <a href="#">Indonesia and IMF - World Bank</a>
@@ -94,7 +89,7 @@
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#">About VTI</a>
+                                            <a href="{{ URL::to('/about/vti') }}">About VTI</a>
                                         </li>
                                         <li>
                                             <a href="#">Seminar</a>
@@ -169,15 +164,15 @@
                             <div class="widget">
                                 <h6 class="title">About</h6>
                                 <hr>
-                                <ul class="">
+                                <ul class = "">
                                     <li>
-                                        <a href="#">IMF - WB Annual Meeting 2018</a>
+                                        <a href="{{ URL::to('/about/imf-wbam') }}">IMF - WB Annual Meeting 2018</a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('/about/imf') }}">IMF</a>
                                     </li>
                                     <li>
-                                        <a href="#">World Bank</a>
+                                        <a href="{{ URL::to('/about/worldbank') }}">World Bank</a>
                                     </li>
                                     <li>
                                         <a href="#">Indonesia and IMF - World Bank</a>
@@ -195,10 +190,10 @@
                                 <hr>
                                 <ul class="">
                                     <li>
-                                        <a href="#">Main Events</a>
+                                        <a href="{{ URL::to('/event') }}">Main Events</a>
                                     </li>
                                     <li>
-                                        <a href="#">Side Events</a>
+                                        <a href="{{ URL::to('/event') }}">Side Events</a>
                                     </li>
                                     <li>
                                         <a href="#">Venues Map</a>
@@ -216,7 +211,7 @@
                                 <hr>
                                 <ul class="">
                                     <li>
-                                        <a href="#">About VTI</a>
+                                        <a href="{{ URL::to('/about/vti') }}">About VTI</a>
                                     </li>
                                     <li>
                                         <a href="#">Seminar</a>

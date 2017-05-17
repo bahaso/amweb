@@ -1,4 +1,4 @@
-.element-to-be-covered{
+.element-to-be-covered, .parallax{
 	height: 720px;
 }
 
@@ -155,6 +155,15 @@ footer{
 }
 
 .img-placeholder{
-	width: 250px;
+	width: 350px;
 	height: 250px;
+}
+
+.img-content{
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+}
+
+.image-square{
+	height: 400px;
 }

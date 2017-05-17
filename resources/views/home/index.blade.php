@@ -1,7 +1,7 @@
 @extends('structure')
 @section('content')
 
-@include('parallax')
+@include('parallax-slider')
 
 <section class="bg-secondary">
     <div class="container">

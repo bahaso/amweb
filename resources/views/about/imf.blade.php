@@ -1,13 +1,13 @@
 @extends('structure')
 @section('content')
 
-@include('parallax')
+@include('parallax-slider')
 
 <section>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="uppercase mb16">International Monetary Fund</h2>
+                <h2 class="uppercase mb16">About IMF</h2>
                 <p class = "mb0">
                     IMF was found in July 1945 during Bretton Woods Conference, New Hampshire, US, where 45 government representatives agreed on an economic cooperation framework that was designed to prevent 1930's Great Depression from happening again. IMF Headquarter is located in Washington DC, US.
                 </p>
@@ -21,7 +21,7 @@
 <section class="image-square left">
     <div class="col-md-6 image">
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="{{ asset('img/small1.jpg') }}" />
+            <img alt="image" class="background-image" src="{{ asset('img/imf1.jpg') }}" />
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1 content">
@@ -34,25 +34,24 @@
 <section class="image-square right">
     <div class="col-md-6 image">
         <div class="background-image-holder">
-            <img alt="image" class="background-image" src="{{ asset('img/small2.jpg') }}" />
+            <img alt="image" class="background-image" src="{{ asset('img/imf2.jpg') }}" />
         </div>
     </div>
     <div class="col-md-6 content">
         <p class="mb0">
             IMF is an international organization that aims to:<br>
-            - Endorse international cooperation and maintain financial stability<br>
-            - Facilitate international trade<br>
-            - Stimulate the sustainable economic growth as well as workforce absorption<br>
+            - Endorse international cooperation and maintain financial stability<br><br>
+            - Facilitate international trade<br><br>
+            - Stimulate the sustainable economic growth as well as workforce absorption<br><br>
             - Reduce poverty in the world
-            </ul>
         </p>
     </div>
 </section>
 
 <section class="image-square left">
     <div class="col-md-6 image">
-        <div class="background-image-holder">
-            <img alt="image" class="background-image" src="{{ asset('img/small1.jpg') }}" />
+        <div class="background-image-holder img-content">
+            <img alt="image" class="background-image" src="{{ asset('img/imf3.jpg') }}" />
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1 content">
@@ -61,5 +60,7 @@
         </p>
     </div>
 </section>
+
+@include('collaborator')
 
 @stop

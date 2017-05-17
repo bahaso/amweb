@@ -23,12 +23,24 @@ Route::get('/event/detail', function () {
     return view('event.detail');
 });
 
-Route::get('/vti/about', function () {
-    return view('vti.index');
-});
+// Route::get('/vti/about', function () {
+//     return view('vti.index');
+// });
 
 Route::get('/about/imf', function () {
     return view('about.imf');
+});
+
+Route::get('/about/imf-wbam', function () {
+    return view('about.imf-wbam');
+});
+
+Route::get('/about/vti', function () {
+    return view('about.vti');
+});
+
+Route::get('/about/worldbank', function () {
+    return view('about.worldbank');
 });
 
 Route::get('/contact-us', function () {

@@ -14,42 +14,32 @@
             <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1600%; transition-duration: 0.6s; transform: translate3d(0px, 0px, 0px);">
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l1.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l2.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l3.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l4.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l1.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                     <li style="width: 200px; float: left; display: block;">
                         <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l2.png') }}" draggable="false">
-                        </a>
-                    </li>
-                    <li style="width: 200px; float: left; display: block;">
-                        <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l3.png') }}" draggable="false">
-                        </a>
-                    </li>
-                    <li style="width: 200px; float: left; display: block;">
-                        <a href="#">
-                            <img alt="Logo" src="{{ asset('img/l4.png') }}" draggable="false">
+                            <img alt="Logo" src="{{ asset('img/logo_vti_pad.png') }}" draggable="false">
                         </a>
                     </li>
                 </ul></div></div>
