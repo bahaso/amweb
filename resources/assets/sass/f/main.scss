@@ -1,0 +1,89 @@
+@import "_partials/base";
+@import "_partials/common";
+
+#st_top_header {
+	margin : 0 0 0 -30px;
+}
+
+$nav-height : 100px;
+.nav-bar {
+	height  	: $nav-height;
+	max-height  : $nav-height; 
+
+	.module {
+		height : $nav-height;
+	}
+
+		/**
+		 * LEFT
+		 */
+		a {
+			height : auto;
+		}
+
+		.logo-link {
+			margin : 16px 0 0;
+		}
+}
+
+		/**
+		 * RIGHT
+		 */
+		#st_menu {
+
+			margin : -5px 0 0;
+
+			.module {
+				height : 55px;
+			}
+		}
+
+.menu{
+	&> li {
+
+		ul {
+
+			li {
+			}
+
+			&:first-child {
+			}
+
+			&:last-child {
+			}
+		}
+
+		&:hover {
+			&> ul {
+
+			}
+		}
+	}
+}
+
+#st_footer {
+	padding : 40px 0 30px;
+}
+
+/**
+ * MEDIA QUERIES
+ */
+
+@include max-screen( $mq-size-l )
+{
+	#st_menu, 
+	.nav-bar {
+	 	 .module {
+			height : auto;	 	 	
+	 	 }
+	}
+
+	.nav-bar {
+		.module {
+			&.widget-handle.mobile-toggle {
+				margin : 20px 0 0;
+				border : 0 !important;
+			}
+		}
+	}
+}

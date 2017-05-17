@@ -1,0 +1,155 @@
+/* Imports */
+/* Compass plugins */
+/* gem install compass-rgbapng */
+/* RGBAPNG Configuration */
+/* MEDIA QUERIES */
+/**
+ * TAGS
+ */
+/* line 4, ../../../resources/assets/sass/f/_partials/_common.scss */
+section {
+  padding: 50px 0 30px;
+}
+
+/**
+ * GENERAL CLASSES
+ */
+/* line 11, ../../../resources/assets/sass/f/_partials/_common.scss */
+.mb10 {
+  margin-bottom: 10px;
+}
+
+/* line 14, ../../../resources/assets/sass/f/_partials/_common.scss */
+.color-white {
+  color: #FFF;
+}
+
+/* line 17, ../../../resources/assets/sass/f/_partials/_common.scss */
+.color-link {
+  color: #5252EF;
+}
+
+/* line 22, ../../../resources/assets/sass/f/_partials/_common.scss */
+.bg-tertiary {
+  background-color: #323347;
+}
+/* line 25, ../../../resources/assets/sass/f/_partials/_common.scss */
+.bg-tertiary.btn {
+  border: 2px solid #323347;
+}
+/* line 28, ../../../resources/assets/sass/f/_partials/_common.scss */
+.bg-tertiary.btn:hover, .bg-tertiary.btn:visited {
+  background-color: #323347;
+}
+
+/* line 35, ../../../resources/assets/sass/f/_partials/_common.scss */
+.fw600 {
+  font-weight: 600;
+}
+
+/**
+ * SPECIFIC CLASSES
+ */
+/* line 42, ../../../resources/assets/sass/f/_partials/_common.scss */
+.image-square-title {
+  padding: 75px 0 0;
+}
+/* line 45, ../../../resources/assets/sass/f/_partials/_common.scss */
+.image-square-title .title {
+  font-size: 3rem;
+}
+/* line 48, ../../../resources/assets/sass/f/_partials/_common.scss */
+.image-square-title .lead {
+  margin-bottom: 0;
+}
+
+/* line 52, ../../../resources/assets/sass/f/_partials/_common.scss */
+.image-square {
+  height: 450px;
+}
+/* line 55, ../../../resources/assets/sass/f/_partials/_common.scss */
+.image-square .desc {
+  line-height: 1.9;
+  font-size: 1.5rem;
+}
+
+/* line 61, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg ul {
+  list-style: disc;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/**
+ * SPECIFICS
+ */
+/* line 72, ../../../resources/assets/sass/f/_partials/_common.scss */
+#st_sponsors {
+  padding: 40px 0;
+}
+/* line 75, ../../../resources/assets/sass/f/_partials/_common.scss */
+#st_sponsors .title {
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* line 4, ../../../resources/assets/sass/f/main.scss */
+#st_top_header {
+  margin: 0 0 0 -30px;
+}
+
+/* line 9, ../../../resources/assets/sass/f/main.scss */
+.nav-bar {
+  height: 100px;
+  max-height: 100px;
+  /**
+   * LEFT
+   */
+}
+/* line 13, ../../../resources/assets/sass/f/main.scss */
+.nav-bar .module {
+  height: 100px;
+}
+/* line 20, ../../../resources/assets/sass/f/main.scss */
+.nav-bar a {
+  height: auto;
+}
+/* line 24, ../../../resources/assets/sass/f/main.scss */
+.nav-bar .logo-link {
+  margin: 16px 0 0;
+}
+
+/**
+ * RIGHT
+ */
+/* line 32, ../../../resources/assets/sass/f/main.scss */
+#st_menu {
+  margin: -5px 0 0;
+}
+/* line 36, ../../../resources/assets/sass/f/main.scss */
+#st_menu .module {
+  height: 55px;
+}
+
+/* line 64, ../../../resources/assets/sass/f/main.scss */
+#st_footer {
+  padding: 40px 0 30px;
+}
+
+/**
+ * MEDIA QUERIES
+ */
+@media screen and (max-width: 990px) {
+  /* line 76, ../../../resources/assets/sass/f/main.scss */
+  #st_menu .module,
+  .nav-bar .module {
+    height: auto;
+  }
+
+  /* line 83, ../../../resources/assets/sass/f/main.scss */
+  .nav-bar .module.widget-handle.mobile-toggle {
+    margin: 20px 0 0;
+    border: 0 !important;
+  }
+}

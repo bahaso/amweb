@@ -1,0 +1,79 @@
+@import "_partials/base";
+
+#about {
+	padding : 40px 0 10px;
+
+	.logo-voyage {
+		margin : 85px 0 30px;
+	}
+
+	.desc {
+		.uppercase {
+			font-weight : 600; 
+		}
+	}
+}
+
+#news_wrapper {
+	background : #F7F8F8;
+	padding    : 40px 0 10px;
+}
+	#news {
+		padding    : 0;
+	}
+
+#countdown {
+	padding    : 40px 0;
+	background : #33CCCC;
+	color 	   : #FFF;
+
+	.header-title {
+		font-size : rem( 26px );
+		margin    : 0 0 30px;  
+	}
+}
+
+	.countdown-timer {
+		.text,
+		.label {
+			display : block; 
+		}
+
+		.days,
+		.sep,
+		.hours {
+			font-size : rem( 60px );
+			@include inline-block;
+		}
+
+		.sep {
+			margin : 0 0 8px;
+		}
+
+		.label {
+			margin      : 10px 0 0;
+			font-weight : 400;
+			background  : none;
+		}
+	}
+
+	#follow {
+		i {
+			font-size : rem( 50px );
+			margin    : 0 40px 0 0;
+		}
+	}
+
+/**
+ * MEDIA QUERIES
+ */
+@include max-screen( $mq-size-l )
+{
+	#about {
+		.logo-voyage {
+			margin-top 	: 0;
+			text-align  : center; 
+		}
+	}
+}
+	

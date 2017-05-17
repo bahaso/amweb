@@ -1,0 +1,79 @@
+/**
+ * TAGS
+ */
+section {
+	padding : 50px 0 30px;
+}
+
+/**
+ * GENERAL CLASSES
+ */
+.mb10 {
+	margin-bottom : 10px;
+}
+.color-white {
+	color : #FFF;
+}
+.color-link {
+	color : #5252EF;
+}
+
+$color-tertiary : #323347;
+.bg-tertiary {
+	background-color : $color-tertiary;
+
+	&.btn {
+		border : 2px solid $color-tertiary;
+
+		&:hover,
+		&:visited {
+			background-color : $color-tertiary;
+		}
+	}
+}
+
+.fw600 {
+	font-weight : 600; 
+}
+
+/**
+ * SPECIFIC CLASSES
+ */
+.image-square-title {
+	padding : 75px 0 0;
+
+	.title {
+		font-size : rem( 30px );
+	}
+	.lead {
+		margin-bottom : 0;
+	}
+}
+.image-square {
+	height : 450px;
+
+	.desc {
+		line-height : 1.9;
+		font-size   : rem( 15px );
+	}
+}
+.wysiwyg {
+	ul {
+		list-style  : disc;
+		font-size   : rem( 14px );
+		margin-left : 20px;
+		margin-top  : 15px;
+	}
+}
+
+/**
+ * SPECIFICS
+ */
+#st_sponsors {
+	padding : 40px 0;
+
+	.title {
+		margin-bottom : 40px;
+		font-weight   : 600; 
+	}
+}
