@@ -18,6 +18,14 @@
 		                ]) !!}
                 </div>
             </li>
+            <li class="overlay image-bg bg-light">
+                <div class="background-image-holder">
+		            {!! html_img( 'img/am2018/slides/background_vti1.jpg', 
+		                [ 
+		                    'class' => 'background-image' 
+		                ]) !!}
+                </div>
+            </li>
         </ul>
     </section>
 
