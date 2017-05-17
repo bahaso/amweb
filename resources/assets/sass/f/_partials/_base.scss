@@ -1,0 +1,15 @@
+/* Imports */
+@import "../modules/helpers";
+@import "../modules/media-queries";
+
+/* Compass plugins */
+@import "compass/css3";
+@import "rgbapng"; /* gem install compass-rgbapng */
+
+
+/* RGBAPNG Configuration */
+$rgbapng_path    : "../public_html/images/f/rgba";
+$rgbapng_px_size : 8;
+
+/* MEDIA QUERIES */
+$mq-size-l : 990px;

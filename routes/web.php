@@ -11,32 +11,48 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home.index');
-});
+Route::group(
+	[
+		'namespace' => 'Front',
+		'as'		=> 'f.',
+	],
+	function()
+	{
+		Route::get( '/', 'HomeController@index' )->name( 'home' );
+		
+		/**
+		 * DISCOVERS
+		 */
+		Route::get( 'discovers/5-destinasi-pariwisata-indonesia', 'DiscoverController@indonesia' )->name( 'discovers.indonesia' );
+		Route::get( 'discovers/11-destinasi-bali', 'DiscoverController@bali' )->name( 'discovers.bali' );
 
-Route::get('/event', function () {
-    return view('event.index');
-});
+		/**
+		 * FAQS
+		 */
+		Route::get( 'faq', 'FaqController@index' )->name( 'faqs.index' );
 
-Route::get('/event/detail', function () {
-    return view('event.detail');
-});
+		/**
+		 * GALLERY
+		 */
+		Route::get( 'gallery', 'GalleryController@detail' )->name( 'galleries.detail' );
 
-Route::get('/vti/about', function () {
-    return view('vti.index');
-});
+		/**
+		 * ABOUTS
+		 */
+		Route::get( 'abouts/vti', 'AboutController@vti' )->name( 'abouts.vti' );
+		Route::get( 'abouts/imf', 'AboutController@imf' )->name( 'abouts.imf' );
+		Route::get( 'abouts/imf-world-bank', 'AboutController@imfWorldBank' )->name( 'abouts.imf_world_bank' );
+		Route::get( 'abouts/world-bank', 'AboutController@worldBank' )->name( 'abouts.world_bank' );
 
-Route::get('/about/imf', function () {
-    return view('about.imf');
-});
+		/**
+		 * EVENTS
+		 */
+		Route::get( 'events', 'EventController@index' )->name( 'events.index' );
+		Route::get( 'events/{id}/{slug}', 'EventController@detail' )->name( 'events.detail' );
 
-Route::get('/contact-us', function () {
-    return view('contact-us.index');
-});
-
-// Route::get('/vti/about/{locale}', function ($locale) {
-//     App::setLocale($locale);
-//     return view('vti.about');
-// });
-
+		/**
+		 * EXHIBITIONS
+		 */
+		Route::get( 'exhibition', 'ExhibitionController@detail' )->name( 'exhibitions.detail' );
+		Route::get( 'exhibition/seminar', 'ExhibitionController@seminar' )->name( 'exhibitions.seminar' );
+	});
