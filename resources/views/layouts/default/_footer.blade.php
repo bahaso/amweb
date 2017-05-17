@@ -1,45 +1,29 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-2 col-sm-6">
+        <div id="st_foot_contact" class="col-md-4 col-sm-6">
             <div class="widget">
-                <h6 class="title">About</h6>
+                <h6 class="title">Contact Information</h6>
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="#">IMF - WB Annual Meeting 2018</a>
+                        <span class="lbl">Office 1</span>
+                        <span class="value">+62123456789</span>
                     </li>
                     <li>
-                        <a href="http://am2018bali.bahaso.com/about/imf">IMF</a>
+                        <span class="lbl">Office 2</span>
+                        <span class="value">+62123456789</span>
                     </li>
                     <li>
-                        <a href="#">World Bank</a>
+                        <span class="lbl">Office 3</span>
+                        <span class="value">+62123456789</span>
                     </li>
                     <li>
-                        <a href="#">Indonesia and IMF - World Bank</a>
+                        <span class="lbl">Office 4</span>
+                        <span class="value">+62123456789</span>
                     </li>
                     <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <!--end of widget-->
-        </div>
-        <div class="col-md-2 col-sm-6">
-            <div class="widget">
-                <h6 class="title">Events</h6>
-                <hr>
-                <ul class="">
-                    <li>
-                        <a href="#">Main Events</a>
-                    </li>
-                    <li>
-                        <a href="#">Side Events</a>
-                    </li>
-                    <li>
-                        <a href="#">Venues Map</a>
-                    </li>
-                    <li>
-                        <a href="#">Maps: Bali and Venues</a>
+                        <span class="lbl">Office 5</span>
+                        <span class="value">+62123456789</span>
                     </li>
                 </ul>
             </div>
@@ -51,13 +35,13 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="#">About VTI</a>
+                        <a href="{{ route( 'f.abouts.vti') }}">About VTI</a>
                     </li>
                     <li>
-                        <a href="#">Seminar</a>
+                        <a href="{{ route( 'f.exhibitions.seminar' ) }}">Seminar</a>
                     </li>
                     <li>
-                        <a href="#">Exhibition</a>
+                        <a href="{{ route( 'f.exhibitions.detail' ) }}">Exhibition</a>
                     </li>
                 </ul>
             </div>
@@ -69,10 +53,10 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="#">5 Destinasi Pariwisata Indonesia</a>
+                        <a href="{{ route( 'f.discovers.indonesia' ) }}">5 Destinasi Pariwisata Indonesia</a>
                     </li>
                     <li>
-                        <a href="#">11 Destinasi Bali</a>
+                        <a href="{{ route( 'f.discovers.bali' ) }}">11 Destinasi Bali</a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +68,7 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="{{ route( 'f.galleries.detail' ) }}">Gallery</a>
                     </li>
                     <li>
                         <a href="#">Seminar Materials</a>

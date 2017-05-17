@@ -69,26 +69,42 @@ section {
 }
 /* line 55, ../../../resources/assets/sass/f/_partials/_common.scss */
 .image-square .desc {
-  line-height: 1.9;
+  line-height: 2.1;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
-/* line 61, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 62, ../../../resources/assets/sass/f/_partials/_common.scss */
 .wysiwyg ul {
   list-style: disc;
   font-size: 1.4rem;
   margin-left: 20px;
   margin-top: 15px;
 }
+/* line 68, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg li {
+  line-height: 2.1;
+  text-align: justify;
+}
+
+/*this for nav bar in EVENT SCHEDULE BOTTOM / MORNING, AFTERNOON, EVENING*/
+/* line 75, ../../../resources/assets/sass/f/_partials/_common.scss */
+.button-tabs .active .tab-title {
+  background: #0097FE;
+}
+/* line 78, ../../../resources/assets/sass/f/_partials/_common.scss */
+.button-tabs .active .tab-title:hover {
+  background: #0097FE;
+}
 
 /**
  * SPECIFICS
  */
-/* line 72, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 86, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors {
   padding: 40px 0;
 }
-/* line 75, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 89, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors .title {
   margin-bottom: 40px;
   font-weight: 600;
@@ -137,17 +153,32 @@ section {
   padding: 40px 0 30px;
 }
 
+/* line 68, ../../../resources/assets/sass/f/main.scss */
+#st_foot_contact .lbl,
+#st_foot_contact .value {
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 73, ../../../resources/assets/sass/f/main.scss */
+#st_foot_contact .value {
+  margin: 0 0 0 40px;
+}
+
 /**
  * MEDIA QUERIES
  */
 @media screen and (max-width: 990px) {
-  /* line 76, ../../../resources/assets/sass/f/main.scss */
+  /* line 86, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 83, ../../../resources/assets/sass/f/main.scss */
+  /* line 93, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
     margin: 20px 0 0;
     border: 0 !important;

@@ -204,11 +204,11 @@ if ( !function_exists( 'html_class_last' ) )
 	 * @param  integer $length   
 	 * @return string           
 	 */
-	function html_class_last( $iteration, $length )
+	function html_class_last( $iteration, $length, $class = 'last' )
 	{
 		if( $iteration == $length - 1 )
 		{
-			return 'last';
+			return $class;
 		}
 
 		return '';

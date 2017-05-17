@@ -2,7 +2,14 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar')
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 'label' => 'Voyage to Indonesia', 'url' => route( 'f.abouts.vti' ) ],
+            [ 'label' => 'About VTI' ]
+        ]
+    ])
 
 	<section class="image-square-title">
 		<div class="container">

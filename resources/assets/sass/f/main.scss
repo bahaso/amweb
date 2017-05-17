@@ -64,6 +64,16 @@ $nav-height : 100px;
 #st_footer {
 	padding : 40px 0 30px;
 }
+	#st_foot_contact {
+		.lbl,
+		.value {
+			font-weight : 600;
+			@include inline-block( middle );
+		}
+		.value {
+			margin 		: 0 0 0 40px;
+		}
+	}
 
 /**
  * MEDIA QUERIES

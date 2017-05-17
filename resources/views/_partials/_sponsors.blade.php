@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h3 class="uppercase title">Previous Collaborators</h3>
+                <h3 class="uppercase title">Partners</h3>
             </div>
         </div>
         <!--end of row-->

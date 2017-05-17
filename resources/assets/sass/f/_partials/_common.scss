@@ -53,8 +53,9 @@ $color-tertiary : #323347;
 	height : 450px;
 
 	.desc {
-		line-height : 1.9;
+		line-height : 2.1;
 		font-size   : rem( 15px );
+		text-align 	: justify;
 	}
 }
 .wysiwyg {
@@ -64,6 +65,19 @@ $color-tertiary : #323347;
 		margin-left : 20px;
 		margin-top  : 15px;
 	}
+	li {
+		line-height : 2.1;
+		text-align  : justify; 
+	}
+}
+
+/*this for nav bar in EVENT SCHEDULE BOTTOM / MORNING, AFTERNOON, EVENING*/
+.button-tabs .active .tab-title {
+  background: #0097FE;
+
+  &:hover{
+ 	background: #0097FE;
+  }
 }
 
 /**

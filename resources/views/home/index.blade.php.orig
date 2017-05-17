@@ -134,7 +134,11 @@
 	        <div class="row">
 	        	<div id="timer" class="col-md-6">
 	        		<div class="text-center countdown-timer">
-                        <div class="countdown" data-date="2018/10/14"></div>
+<<<<<<< HEAD
+                        <!-- <div class="countdown" data-date="2018/12/01"></div> -->
+=======
+                        <!-- <div class="countdown" data-date="2018/10/14"></div> -->
+>>>>>>> origin/dev
                         <i class="ti-time"></i>
                         <div class="sep">
                         	<span class="text">Countdown</span>
@@ -149,11 +153,11 @@
                     	</div>
                         <div class="mins">
                         	<span class="text">00</span>
-                        	<span class="label">Minutes</span>
+                        	<span class="label">Hours</span>
                     	</div>
                         <div class="secs">
                         	<span class="text">00</span>
-                        	<span class="label">Seconds</span>
+                        	<span class="label">Hours</span>
                     	</div>
 	        		</div>
 	        		

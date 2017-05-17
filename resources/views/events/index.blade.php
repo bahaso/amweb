@@ -2,7 +2,13 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar' )
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 'label' => 'Main Events' ]
+        ]
+    ])
 
     <section class="">
         <div class="container">

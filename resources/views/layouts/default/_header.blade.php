@@ -22,7 +22,7 @@
                     </a>                                    
                 </li>
                 <li class="has-dropdown">
-                    <a href="{{ route( 'f.abouts.imf' ) }}">
+                    <a href="#">
                         About
                     </a>
                     <ul>
@@ -44,7 +44,7 @@
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="{{ route( 'f.events.index' ) }}">
+                    <a href="#">
                         Events
                     </a>
                     <ul>
@@ -63,7 +63,7 @@
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="{{ route( 'f.abouts.vti' ) }}">
+                    <a href="#">
                         Voyage To Indonesia
                     </a>
                     <ul>
@@ -79,7 +79,7 @@
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="{{ route( 'f.discovers.indonesia') }}">
+                    <a href="#">
                         Discover Indonesia
                     </a>
                     <ul>

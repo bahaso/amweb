@@ -2,7 +2,14 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar')
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 'label' => 'Voyage to Indonesia', 'url' => route( 'f.abouts.vti' ) ],
+            [ 'label' => 'Exhibition' ]
+        ]
+    ])
 
 	<section>
         <div class="container">
@@ -42,7 +49,7 @@
         <div class="container">
             <div class="row mb64 mb-xs-24">
                 <div class="col-sm-12 text-center">
-                    <h3>Strap yourself in for ideas</h3>
+                    <h3>EVENT SCHEDULE</h3>
                     <p class="lead">
                         Prepare for a full day of discussion from some of the web's best and brightest.
                     </p>
@@ -60,7 +67,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -78,7 +85,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -103,7 +110,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -121,7 +128,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -146,7 +153,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -164,7 +171,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,

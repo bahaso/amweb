@@ -18,7 +18,7 @@
 	                <div class="container">
 	                    <div class="row">
 	                        <div class="col-sm-12 text-center">
-	                            <h1 class="large">Flexslider + Video Backgrounds</h1>
+	                            <h1 class="large">11 Destinations in Bali</h1>
 	                            <p class="lead">
 	                                Simple markup with intellegent auto play and pause functionality.
 	                            </p>
@@ -42,7 +42,7 @@
 	                <div class="container">
 	                    <div class="row">
 	                        <div class="col-sm-12 text-center">
-	                            <h1 class="large">Flexslider + Video Backgrounds</h1>
+	                            <h1 class="large">11 Destinations in Bali</h1>
 	                            <p class="lead">
 	                                Simple markup with intellegent auto play and pause functionality.
 	                            </p>

@@ -2,7 +2,19 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar')
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 
+                'label' => 'About', 
+                'url' => route( 'f.abouts.imf_world_bank' ) 
+            ],
+            [ 
+                'label' => 'About IMF', 
+            ]
+        ]
+    ])
 
 	<section class="image-square-title mb80">
 		<div class="container">

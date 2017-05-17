@@ -2,7 +2,14 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar' )
+	@include( '_partials._navbar',
+    [
+        'navs' =>
+        [
+            [ 'label' => 'Media and Publication', 'url' => route( 'f.galleries.detail' )],
+            [ 'label' => 'Gallery' ]
+        ]
+    ])
 
     <section>
         <div class="container">

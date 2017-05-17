@@ -22,61 +22,118 @@
   padding: 40px 0 10px;
 }
 
-/* line 21, ../../../resources/assets/sass/f/home.scss */
+/* line 22, ../../../resources/assets/sass/f/home.scss */
 #news {
   padding: 0;
 }
-
 /* line 25, ../../../resources/assets/sass/f/home.scss */
+#news .col-sm-4 {
+  padding-right: 0;
+}
+/* line 31, ../../../resources/assets/sass/f/home.scss */
+#news .image-caption .caption {
+  text-align: left;
+  padding: 0 5px 5px;
+  min-height: 75px;
+  line-height: 1.5;
+  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495018327');
+  background: rgba(48, 60, 141, 0.5);
+}
+/* line 40, ../../../resources/assets/sass/f/home.scss */
+#news .image-caption h4 {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 54, ../../../resources/assets/sass/f/home.scss */
 #countdown {
   padding: 40px 0;
-  background: #33CCCC;
+  background: #688CA7;
   color: #FFF;
 }
-/* line 30, ../../../resources/assets/sass/f/home.scss */
+/* line 59, ../../../resources/assets/sass/f/home.scss */
 #countdown .header-title {
   font-size: 2.6rem;
   margin: 0 0 30px;
 }
 
-/* line 37, ../../../resources/assets/sass/f/home.scss */
+/* line 66, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .text,
 .countdown-timer .label {
   display: block;
 }
-/* line 42, ../../../resources/assets/sass/f/home.scss */
+/* line 71, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .days,
-.countdown-timer .sep,
-.countdown-timer .hours {
-  font-size: 6rem;
+.countdown-timer .hours,
+.countdown-timer .mins,
+.countdown-timer .secs,
+.countdown-timer .sep {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 4rem;
+  margin: 0 25px 0 0;
+}
+/* line 82, ../../../resources/assets/sass/f/home.scss */
+.countdown-timer .ti-time {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  font-size: 3rem;
+  margin: 0 15px 15px 0;
+}
+/* line 89, ../../../resources/assets/sass/f/home.scss */
+.countdown-timer .sep {
+  margin: 0 25px 15px 0;
+  font-size: 25px;
+}
+/* line 94, ../../../resources/assets/sass/f/home.scss */
+.countdown-timer .label {
+  margin: 5px 0 0;
+  padding: 0;
+  font-weight: 400;
+  background: none;
+}
+
+/* line 101, ../../../resources/assets/sass/f/home.scss */
+#timer {
+  margin: 10px 0 0;
+}
+
+/* line 105, ../../../resources/assets/sass/f/home.scss */
+#follow {
+  margin: 10px 0 0;
+}
+/* line 107, ../../../resources/assets/sass/f/home.scss */
+#follow i {
+  font-size: 4rem;
+  margin: 0 25px 0 0;
+}
+/* line 111, ../../../resources/assets/sass/f/home.scss */
+#follow .fo-col {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
 }
-/* line 49, ../../../resources/assets/sass/f/home.scss */
-.countdown-timer .sep {
-  margin: 0 0 8px;
-}
-/* line 53, ../../../resources/assets/sass/f/home.scss */
-.countdown-timer .label {
-  margin: 10px 0 0;
-  font-weight: 400;
-  background: none;
-}
-
-/* line 61, ../../../resources/assets/sass/f/home.scss */
-#follow i {
-  font-size: 5rem;
-  margin: 0 40px 0 0;
+/* line 114, ../../../resources/assets/sass/f/home.scss */
+#follow .header-title {
+  margin: 0 20px 0 0;
 }
 
 /**
  * MEDIA QUERIES
  */
 @media screen and (max-width: 990px) {
-  /* line 73, ../../../resources/assets/sass/f/home.scss */
+  /* line 125, ../../../resources/assets/sass/f/home.scss */
   #about .logo-voyage {
     margin-top: 0;
     text-align: center;

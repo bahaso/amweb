@@ -1,16 +1,27 @@
 @extends( 'layouts.default.layout' )
 
 @section( 'content' )
-	@include( '_partials._navbar' )
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 
+                'label' => 'About', 
+                'url' => route( 'f.abouts.imf_world_bank' ) 
+            ],
+            [ 
+                'label' => 'FAQ', 
+            ]
+        ]
+    ])
 
 	<section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h4 class="mb16">Common questions about Foundry</h4>
+                    <h4 class="mb16">FAQ</h4>
                     <p class="lead mb64">
-                        Holla
-                        <a href="#">@mrareweb</a> if you've got more questions and we'll do our best to answer.
+                        We'll do our best to answer.
                     </p>
                 </div>
             </div>

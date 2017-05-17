@@ -2,7 +2,14 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar')
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 'label' => 'Voyage to Indonesia', 'url' => route( 'f.abouts.vti' ) ],
+            [ 'label' => 'Seminar' ]
+        ]
+    ])
 
     <section>
         <div class="container">
@@ -18,7 +25,7 @@
             <div class="row mb80 mb-xs-24">
                 <div class="col-md-10 col-md-offset-1 p0">
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -28,7 +35,7 @@
                         <h6 class="uppercase">CEO @ Foundry</h6>
                     </div>
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -38,7 +45,7 @@
                         <h6 class="uppercase">CEO @ Swatch</h6>
                     </div>
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -48,7 +55,7 @@
                         <h6 class="uppercase">CTO @ Biokinetics</h6>
                     </div>
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -58,7 +65,7 @@
                         <h6 class="uppercase">Art Director @ MINT</h6>
                     </div>
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -68,7 +75,7 @@
                         <h6 class="uppercase">Designer @ Machine</h6>
                     </div>
                     <div class="col-sm-4 text-center mb40 mb-xs-24">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+			            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 			            	[
 			            		'w' => 120,
 			            		'h' => 120,
@@ -89,7 +96,7 @@
         <div class="container">
             <div class="row mb64 mb-xs-24">
                 <div class="col-sm-12 text-center">
-                    <h3>Strap yourself in for ideas</h3>
+                    <h3>EVENT SCHEDULE</h3>
                     <p class="lead">
                         Prepare for a full day of discussion from some of the web's best and brightest.
                     </p>
@@ -107,7 +114,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -125,7 +132,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -150,7 +157,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -168,7 +175,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -193,7 +200,7 @@
                                 <div class="tab-content text-left">
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,
@@ -211,7 +218,7 @@
                                     </div>
                                     <div>
                                         <div class="overflow-hidden">
-								            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
+								            {!! html_img( 'img/am2018/public/penari-bali-lowres.png', 
 								            	[
 								            		'w' => 120,
 								            		'h' => 120,

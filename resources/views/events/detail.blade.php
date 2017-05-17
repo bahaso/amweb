@@ -1,14 +1,21 @@
 @extends( 'layouts.default.layout' )
 
 @section( 'content' )
-	@include( '_partials._navbar' )
+	@include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 'label' => 'Main Events', 'url' => route( 'f.events.index' ) ],
+            [ 'label' => 'Schedule' ]
+        ]
+    ])
 
 
     <section>
         <div class="container">
             <div class="row mb64 mb-xs-24">
                 <div class="col-sm-12 text-center">
-                    <h3>Strap yourself in for ideas</h3>
+                    <h3>EVENT SCHEDULE</h3>
                     <p class="lead">
                         Prepare for a full day of discussion from some of the web's best and brightest.
                     </p>
