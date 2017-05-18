@@ -39,6 +39,18 @@ $color-tertiary : #323347;
 /**
  * SPECIFIC CLASSES
  */
+.logo-carousel {
+	img {
+		max-height : 115px;
+	}
+}
+.navbar {
+	.container {
+		width  	      : auto;
+		padding-left  : 35px;
+		padding-right : 35px;
+	}
+}
 .image-square-title {
 	padding : 75px 0 0;
 
@@ -89,5 +101,11 @@ $color-tertiary : #323347;
 	.title {
 		margin-bottom : 40px;
 		font-weight   : 600; 
+	}
+
+	.flex-viewport {
+		li {
+			line-height : 115px; 
+		}
 	}
 }

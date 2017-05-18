@@ -1,29 +1,20 @@
 <div class="container">
     <div class="row">
-        <div id="st_foot_contact" class="col-md-4 col-sm-6">
+        <div id="st_foot_contact" class="col-md-3 col-sm-6">
             <div class="widget">
                 <h6 class="title">Contact Information</h6>
                 <hr>
                 <ul class="">
                     <li>
-                        <span class="lbl">Office 1</span>
-                        <span class="value">+62123456789</span>
+                        <span class="lbl">Indonesia Planning Team</span>
                     </li>
                     <li>
-                        <span class="lbl">Office 2</span>
-                        <span class="value">+62123456789</span>
+                        <span class="lbl">Telp:</span>
+                        <span class="value">+62-21-3849315</span>
                     </li>
                     <li>
-                        <span class="lbl">Office 3</span>
-                        <span class="value">+62123456789</span>
-                    </li>
-                    <li>
-                        <span class="lbl">Office 4</span>
-                        <span class="value">+62123456789</span>
-                    </li>
-                    <li>
-                        <span class="lbl">Office 5</span>
-                        <span class="value">+62123456789</span>
+                        <span class="lbl">Email:</span>
+                        <span class="value">am_2018@kemenkeu.go.id</span>
                     </li>
                 </ul>
             </div>
@@ -47,7 +38,7 @@
             </div>
             <!--end of widget-->
         </div>
-        <div class="col-md-2 col-sm-6">
+        <div class="col-md-3 col-sm-6">
             <div class="widget">
                 <h6 class="title">Discover Indonesia</h6>
                 <hr>
@@ -82,6 +73,8 @@
         </div>
     </div>
     <!--end of row-->
-    
+    <div id="copyright">
+        Copyright AM2018 &copy 2017
+    </div>
 </div>
 <!--end of container-->

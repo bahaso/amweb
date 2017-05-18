@@ -2,7 +2,10 @@
 @import "_partials/common";
 
 #st_top_header {
-	margin : 0 0 0 -30px;
+	.sub{
+		color  	  : #9EAAB5;
+		font-size : rem(15px);
+	}
 }
 
 $nav-height : 100px;
@@ -30,8 +33,8 @@ $nav-height : 100px;
 		 * RIGHT
 		 */
 		#st_menu {
-
-			margin : -5px 0 0;
+			/* cllass in header blade top v-align-children*/
+			margin : 20px 0 0;
 
 			.module {
 				height : 55px;
@@ -63,6 +66,7 @@ $nav-height : 100px;
 
 #st_footer {
 	padding : 40px 0 30px;
+	background-color: #486174;
 }
 	#st_foot_contact {
 		.lbl,
@@ -74,6 +78,19 @@ $nav-height : 100px;
 			margin 		: 0 0 0 40px;
 		}
 	}
+
+#copyright{
+	color: #FFF;
+	text-align: center;
+}
+
+.menu{
+	li{
+		ul{
+			background : #405767;
+		}
+	}
+}
 
 /**
  * MEDIA QUERIES

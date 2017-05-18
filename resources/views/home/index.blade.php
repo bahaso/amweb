@@ -48,20 +48,22 @@
     <div class="container">
 
     	<section id="about" class="row">
-            <div class="col-md-3 logo-voyage">
+            <div class="col-md-4 logo-voyage">
 	            {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
 	                [ 
-	                	'w'		=> 235,
-	                	'h'		=> 95,
+	                	'w'		=> 360,
+	                	'h'		=> 145,
 	                    'class' => 'background-image' 
 	                ]) !!}
             </div>
-            <div class="col-md-9 feature bordered desc">
-                <h4 class="uppercase mb100">Voyage To Indonesia</h4>
-                <p>
-                    "Voyage To Indonesia" (VTI) is the big theme of IMF - WB Annual Meetings 2018 preparation, taken form the essence of 'voyage' as a hourney toward new place and discovery. The objective is to leverage the benefits of the event for national interest and International community.
-                </p>
-                <a class="btn btn-sm" href="#">Learn More</a>
+            <div id="voyage" class="col-md-8">
+                <div class="bordered desc feature">
+                    <h4 class="uppercase mb100">Voyage To Indonesia</h4>
+                    <p>
+                        "Voyage To Indonesia" (VTI) is the big theme of IMF - WB Annual Meetings 2018 preparation, taken form the essence of 'voyage' as a hourney toward new place and discovery. The objective is to leverage the benefits of the event for national interest and International community.
+                    </p>
+                    <a class="btn btn-sm" href="#">Learn More</a>
+                </div>
             </div>
         </section>
 
@@ -81,9 +83,12 @@
 				                ]) !!}
                             <div class="caption text-center">
                             	<h4>Latest News | April 16th 2018</h4>
-                                <p>
+                                <span class="text-info">
+                                    <p>
                                 	Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
-                                </p>
+                                    </p>
+                                    <a href="#" class="btn-link">Learn More</a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -98,9 +103,12 @@
 				                ]) !!}
                             <div class="caption text-center">
                             	<h4>Discover Indonesia | Borobudur Temple</h4>
-                                <p>
-                                	The World's Largest and grates Buddisht temple, build in the 19th century with mountainous scenery
-                                </p>
+                                <span class="text-info">
+                                    <p>
+                                    	The World's Largest and grates Buddisht temple, build in the 19th century with mountainous scenery
+                                    </p>
+                                    <a href="#" class="btn-link">Learn More</a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -116,9 +124,12 @@
 				                ]) !!}
                             <div class="caption text-center">
                             	<h4>Voyage to Indonesia | December, 13th-16th 2018</h4>
-                                <p>
-                                	International Development Association (IDA18) 4th Replenishment Meeting in Yogyakarta
-                                </p>
+                                <span class="text-info">
+                                    <p>
+                                	   International Development Association (IDA18) 4th Replenishment Meeting in Yogyakarta
+                                    </p>
+                                    <a href="#" class="btn-link">Learn More</a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -135,26 +146,27 @@
 	        	<div id="timer" class="col-md-6">
 	        		<div class="text-center countdown-timer">
                         <div class="countdown" data-date="2018/10/14"></div>
-                        <i class="ti-time"></i>
                         <div class="sep">
-                        	<span class="text">Countdown</span>
+                        	<span class="text">Voyage To Indonesia in</span>
                         </div>
-                        <div class="days">
-                        	<span class="text">00</span>
-                        	<span class="label">Days</span>
+                        <div>
+                            <div class="days">
+                            	<span class="text">00</span>
+                            	<span class="label">Days</span>
+                            </div>
+                            <div class="hours">
+                            	<span class="text">00</span>
+                            	<span class="label">Hours</span>
+                        	</div>
+                            <div class="mins">
+                            	<span class="text">00</span>
+                            	<span class="label">Minutes</span>
+                        	</div>
+                            <div class="secs">
+                            	<span class="text">00</span>
+                            	<span class="label">Seconds</span>
+                        	</div>
                         </div>
-                        <div class="hours">
-                        	<span class="text">00</span>
-                        	<span class="label">Hours</span>
-                    	</div>
-                        <div class="mins">
-                        	<span class="text">00</span>
-                        	<span class="label">Minutes</span>
-                    	</div>
-                        <div class="secs">
-                        	<span class="text">00</span>
-                        	<span class="label">Seconds</span>
-                    	</div>
 	        		</div>
 	        		
 	        	</div>

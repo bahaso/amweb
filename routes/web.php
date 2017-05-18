@@ -55,4 +55,14 @@ Route::group(
 		 */
 		Route::get( 'exhibition', 'ExhibitionController@detail' )->name( 'exhibitions.detail' );
 		Route::get( 'exhibition/seminar', 'ExhibitionController@seminar' )->name( 'exhibitions.seminar' );
+		/**
+		 * FOR DUMMY PAGE
+		 */
+		Route::get( 'pages/{navigation}/{slug}', 'PageController@index' )->name( 'pages.index' );
+
+		Route::get( 'pages/registration/Registration', 'PageController@index' )->name( 'registration.index' );
+		Route::get( 'pages/discover-indonesia/indonesia-in-brief', 'PageController@index' )->name( 'discover.index' );
+		Route::get( 'pages/media-and-public/gallery', 'PageController@index' )->name( 'media.index' );
+		Route::get( 'pages/information/hotel', 'PageController@index' )->name( 'information.index' );
+
 	});

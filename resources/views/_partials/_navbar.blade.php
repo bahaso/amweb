@@ -1,7 +1,7 @@
 @if( isset( $navs ))
 @php $len   = count( $navs ) @endphp
 @php $last  = array_last( $navs ) @endphp
-<section class="page-title page-title-4 bg-secondary">
+<section class="page-title page-title-4 bg-secondary navbar">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -21,7 +21,7 @@
 
                         @else
                         <li class="{{ html_class_last( $i, $len, 'active' ) }}">
-                            <a href="index.html">{{ array_get( $n, 'label' ) }}</a>
+                            <a href="{{ array_get( $n, 'url' ) }}">{{ array_get( $n, 'label' ) }}</a>
                         </li>
 
                         @endif
