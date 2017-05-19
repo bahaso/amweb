@@ -60,7 +60,7 @@
                 <div class="bordered desc feature">
                     <h4 class="uppercase mb100">Voyage To Indonesia</h4>
                     <p>
-                        "Voyage To Indonesia" (VTI) is the big theme of IMF - WB Annual Meetings 2018 preparation, taken form the essence of 'voyage' as a hourney toward new place and discovery. The objective is to leverage the benefits of the event for national interest and International community.
+                        "Voyage to Indonesia" (VTI) is the theme of prelude events of IMF - WB Annual Meetings 2018 preparation, taken from the essence of 'voyage' as a journey toward discovery and new place. The objective is to leverage the benefits of the meetings for national interest and International community.
                     </p>
                     <a class="btn btn-sm" href="#">Learn More</a>
                 </div>
