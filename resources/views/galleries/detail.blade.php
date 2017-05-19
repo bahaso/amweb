@@ -2,7 +2,7 @@
 
 @section( 'content' )
 
-	@include( '_partials._navbar',
+    @include( '_partials._navbar',
     [
         'navs' =>
         [
@@ -24,16 +24,16 @@
                     <div class="image-slider slider-thumb-controls controls-inside">
                         <ul class="slides">
                             <li>
-					            {!! html_img( 'img/cover12.jpg', []) !!}
+                                {!! html_img( 'img/cover12.jpg', []) !!}
                             </li>
                             <li>
-					            {!! html_img( 'img/cover15.jpg', []) !!}
+                                {!! html_img( 'img/cover15.jpg', []) !!}
                             </li>
                             <li>
-					            {!! html_img( 'img/cover16.jpg', []) !!}
+                                {!! html_img( 'img/cover16.jpg', []) !!}
                             </li>
                             <li>
-					            {!! html_img( 'img/cover14.jpg', []) !!}
+                                {!! html_img( 'img/cover14.jpg', []) !!}
                             </li>
                         </ul>
                     </div>
@@ -63,80 +63,80 @@
                             <li>
                                 <a href="img/cover1.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/cover1.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/cover1.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/home12.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/home12.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/home12.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/home14.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/home14.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}mg/home14.jpg" />
+                                        {!! html_img( 'img/home14.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}mg/home14.jpg" />
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/home17.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/home17.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/home17.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/cover5.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/cover5.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/cover5.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/cover6.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/cover6.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/cover6.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/cover7.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/cover7.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/cover7.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="img/cover8.jpg" data-lightbox="true">
                                     <div class="background-image-holder">
-					           			 {!! html_img( 'img/cover8.jpg', 
-					           			 	[
-					           			 		'class' => 'background-image'
-					           			 	]) !!}
+                                        {!! html_img( 'img/cover8.jpg',
+                                            [
+                                                'class' => 'background-image'
+                                            ]) !!}
                                     </div>
                                 </a>
                             </li>
@@ -173,5 +173,5 @@
         <!--end of container-->
     </section>
 
-	@include( '_partials._sponsors', [ 'class' => 'bg-secondary' ])
+    @include( '_partials._sponsors', [ 'class' => 'bg-secondary' ])
 @stop
