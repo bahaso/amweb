@@ -19,7 +19,7 @@ Route::group(
 	function()
 	{
 		Route::get( '/', 'HomeController@index' )->name( 'home' );
-		
+
 		/**
 		 * DISCOVERS
 		 */
@@ -55,6 +55,7 @@ Route::group(
 		 */
 		Route::get( 'exhibition', 'ExhibitionController@detail' )->name( 'exhibitions.detail' );
 		Route::get( 'exhibition/seminar', 'ExhibitionController@seminar' )->name( 'exhibitions.seminar' );
+
 		/**
 		 * FOR DUMMY PAGE
 		 */
@@ -65,4 +66,9 @@ Route::group(
 		Route::get( 'pages/media-and-public/gallery', 'PageController@index' )->name( 'media.index' );
 		Route::get( 'pages/information/hotel', 'PageController@index' )->name( 'information.index' );
 
+
+		/**
+         * MAPS
+         */
+		Route::get( 'maps', 'MapsController@index' )->name( 'maps.index' );
 	});
