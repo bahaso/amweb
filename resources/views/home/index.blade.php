@@ -62,7 +62,7 @@
                     <p>
                         "Voyage to Indonesia" (VTI) is the theme of prelude events of IMF - WB Annual Meetings 2018 preparation, taken from the essence of 'voyage' as a journey toward discovery and new place. The objective is to leverage the benefits of the meetings for national interest and International community.
                     </p>
-                    <a class="btn btn-sm" href="#">Learn More</a>
+                    <a class="btn btn-sm btn-blue" href="#">Learn More</a>
                 </div>
             </div>
         </section>

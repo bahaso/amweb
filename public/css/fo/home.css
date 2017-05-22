@@ -41,7 +41,7 @@
   padding: 0 5px 5px;
   min-height: 45px;
   line-height: 1.5;
-  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495036267');
+  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495454822');
   background: rgba(48, 60, 141, 0.5);
 }
 /* line 44, ../../../resources/assets/sass/f/home.scss */
@@ -77,24 +77,24 @@
   padding: 0;
 }
 
-/* line 86, ../../../resources/assets/sass/f/home.scss */
+/* line 83, ../../../resources/assets/sass/f/home.scss */
 #countdown {
   padding: 30px 0;
   background: #688CA7;
   color: #FFF;
 }
-/* line 91, ../../../resources/assets/sass/f/home.scss */
+/* line 88, ../../../resources/assets/sass/f/home.scss */
 #countdown .header-title {
   font-size: 2.6rem;
   margin: 0 0 30px;
 }
 
-/* line 98, ../../../resources/assets/sass/f/home.scss */
+/* line 95, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .text,
 .countdown-timer .label {
   display: block;
 }
-/* line 103, ../../../resources/assets/sass/f/home.scss */
+/* line 100, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .days,
 .countdown-timer .hours,
 .countdown-timer .mins,
@@ -108,7 +108,7 @@
   font-size: 4rem;
   margin: 0 25px 0 0;
 }
-/* line 114, ../../../resources/assets/sass/f/home.scss */
+/* line 110, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .ti-time {
   display: inline-block;
   vertical-align: middle;
@@ -118,12 +118,12 @@
   font-size: 3rem;
   margin: 0 15px 15px 0;
 }
-/* line 121, ../../../resources/assets/sass/f/home.scss */
+/* line 117, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .sep {
   margin: 0 25px 20px 0;
   font-size: 25px;
 }
-/* line 126, ../../../resources/assets/sass/f/home.scss */
+/* line 122, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .label {
   margin: 5px 0 0;
   padding: 0;
@@ -131,25 +131,35 @@
   background: none;
 }
 
-/* line 137, ../../../resources/assets/sass/f/home.scss */
+/* line 134, ../../../resources/assets/sass/f/home.scss */
 #follow i {
   font-size: 4rem;
   margin: 0 25px 0 0;
 }
-/* line 141, ../../../resources/assets/sass/f/home.scss */
+/* line 138, ../../../resources/assets/sass/f/home.scss */
 #follow .fo-col {
   display: block;
 }
-/* line 144, ../../../resources/assets/sass/f/home.scss */
+/* line 141, ../../../resources/assets/sass/f/home.scss */
 #follow .header-title {
   margin: 0 0 20px;
+}
+
+/* line 148, ../../../resources/assets/sass/f/home.scss */
+.btn-blue, .btn-blue:visited {
+  color: #688CA7;
+  border-color: #688CA7;
+}
+/* line 153, ../../../resources/assets/sass/f/home.scss */
+.btn-blue:hover {
+  background: #688CA7;
 }
 
 /**
  * MEDIA QUERIES
  */
 @media screen and (max-width: 990px) {
-  /* line 155, ../../../resources/assets/sass/f/home.scss */
+  /* line 164, ../../../resources/assets/sass/f/home.scss */
   #about .logo-voyage {
     margin-top: 0;
     text-align: center;

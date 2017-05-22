@@ -1,48 +1,48 @@
 @import "_partials/base";
 
 #about {
-	padding : 40px 0 10px;
+	padding: 40px 0 10px;
 
 	.logo-voyage {
-		margin : 85px 0 30px;
+		margin: 85px 0 30px;
 	}
 
 	.desc {
 		.uppercase {
-			font-weight : 600; 
+			font-weight: 600;
 		}
 	}
 }
 
 #voyage {
-	padding-left : 10px;
+	padding-left: 10px;
 }
 
 #news_wrapper {
-	background : #F7F8F8;
-	padding    : 40px 0 10px;
+	background: #F7F8F8;
+	padding: 40px 0 10px;
 }
 
 #news {
-	padding    : 0;
-	
-	.col-sm-4{
+	padding: 0;
+
+	.col-sm-4 {
 		padding-right: 0;
 	}
 
 	.image-caption {
 
 		.caption {
-			text-align  : left;
-			padding 	: 0 5px 5px;
-			min-height 	: 45px;
-			line-height : 1.5;  
+			text-align: left;
+			padding: 0 5px 5px;
+			min-height: 45px;
+			line-height: 1.5;
 
-			@include rgba-background(rgba(48, 60, 141, 0.5)); 
+			@include rgba-background(rgba(48, 60, 141, 0.5));
 
-			&:hover{
-				.text-info{
-					display : block;
+			&:hover {
+				.text-info {
+					display: block;
 				}
 			}
 		}
@@ -54,7 +54,7 @@
 			.btn-link {
 				display: inline-block;
 				padding: 5px 20px;
-				margin : 10px 0 0; 
+				margin: 10px 0 0;
 
 				position: relative;
 				z-index: 1000;
@@ -63,98 +63,107 @@
 				text-decoration: none;
 				background-color: #486174;
 
-				&:hover{
+				&:hover {
 					background-color: #374a58;
 				}
 			}
 		}
 
 		h4 {
-			color		: #FFF;
-			font-size   : rem(15px);
-			font-weight : bold;
+			color: #FFF;
+			font-size: rem(15px);
+			font-weight: bold;
 
-			margin  : 0;
-			padding : 0;
+			margin: 0;
+			padding: 0;
 		}
 	}
 }
-
-
-
 
 #countdown {
-	padding    : 30px 0;
-	background : #688CA7;
-	color 	   : #FFF;
+	padding: 30px 0;
+	background: #688CA7;
+	color: #FFF;
 
 	.header-title {
-		font-size : rem( 26px );
-		margin    : 0 0 30px;  
+		font-size: rem(26px);
+		margin: 0 0 30px;
 	}
 }
 
-	.countdown-timer {
-		.text,
-		.label {
-			display : block; 
-		}
-
-		.days,
-		.hours,
-		.mins,
-		.secs,
-		.sep,
-		 {
-			@include inline-block(middle);
-			font-size : rem( 40px );
-
-			margin: 0 25px 0 0;
-		}
-		.ti-time{
-			@include inline-block(middle);
-			font-size: rem(30px);
-
-			margin: 0 15px 15px 0;
-		}
-
-		.sep {
-			margin   : 0 25px 20px 0;
-			font-size: 25px;
-		}
-
-		.label {
-			margin      : 5px 0 0;
-			padding 	: 0; 
-			font-weight : 400;
-			background  : none;
-		}
-	}
-	#timer{
+.countdown-timer {
+	.text,
+	.label {
+		display: block;
 	}
 
-	#follow {
-		i {
-			font-size : rem( 40px );
-			margin    : 0 25px 0 0;
-		}
-		.fo-col{
-			display: block;
-		}
-		.header-title{
-			margin: 0 0 20px;
-		}
+	.days,
+	.hours,
+	.mins,
+	.secs,
+	.sep {
+		@include inline-block(middle);
+		font-size: rem(40px);
+
+		margin: 0 25px 0 0;
 	}
+	.ti-time {
+		@include inline-block(middle);
+		font-size: rem(30px);
+
+		margin: 0 15px 15px 0;
+	}
+
+	.sep {
+		margin: 0 25px 20px 0;
+		font-size: 25px;
+	}
+
+	.label {
+		margin: 5px 0 0;
+		padding: 0;
+		font-weight: 400;
+		background: none;
+	}
+}
+
+#timer {
+}
+
+#follow {
+	i {
+		font-size: rem(40px);
+		margin: 0 25px 0 0;
+	}
+	.fo-col {
+		display: block;
+	}
+	.header-title {
+		margin: 0 0 20px;
+	}
+}
+
+.btn-blue {
+
+	&, &:visited {
+		color: #688CA7;
+		border-color: #688CA7;
+	}
+
+	&:hover {
+		background: #688CA7;
+	}
+
+}
 
 /**
  * MEDIA QUERIES
  */
-@include max-screen( $mq-size-l )
-{
+@include max-screen($mq-size-l) {
 	#about {
 		.logo-voyage {
-			margin-top 	: 0;
-			text-align  : center; 
+			margin-top: 0;
+			text-align: center;
 		}
 	}
 }
