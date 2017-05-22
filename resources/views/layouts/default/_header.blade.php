@@ -142,6 +142,9 @@
                         <li>
                             <a href="{{ route( 'f.pages.index', ['Information', 'Food and Beverages']) }}">Food and Beverages</a>
                         </li>
+                        <li>
+                            <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
+                        </li>
                     </ul>
                 </li>
 <!--                 <li class="has-dropdown">
