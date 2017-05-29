@@ -2,10 +2,10 @@
 
     <div class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
-            {!! html_img( 'img/am2018/amf2018-logo.png', 
+            {!! html_img( 'img/am2018/amf2018-logo.jpg', 
                 [ 
                     'w'     => 169,
-                    'h'     => 60,
+                    'h'     => 62,
                     'class' => 'logo logo-dark' 
                 ]) !!}
         </a>
@@ -67,17 +67,14 @@
                 </li>
                 <li class="has-dropdown">
                     <a href="#">
-                        Registration
+                        Coming To Indonesia
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['registration', 'Registration']) }}">Registration</a>
+                            <a href="{{ route( 'f.pages.index', ['Coming To Indonesia', 'VISA']) }}">VISA</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['registration', 'Visa']) }}">Visa</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.pages.index', ['registration', 'Customs']) }}">Customs</a>
+                            <a href="{{ route( 'f.pages.index', ['Coming To Indonesia', 'Customs']) }}">CUSTOMS</a>
                         </li>
                     </ul>
                 </li>

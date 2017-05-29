@@ -47,25 +47,53 @@
 
     <div class="container">
 
-    	<section id="about" class="row">
-            <div class="col-md-4 logo-voyage">
-	            {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
-	                [ 
-	                	'w'		=> 360,
-	                	'h'		=> 145,
-	                    'class' => 'background-image' 
-	                ]) !!}
-            </div>
-            <div id="voyage" class="col-md-8">
-                <div class="bordered desc feature">
-                    <h4 class="uppercase mb100">Voyage To Indonesia</h4>
-                    <p>
+        <div class="row">
+
+            <section id="about_imf" class="col-sm-6 about-section">
+                <div class="well feature bordered">
+                    <h4 class="title mb40">IMF-World Bank Annual Meetings 2018</h4>
+                    <div class="logo mb40">
+                        {!! html_img( 'img/am2018/amf2018-logo.jpg', 
+                            [ 
+                                'w'     => 388,
+                                'h'     => 142,
+                                'class' => 'logo logo-dark' 
+                            ]) !!}
+                    </div>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <a class="btn btn-sm btn-blue" href="#">
+                        Learn More
+                    </a>
+                </div>
+            </section>
+
+            <section id="about_voyage" class="col-sm-6 about-section">
+                <div class="well feature bordered">
+                    <h4 class="title mb40">VOYAGE TO INDONESIA</h4>
+                    <div class="logo mb40">
+                        {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
+                            [ 
+                                'w'     => 339,
+                                'h'     => 137,
+                                'class' => 'background-image' 
+                            ]) !!}
+                    </div>
+                    <p class="desc">
                         "Voyage to Indonesia" (VTI) is the theme of prelude events of IMF - WB Annual Meetings 2018 preparation, taken from the essence of 'voyage' as a journey toward discovery and new place. The objective is to leverage the benefits of the meetings for national interest and International community.
                     </p>
-                    <a class="btn btn-sm btn-blue" href="#">Learn More</a>
+                    <a class="btn btn-sm btn-blue" href="#">
+                        Learn More
+                    </a>
                 </div>
-            </div>
-        </section>
+            </section>
+
+        </div>
 
     </div>
 
@@ -74,22 +102,48 @@
 	        <section id="news" class="row">
                 <div class="row masonry fadeIn">
                     <div class="col-sm-4 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32 img-home">
-				            {!! html_img( 'img/am2018/public/IMF-conference.jpg', 
-				                [ 
-				                	'w'		=> 408,
-				                	'h'		=> 300,
-				                    'class' => 'img-home' 
-				                ]) !!}
-                            <div class="caption text-center">
-                            	<h4>Latest News | April 16th 2018</h4>
-                                <span class="text-info">
-                                    <p>
-                                	Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
-                                    </p>
-                                    <a href="#" class="btn-link">Learn More</a>
-                                </span>
-                            </div>
+
+                        <div class="logo-carousel" data-max-items="1" data-direction-nav="true">
+                            <ul class="slides">
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 img-home">
+            				            {!! html_img( 'img/am2018/public/IMF-conference.jpg', 
+            				                [ 
+            				                	'w'		=> 408,
+            				                	'h'		=> 300,
+            				                    'class' => 'img-home' 
+            				                ]) !!}
+                                        <div class="caption text-center">
+                                        	<h4>Latest News | April 16th 2018</h4>
+                                            <span class="text-info">
+                                                <p>
+                                            	Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
+                                                </p>
+                                                <a href="#" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 img-home">
+                                        {!! html_img( 'img/am2018/public/IMF-conference.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4>Latest News | April 16th 2018</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
+                                                </p>
+                                                <a href="#" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!--end of snippet-->
@@ -102,7 +156,7 @@
 				                    'class' => 'img-home' 
 				                ]) !!}
                             <div class="caption text-center">
-                            	<h4>Discover Indonesia | Borobudur Temple</h4>
+                            	<h4>Tourist Package</h4>
                                 <span class="text-info">
                                     <p>
                                     	The World's Largest and grates Buddisht temple, build in the 19th century with mountainous scenery
@@ -123,7 +177,7 @@
 				                    'class' => 'img-home' 
 				                ]) !!}
                             <div class="caption text-center">
-                            	<h4>Voyage to Indonesia | December, 13th-16th 2018</h4>
+                            	<h4>INDONESIA UPDATE</h4>
                                 <span class="text-info">
                                     <p>
                                 	   International Development Association (IDA18) 4th Replenishment Meeting in Yogyakarta

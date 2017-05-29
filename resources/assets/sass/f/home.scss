@@ -14,6 +14,19 @@
 	}
 }
 
+.about-section
+{
+
+	.well {
+		min-height : 520px;
+		background : none;
+	}
+
+	.title {
+		font-weight : 600; 
+	}
+}
+
 #voyage {
 	padding-left: 10px;
 }
@@ -30,7 +43,27 @@
 		padding-right: 0;
 	}
 
+	.logo-carousel {
+		li {
+			@include opacity(1);
+		}
+
+		img {
+			max-height : initial;
+		}
+
+		.flex-direction-nav a.flex-next {
+			right : 0;
+		}
+
+		.flex-direction-nav {
+			@include opacity( 0.8 );
+		}
+	}
+
 	.image-caption {
+
+		@include box-shadow( none );
 
 		.caption {
 			text-align: left;

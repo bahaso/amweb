@@ -11,24 +11,30 @@ class PageController extends BaseController
 		if($nav_slug == 'about')
 		{
 			$route = route( 'f.abouts.imf');
-		
-		}else if( $nav_slug == 'events' ){
+		}
+		else if( $nav_slug == 'events' )
+		{
 			$route = route( 'f.events.index');
-		
-		}else if( $nav_slug == 'registration' )
+		}
+		else if( $nav_slug == 'registration' )
 		{
 			$route = route( 'f.registration.index');
-
-		}else if( $nav_slug == 'discover-indonesia' )
+		}
+		else if( $nav_slug == 'discover-indonesia' )
 		{
 			$route = route( 'f.discover.index');
-
-		}else if( $nav_slug == 'media-and-public' )
+		}
+		else if( $nav_slug == 'media-and-public' )
 		{
 			$route = route( 'f.media.index');
-
-		}else if( $nav_slug == 'information' ){
+		}
+		else if( $nav_slug == 'information' )
+		{
 			$route = route( 'f.information.index');
+		}
+		else if( $nav_slug == 'coming-to-indonesia' )
+		{
+			$route = route( 'f.coming.index' );
 		}
 
 
