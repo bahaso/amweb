@@ -64,5 +64,6 @@ Route::group(
 		Route::get( 'pages/discover-indonesia/indonesia-in-brief', 'PageController@index' )->name( 'discover.index' );
 		Route::get( 'pages/media-and-public/gallery', 'PageController@index' )->name( 'media.index' );
 		Route::get( 'pages/information/hotel', 'PageController@index' )->name( 'information.index' );
+		Route::get( 'pages/coming-to-indonesia/visa', 'PageController@index' )->name( 'coming.index' );
 
 	});

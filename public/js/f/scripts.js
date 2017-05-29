@@ -357,18 +357,30 @@ $(document).ready(function() {
             controlNav: "thumbnails",
             directionNav: true
         });
-        $('.logo-carousel').flexslider({
-            minItems: 1,
-            maxItems: 4,
-            move: 1,
-            itemWidth: 200,
-            itemMargin: 0,
-            animation: "slide",
-            slideshow: true,
-            slideshowSpeed: 3000,
-            directionNav: false,
-            controlNav: false
-        });
+
+        var $logo_carousels = $( ".logo-carousel" );
+
+        for( var i = 0, len = $logo_carousels.length; i < len; i++ )
+        {
+            var $csl = $logo_carousels.eq( i ),
+                cfg  = {};
+
+            cfg = $.extend( {
+                minItems: 1,
+                maxItems: 4,
+                move: 1,
+                itemWidth: 200,
+                pauseOnHover: true,
+                itemMargin: 0,
+                animation: "slide",
+                slideshow: true,
+                slideshowSpeed: 3000,
+                directionNav: false,
+                controlNav: false
+            }, $csl.data() );
+
+            $csl.flexslider( cfg );  
+        }
     }
     
     // Lightbox gallery titles
