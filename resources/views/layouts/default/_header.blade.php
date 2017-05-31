@@ -35,9 +35,9 @@
                         <li>
                             <a href="{{ route( 'f.abouts.world_bank' ) }}">World Bank</a>
                         </li>
-                        <li>
-                            <a href="{{ route( 'f.pages.index', ['about', 'National Commitee']) }}">National Commitee</a>
-                        </li>
+                        <!-- <li>
+                            <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
+                        </li> -->
                         <li>
                             <a href="{{ route( 'f.pages.index', ['about', 'AM 2018']) }}">AM 2018</a>
                         </li>
