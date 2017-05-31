@@ -42,4 +42,37 @@ class PageController extends BaseController
 		$data = compact('navigation', 'slug', 'route');
 		return $this->output( 'pages.content', $data );
 	}
+
+	/**
+	 * DUMMIES
+	 */
+	public function noImages()
+	{
+		return $this->output( 'pages.dummies.no-images' );
+	}
+
+	public function oneImage()
+	{
+		return $this->output( 'pages.dummies.one-image' );
+	}
+
+	public function fullImage()
+	{
+		return $this->output( 'pages.dummies.full-image' );
+	}
+
+	public function multipleImages()
+	{
+		return $this->output( 'pages.dummies.multiple-images' );
+	}
+
+	public function subheading()
+	{
+		return $this->output( 'pages.dummies.subheading' );
+	}
+
+	public function calendars()
+	{
+		return $this->output( 'pages.dummies.calendars' );
+	}
 }

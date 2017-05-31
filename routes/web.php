@@ -68,6 +68,13 @@ Route::group(
 		Route::get( 'pages/coming-to-indonesia/visa', 'PageController@index' )->name( 'coming.index' );
 
 
+		Route::get( 'pages/no-images', 'PageController@noImages' )->name( 'pages.dummies.no_images' );
+		Route::get( 'pages/one-image', 'PageController@oneImage' )->name( 'pages.dummies.one_image' );
+		Route::get( 'pages/full-image', 'PageController@fullImage' )->name( 'pages.dummies.full_image' );
+		Route::get( 'pages/multiple-images', 'PageController@multipleImages' )->name( 'pages.dummies.multiple_images' );
+		Route::get( 'pages/subheading', 'PageController@subheading' )->name( 'pages.dummies.subheading' );
+		Route::get( 'pages/calendars', 'PageController@calendars' )->name( 'pages.dummies.calendars' );
+
 		/**
          * MAPS
          */

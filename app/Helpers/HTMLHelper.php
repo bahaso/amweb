@@ -130,9 +130,12 @@ if( !function_exists( 'html_img' ) )
 			if( empty( $raw ) ) $filename = asset( $filename );
 		}
 
+		$attrs = '';
+		if( isset( $style )) $attrs .= sprintf( ' style="%s"', $style );
 
-		return sprintf( '<img id="%s" class="%s" src="%s" width="%s" height="%s" alt="%s" title="%s" />' , 
-			$id, $class, $filename, $w, $h, $alt, $title  );
+
+		return sprintf( '<img id="%s" class="%s" src="%s" width="%s" height="%s" alt="%s" title="%s" %s />' , 
+			$id, $class, $filename, $w, $h, $alt, $title, $attrs  );
 	}
 }
 

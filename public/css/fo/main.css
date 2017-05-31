@@ -99,29 +99,248 @@ section {
   text-align: justify;
 }
 
+/**
+ * SIDEBAR
+ */
+/* line 90, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar {
+  margin: 40px 0;
+  border-right: 1px solid #DADADA;
+}
+/* line 95, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav ul {
+  margin: 0;
+}
+/* line 99, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav a {
+  padding: 0;
+}
+/* line 103, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav .lbl {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+/* line 108, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav li {
+  padding: 0 0 15px;
+}
+/* line 113, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav li.active .lbl {
+  color: #5858D6;
+}
+/* line 118, ../../../resources/assets/sass/f/_partials/_common.scss */
+.sidebar .nav li ul {
+  margin: 25px 0 0 30px;
+}
+
+/* line 125, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg {
+  font-size: 1.6rem;
+  line-height: 2.2;
+  padding: 30px 0 30px 25px;
+}
+/* line 130, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg .title {
+  margin: 0 0 15px;
+  font-size: 3rem;
+}
+/* line 135, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg p {
+  margin-bottom: 30px;
+}
+/* line 138, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg p.no-mb {
+  margin-bottom: 0;
+}
+/* line 143, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg ul {
+  margin: 5px 30px 30px 25px;
+}
+/* line 147, ../../../resources/assets/sass/f/_partials/_common.scss */
+.wysiwyg li {
+  font-size: 1.6rem;
+  line-height: 2.1;
+}
+
 /*this for nav bar in EVENT SCHEDULE BOTTOM / MORNING, AFTERNOON, EVENING*/
-/* line 87, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 154, ../../../resources/assets/sass/f/_partials/_common.scss */
 .button-tabs .active .tab-title {
   background: #0097FE;
 }
-/* line 90, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 157, ../../../resources/assets/sass/f/_partials/_common.scss */
 .button-tabs .active .tab-title:hover {
   background: #0097FE;
 }
 
 /**
+ * FAQs
+ */
+/* line 165, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq {
+  margin: 0 0 25px;
+  padding: 0;
+}
+/* line 169, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 174, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .title {
+  background: #204969;
+  line-height: 1;
+  padding: 15px 20px;
+  margin: 20px 0 0;
+}
+/* line 180, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .title h4 {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* line 187, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .content {
+  padding: 0 20px;
+}
+/* line 190, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .content p {
+  padding: 0;
+}
+/* line 194, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .content ul {
+  list-style: disc;
+  margin: 15px 0 0 20px;
+}
+/* line 203, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .accordion li.active .content {
+  margin: 25px 0 40px;
+  max-height: initial;
+}
+/* line 213, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq .accordion-2 .title:before {
+  font-size: 2.6rem;
+  margin: 7px 9px 0 0;
+  float: right;
+  color: #FFF;
+}
+/* line 225, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 230, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events li {
+  padding: 0;
+}
+/* line 233, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events li.even {
+  padding-left: 10px;
+}
+/* line 237, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events li.odd {
+  clear: left;
+  padding-right: 10px;
+}
+/* line 243, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events li.active .content {
+  margin: 10px 0;
+}
+/* line 249, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events .title {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 254, ../../../resources/assets/sass/f/_partials/_common.scss */
+.faq.events .content {
+  padding: 0;
+}
+
+/* line 266, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item {
+  margin: 0 0 7px;
+  border: 1px solid #ABABAB;
+  line-height: 1.8;
+  text-align: left;
+  position: relative;
+}
+/* line 275, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item:before {
+  content: "";
+  background: #6AB834;
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+/* line 286, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item .inner {
+  padding: 20px 10px 20px 40px;
+  line-height: auto;
+}
+/* line 292, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item.bg-tag-1:before {
+  background: #6AB834;
+}
+/* line 298, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item.bg-tag-2:before {
+  background: #4BACC6;
+}
+/* line 304, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item.bg-tag-3:before {
+  background: #FAC090;
+}
+/* line 310, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-tags .item.bg-tag-4:before {
+  background: #B3A2C7;
+}
+
+/* line 318, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .tag {
+  background: #6AB834;
+  margin: 0 10px 0 0;
+  width: 17px;
+  height: 30px;
+  float: left;
+}
+/* line 327, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .tag.bg-tag-1 {
+  background: #6AB834;
+}
+/* line 331, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .tag.bg-tag-2 {
+  background: #4BACC6;
+}
+/* line 335, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .tag.bg-tag-3 {
+  background: #FAC090;
+}
+/* line 339, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .tag.bg-tag-4 {
+  background: #B3A2C7;
+}
+/* line 344, ../../../resources/assets/sass/f/_partials/_common.scss */
+.event-legend .lbl {
+  margin: 2px 0 0;
+  display: block;
+  overflow: hidden;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/**
  * SPECIFICS
  */
-/* line 98, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 357, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors {
   padding: 40px 0;
 }
-/* line 101, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 360, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors .title {
   margin-bottom: 40px;
   font-weight: 600;
 }
-/* line 107, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 366, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors .flex-viewport li {
   line-height: 115px;
 }

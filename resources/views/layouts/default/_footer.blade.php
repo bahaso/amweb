@@ -49,6 +49,24 @@
                     <li>
                         <a href="{{ route( 'f.discovers.bali' ) }}">11 Destinasi Bali</a>
                     </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.no_images' ) }}">No Image</a>
+                    </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.one_image' ) }}">One Image</a>
+                    </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.full_image' ) }}">Full Image</a>
+                    </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.multiple_images' ) }}">Multiple Images</a>
+                    </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.subheading' ) }}">Subheading</a>
+                    </li>
+                    <li>
+                        <a href="{{ route( 'f.pages.dummies.calendars' ) }}">Calendars</a>
+                    </li>
                 </ul>
             </div>
             <!--end of widget-->
@@ -74,7 +92,7 @@
     </div>
     <!--end of row-->
     <div id="copyright">
-        Copyright AM2018 &copy 2017
+        Copyright AM2018 &copy; 2017
     </div>
 </div>
 <!--end of container-->
