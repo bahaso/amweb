@@ -50,6 +50,31 @@ $color-tertiary : #323347;
 		padding-left  : 35px;
 		padding-right : 35px;
 	}
+
+	&.thin {
+		padding     : 25px 0 20px;
+		height 		: auto;
+		min-height 	: 0; 
+
+		.lbl {
+			display : none; 
+		}
+
+		.crumbs {
+			width : 100%;
+		}
+
+		li {
+			a {
+				color : #292929;
+				@include opacity( 0.5 );
+			}
+
+			&.active {
+				color : #292929;
+			}
+		}
+	}
 }
 .image-square-title {
 	padding : 75px 0 0;
@@ -97,7 +122,15 @@ $color-tertiary : #323347;
 			}
 
 			a {
+				color   : #292929;
 				padding : 0;
+				display : inline; 
+				@include opacity( 0.5 );
+
+				&:hover {
+					background : none;
+					@include opacity( 1 );
+				}
 			}
 
 			.lbl {
@@ -111,7 +144,9 @@ $color-tertiary : #323347;
 
 				&.active {
 					.lbl {
-						color : #5858D6;
+						color 		: #292929;
+						font-weight : 600;
+						@include opacity(1);
 					}
 				}
 
@@ -172,15 +207,20 @@ $color-tertiary : #323347;
 		}
 
 		.title {
-			background  : #204969;
+			background  : #405767;
 			line-height : 1;
 			padding 	: 15px 20px;
 			margin 		: 20px 0 0;
+			@include opacity(1);
 
 			h4 {
 				color       : #FFF;
 				font-size   : rem( 16px );
 				font-weight : 600;
+			}
+
+			&:hover {
+				background : #576F80;
 			}
 		}
 

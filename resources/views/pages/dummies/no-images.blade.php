@@ -7,7 +7,8 @@
         [
             [ 'label' => 'About', 'url' => route( 'f.abouts.imf' ) ],
             [ 'label' => 'No Image' ]
-        ]
+        ],
+        'no_label' => true
     ])
 @stop
 

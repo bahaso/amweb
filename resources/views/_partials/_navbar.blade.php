@@ -1,14 +1,17 @@
 @if( isset( $navs ))
 @php $len   = count( $navs ) @endphp
 @php $last  = array_last( $navs ) @endphp
-<section class="page-title page-title-4 bg-secondary navbar">
+@php $style = ( isset( $no_label ) && $no_label === true )? 'thin' : '' @endphp
+<section class="page-title page-title-4 bg-secondary navbar {{ $style }}">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 lbl">
                 <h3 class="uppercase mb0">
-                    <i class="ti-menu-alt"></i>{{ array_get( $last, 'label' ) }}</h3>
+                    <i class="ti-menu-alt"></i>
+                    {{ array_get( $last, 'label' ) }}
+                </h3>
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-6 text-right crumbs">
                 <ol class="breadcrumb breadcrumb-2">
 
                         <li>
