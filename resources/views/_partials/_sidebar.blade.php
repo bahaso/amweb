@@ -1,4 +1,6 @@
+@section( 'lhs_sidebar_outer' )
 <ul class="nav">
+	@section( 'lhs_sidebar' )
 	<li class="active">
 		<a href="#" class="lbl">
 			International Monetary Fund
@@ -51,4 +53,6 @@
 			</li>
 		</ul>
 	</li>
+	@show
 </ul>
+@show

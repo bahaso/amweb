@@ -39,7 +39,7 @@
                             <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['about', 'AM 2018']) }}">AM 2018</a>
+                            <a href="{{ route( 'f.abouts.am2018' ) }}">AM 2018</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.faqs.index' ) }}">FAQ</a>
@@ -61,7 +61,7 @@
                             <a href="{{ asset( 'uploads/public/Venue Map.pptx' ) }}">Venues Map</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['events', 'Program VTI']) }}">Program VTI</a>
+                            <a href="{{ route( 'f.abouts.program_vti' ) }}">Program VTI</a>
                         </li>
                     </ul>
                 </li>

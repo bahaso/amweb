@@ -18,7 +18,7 @@
                 </div>
             </div>
             <!--end of row-->
-            <div class="row masonry">
+            <div class="row masonry fadeIn">
                 <div class="masonry-item col-md-4 col-sm-6">
                     <div class="feature bg-secondary p32 pt40 pb40 mb0">
                         <span class="fade-1-4 mb16 display-block">August 3, 2015 in inspiration</span>

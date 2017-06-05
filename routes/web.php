@@ -43,6 +43,8 @@ Route::group(
 		Route::get( 'abouts/imf', 'AboutController@imf' )->name( 'abouts.imf' );
 		Route::get( 'abouts/imf-world-bank', 'AboutController@imfWorldBank' )->name( 'abouts.imf_world_bank' );
 		Route::get( 'abouts/world-bank', 'AboutController@worldBank' )->name( 'abouts.world_bank' );
+		Route::get( 'abouts/am2018', 'AboutController@am2018' )->name( 'abouts.am2018' );
+		Route::get( 'abouts/program-vti', 'AboutController@programVTI' )->name( 'abouts.program_vti' );
 
 		/**
 		 * EVENTS
