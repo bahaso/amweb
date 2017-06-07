@@ -26,7 +26,7 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="{{ route( 'f.abouts.program_vti') }}">About VTI</a>
+                        <a href="{{ route( 'f.events.program_vti') }}">About VTI</a>
                     </li>
                     <li>
                         <a href="{{ route( 'f.exhibitions.seminar' ) }}">Seminar</a>

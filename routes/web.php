@@ -44,13 +44,15 @@ Route::group(
 		Route::get( 'abouts/imf-world-bank', 'AboutController@imfWorldBank' )->name( 'abouts.imf_world_bank' );
 		Route::get( 'abouts/world-bank', 'AboutController@worldBank' )->name( 'abouts.world_bank' );
 		Route::get( 'abouts/am2018', 'AboutController@am2018' )->name( 'abouts.am2018' );
-		Route::get( 'abouts/program-vti', 'AboutController@programVTI' )->name( 'abouts.program_vti' );
 
 		/**
 		 * EVENTS
 		 */
 		Route::get( 'events', 'EventController@index' )->name( 'events.index' );
 		Route::get( 'events/{id}/{slug}', 'EventController@detail' )->name( 'events.detail' );
+		Route::get( 'events/program-vti', 'EventController@programVTI' )->name( 'events.program_vti' );
+		Route::get( 'events/main', 'EventController@mainEvents' )->name( 'events.main' );
+		Route::get( 'events/side', 'EventController@sideEvents' )->name( 'events.side' );
 
 		/**
 		 * EXHIBITIONS

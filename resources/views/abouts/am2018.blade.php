@@ -48,7 +48,7 @@
         </p>
 
         <section class="faq">
-            <ul class="accordion accordion-2">
+            <ul class="accordion accordion-2 one-open">
                 <li>
                     <div class="title">
                         <h4 class="inline-block mb0">Annual Meetings Outside the United States 1947-2015</h4>
@@ -166,7 +166,7 @@
                         </table>
                     </div>
                 </li>
-                <li>
+                <li class="active">
                     <div class="title">
                         <h4 class="inline-block mb0">Indonesia is Appointed as Host Country of 2018 Annual Meeting</h4>
                     </div>

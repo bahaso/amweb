@@ -28,9 +28,4 @@ class AboutController extends BaseController
 	{
 		return $this->output( 'abouts.am2018' );
 	}
-
-	public function programVTI()
-	{
-		return $this->output( 'events.program-vti' );
-	}
 }

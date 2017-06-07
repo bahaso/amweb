@@ -52,16 +52,16 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.events.index' ) }}">Main Events</a>
+                            <a href="{{ route( 'f.events.main' ) }}">Main Events</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['events', 'Program VTI']) }}">Side Events</a>
+                            <a href="{{ route( 'f.events.side' ) }}">Side Events</a>
                         </li>
 <!--                         <li>
                             <a href="{{ asset( 'uploads/public/Venue Map.pptx' ) }}">Venues Map</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.abouts.program_vti' ) }}">Program VTI</a>
+                            <a href="{{ route( 'f.events.program_vti' ) }}">Program VTI</a>
                         </li>
                     </ul>
                 </li>
