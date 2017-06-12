@@ -51,7 +51,7 @@
 
             <section id="about_imf" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">IMF-World Bank Annual Meetings 2018</h4>
+                    <h4 class="title mb40">Annual Meeting IMF-WB in Indonesia</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/amf2018-logo.jpg', 
                             [ 
@@ -61,11 +61,13 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
+                        Annual Meetings of International Monetary Funds &amp; World Bank Group (IMF-WB) are
+
+                        regular meetings which have been held since 1946 and are conducted annually in
+
+                        October (during autumn) by Boards of Governors of IMF and WBG. The annual
+
+                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.
                     </p>
                     <a class="btn btn-sm btn-blue" href="#">
                         Learn More
@@ -75,7 +77,7 @@
 
             <section id="about_voyage" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">VOYAGE TO INDONESIA</h4>
+                    <h4 class="title mb40">Voyage to Indonesia</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
                             [ 
@@ -85,7 +87,7 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        "Voyage to Indonesia" (VTI) is the theme of prelude events of IMF - WB Annual Meetings 2018 preparation, taken from the essence of 'voyage' as a journey toward discovery and new place. The objective is to leverage the benefits of the meetings for national interest and International community.
+                        ‘Voyage of Indonesia’ is the activities program covering series of events conducted until the peak event of the Annual Meetings IMF-WB in October, 2018 and aftermath. This program aims to increase the awareness of the 2018 Annual Meetings IMF-WB in Indonesia and to promote Indonesia to delegations attending this event.
                     </p>
                     <a class="btn btn-sm btn-blue" href="#">
                         Learn More
