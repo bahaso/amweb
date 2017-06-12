@@ -23,17 +23,29 @@ Route::group(
 		/**
 		 * DISCOVERS
 		 */
-		Route::get( 'discovers/5-destinasi-pariwisata-indonesia', 'DiscoverController@indonesia' )->name( 'discovers.indonesia' );
-		Route::get( 'discovers/11-destinasi-bali', 'DiscoverController@bali' )->name( 'discovers.bali' );
-
+		Route::get( 'discovers/indonesia-in-brief', 'DiscoverController@indonesia' )->name( 'discovers.indonesia' );
+		Route::get( 'discovers/main-destination', 'DiscoverController@destination' )->name( 'discovers.destination' );
+		Route::get( 'discovers/bali', 'DiscoverController@bali' )->name( 'discovers.bali' );
+		Route::get( 'discovers/tourism-package', 'DiscoverController@tourism' )->name( 'discovers.tourism' );
 		/**
 		 * FAQS
 		 */
 		Route::get( 'faq', 'FaqController@index' )->name( 'faqs.index' );
 
 		/**
+		 * MEDIA
+		 */
+		Route::get( 'news', 'NewsController@index' )->name( 'news.index' );
+		Route::get( 'news/{id}/{slug}', 'NewsController@detail' )->name( 'news.detail' );
+		Route::get( 'publications', 'PublicationController@index' )->name( 'publications.index' );
+		Route::get( 'publications/{id}/{slug}', 'PublicationController@detail' )->name( 'publications.detail' );
+		Route::get( 'press-releases', 'PressReleaseController@index' )->name( 'press-releases.index' );
+		Route::get( 'press-releases/{id}/{slug}', 'PressReleaseController@detail' )->name( 'press-releases.detail' );
+
+		/**
 		 * GALLERY
 		 */
+		Route::get( 'galleries', 'GalleryController@index' )->name( 'galleries.index' );
 		Route::get( 'gallery', 'GalleryController@detail' )->name( 'galleries.detail' );
 
 		/**
@@ -51,6 +63,8 @@ Route::group(
 		Route::get( 'events', 'EventController@index' )->name( 'events.index' );
 		Route::get( 'events/{id}/{slug}', 'EventController@detail' )->name( 'events.detail' );
 		Route::get( 'events/program-vti', 'EventController@programVTI' )->name( 'events.program_vti' );
+		Route::get( 'events/bank-indonesia', 'EventController@bank' )->name( 'events.bank' );
+		Route::get( 'events/ministry-of-finance', 'EventController@ministry' )->name( 'events.ministry' );
 		Route::get( 'events/main', 'EventController@mainEvents' )->name( 'events.main' );
 		Route::get( 'events/side', 'EventController@sideEvents' )->name( 'events.side' );
 
@@ -60,6 +74,20 @@ Route::group(
 		Route::get( 'exhibition', 'ExhibitionController@detail' )->name( 'exhibitions.detail' );
 		Route::get( 'exhibition/seminar', 'ExhibitionController@seminar' )->name( 'exhibitions.seminar' );
 
+		/**
+		 * WELCOME TO INDONESIA
+		 */
+		Route::get( 'welcome-to-indonesia/visa', 'WelcomeController@visa' )->name( 'welcomes.visa' );
+		Route::get( 'welcome-to-indonesia/free-tourism-visa', 'WelcomeController@tourism' )->name( 'welcomes.tourism' );
+		Route::get( 'welcome-to-indonesia/customs', 'WelcomeController@customs' )->name( 'welcomes.customs' );
+		Route::get( 'welcome-to-indonesia/travel-tips', 'WelcomeController@tips' )->name( 'welcomes.tips' );
+		/**
+		 * INFORMATIONS
+		 */
+		Route::get( 'information/hotel', 'InformationController@hotel' )->name( 'informations.hotel' );
+		Route::get( 'information/transportation', 'InformationController@transportation' )->name( 'informations.transportation' );
+		Route::get( 'information/other-facilities', 'InformationController@facilities' )->name( 'informations.facilities' );
+		Route::get( 'information/weather', 'InformationController@weather' )->name( 'informations.weather' );
 		/**
 		 * FOR DUMMY PAGE
 		 */

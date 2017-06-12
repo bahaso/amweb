@@ -18,6 +18,14 @@ class EventController extends BaseController
 	{
 		return $this->output( 'events.program-vti' );
 	}
+	public function bank()
+	{
+		return $this->output( 'events.bank' );
+	}
+	public function ministry()
+	{
+		return $this->output( 'events.ministry' );
+	}
 
 	public function mainEvents()
 	{

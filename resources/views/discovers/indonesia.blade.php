@@ -1,406 +1,145 @@
-@extends( 'layouts.default.layout' )
+@extends( 'discovers._layout' )
 
-@section( 'content' )
-	<section class="pt0 pb0">
-	    <div class="slider-all-controls">
-	        <ul class="slides">
-	            <li class="vid-bg image-bg overlay pt240 pb240">
-	                <div class="background-image-holder">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-			            	[
-			            	 	'class' => 'background-image'
-			            	]) !!}
-	                </div>
-	                <div class="fs-vid-background">
-	                    <video muted loop>
-	                        <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-	                        <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-	                        <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-	                    </video>
-	                </div>
-	                <div class="container">
-	                    <div class="row">
-	                        <div class="col-sm-12 text-center">
-	                            <h1 class="large">5 Destinations in Indonesia</h1>
-	                            <p class="lead">
-	                                Simple markup with intellegent auto play and pause functionality.
-	                            </p>
-	                        </div>
-	                    </div>
-	                    <!--end of row-->
-	                </div>
-	                <!--end of container-->
-	            </li>
-	            <li class="vid-bg image-bg overlay pt240 pb240">
-	                <div class="background-image-holder">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-			            	[
-			            	 	'class' => 'background-image'
-			            	]) !!}
-	                </div>
-	                <div class="fs-vid-background">
-	                    <video muted loop>
-	                        <source src="{{ asset( 'videos/am2018/video2.webm' ) }}" type="video/webm">
-	                        <source src="{{ asset( 'videos/am2018/video2.mp4' ) }}" type="video/mp4">
-	                        <source src="{{ asset( 'videos/am2018/video2.ogv' ) }}" type="video/ogg">
-	                    </video>
-	                </div>
-	                <div class="container">
-	                    <div class="row">
-	                        <div class="col-sm-12 text-center">
-	                            <h1 class="large">5 Destinations in Indonesia</h1>
-	                            <p class="lead">
-	                                Simple markup with intellegent auto play and pause functionality.
-	                            </p>
-	                        </div>
-	                    </div>
-	                    <!--end of row-->
-	                </div>
-	                <!--end of container-->
-	            </li>
-	        </ul>
-	    </div>
-    </section>
+@section( 'top_content' )
+    @include( '_partials._navbar',
+    [
+        'navs' => 
+        [
+            [ 
+                'label' => 'Discover Indonesia', 
+                'url' => route( 'f.discovers.indonesia' ) 
+            ],
+            [ 
+                'label' => 'Indonesia in Brief', 
+            ]
+        ],
+        'no_label' => true
+    ])
+@stop
 
-    <section>
-        <div class="container">
-            <div class="row v-align-children">
-                <div class="col-sm-6 col-md-5">
-                    <h2 class="uppercase color-primary">5 Destinations In Indonesia</h2>
-                    <hr>
-                    <p>
-                        Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                </div>
-                <div class="col-sm-6 col-md-offset-1 p0">
-                    <div class="col-sm-6 text-center">
-                        <div class="feature bordered mb30">
-                            <h1 class="large uppercase">5</h1>
-                            <h5 class="uppercase">Text</h5>
-                        </div>
-                    </div>
-                    <!--end 6 col-->
-                    <div class="col-sm-6 text-center">
-                        <div class="feature bordered mb30">
-                            <h1 class="large">2</h1>
-                            <h5 class="uppercase">Text</h5>
-                        </div>
-                    </div>
-                    <!--end 6 col-->
-                    <div class="col-sm-6 text-center">
-                        <div class="feature bordered mb30">
-                            <h1 class="large">4</h1>
-                            <h5 class="uppercase">Text</h5>
-                        </div>
-                    </div>
-                    <!--end 6 col-->
-                    <div class="col-sm-6 text-center">
-                        <div class="feature bordered mb30">
-                            <h1 class="large">3</h1>
-                            <h5 class="uppercase">Text</h5>
-                        </div>
-                    </div>
-                    <!--end 6 col-->
-                </div>
-            </div>
-            <!--end of row-->
-        </div>
-        <!--end of container-->
-    </section>
+@section( 'rhs_content' )
 
-    <section class="bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <div class="tabbed-content text-tabs no-border">
-                        <ul class="tabs mb64 mb-xs-24">
-                            <li class="active">
-                                <div class="tab-title">
-                                    <span>Jakarta</span>
-                                </div>
-                                <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="local-video-container mb40">
-                                                <div class="background-image-holder">
-										            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-										            	[
-										            	 	'class' => 'background-image'
-										            	]) !!}
-                                                </div>
-                                                <video controls="">
-                                                    <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-                                                    <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-                                                    <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-                                                </video>
-                                                <div class="play-button"></div>
-                                            </div>
-                                            <!--end of local inline video-->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="tab-title">
-                                    <span>Kalimantan</span>
-                                </div>
-                                <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="local-video-container mb40">
-                                                <div class="background-image-holder">
-										            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-										            	[
-										            	 	'class' => 'background-image'
-										            	]) !!}
-                                                </div>
-                                                <video controls="">
-                                                    <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-                                                    <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-                                                    <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-                                                </video>
-                                                <div class="play-button"></div>
-                                            </div>
-                                            <!--end of local inline video-->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="tab-title">
-                                    <span>Bali</span>
-                                </div>
-                                <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="local-video-container mb40">
-                                                <div class="background-image-holder">
-										            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-										            	[
-										            	 	'class' => 'background-image'
-										            	]) !!}
-                                                </div>
-                                                <video controls="">
-                                                    <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-                                                    <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-                                                    <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-                                                </video>
-                                                <div class="play-button"></div>
-                                            </div>
-                                            <!--end of local inline video-->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="tab-title">
-                                    <span>Sulawesi</span>
-                                </div>
-                                <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="local-video-container mb40">
-                                                <div class="background-image-holder">
-										            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-										            	[
-										            	 	'class' => 'background-image'
-										            	]) !!}
-                                                </div>
-                                                <video controls="">
-                                                    <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-                                                    <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-                                                    <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-                                                </video>
-                                                <div class="play-button"></div>
-                                            </div>
-                                            <!--end of local inline video-->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="tab-title">
-                                    <span>Raja Ampat</span>
-                                </div>
-                                <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <div class="local-video-container mb40">
-                                                <div class="background-image-holder">
-										            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', 
-										            	[
-										            	 	'class' => 'background-image'
-										            	]) !!}
-                                                </div>
-                                                <video controls="">
-                                                    <source src="{{ asset( 'videos/am2018/video.webm' ) }}" type="video/webm">
-                                                    <source src="{{ asset( 'videos/am2018/video.mp4' ) }}" type="video/mp4">
-                                                    <source src="{{ asset( 'videos/am2018/video.ogv' ) }}" type="video/ogg">
-                                                </video>
-                                                <div class="play-button"></div>
-                                            </div>
-                                            <!--end of local inline video-->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <p>
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--end of text tabs-->
-                </div>
-            </div>
-            <!--end of row-->
-        </div>
-        <!--end of container-->
-    </section>
+<section class="wysiwyg">
+    <h1 class="title fw600">
+        Indonesia
+    </h1>
+    <div class="content">
+        <p>
+            {!! html_img( 'img/am2018/public/indonesia.jpg',
+            [
+                'w' => '100%',
+                'h' => 'auto'
+            ]) !!}
+        </p>
+        <p>
+            The Republic of Indonesia is the largest archipelago in the world comprising 13,466
 
-    <section>
-        <div class="container">
-            <div class="row mb40">
-                <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h3 class="uppercase color-primary mb40 mb-xs-24">Favorites Places</h3>
-                    <p class="lead">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-                    </p>
-                </div>
-            </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                </div>
-                <!--end col-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                    <div class="feature">
-			            {!! html_img( 'img/am2018/public/penari-bali-lowres.jpg', []) !!}
-                        <ul class="accordion accordion-1">
-                            <li>
-                                <div class="title">
-                                    <span>Lorem Ipsum</span>
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                        <!--end of accordion-->
-                    </div>
-                </div>
-                <!--end col-->
-            </div>
-            <!--end of row-->
-        </div>
-        <!--end of container-->
-    </section>
+            large and small tropical islands fringed with white sandy beaches, many still
 
-	@include( '_partials._sponsors', [ 'class' => 'bg-secondary' ])
+            uninhabited and a number even still unnamed. Straddling the equator, situated between
+
+            the continents of Asia and Australia and between the Pacific and the Indian Oceans, it is
+
+            as wide as the United States from San Francisco to New York, equaling the distance
+
+            between London and Moscow.  Indonesia has a total population of more than 215 million
+
+            people from more than 200 ethnic groups. The national language is Bahasa Indonesia.
+        </p>
+        <p>
+            Among the most well known islands are Sumatra, Java, Bali, Kalimantan (formerly
+
+            Borneo), Sulawesi (formerly Celebes), the Maluku Islands (or better known as Moluccas,
+
+            the original Spice Islands) and Papua. Then, there is Bali “the world&#39;s best island resort”
+
+            with its enchanting culture, beaches, dynamic dances and music. But Indonesia still has
+
+            many unexplored islands with grand mountain views, green rainforests to trek through,
+
+            rolling waves to surf and deep blue pristine seas to dive in where one can swim with
+
+            dugongs, dolphins and large mantarays.
+        </p>
+        <p>
+            Because of her location, and geology, Indonesia is blessed with the most diverse
+
+            landscape, from fertile ricelands on Java and Bali to the luxuriant rainforests of
+
+            Sumatra, Kalimantan and Sulawesi, to the savannah grasslands of the Nusatenggara
+
+            islands to snow-capped peaks of West Papua.
+        </p>
+        <p>
+            Her wildlife ranges from the prehistoric giant Komodo lizard to the Orang Utan and the
+
+            Java rhino, to the Sulawesi anoa dwarf buffalos, to birds with exquisite plumage like the
+
+            cockatoo and the bird of paradise. This is also the habitat of the Rafflesia the world’s
+
+            largest flower, wild orchids, an amazing variety of spices, and aromatic hardwood and a
+
+            large variety of fruit trees. Underwater, scientists have found in North Sulawesi the
+
+            prehistoric coelacanth fish, a “living fossil” fish, predating the dinosaurs living some 400
+
+            million years ago, while whales migrate yearly through these waters from the South
+
+            Pole. Here are hundreds of species of colourful coral and tropical fish to admire.
+        </p>
+        <p>
+            Culturally, Indonesia fascinates with her rich diversity of ancient temples, music,
+
+            ranging from the traditional to modern pop, dances, rituals and ways of life, changing
+
+            from island to island, from region to region. Yet everywhere the visitor feels welcomed
+
+            with that warm, gracious innate friendliness of the Indonesian people that is not easily
+
+            forgotten.
+        </p>
+        <p>
+           Facilities-wise Indonesia’s hotels are second to none. In fact, many of our luxurious and
+
+            unique hotels have constantly been listed as some of the best in the world, located on
+
+            white sandy beaches, overlooking green river valleys, or situated in the heart of busy
+
+            capital Jakarta. While Indonesia’s cities like Jakarta, Bandung, Surabaya, or Makassar
+
+            are a hive of activities for business and leisure and a paradise for shoppers, offering
+
+            upscale boutiques selling top brand names, to local goods at road-side stalls. Here
+
+            gourmets can treat themselves to the many regions’ delectable spicy cuisine or dine
+
+            sumptuously at international restaurants. And for sheer relaxation, Indonesia Spas are
+
+            second to none to reinvigorate both body and mind. 
+        </p>
+        <p>
+            Convention centers are equipped with state-of- the-art facilities, as many top
+
+            international conferences and exhibitions are held in Jakarta, Bali to Manado, ranging
+
+            from the Global Climate Change Conference in Bali to the World Ocean Conference in
+
+            Manado , to trade and investment exhibitions and tourism trade shows in many
+
+            provincial capital cities.
+        </p>
+        <p>
+            Jakarta, Bali, Medan, Padang, Bandung, Solo, Yogyakarta, Surabaya, Makassar are
+
+            connected by direct international flights, and many regular and low cost carriers fly
+
+            passengers to Indonesia’s towns or remote locations.
+        </p>
+
+        <p class="no-mb">   
+            Source: <a href="http://www.indonesia.travel/en/facts/about-indonesia">http://www.indonesia.travel/en/facts/about-indonesia</a>
+        </p> 
+    </div>
+</section>
+
 @stop

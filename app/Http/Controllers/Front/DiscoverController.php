@@ -13,4 +13,15 @@ class DiscoverController extends BaseController
 	{
 		return $this->output( 'discovers.bali' );
 	}
+
+	public function destination()
+	{
+		return $this->output( 'discovers.destination' );
+	}
+
+	public function tourism()
+	{
+		return $this->output( 'discovers.tourism' );
+	}
+
 }

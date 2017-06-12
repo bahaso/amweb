@@ -16,6 +16,11 @@
             AM 2018
         </a>
     </li>
+    <li class="{{ isActiveRoute( 'f.abouts.vti' ) }}">
+        <a href="{{ route( 'f.abouts.vti' ) }}" class="lbl">
+            VTI
+        </a>
+    </li>
     <li class="{{ isActiveRoute( 'f.faqs.index' ) }}">
         <a href="{{ route( 'f.faqs.index' ) }}" class="lbl">
             FAQ

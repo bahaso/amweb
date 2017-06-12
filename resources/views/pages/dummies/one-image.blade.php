@@ -19,20 +19,18 @@
 		About International Monetary Fund
 	</h1>
 	<div class="content">
+		{!! html_img( 'img/am2018/public/IMF2.jpg',
+		[
+			'w' => '380',
+			'h' => '285',
+			'style' => 'float:left;'
+		]) !!}
 		<p>
-			{!! html_img( 'img/am2018/public/IMF2.jpg',
-			[
-				'w' => '380',
-				'h' => '285',
-				'style' => 'float:left;'
-			]) !!}
-
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. 
-		</p>
-		<p>
+			consequat. <br/><br/>
+
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

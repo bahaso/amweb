@@ -42,6 +42,9 @@
                             <a href="{{ route( 'f.abouts.am2018' ) }}">AM 2018</a>
                         </li>
                         <li>
+                            <a href="{{ route( 'f.abouts.vti' ) }}">VTI</a>
+                        </li>
+                        <li>
                             <a href="{{ route( 'f.faqs.index' ) }}">FAQ</a>
                         </li>
                     </ul>
@@ -67,14 +70,20 @@
                 </li>
                 <li class="has-dropdown">
                     <a href="#">
-                        Coming To Indonesia
+                        Welcome To Indonesia
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Coming To Indonesia', 'VISA']) }}">VISA</a>
+                            <a href="{{ route( 'f.welcomes.visa', ['Welcome To Indonesia', 'Visa']) }}">Visa</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Coming To Indonesia', 'Customs']) }}">CUSTOMS</a>
+                            <a href="{{ route( 'f.welcomes.tourism', ['Welcome To Indonesia', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.welcomes.customs', ['Welcome To Indonesia', 'Customs']) }}">Customs</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.welcomes.tips', ['Welcome To Indonesia', 'Travel Tips']) }}">Travel Tips</a>
                         </li>
                     </ul>
                 </li>
@@ -90,54 +99,55 @@
                             <a href="{{ route( 'f.discovers.bali' ) }}">11 Destinasi Bali</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia in Brief</a>
+                            <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia in Brief</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
+                            <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Discover Indonesia', 'Bali']) }}">Bali</a>
+                            <a href="{{ route( 'f.discovers.bali', ['Discover Indonesia', 'Bali']) }}">Bali</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Discover Indonesia', 'Paket Wisata']) }}">Paket Wisata</a>
+                            <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}">Tourism Package</a>
                         </li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
                     <a href="#">
-                        Media and Public
+                        Media and Publications
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Media and Public', 'Gallery']) }}">Gallery</a>
+                            <a href="{{ route( 'f.news.index' ) }}">News</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Media and Public', 'Publication']) }}">Publication</a>
+                            <a href="{{ route( 'f.galleries.index' ) }}">Gallery</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Media and Public', 'Press Release']) }}">Press Release</a>
+                            <a href="{{ route( 'f.publications.index' ) }}">Publications</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.press-releases.index' ) }}">Press Releases</a>
                         </li>
                     </ul>
                 </li>
+
                 <li class="has-dropdown">
                     <a href="#">
                         Information
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Information', 'Hotel']) }}">Hotel</a>
+                            <a href="{{ route( 'f.informations.hotel', ['Information', 'Hotel']) }}">Hotel</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Information', 'Flight Schedule']) }}">Flight Schedule</a>
+                            <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Transportation</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Information', 'Transportation']) }}">Transportation</a>
+                            <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.pages.index', ['Information', 'Weather']) }}">Weather</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.pages.index', ['Information', 'Food and Beverages']) }}">Food and Beverages</a>
+                            <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>

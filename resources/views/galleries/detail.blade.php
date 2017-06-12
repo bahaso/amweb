@@ -1,177 +1,79 @@
-@extends( 'layouts.default.layout' )
+@extends( 'galleries._layout' )
 
-@section( 'content' )
+@section( 'head_vendor_css' )
+    @parent
+    {!! html_css( 'owl.carousel/dist/assets/owl.carousel.min.css', 'vendor' ) !!}
+@stop
 
+@section( 'foot_vendor_js' )
+    @parent
+    {!! html_js( 'owl.carousel/dist/owl.carousel.min.js', 'vendor' ) !!}
+@stop
+
+@section( 'foot_page_js' )
+    @parent
+    {!! html_js( 'owl-carousel.js' ) !!}
+@stop
+
+@section( 'top_content' )
     @include( '_partials._navbar',
     [
-        'navs' =>
+        'navs' => 
         [
-            [ 'label' => 'Media and Publication', 'url' => route( 'f.galleries.detail' )],
-            [ 'label' => 'Gallery' ]
-        ]
+            [ 
+                'label' => 'Media and Public', 
+                'url' => route( 'f.news.index' ) 
+            ],
+            [ 
+                'label' => 'Gallery', 
+                'url' => route( 'f.galleries.index' ) 
+            ],
+            [
+                'label' => 'Bali'
+            ]
+        ],
+        'no_label' => true
     ])
+@stop
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h4 class="uppercase mb16 fw600">Gallery</h4>
-                </div>
-            </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="image-slider slider-thumb-controls controls-inside">
-                        <ul class="slides">
-                            <li>
-                                {!! html_img( 'img/cover12.jpg', []) !!}
-                            </li>
-                            <li>
-                                {!! html_img( 'img/cover15.jpg', []) !!}
-                            </li>
-                            <li>
-                                {!! html_img( 'img/cover16.jpg', []) !!}
-                            </li>
-                            <li>
-                                {!! html_img( 'img/cover14.jpg', []) !!}
-                            </li>
-                        </ul>
-                    </div>
-                    <!--end of image slider-->
-                </div>
-            </div>
-            <!--end of row-->
+@section( 'rhs_content' )
+
+<div class="wysiwyg aligned">
+    <h1 class="title fw600 min-mb15">
+        Visit Bali, Indonesia for Sun, Sea and Nightlife.
+    </h1>
+    <p class="mb10">
+        Also take a banana boat trip or dance until dawn.
+    </p>
+
+    <a href="{{ route( 'f.galleries.index' ) }}" class="pull-right fw400">
+        Back to Gallery
+    </a>
+    <div class="owl-carousel-gallery mb20"></div>
+    <div class="owl-carousel" 
+        data-items="3" 
+        data-margin="15" 
+        data-loop="true"
+        data-autoplay="true" 
+        data-autoplay-timeout="3000"
+        data-autoplay-hover-pause="true"
+    >
+        <div class="owl-item link-img">
+            {!! html_img( 'img/cover12.jpg', []) !!}
         </div>
-        <!--end of container-->
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h4 class="uppercase mb16">Gallery</h4>
-                    <p class="lead mb64">
-                        A simple lightbox grid with square thumbnails.
-                    </p>
-                </div>
-            </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
-                        <ul>
-                            <li>
-                                <a href="img/cover1.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/cover1.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/home12.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/home12.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/home14.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/home14.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}mg/home14.jpg" />
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/home17.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/home17.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/cover5.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/cover5.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/cover6.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/cover6.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/cover7.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/cover7.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="img/cover8.jpg" data-lightbox="true">
-                                    <div class="background-image-holder">
-                                        {!! html_img( 'img/cover8.jpg',
-                                            [
-                                                'class' => 'background-image'
-                                            ]) !!}
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--end of lightbox gallery-->
-                </div>
-            </div>
-            <!--end of row-->
+        <div class="owl-item link-img">
+            {!! html_img( 'img/cover15.jpg', []) !!}
         </div>
-        <!--end of container-->
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h4 class="uppercase mb16">Instagram Grid</h4>
-                    <p class="lead mb64">
-                        Can be connected with Instagram Account.
-                    </p>
-                </div>
-            </div>
-            <!--end of row-->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="instafeed grid-gallery" data-user-name="mrareweb">
-                        <ul></ul>
-                    </div>
-                </div>
-            </div>
-            <!--end of row-->
+        <div class="owl-item link-img">
+            {!! html_img( 'img/cover16.jpg', []) !!}
         </div>
-        <!--end of container-->
-    </section>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/cover14.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/cover14.jpg', []) !!}
+        </div>
+    </div>
+</div>
 
-    @include( '_partials._sponsors', [ 'class' => 'bg-secondary' ])
 @stop
