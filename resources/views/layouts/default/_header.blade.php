@@ -190,7 +190,7 @@
             </ul>
         </div>
         <!--end of menu module-->
-        <div class="module widget-handle language left">
+        {{--<div class="module widget-handle language left">
             <ul class="menu">
                 <li class="has-dropdown">
                     <a href="#">ENG</a>
@@ -204,7 +204,7 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+        </div>--}}
     </div>
 
 </div>
