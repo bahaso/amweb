@@ -12,6 +12,9 @@
                 <div class="flex-viewport">
                     <ul class="slides">
                         <li>
+                            {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
+                        </li>
+                        <li>
                             {!! html_img( 'img/am2018/partners/logo-kemenkeu.png', []) !!}
                         </li>
                         <li>
