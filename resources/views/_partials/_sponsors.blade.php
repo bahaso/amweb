@@ -12,25 +12,25 @@
                 <div class="flex-viewport">
                     <ul class="slides">
                         <li>
-                            {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
+                            {!! html_img( 'img/am2018/partners/logo-kemenkomar.png', []) !!}
                         </li>
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-kemenkeu.png', []) !!}
                         </li>
                         <li>
-                            {!! html_img( 'img/am2018/partners/logo-kemenkomar.png', []) !!}
+                            {!! html_img( 'img/am2018/partners/logo-bi.png', []) !!}
+                        </li>
+                        <li>
+                            {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
                         </li>
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-worldbank.png', []) !!}
                         </li>
                         <li>
-                            {!! html_img( 'img/am2018/partners/logo-bi.png', []) !!}
+                            {!! html_img( 'img/am2018/partners/logo-vti.png', []) !!}
                         </li>
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-imf.png', []) !!}
-                        </li>
-                        <li>
-                            {!! html_img( 'img/am2018/partners/logo-vti.png', []) !!}
                         </li>
                     </ul>
                 <!--end of logo slider-->
