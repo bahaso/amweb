@@ -11,7 +11,6 @@
         </a>
     </div>
     <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-        <span class="ti-txt-menu">MENU</span> 
         <i class="ti-menu"></i>
     </div>
     <div id="st_menu" class="module-group right">
