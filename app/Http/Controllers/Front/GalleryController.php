@@ -9,8 +9,18 @@ class GalleryController extends BaseController
 		return $this->output( 'galleries.index' );
 	}
 
-	public function detail()
+	public function detail($id, $slug)
 	{
-		return $this->output( 'galleries.detail' );
+		if($id == 1){
+			return $this->output( 'galleries.land_gods' );
+		}else if($id == 2){
+			return $this->output( 'galleries.medan' );
+		}else if($id == 3){
+			return $this->output( 'galleries.voya_indonesia' );
+		}else if($id == 4){
+			return $this->output( 'galleries.yogyakarta' );
+		}else{
+			return $this->output( 'galleries.detail' );
+		}
 	}
 }

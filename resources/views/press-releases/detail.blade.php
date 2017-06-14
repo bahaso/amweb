@@ -14,7 +14,7 @@
                 'url' => route( 'f.press-releases.index' ) 
             ],
             [
-                'label' => 'Indonesia\'s Leading Role', 
+                'label' => 'Indonesia in IMF-WB Spring Meetings 2017', 
             ]
         ],
         'no_label' => true
@@ -25,7 +25,6 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600 no-mb">
-        Press Releases
     </h1>
     <div class="content">
         <table class="table am2018 hr">
@@ -33,36 +32,45 @@
                 <tr>
                     <th width="20%">Title</td>
                     <td>
-                        Panel Discussion: Indonesia's Leading Role in Global Economy
+                        Indonesia in IMF-WB Spring Meetings 2017
                     </td>
                 </tr>
                 <tr>
                     <th>Event</td>
                     <td>
-                        -
+                        IMF-WB Spring Meetings 2017
                     </td>
                 </tr>
                 <tr>
                     <th>Date</td>
                     <td>
-                        May 15, 2017
+                        April 17, 2017
                     </td>
                 </tr>
                 <tr>
                     <th>Source</td>
                     <td>
-                        BI
+                        Ministry of Finance
                     </td>
                 </tr>
                 <tr>
                     <th>Description</td>
                     <td>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Minister of Finance of Republic of Indonesia (RI), Sri Mulyani Indrawati will depart
+
+                        to Washington DC, US in April, 18 2017 for attending IMF – WB 2017 Spring
+
+                        Meetings. The event is going to be commenced in April, 19 to April, 24 2017. There
+
+                        will be many prominent figures participate, such as ministers of finance and
+
+                        central bank governors from all over the world, members of international civil
+
+                        society, academia, and private sectors. Minister of Finance of RI will enact as WB-
+
+                        IMF Development Committee Chair / DC Chair and serve as a member of G-20
+
+                        countries as well as one of World Bank and IMF member countries.
                     </td>
                 </tr>
                 <tr>

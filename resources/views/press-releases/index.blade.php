@@ -33,27 +33,18 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>June 15, 2017</td>
+                    <td>April 17, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.press-releases.detail', [1, 'panel-discussions' ]) }}">
-                            Panel Discussion: Indonesia's Leading Role in Global Economy
+                        <a href="{{ route( 'f.press-releases.detail', [1, 'indonesia-in-IMF-WB-2017' ]) }}">
+                            Indonesia in IMF-WB Spring Meetings 2017
                         </a>
                     </td>
                 </tr>
                 <tr>
-                    <td>May 15, 2017</td>
+                    <td>Juni 13, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.press-releases.detail', [1, 'panel-discussions' ]) }}">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore 
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>May 15, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [1, 'panel-discussions' ]) }}">
-                            Panel Discussion: INdonesia's Leading Role in Global Economy
+                        <a href="{{ route( 'f.press-releases.detail', [2, 'indonesia-menjadi-tuan-rumah' ]) }}">
+                            Indonesia Menjadi Tuan Rumah Pertemuan Ekonomi dan Keuangan Terbesar di Dunia: IMF-World Bank Annual Meetings 2018
                         </a>
                     </td>
                 </tr>

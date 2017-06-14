@@ -77,7 +77,7 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="{{ route( 'f.galleries.detail' ) }}">Gallery</a>
+                        <a href="{{ route( 'f.galleries.index' ) }}">Gallery</a>
                     </li>
                     <li>
                         <a href="#">Seminar Materials</a>

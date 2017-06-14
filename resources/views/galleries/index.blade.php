@@ -23,15 +23,15 @@
     <div class="row mb30">
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail' ) }}">
-                    {!! html_img( 'img/am2018/public/aabbcc.jpg', 
+                <a href="{{ route( 'f.galleries.detail', [ 1, 'land-of-the-gods']) }}">
+                    {!! html_img( 'img/am2018/public/upload/land-gods/Romantic Jimbaran Beach.jpg', 
                     [
                         'w' => 400,
                         'h' => 225
                     ]) !!}
                     <div class="caption">
                         <p>
-                            Visit Bali, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn.
+                            Also known as the Land of the Gods Gallery
                         </p>
                         <p>
                             12 Photos | 23 Views
@@ -42,58 +42,18 @@
         </div>
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail' ) }}">
-                    {!! html_img( 'img/am2018/public/facility-cater.jpg', 
+                <a href="{{ route( 'f.galleries.detail', [ 2, 'medan'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/medan/Samosir Island.jpg', 
                     [
                         'w' => 400,
                         'h' => 225
                     ]) !!}
                     <div class="caption">
                         <p>
-                            Visit Bali, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn.
+                            Medan is best known as the gateway Gallery
                         </p>
                         <p>
-                            12 Photos | 23 Views
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row mb30">
-        <div class="col-sm-6">
-            <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail' ) }}">
-                    {!! html_img( 'img/am2018/public/borobudur.jpg', 
-                    [
-                        'w' => 400,
-                        'h' => 225
-                    ]) !!}
-                    <div class="caption">
-                        <p>
-                            Visit Bali, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn.
-                        </p>
-                        <p>
-                            12 Photos | 23 Views
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail' ) }}">
-                    {!! html_img( 'img/am2018/public/facility-medical.jpg', 
-                    [
-                        'w' => 400,
-                        'h' => 225
-                    ]) !!}
-                    <div class="caption">
-                        <p>
-                            Visit Bali, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn.
-                        </p>
-                        <p>
-                            12 Photos | 23 Views
+                            3 Photos | 17 Views
                         </p>
                     </div>
                 </a>
@@ -103,18 +63,37 @@
     <div class="row mb30">
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail' ) }}">
-                    {!! html_img( 'img/am2018/public/aabbcc.jpg', 
+                <a href="{{ route( 'f.galleries.detail',[ 3, 'voya-to-indonesia'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [1].jpg', 
                     [
                         'w' => 400,
                         'h' => 225
                     ]) !!}
                     <div class="caption">
                         <p>
-                            Visit Bali, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn.
+                            Voya To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018 IMF-World Bank Annual Meetings in Bali
                         </p>
                         <p>
-                            12 Photos | 23 Views
+                            4 Photos | 20 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail', [ 4, 'yogyakarta'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/yogyakarta/Solo Surakarta, The Ellegance Culture of Java.jpg', 
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            Yogyakarta, together with its twin city Surakarta Gallery
+                        </p>
+                        <p>
+                            3 Photos | 19 Views
                         </p>
                     </div>
                 </a>

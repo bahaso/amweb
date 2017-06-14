@@ -711,16 +711,42 @@ section {
 /**
  * MEDIA QUERIES
  */
-@media screen and (max-width: 990px) {
-  /* line 103, ../../../resources/assets/sass/f/main.scss */
+/*text MENU for navigation*/
+/* line 100, ../../../resources/assets/sass/f/main.scss */
+.ti-txt-menu {
+  display: none;
+  float: left;
+  margin: 20px 12px 0 0;
+}
+
+@media screen and (max-width: 1379px) {
+  /* line 109, ../../../resources/assets/sass/f/main.scss */
+  .ti-txt-menu {
+    display: block;
+  }
+
+  /* line 112, ../../../resources/assets/sass/f/main.scss */
+  .module.widget-handle i {
+    font-size: 25px;
+  }
+
+  /* line 118, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 110, ../../../resources/assets/sass/f/main.scss */
+  /* line 124, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
     margin: 20px 0 0;
     border: 0 !important;
+    display: block !important;
+  }
+
+  /* line 132, ../../../resources/assets/sass/f/main.scss */
+  .nav-bar .module-group .module {
+    display: block;
+    float: none;
+    width: 100%;
   }
 }

@@ -46,7 +46,7 @@ Route::group(
 		 * GALLERY
 		 */
 		Route::get( 'galleries', 'GalleryController@index' )->name( 'galleries.index' );
-		Route::get( 'gallery', 'GalleryController@detail' )->name( 'galleries.detail' );
+		Route::get( 'gallery/{id}/{slug}', 'GalleryController@detail' )->name( 'galleries.detail' );
 
 		/**
 		 * ABOUTS

@@ -211,7 +211,7 @@ hr.short-thick {
   -ms-user-select: none;
   user-select: none;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .v-align-children {
     display: block !important;
   }
@@ -309,7 +309,7 @@ h1.large {
   line-height: 80px;
   font-weight: 100;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   h1.large {
     font-size: 56px;
     line-height: 64px;
@@ -1279,7 +1279,7 @@ nav .cart-overview a {
 .offscreen-container.bg-dark .close-nav i {
   color: #fff;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .offscreen-container {
     width: 100vw;
   }
@@ -1292,7 +1292,7 @@ nav .cart-overview a {
     transform: none !important;
   }
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   nav.fixed {
     position: absolute !important;
     opacity: 1 !important;
@@ -1526,7 +1526,7 @@ nav.transparent {
   transform: none;
   visibility: visible;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   nav.transparent .nav-open {
     background: #fff;
   }
@@ -2559,7 +2559,7 @@ button[type="submit"] .form-loading {
 .bg-dark .breadcrumb a {
   color: #fff;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .page-title-4 .breadcrumb,
   .page-title-2 .breadcrumb {
     float: left;
@@ -2630,7 +2630,7 @@ button[type="submit"] .form-loading {
     padding: 24px;
   }
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .feature .icon-lg {
     font-size: 40px;
   }
@@ -3497,7 +3497,7 @@ img {
 .instafeed li img {
   height: auto;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .instafeed.grid-gallery li {
     width: 33.333333%;
   }
@@ -3533,7 +3533,7 @@ img {
     height: 235px;
   }
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .lightbox-grid li {
     width: 33.33333%;
   }
@@ -3603,7 +3603,7 @@ img {
 .flickr-feed li img {
   min-width: 100%;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .flickr-feed li {
     width: 33.33333%;
   }
@@ -4049,7 +4049,7 @@ video {
   color: #fff;
   cursor: pointer;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .modal-video iframe {
     width: 640px;
     height: 360px;
@@ -4405,7 +4405,7 @@ video {
 .image-edge .container div[class*='col-'] {
   position: absolute;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .image-edge .container div[class*='col-'] {
     position: relative;
     top: 0;
@@ -4445,7 +4445,7 @@ video {
 .image-square.right > .content {
   left: 0;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .image-square {
     height: auto;
     max-height: 100000px;
@@ -4716,7 +4716,7 @@ section + .portfolio-pullup {
 .image-bg .countdown {
   color: #fff;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .countdown {
     font-size: 64px;
     line-height: 72px;
@@ -4773,7 +4773,7 @@ section + .portfolio-pullup {
 .twitter-feed.thirds ul {
   overflow: hidden;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .twitter-feed.thirds li {
     width: 50%;
   }
@@ -4791,7 +4791,7 @@ section + .portfolio-pullup {
 .tweets-slider.large .timePosted {
   font-size: 14px;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .tweets-slider.large p {
     font-size: 18px;
     line-height: 24px;
@@ -4890,7 +4890,7 @@ section + .portfolio-pullup {
     padding: 64px 32px;
   }
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .foundry_modal {
     max-width: 80%;
     width: 80%;
@@ -5269,7 +5269,7 @@ footer.bg-dark a {
 .pb240 {
   padding-bottom: 240px;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .mb-s-0 {
     margin-bottom: 0;
   }
@@ -5316,7 +5316,7 @@ footer.bg-dark a {
     margin-bottom: 120px;
   }
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1379px) {
   .mb-sm-0 {
     margin-bottom: 0;
   }

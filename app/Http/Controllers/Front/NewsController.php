@@ -11,6 +11,12 @@ class NewsController extends BaseController
 
 	public function detail( $id, $slug )
 	{
-		return $this->output( 'news.detail' );
+		if($id == 1){
+			return $this->output( 'news.minister_finance' );
+		}else if($id == 2){
+			return $this->output( 'news.student_indonesia' );
+		}else{
+			return $this->output( 'news.detail' );
+		}
 	}
 }

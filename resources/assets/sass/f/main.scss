@@ -96,21 +96,47 @@ $nav-height : 100px;
  * MEDIA QUERIES
  */
 
-@include max-screen( $mq-size-l )
+/*text MENU for navigation*/
+ .ti-txt-menu{
+ 	display: none;
+
+ 	float: left;
+ 	margin: 20px 12px 0 0;
+ }
+
+@include max-screen( $mq-size-xl )
 {
+	.ti-txt-menu{
+		display: block;
+	}
+	.module.widget-handle i{
+		font-size: 25px;
+	}
+
 	#st_menu, 
 	.nav-bar {
 	 	 .module {
 			height : auto;	 	 	
 	 	 }
 	}
-
 	.nav-bar {
 		.module {
 			&.widget-handle.mobile-toggle {
 				margin : 20px 0 0;
 				border : 0 !important;
+				display: block !important;
 			}
 		}
 	}
+
+	.nav-bar .module-group .module{
+		display: block;
+		float: none;
+		width: 100%;		
+	}
+}
+
+@include max-screen( $mq-size-l )
+{
+
 }

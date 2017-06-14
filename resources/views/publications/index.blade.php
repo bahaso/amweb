@@ -33,30 +33,46 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>June 15, 2017</td>
+                    <td>February 21, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.publications.detail', [1, 'panel-discussions' ]) }}">
-                            Panel Discussion: Indonesia's Leading Role in Global Economy
+                        <a href="{{ route( 'f.publications.detail', [5, 'workshop-on-improving' ]) }}">
+                            Workshop on Improving Local Efficiency and Transparency
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>March 30, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.publications.detail', [2, 'focus-group-discussion' ]) }}">
+                            Focus Group Discussion on The Rising of A New World Order
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>April 28, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.publications.detail', [3, 'international-seminar-global' ]) }}">
+                            International Seminar Global Economic Outlook in ASEAN Perspective
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>May 15, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.publications.detail', [1, 'panel-discussions' ]) }}">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore 
+                        <a href="{{ route( 'f.publications.detail', [1, 'economic-panel-discussion-indonesia' ]) }}">
+                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy
                         </a>
                     </td>
                 </tr>
                 <tr>
-                    <td>May 15, 2017</td>
+                    <td>July 12-13, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.publications.detail', [1, 'panel-discussions' ]) }}">
-                            Panel Discussion: INdonesia's Leading Role in Global Economy
+                        <a href="{{ route( 'f.publications.detail', [4, 'joint-imf-indonesia' ]) }}">
+                            Joint IMF-Indonesia High-Level Conference
                         </a>
                     </td>
                 </tr>
+
             </tbody>
         </table>
 
