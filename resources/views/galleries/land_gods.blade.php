@@ -50,49 +50,50 @@
         Back to Gallery
     </a>
     <div class="owl-carousel-gallery mb20"></div>
-    <div class="owl-carousel" 
+    <div class="owl-carousel gl" 
         data-items="3" 
         data-margin="15" 
         data-loop="true"
         data-autoplay="true" 
         data-autoplay-timeout="3000"
         data-autoplay-hover-pause="true"
+        data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/A Refreshing Hot Drink at Kintamani.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-1.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Denpasar Bali Indonesia.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-2.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Find Serenity in Ubud, Bali.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-3.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Nusa Dua, Pure Luxury in Bali Indonesia.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-4.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Romantic Jimbaran Beach.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-5.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Sanur, a Bali Indonesia Village.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-6.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Seminyak, Bali\'s Centre of Life.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-7.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Tanah Lot, Magnificent Balinese Temple in the Open Ocean.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-8.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Trekking up Gunung Agung Bali sacred mountain.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-9.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Uluwatu, Home of the Most Famous Waves in Bali.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-10.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/Visit Kuta Beach, Indonesia for sun, sea, and nightlife. Take a banana boat trip or dance until dawn. Find things to do in this Bali Indonesia beach.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-11.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/land-gods/West Bali National Park- Sanctuary of the Exotic White Bali Starling.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-12.jpg', []) !!}
         </div>
     </div>
 </div>

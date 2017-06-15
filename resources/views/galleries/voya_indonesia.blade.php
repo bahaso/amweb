@@ -50,25 +50,26 @@
         Back to Gallery
     </a>
     <div class="owl-carousel-gallery mb20"></div>
-    <div class="owl-carousel" 
+    <div class="owl-carousel gl" 
         data-items="3" 
         data-margin="15" 
         data-loop="true"
         data-autoplay="true" 
         data-autoplay-timeout="3000"
         data-autoplay-hover-pause="true"
+        data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [1].jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/voya-indonesia/voya-1.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [2].jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/voya-indonesia/voya-2.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [3].jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/voya-indonesia/voya-3.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [4].jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/voya-indonesia/voya-4.jpg', []) !!}
         </div>
     </div>
 </div>

@@ -50,22 +50,23 @@
         Back to Gallery
     </a>
     <div class="owl-carousel-gallery mb20"></div>
-    <div class="owl-carousel" 
+    <div class="owl-carousel gl" 
         data-items="3" 
         data-margin="15" 
         data-loop="true"
         data-autoplay="true" 
         data-autoplay-timeout="3000"
         data-autoplay-hover-pause="true"
+        data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/medan/iew one of the most spectacular Indonesia lakes, Lake Toba. With an island the size of Singapore at its centre.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/medan/medan-1.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/medan/Medan, capital of North Sumatra province is a hive of activities and main gate to fabulous Lake Toba.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/medan/medan-2.jpg', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/medan/Samosir Island.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/medan/medan-3.jpg', []) !!}
         </div>
     </div>
 </div>

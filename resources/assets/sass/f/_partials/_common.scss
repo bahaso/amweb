@@ -595,6 +595,15 @@ $color-tertiary : #323347;
 
 		.owl-carousel {
 			list-style : none;
+
+			&.gl {
+				.owl-item {
+					img { 
+						height : 115px;
+						width  : auto;
+					}
+				}
+			}
 		}
 
 	.cs-tables{

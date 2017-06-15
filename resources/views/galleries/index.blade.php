@@ -24,7 +24,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 1, 'land-of-the-gods']) }}">
-                    {!! html_img( 'img/am2018/public/upload/land-gods/Romantic Jimbaran Beach.jpg', 
+                    {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-5.jpg', 
                     [
                         'w' => 400,
                         'h' => 225
@@ -43,7 +43,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 2, 'medan'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/medan/Samosir Island.jpg', 
+                    {!! html_img( 'img/am2018/public/upload/medan/medan-3.jpg', 
                     [
                         'w' => 400,
                         'h' => 225
@@ -64,7 +64,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail',[ 3, 'voya-to-indonesia'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/voya-indonesia/a. Promotion on the occasion of Indonesia\'s position as host country for the 2018 IMF-World Bank Annual Meetings in Bali [1].jpg', 
+                    {!! html_img( 'img/am2018/public/upload/voya-indonesia/voya-1.jpg', 
                     [
                         'w' => 400,
                         'h' => 225
@@ -83,7 +83,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 4, 'yogyakarta'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/yogyakarta/Solo Surakarta, The Ellegance Culture of Java.jpg', 
+                    {!! html_img( 'img/am2018/public/upload/yogyakarta/yogya-2.jpg', 
                     [
                         'w' => 400,
                         'h' => 225

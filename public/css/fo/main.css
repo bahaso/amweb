@@ -230,7 +230,7 @@ section {
   top: 0;
   bottom: 0;
   padding: 20px 20px;
-  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497258379');
+  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497261534');
   background: rgba(255, 255, 255, 0.85);
 }
 /* line 213, ../../../resources/assets/sass/f/_partials/_common.scss */
@@ -582,22 +582,27 @@ section {
 .owl-carousel {
   list-style: none;
 }
+/* line 601, ../../../resources/assets/sass/f/_partials/_common.scss */
+.owl-carousel.gl .owl-item img {
+  height: 115px;
+  width: auto;
+}
 
-/* line 600, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 609, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables {
   width: 100%;
   border: 1px solid black;
 }
-/* line 604, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 613, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables tbody td {
   text-align: center;
 }
-/* line 608, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 617, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables .yellowed {
   background-color: yellow;
   color: black;
 }
-/* line 613, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 622, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables th {
   border: 1px solid black;
   padding: 12px 18px;
@@ -605,16 +610,16 @@ section {
   text-align: center;
   background-color: #c31818;
 }
-/* line 622, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 631, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables tr {
   text-align: center;
 }
-/* line 625, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 634, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables td {
   border: 1px solid black;
   text-align: center;
 }
-/* line 630, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 639, ../../../resources/assets/sass/f/_partials/_common.scss */
 .cs-tables .col-center {
   text-align: center;
 }
@@ -622,16 +627,16 @@ section {
 /**
  * SPECIFICS
  */
-/* line 639, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 648, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors {
   padding: 40px 0;
 }
-/* line 642, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 651, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors .title {
   margin-bottom: 40px;
   font-weight: 600;
 }
-/* line 648, ../../../resources/assets/sass/f/_partials/_common.scss */
+/* line 657, ../../../resources/assets/sass/f/_partials/_common.scss */
 #st_sponsors .flex-viewport li {
   line-height: 115px;
 }
