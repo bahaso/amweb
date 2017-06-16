@@ -89,7 +89,7 @@
                     <p class="desc">
                         ‘Voyage of Indonesia’ is the activities program covering series of events conducted until the peak event of the Annual Meetings IMF-WB in October, 2018 and aftermath. This program aims to increase the awareness of the 2018 Annual Meetings IMF-WB in Indonesia and to promote Indonesia to delegations attending this event.
                     </p>
-                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti') }}">
+                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti' ) }}">
                         View More
                     </a>
                 </div>

@@ -81,8 +81,20 @@
                         institution were also attending the seminar.
                     </td>
                 </tr>
+               <tr>
+                    <th>Attachment</td>
+                    <td>
+                        <a href="{{ asset( 'uploads/public/International Seminar Global Economic Outlook in ASEAN Perspective.pdf' ) }}" class="txt-underline">
+                           International Seminar Global Economic Outlook in ASEAN Perspective
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
+
+        <a href="{{ asset( 'uploads/public/International Seminar Global Economic Outlook in ASEAN Perspective.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+            Download Attachment
+        </a>
     </div>
 </section>
 

@@ -230,7 +230,7 @@ section {
   top: 0;
   bottom: 0;
   padding: 20px 20px;
-  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497261534');
+  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497422334');
   background: rgba(255, 255, 255, 0.85);
 }
 /* line 213, ../../../resources/assets/sass/f/_partials/_common.scss */
@@ -697,18 +697,22 @@ section {
   *zoom: 1;
   *display: inline;
 }
-/* line 77, ../../../resources/assets/sass/f/main.scss */
-#st_foot_contact .value {
-  margin: 0 0 0 40px;
+/* line 78, ../../../resources/assets/sass/f/main.scss */
+#st_foot_contact .lbl {
+  width: 30%;
+}
+/* line 79, ../../../resources/assets/sass/f/main.scss */
+#st_foot_contact .lbl.full {
+  width: auto;
 }
 
-/* line 82, ../../../resources/assets/sass/f/main.scss */
+/* line 89, ../../../resources/assets/sass/f/main.scss */
 #copyright {
   color: #FFF;
   text-align: center;
 }
 
-/* line 89, ../../../resources/assets/sass/f/main.scss */
+/* line 96, ../../../resources/assets/sass/f/main.scss */
 .menu li ul {
   background: #405767;
 }
@@ -717,7 +721,7 @@ section {
  * MEDIA QUERIES
  */
 /*text MENU for navigation*/
-/* line 100, ../../../resources/assets/sass/f/main.scss */
+/* line 107, ../../../resources/assets/sass/f/main.scss */
 .ti-txt-menu {
   display: none;
   float: left;
@@ -725,30 +729,30 @@ section {
 }
 
 @media screen and (max-width: 1379px) {
-  /* line 109, ../../../resources/assets/sass/f/main.scss */
+  /* line 116, ../../../resources/assets/sass/f/main.scss */
   .ti-txt-menu {
     display: block;
   }
 
-  /* line 112, ../../../resources/assets/sass/f/main.scss */
+  /* line 119, ../../../resources/assets/sass/f/main.scss */
   .module.widget-handle i {
     font-size: 25px;
   }
 
-  /* line 118, ../../../resources/assets/sass/f/main.scss */
+  /* line 125, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 124, ../../../resources/assets/sass/f/main.scss */
+  /* line 131, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
     margin: 20px 0 0;
     border: 0 !important;
     display: block !important;
   }
 
-  /* line 132, ../../../resources/assets/sass/f/main.scss */
+  /* line 139, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module-group .module {
     display: block;
     float: none;

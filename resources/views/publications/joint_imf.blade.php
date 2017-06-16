@@ -67,8 +67,20 @@
                         raised that matters for development and growth, but also how it is raised.
                     </td>
                 </tr>
+                <tr>
+                    <th>Attachment</td>
+                    <td>
+                        <a href="{{ asset( 'uploads/public/JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017.pdf' ) }}" class="txt-underline">
+                            JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
+
+        <a href="{{ asset( 'uploads/public/JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+            Download Attachment
+        </a>
     </div>
 </section>
 

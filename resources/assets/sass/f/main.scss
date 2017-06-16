@@ -74,8 +74,15 @@ $nav-height : 100px;
 			font-weight : 600;
 			@include inline-block( middle );
 		}
+
+		.lbl {
+			&.full{
+				width : auto;
+			}
+			width : 30%
+		}
 		.value {
-			margin 		: 0 0 0 40px;
+		
 		}
 	}
 

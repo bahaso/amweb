@@ -80,8 +80,20 @@
                         Ph.D. (Lecturers in FEB UI).
                     </td>
                 </tr>
+                <tr>
+                    <th>Attachment</td>
+                    <td>
+                        <a href="{{ asset( 'uploads/public/Economic Panel Discussion-Indonesia\'s Leading Role in Global Economy.pdf' ) }}" class="txt-underline">
+                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy
+                        </a>
+                    </td>
+                </tr>
             </tbody>
         </table>
+
+        <a href="{{ asset( 'uploads/public/Economic Panel Discussion-Indonesia\'s Leading Role in Global Economy.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+            Download Attachment
+        </a>
     </div>
 </section>
 

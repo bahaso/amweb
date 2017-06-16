@@ -25,7 +25,7 @@
     </h1>
     <div class="content">
         <p>
-            {!! html_img( 'img/am2018/public/indonesia.jpg',
+            {!! html_img( 'img/am2018/public/Indonesia.jpg',
             [
                 'w' => '100%',
                 'h' => 'auto'
