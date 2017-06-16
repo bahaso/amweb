@@ -51,7 +51,7 @@
 
             <section id="about_imf" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">Annual Meeting IMF-WB in Indonesia</h4>
+                    <h4 class="title mb40">Annual Meetings IMF-WB in Indonesia</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/amf2018-logo.jpg', 
                             [ 
