@@ -67,7 +67,7 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Press Release Rakor_Panitia_Nasional_13_Juni_2017.pdf' ) }}" class="txt-underline">
+                        <a href="{{ asset( 'uploads/public/Press-Release-Rakor-Panitia-Nasional.pdf' ) }}" class="txt-underline">
                             Press Release Rakor Panitia Nasional 13 Juni 2017.pdf
                         </a>
                     </td>
@@ -75,7 +75,7 @@
             </tbody>
         </table>
 
-        <a href="{{ asset( 'uploads/public/Press Release Rakor_Panitia_Nasional_13_Juni_2017.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/Press-Release-Rakor-Panitia-Nasional.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

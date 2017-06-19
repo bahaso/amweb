@@ -83,15 +83,15 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Economic Panel Discussion-Indonesia\'s Leading Role in Global Economy.pdf' ) }}" class="txt-underline">
-                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy
+                        <a href="{{ asset( 'uploads/public/Economic-Panel-Discussion-Indonesia.pdf' ) }}" class="txt-underline">
+                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy.pdf
                         </a>
                     </td>
                 </tr>
             </tbody>
         </table>
 
-        <a href="{{ asset( 'uploads/public/Economic Panel Discussion-Indonesia\'s Leading Role in Global Economy.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/Economic-Panel-Discussion-Indonesia.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

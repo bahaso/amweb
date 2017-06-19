@@ -84,15 +84,15 @@
                <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/International Seminar Global Economic Outlook in ASEAN Perspective.pdf' ) }}" class="txt-underline">
-                           International Seminar Global Economic Outlook in ASEAN Perspective
+                        <a href="{{ asset( 'uploads/public/International-Seminar-Global-Economic.pdf' ) }}" class="txt-underline">
+                           International Seminar Global Economic Outlook in ASEAN Perspective.pdf
                         </a>
                     </td>
                 </tr>
             </tbody>
         </table>
 
-        <a href="{{ asset( 'uploads/public/International Seminar Global Economic Outlook in ASEAN Perspective.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/International-Seminar-Global-Economic.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

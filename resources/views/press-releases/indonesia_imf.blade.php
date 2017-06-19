@@ -76,7 +76,7 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Press Release IMF-World Bank Spring Meetings 2017 - Word.pdf' ) }}" class="txt-underline">
+                        <a href="{{ asset( 'uploads/public/Press-Release-IMF.pdf' ) }}" class="txt-underline">
                             Press Release IMF-World Bank Spring Meetings 2017.pdf
                         </a>
                     </td>
@@ -84,7 +84,7 @@
             </tbody>
         </table>
 
-        <a href="{{ asset( 'uploads/public/Press Release IMF-World Bank Spring Meetings 2017 - Word.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/Press-Release-IMF.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

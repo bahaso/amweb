@@ -64,14 +64,14 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Focus Group Discussion on The Rising of A New World Order.pdf' ) }}" class="txt-underline">
-                            Focus Group Discussion on The Rising of A New World Order
+                        <a href="{{ asset( 'uploads/public/Focus-Group-Discussion.pdf' ) }}" class="txt-underline">
+                            Focus Group Discussion on The Rising of A New World Order.pdf
                         </a>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <a href="{{ asset( 'uploads/public/Focus Group Discussion on The Rising of A New World Order.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/Focus-Group-Discussion.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

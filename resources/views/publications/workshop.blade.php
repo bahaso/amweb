@@ -65,14 +65,14 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Workshop on Improving Local Efficiency and Transparency.pdf' ) }}" class="txt-underline">
-                           Workshop on Improving Local Efficiency and Transparency
+                        <a href="{{ asset( 'uploads/public/Workshop-on-Improving.pdf' ) }}" class="txt-underline">
+                           Workshop on Improving Local Efficiency and Transparency.pdf
                         </a>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <a href="{{ asset( 'uploads/public/Workshop on Improving Local Efficiency and Transparency.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/Workshop-on-Improving.pdf' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>
