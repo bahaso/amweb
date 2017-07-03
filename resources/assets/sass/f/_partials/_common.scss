@@ -311,6 +311,12 @@ $color-tertiary : #323347;
 						font-weight : 600;
 						@include opacity(1);
 					}
+
+					ul{
+						.lbl{
+							@include opacity(0.5);
+						}
+					}
 				}
 
 				ul {

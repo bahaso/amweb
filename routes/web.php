@@ -42,6 +42,9 @@ Route::group(
 		Route::get( 'press-releases', 'PressReleaseController@index' )->name( 'press-releases.index' );
 		Route::get( 'press-releases/{id}/{slug}', 'PressReleaseController@detail' )->name( 'press-releases.detail' );
 
+		Route::get( 'indonesia-updates', 'IndonesiaUpdatesController@index' )->name( 'indonesia_updates.index' );
+		Route::get( 'indonesia-updates/{id}/{slug}', 'IndonesiaUpdatesController@detail' )->name( 'indonesia_updates.detail' );
+
 		/**
 		 * GALLERY
 		 */

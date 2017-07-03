@@ -84,7 +84,7 @@
                     <th>Attachment</td>
                     <td>
                         <a href="{{ asset( 'uploads/public/Economic-Panel-Discussion-Indonesia.pdf' ) }}" class="txt-underline">
-                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy.pdf
+                            Economic Panel Discussion-Indonesia’s Leading Role in Global Economy
                         </a>
                     </td>
                 </tr>

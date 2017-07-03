@@ -65,7 +65,7 @@
                     <th>Attachment</td>
                     <td>
                         <a href="{{ asset( 'uploads/public/Focus-Group-Discussion.pdf' ) }}" class="txt-underline">
-                            Focus Group Discussion on The Rising of A New World Order.pdf
+                            Focus Group Discussion on The Rising of A New World Order
                         </a>
                     </td>
                 </tr>
