@@ -66,7 +66,7 @@
                     <th>Attachment</td>
                     <td>
                         <a href="{{ asset( 'uploads/public/Workshop-on-Improving.pdf' ) }}" class="txt-underline">
-                           Workshop on Improving Local Efficiency and Transparency
+                           Workshop on Improving Local Efficiency and Transparency.pdf
                         </a>
                     </td>
                 </tr>

@@ -71,7 +71,7 @@
                     <th>Attachment</td>
                     <td>
                         <a href="{{ asset( 'uploads/public/JOINT-IMF-INDONESIA.pdf' ) }}" class="txt-underline">
-                            JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017
+                            JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017.pdf
                         </a>
                     </td>
                 </tr>
