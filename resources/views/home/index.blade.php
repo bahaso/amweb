@@ -184,7 +184,7 @@
                                     <p>
                                 	   International Development Association (IDA18) 4th Replenishment Meeting in Yogyakarta
                                     </p>
-                                    <a href="#" class="btn-link">Learn More</a>
+                                    <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
                                 </span>
                             </div>
                         </div>
