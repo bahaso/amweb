@@ -29,7 +29,7 @@
     </h1>
     <div class="content">
         <p>
-            {!! html_img( 'img/am2018/public/indonesia-updates-6.jpg',
+            {!! html_img( 'img/am2018/public/indonesia-updates-6.JPG',
             [
                 'w' => '100%',
                 'h' => 'auto'
