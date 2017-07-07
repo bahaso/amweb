@@ -205,7 +205,7 @@
                                                 <p>
                                                     Indonesia continues to maintain a strong and stable economic growth.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 2, 'Economic Factor' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
