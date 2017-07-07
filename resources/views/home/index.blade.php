@@ -170,24 +170,125 @@
                     </div>
                     <!--end of snippet-->
                     <div class="col-sm-4 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32 ">
-
-				            {!! html_img( 'img/am2018/public/borobudur-2.jpg', 
-				                [ 
-				                	'w'		=> 408,
-				                	'h'		=> 300,
-				                    'class' => 'img-home' 
-				                ]) !!}
-                            <div class="caption text-center">
-                            	<h4>INDONESIA UPDATE</h4>
-                                <span class="text-info">
-                                    <p>
-                                	   International Development Association (IDA18) 4th Replenishment Meeting in Yogyakarta
-                                    </p>
-                                    <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
-                                </span>
-                            </div>
+                        <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
+                            <ul class="slides">
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-1.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Institutional and Governance Effectiveness: Accelerated Reforms Agenda with Institutional Improvement</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Indonesia is committed to accelerate its reform agenda as is shown by its institutional improvement.
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-2.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Economic Factor: Strong and Stable Growth Prospects Remain Intact</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Indonesia continues to maintain a strong and stable economic growth.
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-3.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">External Factor: Improved External Resilience</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Dealing with external shocks, Indonesia improved its resilience.
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-4.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Fiscal Performance and Flexibility: More Fiscal Stimulus with Prudent Fiscal Management</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Indonesia keeps driving for more fiscal stimulus with prudent fiscal policy.
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-5.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Monetary and Financial Factor: Credible Monetary Policy Track Record and Favourable Financial Sector</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Through Bank Indonesia Policy Mix, Indonesia has built a credible monetary policy track record.
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-6.JPG', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Progressive Infrastructure Development: Strong Commitment on Acceleration of Infrastructure Provision</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    The government has enacted various reforms to accelerate infrastructure provision, they are i) fiscal reforms...
+                                                </p>
+                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
+                        
                     </div>
                     <!--end of snippet-->
                 </div>

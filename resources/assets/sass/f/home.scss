@@ -59,6 +59,18 @@
 		.flex-direction-nav {
 			@include opacity( 0.8 );
 		}
+
+		&.id-update {
+			.flex-direction-nav {
+				a.flex-next {
+					right : 16px;
+				}
+			}
+		}
+
+		.subtitle {
+			line-height : 1.7; 
+		}
 	}
 
 	.image-caption {
