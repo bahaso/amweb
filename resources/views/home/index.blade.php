@@ -186,7 +186,7 @@
                                                 <p>
                                                     Indonesia is committed to accelerate its reform agenda as is shown by its institutional improvement.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 1, 'Institutional-and-Government-Effectiveness' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
