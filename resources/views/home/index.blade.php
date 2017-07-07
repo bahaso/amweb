@@ -186,7 +186,7 @@
                                                 <p>
                                                     Indonesia is committed to accelerate its reform agenda as is shown by its institutional improvement.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 1, 'Institutional-and-Government-Effectiveness' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@
                                                 <p>
                                                     Indonesia continues to maintain a strong and stable economic growth.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 2, 'Economic Factor' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
@@ -224,7 +224,7 @@
                                                 <p>
                                                     Dealing with external shocks, Indonesia improved its resilience.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 3, 'External Factorr' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
@@ -243,7 +243,7 @@
                                                 <p>
                                                     Indonesia keeps driving for more fiscal stimulus with prudent fiscal policy.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 4, 'Fiscal Performance and Flexibility' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
@@ -262,7 +262,7 @@
                                                 <p>
                                                     Through Bank Indonesia Policy Mix, Indonesia has built a credible monetary policy track record.
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 5, 'Monetary and Financial Factor' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
@@ -281,7 +281,7 @@
                                                 <p>
                                                     The government has enacted various reforms to accelerate infrastructure provision, they are i) fiscal reforms...
                                                 </p>
-                                                <a href="{{ route( 'f.indonesia_updates.index') }}" class="btn-link">Learn More</a>
+                                                <a href="{{ route( 'f.indonesia_updates.detail', [ 6, 'Progressive Infrastructure Development' ]) }}" class="btn-link">Learn More</a>
                                             </span>
                                         </div>
                                     </div>
