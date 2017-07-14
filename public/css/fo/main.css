@@ -2,6 +2,7 @@
 /* Compass plugins */
 /* gem install compass-rgbapng */
 /* RGBAPNG Configuration */
+/* COLOR LIST; */
 /* MEDIA QUERIES */
 /**
  * TAGS
@@ -230,7 +231,7 @@ section {
   top: 0;
   bottom: 0;
   padding: 20px 20px;
-  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497422334');
+  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497258379');
   background: rgba(255, 255, 255, 0.85);
 }
 /* line 213, ../../../resources/assets/sass/f/_partials/_common.scss */
@@ -648,51 +649,68 @@ section {
 
 /* line 5, ../../../resources/assets/sass/f/main.scss */
 #st_top_header .sub {
-  color: #9EAAB5;
+  /*color  	  : #9EAAB5;*/
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
-/* line 12, ../../../resources/assets/sass/f/main.scss */
+/*default 100px*/
+/* line 13, ../../../resources/assets/sass/f/main.scss */
 .nav-bar {
-  height: 100px;
-  max-height: 100px;
+  height: 70px;
+  max-height: 70px;
   /**
    * LEFT
    */
 }
-/* line 16, ../../../resources/assets/sass/f/main.scss */
+/* line 17, ../../../resources/assets/sass/f/main.scss */
 .nav-bar .module {
-  height: 100px;
+  height: 70px;
 }
-/* line 23, ../../../resources/assets/sass/f/main.scss */
+/* line 24, ../../../resources/assets/sass/f/main.scss */
 .nav-bar a {
   height: auto;
 }
-/* line 27, ../../../resources/assets/sass/f/main.scss */
+/* line 28, ../../../resources/assets/sass/f/main.scss */
 .nav-bar .logo-link {
-  margin: 16px 0 0;
+  margin: 3px 0 0;
+  /*default 16px top*/
 }
 
 /**
  * RIGHT
  */
-/* line 35, ../../../resources/assets/sass/f/main.scss */
+/* line 36, ../../../resources/assets/sass/f/main.scss */
 #st_menu {
   /* cllass in header blade top v-align-children*/
-  margin: 20px 0 0;
+  margin: 6px 0 0;
+  /*default 20px top - same with mobile menu*/
 }
-/* line 39, ../../../resources/assets/sass/f/main.scss */
+/* line 40, ../../../resources/assets/sass/f/main.scss */
 #st_menu .module {
   height: 55px;
 }
 
-/* line 67, ../../../resources/assets/sass/f/main.scss */
+/*Menu header normal*/
+/* line 48, ../../../resources/assets/sass/f/main.scss */
+.menu li a {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+/* line 69, ../../../resources/assets/sass/f/main.scss */
+.menu > li ul a {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+/* line 83, ../../../resources/assets/sass/f/main.scss */
 #st_footer {
   padding: 40px 0 30px;
   background-color: #486174;
 }
 
-/* line 72, ../../../resources/assets/sass/f/main.scss */
+/* line 88, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl,
 #st_foot_contact .value {
   font-weight: 600;
@@ -702,22 +720,22 @@ section {
   *zoom: 1;
   *display: inline;
 }
-/* line 78, ../../../resources/assets/sass/f/main.scss */
+/* line 94, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl {
   width: 30%;
 }
-/* line 79, ../../../resources/assets/sass/f/main.scss */
+/* line 95, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl.full {
   width: auto;
 }
 
-/* line 89, ../../../resources/assets/sass/f/main.scss */
+/* line 105, ../../../resources/assets/sass/f/main.scss */
 #copyright {
   color: #FFF;
   text-align: center;
 }
 
-/* line 96, ../../../resources/assets/sass/f/main.scss */
+/* line 112, ../../../resources/assets/sass/f/main.scss */
 .menu li ul {
   background: #405767;
 }
@@ -726,7 +744,7 @@ section {
  * MEDIA QUERIES
  */
 /*text MENU for navigation*/
-/* line 107, ../../../resources/assets/sass/f/main.scss */
+/* line 123, ../../../resources/assets/sass/f/main.scss */
 .ti-txt-menu {
   display: none;
   float: left;
@@ -734,30 +752,30 @@ section {
 }
 
 @media screen and (max-width: 1379px) {
-  /* line 116, ../../../resources/assets/sass/f/main.scss */
+  /* line 132, ../../../resources/assets/sass/f/main.scss */
   .ti-txt-menu {
     display: block;
   }
 
-  /* line 119, ../../../resources/assets/sass/f/main.scss */
+  /* line 135, ../../../resources/assets/sass/f/main.scss */
   .module.widget-handle i {
     font-size: 25px;
   }
 
-  /* line 125, ../../../resources/assets/sass/f/main.scss */
+  /* line 141, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 131, ../../../resources/assets/sass/f/main.scss */
+  /* line 147, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
-    margin: 20px 0 0;
+    margin: 6px 0 0;
     border: 0 !important;
     display: block !important;
   }
 
-  /* line 139, ../../../resources/assets/sass/f/main.scss */
+  /* line 155, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module-group .module {
     display: block;
     float: none;

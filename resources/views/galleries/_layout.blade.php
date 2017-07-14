@@ -5,11 +5,11 @@
         <a href="{{ route( 'f.news.index' ) }}" class="lbl">
             News
         </a>
-            <li class="{{ isActiveRoute( 'f.indonesia_updates.*' ) }}">
-                <a href="{{route( 'f.indonesia_updates.index' )}}" class="lbl">
-                    Indonesia Updates
-                </a>
-            </li>
+    </li>
+    <li class="{{ isActiveRoute( 'f.indonesia_updates.*' ) }}">
+        <a href="{{route( 'f.indonesia_updates.index' )}}" class="lbl">
+            Indonesia Updates
+        </a>
     </li>
     <li class="{{ isActiveRoute( 'f.galleries.*' ) }}">
         <a href="{{ route( 'f.galleries.index' ) }}" class="lbl">

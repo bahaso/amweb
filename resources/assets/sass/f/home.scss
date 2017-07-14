@@ -1,5 +1,32 @@
 @import "_partials/base";
 
+/*for text overlay position*/
+.background-text-overlay{
+	position 	: absolute !important;
+	z-index 	: 1000;
+	width 		: 100%;
+	bottom  	: 275px;
+	padding  	: 15px 60px 5px 50px;
+
+	@include rgba-background(rgba(0, 0, 0, 0.4));
+}
+
+/*for text overlay in slideshow*/
+#slideshow{
+	.image-bg.bg-light h2{
+		color: $color-white;
+		font-weight : bold;
+		margin : 0;
+	}
+	.image-bg.bg-light p{
+		color: $color-white;
+		font-weight : bold;
+		font-size 	: rem(18px);
+		padding 	: 4px 0 0; 
+	}
+
+}
+
 #about {
 	padding: 40px 0 10px;
 

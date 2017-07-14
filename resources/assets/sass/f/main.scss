@@ -3,12 +3,13 @@
 
 #st_top_header {
 	.sub{
-		color  	  : #9EAAB5;
-		font-size : rem(15px);
+		/*color  	  : #9EAAB5;*/
+		font-size  : rem(15px);
+		font-weight: bold;
 	}
 }
 
-$nav-height : 100px;
+$nav-height : 70px; /*default 100px*/
 .nav-bar {
 	height  	: $nav-height;
 	max-height  : $nav-height; 
@@ -25,7 +26,7 @@ $nav-height : 100px;
 		}
 
 		.logo-link {
-			margin : 16px 0 0;
+			margin : 3px 0 0; /*default 16px top*/
 		}
 }
 
@@ -34,12 +35,22 @@ $nav-height : 100px;
 		 */
 		#st_menu {
 			/* cllass in header blade top v-align-children*/
-			margin : 20px 0 0;
+			margin : 6px 0 0; /*default 20px top - same with mobile menu*/
 
 			.module {
 				height : 55px;
 			}
 		}
+
+/*Menu header normal*/
+.menu{
+	li{
+		a{
+			opacity 	: 0.8;
+			font-weight : bold;			
+		}
+	}
+}
 
 .menu{
 	&> li {
@@ -53,6 +64,11 @@ $nav-height : 100px;
 			}
 
 			&:last-child {
+			}
+
+			a{
+				opacity 	: 0.8;
+				font-weight : bold;
 			}
 		}
 
@@ -129,7 +145,7 @@ $nav-height : 100px;
 	.nav-bar {
 		.module {
 			&.widget-handle.mobile-toggle {
-				margin : 20px 0 0;
+				margin : 6px 0 0;
 				border : 0 !important;
 				display: block !important;
 			}

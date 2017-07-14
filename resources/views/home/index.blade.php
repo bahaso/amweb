@@ -17,6 +17,14 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
+                <div class="background-text-overlay">
+                    <h2>
+                        Bali
+                    </h2>
+                    <p>
+                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                    </p>
+                </div>
             </li>
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
@@ -24,6 +32,14 @@
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
+                </div>
+                <div class="background-text-overlay">
+                    <h2>
+                        Borobudur
+                    </h2>
+                    <p>
+                        Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia, as well as the world's largest Buddhist temple and also one of the greatest Buddhist monuments in the world..
+                    </p>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -33,6 +49,14 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
+                <div class="background-text-overlay">
+                    <h2>
+                        Wonderful Indonesia
+                    </h2>
+                    <p>
+                        Straddling the equator, situated between the continents of Asia and Australia and between the Pacific and the Indian Oceans, Indonesia has many magnificent islands waiting to be explored.
+                    </p>
+                </div>
             </li>
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
@@ -40,6 +64,14 @@
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
+                </div>
+                <div class="background-text-overlay">
+                    <h2>
+                        Bali
+                    </h2>
+                    <p>
+                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                    </p>
                 </div>
             </li>
         </ul>
@@ -104,43 +136,42 @@
 	        <section id="news" class="row">
                 <div class="row masonry fadeIn">
                     <div class="col-sm-4 post-snippet masonry-item">
-
-                        <div class="logo-carousel" data-max-items="1" data-direction-nav="true">
+                        <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
                                 <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 img-home">
-            				            {!! html_img( 'img/am2018/public/IMF-conference.jpg', 
-            				                [ 
-            				                	'w'		=> 408,
-            				                	'h'		=> 300,
-            				                    'class' => 'img-home' 
-            				                ]) !!}
-                                        <div class="caption text-center">
-                                        	<h4>Latest News | April 16th 2018</h4>
-                                            <span class="text-info">
-                                                <p>
-                                            	Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
-                                                </p>
-                                                <a href="#" class="btn-link">View More</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 img-home">
-                                        {!! html_img( 'img/am2018/public/IMF-conference.jpg', 
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/minister-of-finance.JPG', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
                                                 'class' => 'img-home' 
                                             ]) !!}
                                         <div class="caption text-center">
-                                            <h4>Latest News | April 16th 2018</h4>
+                                            <h4 class="subtitle">Minister of Finance Chaired Development Committee of IMF-World Bank Spring Meetings</h4>
                                             <span class="text-info">
                                                 <p>
-                                                Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia
+                                                    Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia.
                                                 </p>
-                                                <a href="#" class="btn-link">View More</a>
+                                                <a href="{{ route( 'f.news.detail', [ 1, 'minister-of-finance' ]) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    {!! html_img( 'img/am2018/public/sri-mulyani.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Students in Indonesia Know That For Better Basic Services</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    “I want my future children to have better health and education services,” says Erikson Wijaya.
+                                                </p>
+                                                <a href="{{ route( 'f.news.detail', [ 2, 'students-in-indonesia' ]) }}" class="btn-link">View More</a>
                                             </span>
                                         </div>
                                     </div>
