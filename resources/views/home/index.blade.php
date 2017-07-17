@@ -140,7 +140,7 @@
                             <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/minister-of-finance.JPG', 
+                                        {!! html_img( 'img/am2018/public/minister-of-finance.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
