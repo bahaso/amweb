@@ -322,6 +322,28 @@ $(document).ready(function() {
 
     }
 
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+            return this;
+        }
+    });
+
+    function prepareAnim( slider )
+    {
+        var $container = slider.find( ".bg-text-wrapper" );
+        $container.height( slider.height() );
+
+        var $anim = null;
+        if( $anim = slider.find(".background-text-overlay") )
+        {
+            $anim.show();
+        }
+    }
+
     // Image Sliders
     if($('.slider-all-controls, .slider-paging-controls, .slider-arrow-controls, .slider-thumb-controls, .logo-carousel').length){
         $('.slider-all-controls').flexslider({
@@ -329,6 +351,11 @@ $(document).ready(function() {
                 if(slider.find('.slides li:first-child').find('.fs-vid-background video').length){
                    slider.find('.slides li:first-child').find('.fs-vid-background video').get(0).play(); 
                 }
+
+                prepareAnim( slider );
+            },
+            before : function( slider ){
+                $( ".slider-all-controls" ).find( ".background-text-overlay" ).hide();
             },
             after: function(slider){
                 if(slider.find('.fs-vid-background video').length){
@@ -339,6 +366,8 @@ $(document).ready(function() {
                         slider.find('.flex-active-slide').find('.fs-vid-background video').get(0).play();
                     }
                 }
+
+                prepareAnim( slider );
             }
         });
         $('.slider-paging-controls').flexslider({

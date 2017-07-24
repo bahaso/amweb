@@ -3,6 +3,7 @@
 @section( 'head_page_css' )
 	@parent
 	{!! html_css( 'home.css', 'css/fo' ) !!}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 @stop 
 
 @section( 'content' )
@@ -17,13 +18,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Bali
-                    </h2>
-                    <p>
-                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="bottom:50px;right:250px">
+                        <h2 class="txt-title animate">
+                            Bali
+                        </h2>
+                        <p class="txt-desc animate">
+                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -33,13 +37,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Borobudur
-                    </h2>
-                    <p>
-                        Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia, as well as the world's largest Buddhist temple and also one of the greatest Buddhist monuments in the world..
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="top:50px;left:100px;">
+                        <h2 class="txt-title animate dark">
+                            Borobudur
+                        </h2>
+                        <p class="txt-desc animate dark">
+                            Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia,<br/> as well as the world's largest Buddhist temple and also one<br/> of the greatest Buddhist monuments in the world..
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -49,13 +56,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Wonderful Indonesia
-                    </h2>
-                    <p>
-                        Straddling the equator, situated between the continents of Asia and Australia and between the Pacific and the Indian Oceans, Indonesia has many magnificent islands waiting to be explored.
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="right:120px;top:50px">
+                        <h2 class="txt-title animate dark ta-right">
+                            Wonderful Indonesia
+                        </h2>
+                        <p class="txt-desc animate dark ta-right">
+                            Straddling the equator, situated between <br/>the continents of Asia and Australia and between the Pacific and the Indian Oceans, <br/>Indonesia has many magnificent islands waiting to be explored.
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -65,13 +75,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Bali
-                    </h2>
-                    <p>
-                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="left:0;right:0;bottom:100px;">
+                        <h2 class="txt-title animate ta-center">
+                            Bali
+                        </h2>
+                        <p class="txt-desc animate ta-center">
+                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                        </p>
+                    </div>
                 </div>
             </li>
         </ul>
