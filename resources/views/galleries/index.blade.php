@@ -71,7 +71,7 @@
                     ]) !!}
                     <div class="caption">
                         <p>
-                            Voya To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018 IMF-World Bank Annual Meetings in Bali
+                            Voya To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018
                         </p>
                         <p>
                             4 Photos | 20 Views
@@ -100,6 +100,29 @@
             </div>
         </div>
     </div>
+
+    <div class="row mb30">
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 5, 'imf-tax-Conference'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/imf-tax-conference/05R9823.jpg', 
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                           Joint IMF-Indonesia High-Level Conference, International Taxation in Asia
+                        </p>
+                        <p>
+                            10 Photos | 72 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 @stop

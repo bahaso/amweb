@@ -19,6 +19,8 @@ class GalleryController extends BaseController
 			return $this->output( 'galleries.voya_indonesia' );
 		}else if($id == 4){
 			return $this->output( 'galleries.yogyakarta' );
+		}else if($id == 5){
+			return $this->output( 'galleries.imf_tax' );
 		}else{
 			return $this->output( 'galleries.detail' );
 		}
