@@ -92,17 +92,14 @@
                         Discover Indonesia
                     </a>
                     <ul>
-<!--                         <li>
-                            <a href="{{ route( 'f.discovers.indonesia' ) }}">5 Destinasi Pariwisata Indonesia</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.discovers.bali' ) }}">11 Destinasi Bali</a>
-                        </li> -->
                         <li>
                             <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia in Brief</a>
                         </li>
-                        <li>
+<!--                         <li>
                             <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
+                        </li> -->
+                        <li>
+                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover Indonesia', 'Wonderful Indonesia']) }}">Wonderful Indonesia</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.discovers.bali', ['Discover Indonesia', 'Bali']) }}">Bali</a>

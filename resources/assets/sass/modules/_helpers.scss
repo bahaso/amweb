@@ -24,9 +24,9 @@
     }
 }
 
-@mixin bg-img( $filename, $width : 0, $height : 0, $path : $img-site )
+@mixin bg-img( $filename, $width : 0, $height : 0, $repeat : no-repeat, $path : $img-site )
 {
-    background : url( $path + $filename ) no-repeat;
+    background : url( $path + $filename ) $repeat;
     
     @if $width != 0 {
         width      : $width;

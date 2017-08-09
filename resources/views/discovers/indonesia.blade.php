@@ -1,5 +1,10 @@
 @extends( 'discovers._layout' )
 
+@section( 'head_page_css' )
+    @parent
+    {!! html_css( 'discover-indonesia.css', 'css/fo' ) !!}
+@stop
+
 @section( 'top_content' )
     @include( '_partials._navbar',
     [
@@ -20,125 +25,77 @@
 @section( 'rhs_content' )
 
 <section class="wysiwyg">
-    <h1 class="title fw600">
+<!--     <h1 class="title fw600">
         Indonesia
-    </h1>
+    </h1> -->
     <div class="content">
         <p>
-            {!! html_img( 'img/am2018/public/Indonesia.jpg',
+            {!! html_img( 'img/am2018/public/indonesia-in-brief.jpg',
             [
                 'w' => '100%',
                 'h' => 'auto'
             ]) !!}
         </p>
-        <p>
-            The Republic of Indonesia is the largest archipelago in the world comprising 13,466
 
-            large and small tropical islands fringed with white sandy beaches, many still
 
-            uninhabited and a number even still unnamed. Straddling the equator, situated between
+        <div class="mix-color-title">
+            <span class="mix-color-bar left"></span>
+            <span class="mct-row fm-indonesiana">
+                indonesia
+            </span>
+            <span class="mix-color-bar right"></span>
+        </div>
 
-            the continents of Asia and Australia and between the Pacific and the Indian Oceans, it is
+        <div class="info-split-column">
+            <div class="sc-col">
+                <div class="sc-label big">Population</div>
+                <div class="sc-value big">263,645,474</div>
+            </div>
+            <div class="sc-col right">
+                <div class="sc-label big">Area</div>
+                <div class="sc-value big">1,812,108 Km2</div>
+            </div>
+            <div class="sc-col heighten">
+                <div class="sc-label">Languages</div>
+                <div class="sc-value">Bahasa Indonesia</div>
+            </div>
+            <div class="sc-col right">
+                <div class="sc-label">Religion</div>
+                <div class="sc-value">
+                    Islam, Protestantism, Catholicism, Hinduism, Buddhism and Confucianism
+                </div>
+            </div>
+            <div class="sc-col">
+                <div class="sc-label">Government    </div>
+                <div class="sc-value">Constitutional Republic</div>
+            </div>
+            <div class="sc-col right">
+                <div class="sc-label">Currency</div>
+                <div class="sc-value">
+                    (Rp) Indonesian Rupiah
+                </div>
+            </div>
+        </div>
 
-            as wide as the United States from San Francisco to New York, equaling the distance
+        <div class="mix-bar-full"></div>
+        
+        <p class="fm-helvetica">
+            Indonesian Archipelago is straddling the equator with its raw nature beauties such as mountains and beaches. 
+            Located between the Pacific and Indian Ocean, Indonesia also has the tropical climate which becomes a perfect match to sunbathe 
+            and strolling around. From the snowy mountain, beautiful underwater world, pristine beaches, splendid heritages, up to extraordinary 
+            destinations and attractions that you can find nowhere else are here in the Wonderful Indonesia! 
 
-            between London and Moscow.  Indonesia has a total population of more than 215 million
-
-            people from more than 200 ethnic groups. The national language is Bahasa Indonesia.
         </p>
-        <p>
-            Among the most well known islands are Sumatra, Java, Bali, Kalimantan (formerly
-
-            Borneo), Sulawesi (formerly Celebes), the Maluku Islands (or better known as Moluccas,
-
-            the original Spice Islands) and Papua. Then, there is Bali “the world&#39;s best island resort”
-
-            with its enchanting culture, beaches, dynamic dances and music. But Indonesia still has
-
-            many unexplored islands with grand mountain views, green rainforests to trek through,
-
-            rolling waves to surf and deep blue pristine seas to dive in where one can swim with
-
-            dugongs, dolphins and large mantarays.
-        </p>
-        <p>
-            Because of her location, and geology, Indonesia is blessed with the most diverse
-
-            landscape, from fertile ricelands on Java and Bali to the luxuriant rainforests of
-
-            Sumatra, Kalimantan and Sulawesi, to the savannah grasslands of the Nusatenggara
-
-            islands to snow-capped peaks of West Papua.
-        </p>
-        <p>
-            Her wildlife ranges from the prehistoric giant Komodo lizard to the Orang Utan and the
-
-            Java rhino, to the Sulawesi anoa dwarf buffalos, to birds with exquisite plumage like the
-
-            cockatoo and the bird of paradise. This is also the habitat of the Rafflesia the world’s
-
-            largest flower, wild orchids, an amazing variety of spices, and aromatic hardwood and a
-
-            large variety of fruit trees. Underwater, scientists have found in North Sulawesi the
-
-            prehistoric coelacanth fish, a “living fossil” fish, predating the dinosaurs living some 400
-
-            million years ago, while whales migrate yearly through these waters from the South
-
-            Pole. Here are hundreds of species of colourful coral and tropical fish to admire.
-        </p>
-        <p>
-            Culturally, Indonesia fascinates with her rich diversity of ancient temples, music,
-
-            ranging from the traditional to modern pop, dances, rituals and ways of life, changing
-
-            from island to island, from region to region. Yet everywhere the visitor feels welcomed
-
-            with that warm, gracious innate friendliness of the Indonesian people that is not easily
-
-            forgotten.
-        </p>
-        <p>
-           Facilities-wise Indonesia’s hotels are second to none. In fact, many of our luxurious and
-
-            unique hotels have constantly been listed as some of the best in the world, located on
-
-            white sandy beaches, overlooking green river valleys, or situated in the heart of busy
-
-            capital Jakarta. While Indonesia’s cities like Jakarta, Bandung, Surabaya, or Makassar
-
-            are a hive of activities for business and leisure and a paradise for shoppers, offering
-
-            upscale boutiques selling top brand names, to local goods at road-side stalls. Here
-
-            gourmets can treat themselves to the many regions’ delectable spicy cuisine or dine
-
-            sumptuously at international restaurants. And for sheer relaxation, Indonesia Spas are
-
-            second to none to reinvigorate both body and mind. 
-        </p>
-        <p>
-            Convention centers are equipped with state-of- the-art facilities, as many top
-
-            international conferences and exhibitions are held in Jakarta, Bali to Manado, ranging
-
-            from the Global Climate Change Conference in Bali to the World Ocean Conference in
-
-            Manado , to trade and investment exhibitions and tourism trade shows in many
-
-            provincial capital cities.
-        </p>
-        <p>
-            Jakarta, Bali, Medan, Padang, Bandung, Solo, Yogyakarta, Surabaya, Makassar are
-
-            connected by direct international flights, and many regular and low cost carriers fly
-
-            passengers to Indonesia’s towns or remote locations.
+        <p class="fm-helvetica">
+            The green cascading rice fields in Bali is not the only thing you can see. You can explore further and walk around with the real 
+            life dragons known as Komodo in Labuan Bajo or swim with the stingless jellyfish in Kalimantan! If you want something more magical, 
+            visit the mystifying White Crater in Bandung or visit the biggest Buddhist temple known as Borobudur Temple near Yogyakarta. You can also 
+            stroll around and enjoy the unique cuisines from each area or enjoy the metropolitan of Jakarta with its world class hotels
+            and high end entertainment centers for your nightlife attractions.
         </p>
 
-        <p class="no-mb">   
-            Source: <a href="http://www.indonesia.travel/en/facts/about-indonesia">http://www.indonesia.travel/en/facts/about-indonesia</a>
-        </p> 
+        <div class="mix-bar-full"></div>
+
     </div>
 </section>
 

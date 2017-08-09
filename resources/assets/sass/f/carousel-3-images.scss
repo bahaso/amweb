@@ -1,0 +1,129 @@
+@import "_partials/base";
+
+#carousel-custom-style{
+	/*set outer container default is 820px*/
+	.logo-carousel-container{
+		width: 820px; 
+	}
+
+	.title-carousel{
+		text-align: center;
+		h3{
+			font-size 	: rem( 30px );
+			font-family : $font-signika-reg;
+			color: $color-black-1;
+		}
+		.tc-small{
+			font-size 	: rem( 20px );
+			font-family : $font-signika-light;
+		}
+	}
+
+	.logo-carousel {
+		/*set inside width depend on data-item*/
+		width : 770px;
+		margin-left:15px;
+
+		ul{
+			list-style-type: none;
+		}
+		li {
+			@include opacity(1);
+		}
+
+		img {
+			max-height : initial;
+		}
+
+		.flex-direction-nav a{
+			margin: -20px 0 0;
+		}
+
+		.flex-direction-nav a.flex-next {
+			right : 0;
+   			background : url('../../img/am2018/public/arrow-right.png');
+   			width 	: 21px;
+   			height 	: 42px;
+		}
+		.flex-direction-nav a.flex-prev {
+			left : 0;
+   			background : url('../../img/am2018/public/arrow-left.png');
+   			width 	: 21px;
+   			height 	: 42px;
+		}
+		.flex-direction-nav {
+			@include opacity( 0.8 );
+		}
+
+		.subtitle {
+			line-height : 1.7; 
+			color 		: $color-white;
+		}
+		.subtext{
+			padding: 0;
+			margin: 0;
+
+			font-family : $font-helvetica;
+			font-size 	: rem(13px);
+			color 		: $color-white;
+		}
+	}
+
+	.image-caption {
+
+		@include box-shadow( none );
+
+		width: 231px;
+
+		.caption {
+			text-align: left;
+			padding 	: 10px 0 10px 10px;
+			min-height 	: 45px;
+			line-height : 1.5;
+
+			@include rgba-background(rgba(0, 0, 0, 0.4));
+
+			&:hover {
+				.text-info {
+					display: block;
+				}
+			}
+		}
+
+		.text-info {
+			display: none;
+			color: #FFF;
+
+			.btn-link {
+				display: inline-block;
+				padding: 5px 20px;
+				margin: 10px 0 0;
+
+				position: relative;
+				z-index: 1000;
+
+				color: #FFF;
+				text-decoration: none;
+				background-color: #486174;
+
+				&:hover {
+					background-color: #374a58;
+				}
+			}
+		}
+
+		h4 {
+			color: #FFF;
+			font-size: rem(15px);
+			font-weight: bold;
+
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+
+.flex-direction-nav a.flex-next:before, .flex-direction-nav a.flex-prev:before{
+	font-size: 0;
+}

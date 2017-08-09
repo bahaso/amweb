@@ -1,9 +1,43 @@
 /* Imports */
+@font-face {
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Helvetica.ttf");
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("fonts/Helvetica-Bold.ttf");
+}
+@font-face {
+  font-family: "Raleway Semibold";
+  src: url("fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Signika Light";
+  src: url("fonts/Signika-Light.ttf");
+}
+@font-face {
+  font-family: "Signika Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Signika-Regular.ttf");
+}
+@font-face {
+  font-family: "Signika Semibold";
+  src: url("fonts/Signika-Semibold.ttf");
+}
+@font-face {
+  font-family: "Indonesiana Serif";
+  src: url("fonts/Indonesiana-Serif.ttf");
+}
 /* Compass plugins */
 /* gem install compass-rgbapng */
 /* RGBAPNG Configuration */
 /* COLOR LIST; */
 /* MEDIA QUERIES */
+/* Paths */
+/* Fonts */
 /*for text overlay position*/
 /* line 4, ../../../resources/assets/sass/f/home.scss */
 .bg-text-wrapper {
@@ -201,7 +235,7 @@
   padding: 0 5px 5px;
   min-height: 45px;
   line-height: 1.5;
-  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495019409');
+  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1496999866');
   background: rgba(48, 60, 141, 0.5);
 }
 /* line 176, ../../../resources/assets/sass/f/home.scss */
