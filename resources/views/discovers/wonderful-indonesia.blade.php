@@ -187,13 +187,13 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-label">
                                         WHERE TO STAY IN TANA TORAJA HIGHLANDS IN SOUTH SULAWESI
                                     </a>
                                     <div class="fi-desc">
                                         Tana Toraja is located in the norhtern highlands of South Sulawesi province. It is home to an indigenous population
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
@@ -208,7 +208,7 @@
                         <div class="faq-triangle blue"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/batak-village.jpg',
                                     [
                                         'w' => '181',
@@ -217,13 +217,13 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-label">
                                         TOMOK AND SIMANINDO: THE TRADITIONAL BATAK VILLAGES IN LAKE TOBA
                                     </a>
                                     <div class="fi-desc">
                                         The Batak ethnic group inhabiting the intererior of North Sumatra is devided into six sub-groups. They are the Toba, Karo,
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
