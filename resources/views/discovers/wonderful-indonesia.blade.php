@@ -57,7 +57,7 @@
                         <div class="faq-triangle yellow"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/obama-in-bali.jpg',
                                     [
                                         'w' => '181',
@@ -66,13 +66,13 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-label">
+                                    <<a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-label">
                                         FOLLOW THE HOLIDAY OF THE OBAMAS: PLAN YOUR ULTIMATE BALI FAMILY TRIP
                                     </a>
                                     <div class="fi-desc">
                                         follow in the footsteps of Obama and experience the same attractions where Barack Obama, Michelle and daughters Malia
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
@@ -87,7 +87,7 @@
                         <div class="faq-triangle dark-blue"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/lombok-sea.jpg',
                                     [
                                         'w' => '181',
@@ -96,13 +96,13 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-label">
                                         FOLLOW THE ACTION ON GILI TRAWANGAN
                                     </a>
                                     <div class="fi-desc">
                                         While every year millions of tourists are attracted to Bali, the nighboring island of Lombok offers 3 tiny paradise islands off its north-west coast, known as “the Gilis”
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
@@ -117,7 +117,7 @@
                         <div class="faq-triangle yellow"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/obama-in-yogyakarta.jpg',
                                     [
                                         'w' => '181',
@@ -126,14 +126,14 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-label">
                                         EXPLORE YOGYAKARTA & CENTRAL JAVA – OBAMA STYLE!
                                     </a>
                                     <div class="fi-desc">
                                         Following in the footsteps of the Obamas, the choice of attractions and places they visited revealed
                                         the deep interest 
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
@@ -148,7 +148,7 @@
                         <div class="faq-triangle dark-blue"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/komodo.jpg',
                                     [
                                         'w' => '181',
@@ -157,13 +157,13 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <a href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-label">
                                         10 REASONS TO VISIT THE MAGNIFICENT KOMODO NATIONAL PARK
                                     </a>
                                     <div class="fi-desc">
                                         In 1986, the park was declared a World Heritage Site and a Man and Biosphere Reserve by UNESCO.
                                      </div>
-                                    <a href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-link">Read More >></a>
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
@@ -178,7 +178,7 @@
                         <div class="faq-triangle yellow"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi">
+                                <<a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/toraja-house.jpg',
                                     [
                                         'w' => '181',
