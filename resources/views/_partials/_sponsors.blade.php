@@ -24,7 +24,9 @@
                             {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
                         </li>
                         <li>
+                        <a target="_blank" href="http://www.worldbank.org/">
                             {!! html_img( 'img/am2018/partners/logo-worldbank.png', []) !!}
+                            </a>
                         </li>
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-vti.png', []) !!}
