@@ -21,7 +21,9 @@
                             {!! html_img( 'img/am2018/partners/logo-bi.png', []) !!}
                         </li>
                         <li>
+                        <a target="_blank" href="http://www.imf.org/">
                             {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
+                            </a>
                         </li>
                         <li>
                         <a target="_blank" href="http://www.worldbank.org/">
