@@ -30,12 +30,14 @@
                             {!! html_img( 'img/am2018/partners/logo-worldbank.png', []) !!}
                             </a>
                         </li>
+                        <!--Hide for now
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-vti.png', []) !!}
                         </li>
                         <li>
                             {!! html_img( 'img/am2018/partners/logo-imf.png', []) !!}
                         </li>
+                        -->
                     </ul>
                 <!--end of logo slider-->
                 </div>
