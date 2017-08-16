@@ -195,21 +195,65 @@
                     <!--end of snippet-->
                		<div class="col-sm-4 post-snippet masonry-item">
                         <div class="image-caption cast-shadow mb-xs-32 img-home">
-				            {!! html_img( 'img/am2018/public/aabbcc.jpg', 
-				                [ 
-				                	'w'		=> 408,
-				                	'h'		=> 300,
-				                    'class' => 'img-home' 
-				                ]) !!}
-                            <div class="caption text-center">
-                            	<h4>Tourist Package</h4>
-                                <span class="text-info">
-                                    <p>
-                                    	The World's Largest and grates Buddisht temple, build in the 19th century with mountainous scenery
-                                    </p>
-                                    <a href="#" class="btn-link">View More</a>
-                                </span>
-                            </div>
+				            <ul class="slides">
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/bali-hotel.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Bali Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/lombok-lake.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Lombok Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/yogya-candi.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Yogyakarta Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!--end of snippet-->
