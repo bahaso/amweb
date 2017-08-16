@@ -129,7 +129,7 @@
                     </ul>
                 </li>
 
-                <li class="has-dropdown">
+<!--            <li class="has-dropdown">
                     <a href="#">
                         Information
                     </a>
@@ -151,6 +151,7 @@
                         </li>
                     </ul>
                 </li>
+                -->
 <!--                 <li class="has-dropdown">
                     <a href="#">
                         Voyage To Indonesia
