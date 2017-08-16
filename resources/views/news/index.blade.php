@@ -35,6 +35,18 @@
     </h1>
     <div class="content">
         <div class="news-item">
+            <a href="{{ route( 'f.news.detail', [ 4, 'Now-is-the-Best-time-for-Indonesia-to-Accelerate-Infrastructure-Project' ]) }}">
+                <h2 class="title">
+                    Now is the Best time for Indonesia to Accelerate Infrastructure Project
+                </h2>
+                <p class="txt">
+                    The Ministry of Finance, along with PT. Sarana Multi Infrastruktur (PT SMI), PT Penjaminan Infrrastruktur
+                    (PT PII) and PT Indonesia Infrastructure Finance (PT IIF) held the Indonesia Infrastructure Finance Forum
+                    2017 in Fairmont Hotel, Jakarta.
+                </p>
+            </a>
+        </div>
+        <div class="news-item">
             <a href="{{ route( 'f.news.detail', [ 3, 'the-importance-of-strengthening-the-tax-system' ]) }}">
                 <h2 class="title">
                     The Importance of Strengthening the Tax System

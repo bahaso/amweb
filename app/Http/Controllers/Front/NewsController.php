@@ -17,6 +17,8 @@ class NewsController extends BaseController
 			return $this->output( 'news.student_indonesia' );
 		}else if($id == 3){		
 			return $this->output( 'news.tax_system' );
+		}else if($id == 4){		
+			return $this->output( 'news.Infrastructure_project' );
 		}else{
 			return $this->output( 'news.detail' );
 		}

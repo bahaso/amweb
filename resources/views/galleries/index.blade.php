@@ -23,6 +23,46 @@
     <div class="row mb30">
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 6, 'indonesia-infrastructure-finance-forum'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/IIF-forum/LWP_5572.jpg', 
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                           Indonesia Infrastructure Finance Forum, 25 Juli 2017, Fairmont hotel - Jakarta. 
+                        </p>
+                        <p>
+                            13 Photos | 52 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 5, 'imf-tax-Conference'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/imf-tax-conference/05R9823.jpg', 
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                           Joint IMF-Indonesia High-Level Conference, International Taxation in Asia
+                        </p>
+                        <p>
+                            10 Photos | 72 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row mb30">
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 1, 'land-of-the-gods']) }}">
                     {!! html_img( 'img/am2018/public/upload/land-gods/land-gods-5.jpg', 
                     [
@@ -100,29 +140,6 @@
             </div>
         </div>
     </div>
-
-    <div class="row mb30">
-        <div class="col-sm-6">
-            <div class="image-caption mb-xs-32">
-                <a href="{{ route( 'f.galleries.detail',[ 5, 'imf-tax-Conference'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/imf-tax-conference/05R9823.jpg', 
-                    [
-                        'w' => 400,
-                        'h' => 225
-                    ]) !!}
-                    <div class="caption">
-                        <p>
-                           Joint IMF-Indonesia High-Level Conference, International Taxation in Asia
-                        </p>
-                        <p>
-                            10 Photos | 72 Views
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
 </div>
 
 @stop
