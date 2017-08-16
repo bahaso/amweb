@@ -2,7 +2,7 @@
 
     <div class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
-            {!! html_img( 'img/am2018/amf2018-logo.jpg', 
+            {!! html_img( 'img/am2018/vti_header_2018-logo.jpg', 
                 [ 
                     'w'     => 169,
                     'h'     => 62,
