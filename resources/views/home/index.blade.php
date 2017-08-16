@@ -194,7 +194,7 @@
                     </div>
                     <!--end of snippet-->
                		<div class="col-sm-4 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32 img-home">
+                        <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
 				            <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
