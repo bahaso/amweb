@@ -58,11 +58,11 @@
                 </div>
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
-                         style="right:120px;top:50px">
-                        <h2 class="txt-title animate dark ta-right">
+                         style="bottom:50px;right:250px;">
+                        <h2 class="txt-title animate">
                             Wonderful Indonesia
                         </h2>
-                        <p class="txt-desc animate dark ta-right">
+                        <p class="txt-desc animate">
                             Straddling the equator, situated between <br/>the continents of Asia and Australia and between the Pacific and the Indian Oceans, <br/>Indonesia has many magnificent islands waiting to be explored.
                         </p>
                     </div>
