@@ -132,7 +132,7 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        ‘Voyage of Indonesia’ is the activities program covering series of events conducted until the peak event of the Annual Meetings IMF-WB in October, 2018 and aftermath. This program aims to increase the awareness of the 2018 Annual Meetings IMF-WB in Indonesia and to promote Indonesia to delegations attending this event.
+                        Beginning in 2017, the “Voyage to Indonesia”, or “VTI”, is a program of events that will be conducted in the run up to the 2018 Annual Meetings, to raise awareness of this event and promote Indonesia to the international delegations and national participants who will be attending it. The Voyage to Indonesia, and the 2018 Annual Meetings, provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti' ) }}">
                         View More
