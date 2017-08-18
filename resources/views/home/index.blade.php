@@ -20,7 +20,7 @@
                 </div>
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
-                         style="bottom:50px;right:250px">
+                         style="left:0;right:0;bottom:100px;">
                         <h2 class="txt-title animate">
                             Bali
                         </h2>
