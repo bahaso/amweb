@@ -27,7 +27,7 @@
         <p>
             {!! html_img( 'img/am2018/public/about-imf_article.jpg',
             [
-                'w' => '100%',
+                'w' => '50%',
                 'h' => 'auto'
             ]) !!}
         </p>
