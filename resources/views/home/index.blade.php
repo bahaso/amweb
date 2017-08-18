@@ -112,7 +112,7 @@
 
                         October (during autumn) by Boards of Governors of IMF and WBG. The annual
 
-                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.
+                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.<br><br><br>
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
                         View More
