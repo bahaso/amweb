@@ -191,7 +191,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                    {!! html_img( 'img/am2018/public/sri-mulyani.jpg', 
+                                    {!! html_img( 'img/am2018/public/sri-mulyani_thumbnail.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -281,7 +281,7 @@
                             <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-1.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-1_thumbnail.JPG', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -300,7 +300,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-2.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-2_thumbnail.JPG', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
