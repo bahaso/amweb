@@ -151,6 +151,25 @@
                     <div class="col-sm-4 post-snippet masonry-item">
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
+								<li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/IIFF_Thumbnail.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Now is the Best time for Indonesia to Accelerate Infrastructure Project</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    The Ministry of Finance held the Indonesia Infrastructure Finance Forum 2017 in Fairmont Hotel, Jakarta.
+                                                </p>
+                                                <a href="{{ route( 'f.news.detail', [ 4, 'Now-is-the-Best-time-for-Indonesia-to-Accelerate-Infrastructure-Project' ]) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/minister-of-finance.jpg', 
