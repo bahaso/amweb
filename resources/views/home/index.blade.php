@@ -39,11 +39,11 @@
                 </div>
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
-                         style="top:50px;left:100px;">
-                        <h2 class="txt-title animate dark">
+                         style="bottom:50px;right:250px;">
+                        <h2 class="txt-title animate">
                             Borobudur
                         </h2>
-                        <p class="txt-desc animate dark">
+                        <p class="txt-desc animate">
                             Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia,<br/> as well as the world's largest Buddhist temple and also one<br/> of the greatest Buddhist monuments in the world..
                         </p>
                     </div>
