@@ -39,7 +39,7 @@
                 </div>
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
-                         style="bottom:50px;right:250px;">
+                         style="left:0;right:0;bottom:100px;">
                         <h2 class="txt-title animate">
                             Borobudur
                         </h2>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
-                         style="bottom:50px;right:250px;">
+                         style="left:0;right:0;bottom:100px;">
                         <h2 class="txt-title animate">
                             Wonderful Indonesia
                         </h2>
@@ -112,7 +112,7 @@
 
                         October (during autumn) by Boards of Governors of IMF and WBG. The annual
 
-                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.<br><br><br><br>
+                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.<br><br><br>
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
                         View More
