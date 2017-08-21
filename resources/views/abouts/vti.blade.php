@@ -21,7 +21,7 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600">
-        Voyage to Indonesia
+        The Voyage To Indonesia
     </h1>
     <div class="content">
 		<p>
@@ -31,12 +31,6 @@
                 'h' => 'auto'
             ]) !!}
         </p>
-        <p>
-		The Annual Meetings are usually held for two consecutive years at the IMF and WBG headquarters in Washington, DC, and every third year in another member country. Indonesia has been appointed as host country for the 2018 Annual Meetings IMF-WBG in Nusa Dua, Bali. The Ministry of Finance and Bank of Indonesia have been assigned as the core organizing committee of this event. 
-        </p>
-		<p>
-		It is estimated that 15,000 delegates from 189 member countries will attend this event. The participants include ministers of finance, central bankers, delegations from regional and global economic partnership institutions, civil society representatives, academics and private sectors, as well as the media from all over the world.
-		</p>
 		<p>
 		Beginning in 2017, the “Voyage to Indonesia”, or “VTI”, is a program of events that will be conducted in the run up to the 2018 Annual Meetings, to raise awareness of this event and promote Indonesia to the international delegations and national participants who will be attending it. The Voyage to Indonesia, and the 2018 Annual Meetings, provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
 		</p>
