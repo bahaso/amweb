@@ -21,7 +21,7 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600">
-        Voyage to Indonesia
+        The Voyage To Indonesia
     </h1>
     <div class="content">
 		<p>
