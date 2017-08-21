@@ -16,7 +16,7 @@
         'navs' => 
         [
             [ 
-                'label' => 'Media and Public', 
+                'label' => 'Media and Publications',
                 'url' => route( 'f.news.index' ) 
             ],
             [ 

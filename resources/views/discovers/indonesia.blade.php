@@ -1,4 +1,4 @@
-@extends( 'discovers._layout' )
+@extends( 'welcomes._layout' )
 
 @section( 'head_page_css' )
     @parent
@@ -11,7 +11,7 @@
         'navs' => 
         [
             [ 
-                'label' => 'Discover Indonesia', 
+                'label' => 'Travel Information',
                 'url' => route( 'f.discovers.indonesia' ) 
             ],
             [ 

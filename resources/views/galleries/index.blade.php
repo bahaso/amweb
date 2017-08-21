@@ -6,11 +6,11 @@
         'navs' => 
         [
             [ 
-                'label' => 'Media and Public', 
+                'label' => 'Media and Publications',
                 'url' => route( 'f.news.index' ) 
             ],
             [ 
-                'label' => 'Gallery', 
+                'label' => 'Photo Gallery',
             ]
         ],
         'no_label' => true
@@ -111,7 +111,7 @@
                     ]) !!}
                     <div class="caption">
                         <p>
-                            Voya To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018
+                            Voyage To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018
                         </p>
                         <p>
                             4 Photos | 20 Views

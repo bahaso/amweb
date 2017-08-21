@@ -6,14 +6,9 @@
             News
         </a>
     </li>
-    <li class="{{ isActiveRoute( 'f.indonesia_updates.*' ) }}">
-        <a href="{{route( 'f.indonesia_updates.index' )}}" class="lbl">
-            Indonesia Updates
-        </a>
-    </li>
-    <li class="{{ isActiveRoute( 'f.galleries.*' ) }}">
-        <a href="{{ route( 'f.galleries.index' ) }}" class="lbl">
-            Gallery
+    <li class="{{ isActiveRoute( 'f.press-releases.*' ) }}">
+        <a href="{{ route( 'f.press-releases.index' ) }}" class="lbl">
+            Press Releases
         </a>
     </li>
     <li class="{{ isActiveRoute( 'f.publications.*' ) }}">
@@ -21,9 +16,11 @@
             Publications
         </a>
     </li>
-    <li class="{{ isActiveRoute( 'f.press-releases.*' ) }}">
-        <a href="{{ route( 'f.press-releases.index' ) }}" class="lbl">
-            Press Releases
+    <li class="{{ isActiveRoute( 'f.galleries.*' ) }}">
+        <a href="{{ route( 'f.galleries.index' ) }}" class="lbl">
+            Photo Gallery
         </a>
     </li>
+
+
 @stop

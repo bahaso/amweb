@@ -21,15 +21,15 @@
         'navs' => 
         [
             [ 
-                'label' => 'Media and Public', 
+                'label' => 'Media and Publications',
                 'url' => route( 'f.news.index' ) 
             ],
             [ 
-                'label' => 'Gallery', 
+                'label' => 'Photo Gallery',
                 'url' => route( 'f.galleries.index' ) 
             ],
             [
-                'label' => 'Voya to Indonesia'
+                'label' => 'Voyage to Indonesia'
             ]
         ],
         'no_label' => true
@@ -40,10 +40,10 @@
 
 <div class="wysiwyg aligned">
     <h1 class="title fw600">
-        Voya to Indonesia
+        Voyage to Indonesia
     </h1>
     <p class="mb10">
-        Voya To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018 IMF-World Bank Annual Meetings in Bali
+        Voyage To Indonesia-Promotion on the occasion of Indonesia's position as host country for the 2018 IMF-World Bank Annual Meetings in Bali
     </p>
 
     <a href="{{ route( 'f.galleries.index' ) }}" class="pull-right fw400">

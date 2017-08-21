@@ -10,7 +10,7 @@
                 'url' => route( 'f.abouts.imf_world_bank' ) 
             ],
             [ 
-                'label' => 'About Worldbank', 
+                'label' => 'About World Bank Group',
             ]
         ],
         'no_label' => true

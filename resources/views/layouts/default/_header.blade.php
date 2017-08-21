@@ -19,7 +19,7 @@
                 <li>
                     <a href="{{ route( 'f.home' ) }}">
                         Home
-                    </a>                                    
+                    </a>
                 </li>
                 <li class="has-dropdown">
                     <a href="#">
@@ -33,7 +33,7 @@
                             <a href="{{ route( 'f.abouts.am2018' ) }}">2018 Annual Meetings</a>
                         </li>
                         <li>
-                            <!-- <a href="{{ route( 'f.abouts.imf_world_bank' ) }}">IMF - WB Annual Meeting 2018</a> -->
+                        <!-- <a href="{{ route( 'f.abouts.imf_world_bank' ) }}">IMF - WB Annual Meeting 2018</a> -->
                         </li>
                         <li>
                             <a href="{{ route( 'f.abouts.imf' ) }}">The International Monetary Fund</a>
@@ -41,7 +41,7 @@
                         <li>
                             <a href="{{ route( 'f.abouts.world_bank' ) }}">The World Bank Group</a>
                         </li>
-                        <!-- <li>
+                    <!-- <li>
                             <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
                         </li> -->
                         <li>
@@ -60,7 +60,7 @@
                         <li>
                             <a href="{{ route( 'f.events.side' ) }}">Side Events</a>
                         </li>
-<!--                         <li>
+                    <!--                         <li>
                             <a href="{{ asset( 'uploads/public/Venue Map.pptx' ) }}">Venues Map</a>
                         </li> -->
                         <li>
@@ -70,33 +70,38 @@
                 </li>
                 <li class="has-dropdown">
                     <a href="#">
-                        Welcome To Indonesia
+                        Travel Information
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.welcomes.visa', ['Welcome To Indonesia', 'Visa']) }}">Visas</a>
+                            <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia
+                                in Brief</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.welcomes.customs', ['Welcome To Indonesia', 'Customs']) }}">Customs</a>
+                            <a href="{{ route( 'f.welcomes.tips', ['Travel Information', 'Travel Tips']) }}">Travel
+                                Tips</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
+                            <a href="{{ route( 'f.welcomes.visa', ['Travel Information', 'Visa']) }}">Visa</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
+                            <a href="{{ route( 'f.welcomes.customs', ['Travel Information', 'Customs']) }}">Customs</a>
                         </li>
-                        <li>
-                            <a href="{{ route( 'f.welcomes.tips', ['Welcome To Indonesia', 'Travel Tips']) }}">Travel Tips</a>
-                        </li>
+                        {{-- <li>
+                             <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
+                         </li>
                          <li>
-                            <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
-                        </li>
-                  <!--  <li>
-                            <a href="{{ route( 'f.welcomes.tourism', ['Welcome To Indonesia', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
-                        </li>-->
+                             <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
+                         </li>
+                          <li>
+                             <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
+                         </li>
+                         <li>
+                             <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
+                         </li>
+                         <li>
+                             <a href="{{ route( 'f.welcomes.tourism', ['Travel Information', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
+                         </li> --}}
                     </ul>
                 </li>
                 <li class="has-dropdown">
@@ -104,20 +109,19 @@
                         Discover Indonesia
                     </a>
                     <ul>
-                        <li>
-                            <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia in Brief</a>
-                        </li>
-<!--                         <li>
+                    <!--<li>
                             <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover Indonesia', 'Wonderful Indonesia']) }}">Wonderful Indonesia</a>
+                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover Indonesia', 'Wonderful Indonesia']) }}">Wonderful
+                                Indonesia</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.discovers.bali', ['Discover Indonesia', 'Bali']) }}">Bali</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}">Tourism Package</a>
+                            <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}">Tourism
+                                Package</a>
                         </li>
                     </ul>
                 </li>
@@ -137,63 +141,11 @@
                         </li>
                         <li>
                             <a href="{{ route( 'f.galleries.index' ) }}">Photo Gallery</a>
-                        </li> 
-                    </ul>
-                </li>
-
-<!--            <li class="has-dropdown">
-                    <a href="#">
-                        Information
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="{{ route( 'f.informations.hotel', ['Information', 'Hotel']) }}">Hotel</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Transportation</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
                         </li>
                     </ul>
                 </li>
-                -->
-<!--                 <li class="has-dropdown">
-                    <a href="#">
-                        Voyage To Indonesia
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="{{ route( 'f.abouts.vti' ) }}">About VTI</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.exhibitions.seminar' ) }}">Seminar</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.exhibitions.detail' ) }}">Exhibition</a>
-                        </li>
-                    </ul>
-                </li> -->
 
-<!--                 <li class="has-dropdown">
-                    <a href="#">
-                        Media and Publication
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="#">Seminar Materials</a>
-                        </li>
-                        <li>
-                            <a href="#">Press Release</a>
-                        </li>
-                    </ul>
-                </li> -->
+
             </ul>
         </div>
         <!--end of menu module-->

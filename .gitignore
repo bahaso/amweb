@@ -12,3 +12,5 @@ npm-debug.log
 .env
 *.orig
 /composer.lock
+.DS_Store
+**.DS_Store**

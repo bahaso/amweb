@@ -21,7 +21,7 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600">
-        About the International Monetary Fund (IMF)
+        About The International Monetary Fund (IMF)
     </h1>
     <div class="content">
         <p>

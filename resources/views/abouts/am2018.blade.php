@@ -10,7 +10,7 @@
                 'url' => route( 'f.abouts.imf_world_bank' ) 
             ],
             [ 
-                'label' => 'About IMF', 
+                'label' => 'About Annual Meeting',
             ]
         ],
         'no_label' => true

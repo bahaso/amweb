@@ -21,11 +21,11 @@
         'navs' => 
         [
             [ 
-                'label' => 'Media and Public', 
+                'label' => 'Media and Publications',
                 'url' => route( 'f.news.index' ) 
             ],
             [ 
-                'label' => 'Gallery', 
+                'label' => 'Photo Gallery',
                 'url' => route( 'f.galleries.index' ) 
             ],
             [
