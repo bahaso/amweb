@@ -10,7 +10,7 @@
                 'url' => route( 'f.events.index' ) 
             ],
             [ 
-                'label' => 'Program VTI', 
+                'label' =>  'VTI Program',
             ]
         ],
         'no_label' => true

@@ -64,7 +64,7 @@
                             <a href="{{ asset( 'uploads/public/Venue Map.pptx' ) }}">Venues Map</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.events.program_vti' ) }}">Program VTI</a>
+                            <a href="{{ route( 'f.events.program_vti' ) }}">VTI Program</a>
                         </li>
                     </ul>
                 </li>
