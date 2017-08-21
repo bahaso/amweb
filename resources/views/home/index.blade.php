@@ -96,7 +96,7 @@
 
             <section id="about_imf" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">Annual Meetings IMF-WB in Indonesia</h4>
+                    <h4 class="title mb40">INDONESIA IS PROUD TO HOST THE 2018 ANNUAL MEETINGS OF THE IMF/WBG</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/amf2018-logo.jpg', 
                             [ 
@@ -106,13 +106,7 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        Annual Meetings of International Monetary Funds &amp; World Bank Group (IMF-WB) are
-
-                        regular meetings which have been held since 1946 and are conducted annually in
-
-                        October (during autumn) by Boards of Governors of IMF and WBG. The annual
-
-                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.<br><br><br><br>
+                        Held annually since 1946, the Annual Meetings of the Boards of Governors of the International Monetary Fund & World Bank Group (IMF-WBG) bring together the finance ministers and central bank governors from 189 member countries to discuss a range of issues related to poverty reduction, international economic development and finance. The 2018 Annual Meetings will be held in Nusa Dua, Bali, Indonesia in October.
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
                         View More
@@ -122,7 +116,7 @@
 
             <section id="about_voyage" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">Voyage to Indonesia</h4>
+                    <h4 class="title mb40">THE VOYAGE TO INDONESIA</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
                             [ 
@@ -132,7 +126,7 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        Beginning in 2017, the “Voyage to Indonesia”, or “VTI”, is a program of events that will be conducted in the run up to the 2018 Annual Meetings, to raise awareness of this event and promote Indonesia to the international delegations and national participants who will be attending it. The Voyage to Indonesia, and the 2018 Annual Meetings, provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
+                        Beginning in 2017, the “Voyage to Indonesia” or “VTI”, is a series of activities and events that will be conducted as part of the groundwork for the 2018 Annual Meetings to raise awareness of this event and promote Indonesia to participants and the international community. The Voyage to Indonesia and the 2018 Annual Meetings provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti' ) }}">
                         View More

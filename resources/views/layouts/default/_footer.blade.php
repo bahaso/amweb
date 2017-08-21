@@ -37,14 +37,14 @@
                         <a href="{{ route( 'f.discovers.destination') }}">Top hit tourism destination</a>
                     </li>
                     <li>
-                        <a href="{{ route( 'f.discovers.tourism' ) }}">Top list tourism package</a>
+                        <a href="{{ route( 'f.discovers.tourism' ) }}">Top tourism packages for attendees</a>
                     </li>
                     <li>
                         <a href="{{ route( 'f.discovers.indonesia' ) }}">Indonesia travel website</a>
                     </li>
-                    <li>
+                <!--<li>
                         <a href="{{ route( 'f.welcomes.tips' ) }}">Travel tips</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
             <!--end of widget-->
@@ -55,7 +55,7 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="{{ route( 'f.news.index' ) }}">New Update</a>
+                        <a href="{{ route( 'f.news.index' ) }}">Updates and News</a>
                     </li>
                     <li>
                         <a href="{{ route('f.galleries.detail', [3, 'voya-to-indonesia'])}}">Latest Voyage to Indonesia Program</a>
@@ -63,9 +63,9 @@
                     <li>
                         <a href="{{ route( 'f.galleries.index' ) }}">Updated Gallery</a>
                     </li>
-                    <li>
+                <!--    <li>
                         <a href="{{ route( 'f.news.index' ) }}">Indonesia Update</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
             <!--end of widget-->

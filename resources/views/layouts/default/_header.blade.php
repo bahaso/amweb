@@ -2,9 +2,9 @@
 
     <div class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
-            {!! html_img( 'img/am2018/vti_header_2018-logo.jpg', 
+            {!! html_img( 'img/am2018/logo-garuda-indonesia.png',
                 [ 
-                    'w'     => 169,
+                    'w'     => 230,
                     'h'     => 62,
                     'class' => 'logo logo-dark' 
                 ]) !!}
