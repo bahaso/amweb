@@ -24,7 +24,7 @@
 		Transportation
 	</h1>
 	<div class="content">
-        <h2 class="sub-title">
+        <!-- <h2 class="sub-title">
             International Air Transportation
         </h2>
 		<p>
@@ -280,7 +280,7 @@
                 </li>
             </ul>
             <!--end of accordion-->
-		</section>
+		</section> -->
 
         <h2 class="sub-title">
             Local Transportation
