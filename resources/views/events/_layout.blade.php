@@ -18,7 +18,7 @@
         <ul>
             <li class="{{ isActiveRoute( 'f.events.program_vti' ) }}">
                 <a href="{{route( 'f.events.program_vti' )}}" class="lbl">
-                    Program VTI
+                    VTI Program
                 </a>
             </li>
             <li class="{{ isActiveRoute( 'f.events.bank' ) }}">
