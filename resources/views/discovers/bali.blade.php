@@ -363,7 +363,7 @@
             </div>
             <div class="mix-bar-full no-mb"></div>
 
-            <div class="faq-title-link">
+            {{--<div class="faq-title-link">
                 <h4 class="ftl-title">Hotel & Resorts</h4>
                 <a href="http://www.indonesia.travel/en/post/bali-s-unique-hotel-resorts" class="ftl-link">More >></a>
             </div>
@@ -432,7 +432,7 @@
                          </span>
                      </div>
                 </div>
-            </div>
+            </div>--}}
 
 
             <div class="mix-bar-full no-mb"></div>
