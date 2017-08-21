@@ -2,7 +2,7 @@
 
     <div class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
-            {!! html_img( 'img/am2018/amf2018-logo.jpg', 
+            {!! html_img( 'img/am2018/vti_header_2018-logo.jpg', 
                 [ 
                     'w'     => 169,
                     'h'     => 62,
@@ -27,23 +27,23 @@
                     </a>
                     <ul>
                         <li>
+                            <a href="{{ route( 'f.abouts.vti' ) }}">The Voyage to Indonesia</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.abouts.am2018' ) }}">2018 Annual Meetings</a>
+                        </li>
+                        <li>
                             <!-- <a href="{{ route( 'f.abouts.imf_world_bank' ) }}">IMF - WB Annual Meeting 2018</a> -->
                         </li>
                         <li>
-                            <a href="{{ route( 'f.abouts.imf' ) }}">IMF</a>
+                            <a href="{{ route( 'f.abouts.imf' ) }}">The International Monetary Fund</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.abouts.world_bank' ) }}">World Bank</a>
+                            <a href="{{ route( 'f.abouts.world_bank' ) }}">The World Bank Group</a>
                         </li>
                         <!-- <li>
                             <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
                         </li> -->
-                        <li>
-                            <a href="{{ route( 'f.abouts.am2018' ) }}">AM 2018</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.abouts.vti' ) }}">VTI</a>
-                        </li>
                         <li>
                             <a href="{{ route( 'f.faqs.index' ) }}">FAQ</a>
                         </li>
@@ -74,17 +74,29 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.welcomes.visa', ['Welcome To Indonesia', 'Visa']) }}">Visa</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.welcomes.tourism', ['Welcome To Indonesia', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
+                            <a href="{{ route( 'f.welcomes.visa', ['Welcome To Indonesia', 'Visa']) }}">Visas</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.welcomes.customs', ['Welcome To Indonesia', 'Customs']) }}">Customs</a>
                         </li>
                         <li>
+                            <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
+                        </li>
+                        <li>
                             <a href="{{ route( 'f.welcomes.tips', ['Welcome To Indonesia', 'Travel Tips']) }}">Travel Tips</a>
                         </li>
+                         <li>
+                            <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
+                        </li>
+                        <li>
+                            <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
+                        </li>
+                  <!--  <li>
+                            <a href="{{ route( 'f.welcomes.tourism', ['Welcome To Indonesia', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
+                        </li>-->
                     </ul>
                 </li>
                 <li class="has-dropdown">
@@ -92,17 +104,14 @@
                         Discover Indonesia
                     </a>
                     <ul>
-<!--                         <li>
-                            <a href="{{ route( 'f.discovers.indonesia' ) }}">5 Destinasi Pariwisata Indonesia</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.discovers.bali' ) }}">11 Destinasi Bali</a>
-                        </li> -->
                         <li>
                             <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia in Brief</a>
                         </li>
-                        <li>
+<!--                         <li>
                             <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
+                        </li> -->
+                        <li>
+                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover Indonesia', 'Wonderful Indonesia']) }}">Wonderful Indonesia</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.discovers.bali', ['Discover Indonesia', 'Bali']) }}">Bali</a>
@@ -121,18 +130,18 @@
                             <a href="{{ route( 'f.news.index' ) }}">News</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.galleries.index' ) }}">Gallery</a>
+                            <a href="{{ route( 'f.press-releases.index' ) }}">Press Releases</a>
                         </li>
                         <li>
                             <a href="{{ route( 'f.publications.index' ) }}">Publications</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.press-releases.index' ) }}">Press Releases</a>
-                        </li>
+                            <a href="{{ route( 'f.galleries.index' ) }}">Photo Gallery</a>
+                        </li> 
                     </ul>
                 </li>
 
-                <li class="has-dropdown">
+<!--            <li class="has-dropdown">
                     <a href="#">
                         Information
                     </a>
@@ -154,6 +163,7 @@
                         </li>
                     </ul>
                 </li>
+                -->
 <!--                 <li class="has-dropdown">
                     <a href="#">
                         Voyage To Indonesia

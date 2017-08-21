@@ -1,0 +1,171 @@
+/* Imports */
+@font-face {
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Helvetica.ttf");
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("fonts/Helvetica-Bold.ttf");
+}
+@font-face {
+  font-family: "Raleway Semibold";
+  src: url("fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Signika Light";
+  src: url("fonts/Signika-Light.ttf");
+}
+@font-face {
+  font-family: "Signika Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Signika-Regular.ttf");
+}
+@font-face {
+  font-family: "Signika Semibold";
+  src: url("fonts/Signika-Semibold.ttf");
+}
+@font-face {
+  font-family: "Indonesiana Serif";
+  src: url("fonts/Indonesiana-Serif.ttf");
+}
+/* Compass plugins */
+/* gem install compass-rgbapng */
+/* RGBAPNG Configuration */
+/* COLOR LIST; */
+/* MEDIA QUERIES */
+/* Paths */
+/* Fonts */
+/* line 3, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style {
+  /*set outer container default is 820px*/
+}
+/* line 5, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel-container {
+  width: 820px;
+}
+/* line 9, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .title-carousel {
+  text-align: center;
+}
+/* line 11, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .title-carousel h3 {
+  font-size: 3rem;
+  font-family: "Signika Regular";
+  color: #4C4C4C;
+}
+/* line 16, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .title-carousel .tc-small {
+  font-size: 2rem;
+  font-family: "Signika Light";
+}
+/* line 22, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel {
+  /*set inside width depend on data-item*/
+  width: 770px;
+  margin-left: 15px;
+}
+/* line 27, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel ul {
+  list-style-type: none;
+}
+/* line 30, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel li {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 34, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel img {
+  max-height: initial;
+}
+/* line 38, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .flex-direction-nav a {
+  margin: -20px 0 0;
+}
+/* line 42, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .flex-direction-nav a.flex-next {
+  right: 0;
+  background: url("../../img/am2018/public/arrow-right.png");
+  width: 21px;
+  height: 42px;
+}
+/* line 48, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .flex-direction-nav a.flex-prev {
+  left: 0;
+  background: url("../../img/am2018/public/arrow-left.png");
+  width: 21px;
+  height: 42px;
+}
+/* line 54, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .flex-direction-nav {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 58, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .subtitle {
+  line-height: 1.7;
+  color: #FFF;
+}
+/* line 62, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .logo-carousel .subtext {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica";
+  font-size: 1.3rem;
+  color: #FFF;
+}
+/* line 72, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 231px;
+}
+/* line 78, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption .caption {
+  text-align: left;
+  padding: 10px 0 10px 10px;
+  min-height: 45px;
+  line-height: 1.5;
+  background: url('/images/../public/img/am2018/rgba/00000066-8.png?1499872718');
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 87, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption .caption:hover .text-info {
+  display: block;
+}
+/* line 93, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption .text-info {
+  display: none;
+  color: #FFF;
+}
+/* line 97, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption .text-info .btn-link {
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 10px 0 0;
+  position: relative;
+  z-index: 1000;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #486174;
+}
+/* line 109, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption .text-info .btn-link:hover {
+  background-color: #374a58;
+}
+/* line 115, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#carousel-custom-style .image-caption h4 {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 127, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.flex-direction-nav a.flex-next:before, .flex-direction-nav a.flex-prev:before {
+  font-size: 0;
+}

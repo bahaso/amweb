@@ -24,4 +24,8 @@ class DiscoverController extends BaseController
 		return $this->output( 'discovers.tourism' );
 	}
 
+	public function wonderful_indonesia()
+	{
+		return $this->output( 'discovers.wonderful-indonesia' );
+	}
 }

@@ -3,6 +3,7 @@
 @section( 'head_page_css' )
 	@parent
 	{!! html_css( 'home.css', 'css/fo' ) !!}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 @stop 
 
 @section( 'content' )
@@ -17,13 +18,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Bali
-                    </h2>
-                    <p>
-                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="left:0;right:0;bottom:100px;">
+                        <h2 class="txt-title animate">
+                            Bali
+                        </h2>
+                        <p class="txt-desc animate">
+                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -33,13 +37,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Borobudur
-                    </h2>
-                    <p>
-                        Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia, as well as the world's largest Buddhist temple and also one of the greatest Buddhist monuments in the world..
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="left:0;right:0;bottom:100px;">
+                        <h2 class="txt-title animate">
+                            Borobudur
+                        </h2>
+                        <p class="txt-desc animate">
+                            Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia,<br/> as well as the world's largest Buddhist temple and also one<br/> of the greatest Buddhist monuments in the world..
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -49,13 +56,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Wonderful Indonesia
-                    </h2>
-                    <p>
-                        Straddling the equator, situated between the continents of Asia and Australia and between the Pacific and the Indian Oceans, Indonesia has many magnificent islands waiting to be explored.
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="left:0;right:0;bottom:100px;">
+                        <h2 class="txt-title animate">
+                            Wonderful Indonesia
+                        </h2>
+                        <p class="txt-desc animate">
+                            Straddling the equator, situated between <br/>the continents of Asia and Australia and between the Pacific and the Indian Oceans, <br/>Indonesia has many magnificent islands waiting to be explored.
+                        </p>
+                    </div>
                 </div>
             </li>
             <li class="overlay image-bg bg-light">
@@ -65,13 +75,16 @@
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
-                <div class="background-text-overlay">
-                    <h2>
-                        Bali
-                    </h2>
-                    <p>
-                        Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
-                    </p>
+                <div class="container bg-text-wrapper">
+                    <div class="background-text-overlay"
+                         style="left:0;right:0;bottom:100px;">
+                        <h2 class="txt-title animate ta-center">
+                            Bali
+                        </h2>
+                        <p class="txt-desc animate ta-center">
+                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                        </p>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -99,7 +112,7 @@
 
                         October (during autumn) by Boards of Governors of IMF and WBG. The annual
 
-                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.
+                        meeting for 2018 will be held in Nusa Dua, Bali, Indonesia in October.<br><br><br><br>
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
                         View More
@@ -119,7 +132,7 @@
                             ]) !!}
                     </div>
                     <p class="desc">
-                        ‘Voyage of Indonesia’ is the activities program covering series of events conducted until the peak event of the Annual Meetings IMF-WB in October, 2018 and aftermath. This program aims to increase the awareness of the 2018 Annual Meetings IMF-WB in Indonesia and to promote Indonesia to delegations attending this event.
+                        Beginning in 2017, the “Voyage to Indonesia”, or “VTI”, is a program of events that will be conducted in the run up to the 2018 Annual Meetings, to raise awareness of this event and promote Indonesia to the international delegations and national participants who will be attending it. The Voyage to Indonesia, and the 2018 Annual Meetings, provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
                     </p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti' ) }}">
                         View More
@@ -138,6 +151,25 @@
                     <div class="col-sm-4 post-snippet masonry-item">
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
+								<li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/IIFF_Thumbnail.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Now is the Best time for Indonesia to Accelerate Infrastructure Project</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    The Ministry of Finance held the Indonesia Infrastructure Finance Forum 2017 in Fairmont Hotel, Jakarta.
+                                                </p>
+                                                <a href="{{ route( 'f.news.detail', [ 4, 'Now-is-the-Best-time-for-Indonesia-to-Accelerate-Infrastructure-Project' ]) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/minister-of-finance.jpg', 
@@ -159,7 +191,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                    {!! html_img( 'img/am2018/public/sri-mulyani.jpg', 
+                                    {!! html_img( 'img/am2018/public/sri-mulyani_thumbnail.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -181,22 +213,66 @@
                     </div>
                     <!--end of snippet-->
                		<div class="col-sm-4 post-snippet masonry-item">
-                        <div class="image-caption cast-shadow mb-xs-32 img-home">
-				            {!! html_img( 'img/am2018/public/aabbcc.jpg', 
-				                [ 
-				                	'w'		=> 408,
-				                	'h'		=> 300,
-				                    'class' => 'img-home' 
-				                ]) !!}
-                            <div class="caption text-center">
-                            	<h4>Tourist Package</h4>
-                                <span class="text-info">
-                                    <p>
-                                    	The World's Largest and grates Buddisht temple, build in the 19th century with mountainous scenery
-                                    </p>
-                                    <a href="#" class="btn-link">View More</a>
-                                </span>
-                            </div>
+                        <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
+				            <ul class="slides">
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/bali-hotel.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Bali Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/lombok-lake.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Lombok Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+								<li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/yogya-candi.jpg', 
+                                            [ 
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home' 
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Yogyakarta Tour</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                    Click here to see more
+                                                </p>
+                                                <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!--end of snippet-->
@@ -205,7 +281,7 @@
                             <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-1.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-1_thumbnail.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -224,7 +300,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-2.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-2_thumbnail.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,

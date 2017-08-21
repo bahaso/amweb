@@ -70,7 +70,7 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/JOINT-IMF-INDONESIA.pdf' ) }}" class="txt-underline">
+                        <a href="{{ asset( 'uploads/public/IMF-Tax-Conference.zip' ) }}" class="txt-underline">
                             JOINT IMF-INDONESIA HIGH-LEVEL CONFERENCE 12-13 July 2017.pdf
                         </a>
                     </td>
@@ -78,7 +78,7 @@
             </tbody>
         </table>
 
-        <a href="{{ asset( 'uploads/public/JOINT-IMF-INDONESIA.pdf' ) }}" class="pull-right fw400 link-txt fs14">
+        <a href="{{ asset( 'uploads/public/IMF-Tax-Conference.zip' ) }}" class="pull-right fw400 link-txt fs14">
             Download Attachment
         </a>
     </div>

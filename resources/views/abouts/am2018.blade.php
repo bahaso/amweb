@@ -1,4 +1,4 @@
-@extends( 'abouts._layout' )
+@extends( 'faqs._layout' )
 
 @section( 'top_content' )
     @include( '_partials._navbar',

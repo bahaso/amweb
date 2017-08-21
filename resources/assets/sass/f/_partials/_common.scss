@@ -20,7 +20,12 @@ section {
 .color-link {
 	color : #5252EF;
 }
-
+.ta-right {
+	text-align : right; 
+}
+.ta-center {
+	text-align : center; 
+}
 .txt-bold{
 	font-weight: bold;
 }
@@ -30,6 +35,16 @@ section {
 .txt-italic{
 	font-style : italic;
 }
+.fm-helvetica{
+	font-family	: $font-helvetica;
+}
+.fm-indonesiana{
+	font-family : $font-indonesiana-serif;
+}
+.fm-signika-reg{
+	font-family : $font-signika-reg;
+}
+
 $color-tertiary : #323347;
 .bg-tertiary {
 	background-color : $color-tertiary;
@@ -63,6 +78,13 @@ $color-tertiary : #323347;
 	&:hover {
 		text-decoration : underline;
 	}
+}
+/**
+ * ABOUT - FAQ page, for each row data
+ */
+.custom-faq-title{
+	width: 96%;
+	vertical-align: middle;
 }
 
 /**
@@ -420,6 +442,10 @@ $color-tertiary : #323347;
 		.content {
 			padding : 0 20px;
 
+			&.no-padding{
+				padding: 0;
+			}
+
 			p {
 				padding : 0;
 			}
@@ -449,9 +475,38 @@ $color-tertiary : #323347;
 					margin : 7px 9px 0 0;
 					float  : right;
 					color  : #FFF;
+
+					&.before-none{
+						display : none;
+					}
+				}
+
+
+				&.set-background{
+					height : 90px;
+
+					&.height-big{
+						height: 151px;
+					}
+
+					&:hover{
+						opacity : 0.6;
+					}
 				}
 			}
 		}
+
+/*		&.no-bg{
+			.title{
+				background : none;
+				padding : 0;
+				border-bottom: none;
+
+				&:hover{
+					background : none;
+				}
+			}
+		}*/
 
 		&.events {
 
@@ -662,6 +717,107 @@ $color-tertiary : #323347;
 	.flex-viewport {
 		li {
 			line-height : 115px; 
+		}
+	}
+}
+
+
+
+
+
+/**
+ * INFORMATION SPLIT COLUMNN - EX : DISCOVER INDONESIA -INDONESIA IN BRIEF
+ */
+/**
+ * TITLE & COLOR BAR
+ */
+.mix-color-title{
+	text-align 	: center;
+	line-height : normal;
+
+	@include clearfix();
+
+	&.mb-50{
+		margin-bottom : 50px;
+	}
+
+	.mct-row{
+		@include inline-block();
+		font-size   : rem( 60px );
+
+		&.sm-font{
+			font-size   : rem( 41px );
+		}
+	}
+}
+
+ .mix-color-bar{
+	@include bg-img( 'rgba/mix-bar.png', 252px, 5px );
+	margin-top : 39px;
+
+	&.left{
+		float: left;
+	}
+	&.right{
+		float: right;
+	}
+
+	&.full{
+		@include bg-img( 'rgba/mix-bar-full.png', 252px, 5px );
+	}
+ }
+
+ .mix-bar-full{
+	@include bg-img( 'rgba/mix-bar-full.png', 825px, 3px );
+	margin-bottom: 30px;
+
+	&.no-mb{
+		margin-bottom: 0;
+	}
+ }
+
+ .info-split-column{
+	@include clearfix();
+
+	padding: 40px 0 80px;
+ }
+
+.sc-col{
+	width: 45%;
+	border-bottom: 1px solid $border-gray;
+
+
+	@include inline-block();
+
+	&.right{
+		float: right;
+	}
+
+	&.heighten{
+		min-height : 110px;
+	}
+
+	.sc-label{
+		color  	 	: $color-gray-1;
+		font-size  	: rem( 18px );
+		font-family	: $font-signika-reg;
+
+		&.big{
+			@include inline-block();
+			padding-top: 17px;
+		}
+	}	
+	.sc-value{
+		color  	 	: $color-gray-1;
+		font-size 	: rem( 16px );
+		font-family	: $font-helvetica;
+
+		&.big{
+			font-family	: $font-signika-light;
+			font-size 	: rem( 32px );
+		 	color  	 	: $color-gray-2;
+
+			float 		: right;
 		}
 	}
 }
