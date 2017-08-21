@@ -29,41 +29,40 @@
         </p>
         <section class="faq">
             <ul class="accordion accordion-2 one-open">
-                    <li><h2 class="sub-title">
-                            Official Meetings
-                        </h2>
-                    </li>
                 <li class="active">
                     <div class="title">
-                        <h4 class="inline-block mb0">Board of Governors Annual Meeting Plenary</h4>
+                        <h4 class="inline-block mb0">Official Meetings</h4>
                     </div>
                     <div class="content">
+                        <ul>
+                            <li>
+                                <h2 class="sub-title">Board of Governors Annual Meeting Plenary</h2>
+                            </li>
+                        </ul>
                         <p>
                             The IMF-WB AM 2018 will be inaugurated by the President of Republic of Indonesia, Joko Widodo who will convey the importance of mobilizing mutual forces in overcoming intimidations against global utilization cooperation and improve the economic development for the common good. Opportunities for global economic cooperation are aimed at priority issues.
                         </p>
                         <p>
                             During this annual meeting plenary, Managing Director of IMF and President of World Bank will communicate significant points to be discussed collectively in accordance with mission and responsibilities of both institutions, which is addressing economic challenges and existing global development, including poverty eradication.
                         </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="title">
-                        <h4 class="inline-block mb0">Development Committee (DC)</h4>
-                    </div>
-                    <div class="content">
+
+                        <ul>
+                            <li>
+                                <h2 class="sub-title">Development Committee (DC)</h2>
+                            </li>
+                        </ul>
                         <p>
                             Development Committee serves as an advisory body whose function is to provide directions for World Bank and IMF operational activities. Currently, the Minister of Finance of the Republic of Indonesia, Sri Mulyani Indrawati stands as the first person in history to lead as Chairwoman, running DC meetings with its 25 members, consisting of the governors (ministers of finance/ministers of economy) representing 189 countries of World Bank and IMF.
                         </p>
                         <p>
                             Generally, DC will discuss a number of global development agenda turning into priorities in the future. Several issues that had been discussed, e.g. sustainable economic growth, poverty eradication, economic transformation, financing climate change, natural disaster, migration and refuges, gender equality in economy sector, job opportunities, urbanization, and demographic changes. In this case, DC will adhere to committing to the achievements of Sustainable Development Goals (SDGs).
                         </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="title">
-                        <h4 class="inline-block mb0">International Monetary and Financial Committee (IMFC)</h4>
-                    </div>
-                    <div class="content">
+
+                        <ul>
+                            <li>
+                                <h2 class="sub-title">International Monetary and Financial Committee (IMFC)</h2>
+                            </li>
+                        </ul>
                         <p>
                             This restricted meeting will be attended by Minister of Finance or Central Bank Governor representing the elected and invited country to discuss various policy responses related to global economic commitment in achieving growth that is robust, sustainable, inclusive, and balance. Relating to these issues, this meeting in general means to examine all current policy instruments, i.e. structural, fiscal, and monetary reformation – individually and collectively. These policies are implemented to amplify market trust, financial sector stability, and to give opportunities to all countries to be exposed to benefits from globalization and technology.
                         </p>
@@ -90,28 +89,28 @@
                     </div>
                 </li>--}}
 
-                    <li><h2 class="sub-title">
-                            Seminars and Events
-                        </h2>
-                    </li>
                 <li>
+                <div class="title">
+                    <h4 class="inline-block mb0">Seminars and Events</h4>
+                </div>
+                <div class="content">
                     <p>
                         Seminars on issues over economic development and global development along with its challenges will be included in the IMF-WB AM 2018 organized in different categories from high level seminar to technical seminar which are aimed for public and limited invitations.
                     </p>
                     <p>
                         Key seminars will be organized by IMF and WB as part of the IMF-WB AM 2018. Indonesia as the host country will propose several priority issues as topics in the key seminars. Moreover, Indonesia has the opportunity to hold its own seminar that attunes with the key seminars encompassing the Government of Indonesia policy agendas, such as improved investment, financial inclusive as well as fiscal and monetary policies that promote development in institutional capacity, regional government, and human resources so as to heighten Indonesia’s national economic capacity.
                     </p>
+                </div>
                 </li>
-
-                    <li><h2 class="sub-title">
-                            Press Conference
-                        </h2>
-                    </li>
-
                 <li>
-                    <p>
-                        coming soon
-                    </p>
+                    <div class="title">
+                        <h4 class="inline-block mb0">Press Conference</h4>
+                    </div>
+                    <div class="content">
+                        <p>
+                            coming soon
+                        </p>
+                    </div>
                 </li>
                 {{--<li>
                     <div class="title">
