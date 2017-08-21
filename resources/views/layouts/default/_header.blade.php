@@ -39,7 +39,7 @@
                             <a href="{{ route( 'f.abouts.imf' ) }}">The International Monetary Fund</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.abouts.world_bank' ) }}">The The World Bank Group</a>
+                            <a href="{{ route( 'f.abouts.world_bank' ) }}">The World Bank Group</a>
                         </li>
                         <!-- <li>
                             <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
