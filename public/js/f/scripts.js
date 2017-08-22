@@ -396,14 +396,14 @@ $(document).ready(function() {
 
             cfg = $.extend( {
                 minItems: 1,
-                maxItems: 4,
+                maxItems: 5,
                 move: 1,
                 itemWidth: 200,
                 pauseOnHover: true,
                 itemMargin: 0,
                 animation: "slide",
                 slideshow: true,
-                slideshowSpeed: 3000,
+                slideshowSpeed: 2000,
                 directionNav: false,
                 controlNav: false
             }, $csl.data() );

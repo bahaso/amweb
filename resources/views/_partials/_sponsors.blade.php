@@ -12,13 +12,19 @@
                 <div class="flex-viewport">
                     <ul class="slides">
                         <li>
+                            <a target="_blank" href="https://maritim.go.id/">
                             {!! html_img( 'img/am2018/partners/logo-kemenkomar.png', []) !!}
+                            </a>
                         </li>
                         <li>
+                            <a target="_blank" href="https://www.kemenkeu.go.id/">
                             {!! html_img( 'img/am2018/partners/logo-kemenkeu.png', []) !!}
+                            </a>
                         </li>
                         <li>
+                            <a target="_blank" href="http://www.bi.go.id/id/Default.aspx">
                             {!! html_img( 'img/am2018/partners/logo-bi.png', []) !!}
+                            </a>
                         </li>
                         <li>
                         <a target="_blank" href="http://www.imf.org/">

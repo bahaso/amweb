@@ -360,7 +360,7 @@ $(document).ready(function() {
             slideshowSpeed: 1000,
             directionNav: false,
             controlNav: false,
-            reverse:true
+            reverse:true,
         });
     }
     
