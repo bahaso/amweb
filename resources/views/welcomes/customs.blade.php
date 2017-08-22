@@ -25,12 +25,15 @@
 	</h1>
 	<div class="content">
 		<p>
-			General customs procedure go to:<br>
-			<a target="_blank" href="http://www.imigrasi.go.id/index.php/en/public-services/visit-visa">
-				http://www.imigrasi.go.id/index.php/en/public-services/visit-visa</a>
+			General customs procedure go to<br>
+			<a target="_blank" href="http://www.indonesia.travel/en/travel-guidance/visa-and-immigration">
+				http://www.indonesia.travel/en/travel-guidance/visa-and-immigration</a>
+			<br>
+			<a target="_blank" href="https://www.embassyofindonesia.org/index.php/customs-declaration/">
+				https://www.embassyofindonesia.org/index.php/customs-declaration/</a>
 		</p>
 		<p>
-			Information regarding visa application forthis events will be provided in early 2018.
+			Information regarding customs procedure forthis events will be provided in early 2018.
 		</p>
 	</div>
 </section>
