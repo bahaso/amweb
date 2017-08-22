@@ -48,12 +48,15 @@
                                 challenges and existing global development, including poverty eradication.
                             </p>
                             <p>
+                                The Annual Meetings Plenary will be kicked off with an opening address by the President of the Republic of Indonesia, H.E. Joko Widodo.
+                            </p>
+                            {{--<p>
                                 IMF-WBG AM 2018 will be inaugurated by the President of Republic of Indonesia, Joko
                                 Widodo who will convey the importance of mobilizing mutual forces in overcoming
                                 intimidations against global utilization cooperation and improve the economic
                                 development for the common good. Opportunities for global economic cooperation are aimed
                                 at priority issues.
-                            </p>
+                            </p>--}}
 
 
                             <ul>
