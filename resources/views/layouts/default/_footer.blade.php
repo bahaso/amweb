@@ -34,7 +34,7 @@
                 <hr>
                 <ul class="">
                     <li>
-                        <a href="{{ route( 'f.discovers.destination') }}">Top tourism destination</a>
+                        <a href="{{ route( 'f.discovers.destination') }}">Top tourism destinations</a>
                     </li>
                     <li>
                         <a href="{{ route( 'f.discovers.tourism' ) }}">Top tourism packages for attendees</a>
