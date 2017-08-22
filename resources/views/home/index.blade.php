@@ -8,8 +8,7 @@
 
 @section( 'content' )
     <section id="slideshow" class="cover fullscreen image-slider slider-all-controls controls-inside parallax"
-    		 data-h-diff="70"
-    	>
+    		 data-h-diff="70">
         <ul class="slides">
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
