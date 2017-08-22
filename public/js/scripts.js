@@ -357,9 +357,10 @@ $(document).ready(function() {
             itemMargin: 0,
             animation: "slide",
             slideshow: true,
-            slideshowSpeed: 3000,
+            slideshowSpeed: 1000,
             directionNav: false,
-            controlNav: false
+            controlNav: false,
+            reverse:true
         });
     }
     
