@@ -113,7 +113,6 @@
                             </p>
                         </div>
                     </li>--}}
->>>>>>> 6e499aba485a90acd0ac17ec329c166e763fa327
 
                     <li>
                         <div class="title">
