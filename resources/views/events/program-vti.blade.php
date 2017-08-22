@@ -55,7 +55,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>Indonesia’s Diversity</li>
+                <li style="margin-bottom: 10px">Indonesia’s Diversity</li>
                 <li>Indonesia’s Potential</li>
             </ol>
             <p>
