@@ -28,7 +28,7 @@
             <div class="col-sm-12 text-center">
                 <h4 class="mb16">FAQ</h4>
                 <p class="lead mb64">
-                    Website IMF-WB AM 2018
+                    Website IMF-WBG AM 2018
                 </p>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <ul class="accordion accordion-2">
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">What is IMF-WB Annual Meetings?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">What is IMF-WBG Annual Meetings?</h4>
                         </div>
                         <div class="content">
                             <p>
@@ -53,7 +53,7 @@
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">When will IMF-WB Annual Meetings 2018 take
+                            <h4 class="inline-block mb0 custom-faq-title">When will IMF-WBG Annual Meetings 2018 take
                                 place?</h4>
                         </div>
                         <div class="content">
@@ -65,7 +65,7 @@
                     <li>
                         <div class="title">
                             <h4 class="inline-block mb0 custom-faq-title">How many meetings that will be held during
-                                IMF-WB Annual Meetings 2018?</h4>
+                                IMF-WBG Annual Meetings 2018?</h4>
                         </div>
                         <div class="content">
                             <p>
@@ -81,27 +81,27 @@
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">How many participants of IMF-WB Annual
+                            <h4 class="inline-block mb0 custom-faq-title">How many participants of IMF-WBG Annual
                                 Meetings 2018?</h4>
                         </div>
                         <div class="content">
                             <p>
                                 In total, the estimated number of participants is 15.000, consisting of official
-                                delegates, investors, IMF-WB staffs, Civil Society Organizations (CSOs), academics,
+                                delegates, investors, IMF-WBG staffs, Civil Society Organizations (CSOs), academics,
                                 media, observers, and others.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">How did Indonesia end up hosting IMF-WB
+                            <h4 class="inline-block mb0 custom-faq-title">How did Indonesia end up hosting IMF-WBG
                                 Annual Meetings 2018?</h4>
                         </div>
                         <div class="content">
                             <p>
                                 Indonesia underwent a series of selection process. In September 2014, Indonesia
                                 expressed interest and submitted bid proposal. Proceeding with Indonesia’s
-                                candidacy, IMF-WB carried out site inspection in December 2014. Onto the next
+                                candidacy, IMF-WBG carried out site inspection in December 2014. Onto the next
                                 stage, Indonesia was shortlisted along with several other countries. Finally,
                                 Indonesia
                                 was officially selected as a host country in 10th October 2015.
@@ -111,20 +111,20 @@
                     <li>
                         <div class="title">
                             <h4 class="inline-block mb0 custom-faq-title">What are the benefits for Indonesia as a
-                                host country of IMF-WB Annual Meetings 2018?</h4>
+                                host country of IMF-WBG Annual Meetings 2018?</h4>
                         </div>
                         <div class="content">
                             <p class="mb0">
                                 There are two types of benefits. First are short-term benefits. The cost of hosting
-                                IMF-WB Annual Meetings 2018 is worth spending, knowing the potential of foreign
+                                IMF-WBG Annual Meetings 2018 is worth spending, knowing the potential of foreign
                                 exchange reserve gains from the spending of all participants prior, during, and post
-                                IMF-WB AM 2018. The potentials are coming from:
+                                IMF-WBG AM 2018. The potentials are coming from:
                                 i) meetings (private sector), ii)
                                 transportation &amp; accommodation, iii) foods &amp; beverages, iv) shopping &amp;
                                 entertainment, v) tourism (nature &amp; culture). Second, is long-term benefits.
                             </p>
                             <p>
-                                Second, long-term benefits that are resulted from hosting IMF-WB Annual Meetings
+                                Second, long-term benefits that are resulted from hosting IMF-WBG Annual Meetings
                                 2018, they are: i) knowledge-transfer, lessons on hosting international event, ii)
                                 trade
                                 and investment, the exposure of local products and investment opportunities as well
@@ -142,7 +142,7 @@
                         </div>
                         <div class="content">
                             <p>
-                                Voyage to Indonesia is a series of pre-events prior to IMF-WB Annual Meetings
+                                Voyage to Indonesia is a series of pre-events prior to IMF-WBG Annual Meetings
                                 2018. It is designed to showcase Indonesia as a reformed, resilient, progressive,
                                 and
                                 pro-job economy. It is covered in 5 themes, they are: i) Reformed and Resilient
