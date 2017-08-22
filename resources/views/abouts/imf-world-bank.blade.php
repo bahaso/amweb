@@ -20,9 +20,9 @@
 		<div class="container">
 	        <div class="row">
 	            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-	                <h4 class="uppercase mb16 fw600 title">IMF - WB Annual Meeting 2018</h4>
+	                <h4 class="uppercase mb16 fw600 title">IMF - WBG Annual Meeting 2018</h4>
 	                <p class="lead">
-	                    The 2018 Annual Meetings of the International Monetary Fund (IIMF) and the World Bank Group will take place in Bali Nusa Dua, Indonesia, in October 2018
+	                    The 2018 Annual Meetings of the International Monetary Fund (IMF) and the World Bank Group will take place in Bali Nusa Dua, Indonesia, in October 2018
 	                </p>
 	            </div>
 	        </div>
