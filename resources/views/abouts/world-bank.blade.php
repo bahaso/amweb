@@ -27,7 +27,7 @@
         <p>
             {!! html_img( 'img/am2018/public/WBG_Vertical-CMYK.png',
             [
-                'w' => '100%',
+                'w' => '50%',
                 'h' => 'auto'
             ]) !!}
         </p>
