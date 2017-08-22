@@ -65,7 +65,13 @@
                             </li>
                         </ul>
                         <p>
-                            This restricted meeting will be attended by Minister of Finance or Central Bank Governor representing the elected and invited country to discuss various policy responses related to global economic commitment in achieving growth that is robust, sustainable, inclusive, and balance. Relating to these issues, this meeting in general means to examine all current policy instruments, i.e. structural, fiscal, and monetary reformation – individually and collectively. These policies are implemented to amplify market trust, financial sector stability, and to give opportunities to all countries to be exposed to benefits from globalization and technology.
+                            The IMFC advises and reports to the IMF Board of Governors on the supervision and management of the international monetary and financial system, including on responses to unfolding events that may disrupt the system.  Although the IMFC has no formal decision-making powers, in practice, it has become a key instrument for providing strategic direction to the work and policies of the Fund.
+                        </p>
+                        <p>
+                            The IMFC has 24 members who are central bank governors, ministers, or others of comparable rank and who are usually drawn from the governors of the Fund’s 189 member countries.
+                        </p>
+                        <p>
+                            At the end of the meetings, the Committee issues a communiqué summarizing its views. These communiqués provide guidance for the IMF’s work program during the half year leading up to the next Spring or Annual Meetings.
                         </p>
                     </div>
                 </li>
