@@ -27,10 +27,10 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="{{ route( 'f.abouts.vti' ) }}">The Voyage to Indonesia</a>
+                            <a href="{{ route( 'f.abouts.am2018' ) }}">2018 Annual Meetings</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.abouts.am2018' ) }}">2018 Annual Meetings</a>
+                            <a href="{{ route( 'f.abouts.vti' ) }}">The Voyage to Indonesia</a>
                         </li>
                         <li>
                         <!-- <a href="{{ route( 'f.abouts.imf_world_bank' ) }}">IMF - WB Annual Meeting 2018</a> -->
