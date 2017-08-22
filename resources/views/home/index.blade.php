@@ -106,7 +106,7 @@
                     </div>
                     <p class="desc">
                         Held annually since 1946, the Annual Meetings of the Boards of Governors of the International Monetary Fund & World Bank Group (IMF-WBG) bring together the finance ministers and central bank governors from 189 member countries to discuss a range of issues related to poverty reduction, international economic development and finance. The 2018 Annual Meetings will be held in Nusa Dua, Bali, Indonesia in October.
-                    </p>
+                    <br><br><br><br></p>
                     <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
                         View More
                     </a>
@@ -115,7 +115,7 @@
 
             <section id="about_voyage" class="col-sm-6 about-section">
                 <div class="well feature bordered">
-                    <h4 class="title mb40">THE VOYAGE TO INDONESIA</h4>
+                    <h4 class="title mb40">THE VOYAGE TO INDONESIA: EVENTS & ACTIVITIES LEADING UP TO THE ANNUAL MEETINGS</h4>
                     <div class="logo mb40">
                         {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
                             [ 
