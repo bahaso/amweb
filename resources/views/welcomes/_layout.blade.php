@@ -13,13 +13,13 @@
     </li>
     <li class="{{ isActiveRoute( 'f.welcomes.visa' ) }}">
         <a href="{{ route( 'f.welcomes.visa') }}" class="lbl">
-            Visa
+            Visa & Customs
         </a>
     </li>
-    <li class="{{ isActiveRoute( 'f.welcomes.customs' ) }}">
+    {{--<li class="{{ isActiveRoute( 'f.welcomes.customs' ) }}">
         <a href="{{ route( 'f.welcomes.customs') }}" class="lbl">
             Customs
         </a>
-    </li>
+    </li>--}}
 
 @stop

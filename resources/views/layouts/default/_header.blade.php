@@ -82,11 +82,11 @@
                                 Tips</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.welcomes.visa', ['Travel Information', 'Visa']) }}">Visa</a>
+                            <a href="{{ route( 'f.welcomes.visa', ['Travel Information', 'Visa']) }}">Visa and Customs</a>
                         </li>
-                        <li>
+                        {{--<li>
                             <a href="{{ route( 'f.welcomes.customs', ['Travel Information', 'Customs']) }}">Customs</a>
-                        </li>
+                        </li>--}}
                         {{-- <li>
                              <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
                          </li>

@@ -6,7 +6,7 @@
         'navs' => 
         [
             [ 
-                'label' => 'Welcome To Indonesia', 
+                'label' => 'Travel Information',
                 'url' => route( 'f.welcomes.visa' ) 
             ],
             [ 
