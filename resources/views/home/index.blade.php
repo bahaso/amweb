@@ -435,10 +435,10 @@
 	                    <a href="#" target="_blank">
 	                        <i class="ti-facebook color-white"></i>
 	                    </a>
-	                    <a href="#" target="_blank">
+	                    <a href="https://www.instagram.com/am_2018_bali/" target="_blank">
 	                        <i class="ti-instagram color-white"></i>
 	                    </a>
-	                    <a href="#" target="_blank">
+	                    <a href="https://twitter.com/am2018bali" target="_blank">
 	                        <i class="ti-twitter-alt color-white"></i>
 	                    </a>
 	                    <a href="#" target="_blank">

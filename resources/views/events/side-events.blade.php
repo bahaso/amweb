@@ -21,57 +21,36 @@
 
     <section class="wysiwyg">
         <h1 class="title fw600">
-            Side/Parallel Events on IMF-WBG AM 2018
+            Host Country Hospitality During the Annual Meetings
         </h1>
         <div class="content">
-            <p>In order to optimize its position as the host country of the 2018 IMF-WBG Annual Meetings,
-                the Government of Indonesia initiates a series of activities during the Annual Meetings on 8-
-                14 October 2018. The activities are referred to as side/parallel events.</p>
-
-            <p>The side/parallel events are aimet at showcasing Indonesia economic development as well
-                as signature products and cultural diversity. These events will be in the form of exhibitions,
-                seminars, and art/cultural performances.
-            </p>
-
-            <p>
-                The side/parellel events consists of the following activities (with its respective objective) that
-                will be held in conjunction with the Annual Meetings 2018:
-            </p>
+            <p>The host country will welcome all Annual Meetings participants with a program of events, seminars, exhibitions, performances, and activities designed to spotlight the people, heritage, cultural diversity, art, products, and economic development of Indonesia.
+               <br> The Hospitality Program consists of the following activities scheduled during the Meetings:</p>
 
             <ul>
-                <li>Trade and Local Products Expo
-                    Introducing selected Indonesia’s export products that are relevant with IMF/WB
-                    development mission such as sustainable and ethical products, food products, digital
-                    platform trading, and consumer goods start-up)
+                <li>
+                    <b>Exhibition Featuring Local Products and Crafts</b>
+                    <p>Learn about the vast array of Indonesia’s trade partners and export products, especially sustainable and ethically-produced items such as food products, consumer goods, and digital market innovations. An opportunity for investors to meet and exchange ideas.</p>
                 </li>
                 <li>
-                    Indonesia Infrastructure Expo
-                    Introducing vision and progress of Indonesia’s infrastructure development
+                    <b>Indonesia Infrastructure Expo</b>
+                    <p>An introduction into the vision and progress of Indonesia’s infrastructure development.</p>
                 </li>
                 <li>
-                    Investment Forum
-                    Showcasing Indonesia’s investment climate
+                    <b> Investment Forum</b>
+                    <p>For those wanting a detailed look at Indonesia’s investment climate and future outlook.</p>
                 </li>
                 <li>
-                    Tourism Destinations Promotion
-                    Promoting selected tourism destinations in Indonesia
+                   <b>Featured Tourism Destinations</b>
+                    <p>Promoting selectedFor those making plans to explore Bali and beyond, tourism experts will be on hand to provide guidance and suggestions.</p>
                 </li>
                 <li>
-                    Culture and Art Shows
-                    Introducing selected Indonesia cultural activities
+                    <b>Cultural Program and Art Exhibitions</b>
+                    <p>Learn more about the rich, cultural heritage of the country and its people through traditional dance performances, art, photography, music, and other activities.</p>
                 </li>
                 <li>
-                    2018 AM Official Merchandise and Food Festival
-                    Introducing selected Indonesia’s culinary and memorabilia of IMF-WB AM 2018
-                </li>
-                <li>
-                    Fintech, Digital Economy, Sharia Economic Forum
-                    Discussing progress, challenges, and opportunities of financial technology, digital
-                    economy and Sharia/Islamic economy in Indonesia and/or the region
-                </li>
-                <li>
-                    Indonesian Food Hall and General Merchandises
-                    Introducing Indonesia culinary and art products
+                    <b>“Taste of Indonesia” Food Hall and Marketplace</b>
+                    <p>Experience the traditions and variety of Indonesia’s culinary legacy and take home something to remember your visit.</p>
                 </li>
             </ul>
         </div>
