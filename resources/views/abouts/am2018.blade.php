@@ -179,10 +179,10 @@
                         <ul>
                             <li>Expression of interest and submission of proposal (September 2014).</li>
                             <li>Site evaluation by IMF-WBG Meeting Team Secretariat (December 2014).</li>
-                            <li>Indonesia was appointed as host country (October 2015)./li>
+                            <li>Indonesia was appointed as host country (October 2015).</li>
                             <li>The signing of Agreement for the 2018 Annual Meetings of the Boards of Governors of IMF and WBG on October 10, 2015 which officially marked that Indonesia has been appointed as the host country of the event in Nusa Dua, Bali.</li>
-                            <li>Periodical inspection on the preparation of the event by MTS Mission Team (has been and will be conducted on April 2016, January 2017, May 2018, and July 2018).
-                        </ul>
+                            {{--<li>Periodical inspection on the preparation of the event by MTS Mission Team (has been and will be conducted on April 2016, January 2017, May 2018, and July 2018).
+                        --}}</ul>
                     </div>
                 </li>
             </ul>
