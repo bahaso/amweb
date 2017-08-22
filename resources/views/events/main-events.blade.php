@@ -48,7 +48,8 @@
                                 challenges and existing global development, including poverty eradication.
                             </p>
                             <p>
-                                The Annual Meetings Plenary will be kicked off with an opening address by the President of the Republic of Indonesia, H.E. Joko Widodo.
+                                The Annual Meetings Plenary will be kicked off with an opening address by the President
+                                of the Republic of Indonesia, H.E. Joko Widodo.
                             </p>
                             {{--<p>
                                 IMF-WBG AM 2018 will be inaugurated by the President of Republic of Indonesia, Joko
@@ -65,10 +66,18 @@
                                 </li>
                             </ul>
                             <p>
-                                The Development Committee serves as an advisory body whose function is to provide direction and discuss the operational activities of the IMF-WBG. Currently the Minister of Finance of the Republic of Indonesia, Sri Mulyani Indrawati, stands as the first woman to serve as DC Chair and lead the committee’s meetings of its 25 governors (ministers of finance/ministers of economy) representing the 189 member countries of the IMF-WBG.
+                                The Development Committee serves as an advisory body whose function is to provide
+                                direction and discuss the operational activities of the IMF-WBG. Currently the Minister
+                                of Finance of the Republic of Indonesia, Sri Mulyani Indrawati, stands as the first
+                                woman to serve as DC Chair and lead the committee’s meetings of its 25 governors
+                                (ministers of finance/ministers of economy) representing the 189 member countries of the
+                                IMF-WBG.
                             </p>
                             <p>
-                                Generally, the DC will discuss issues related to global economic development such as sustainable economic growth, poverty eradication, economic transformation, climate change, natural disaster relief, migration and refugees, gender equality, employment outlook, urbanization, and population/demographic changes.
+                                Generally, the DC will discuss issues related to global economic development such as
+                                sustainable economic growth, poverty eradication, economic transformation, climate
+                                change, natural disaster relief, migration and refugees, gender equality, employment
+                                outlook, urbanization, and population/demographic changes.
                             </p>
                             <ul>
                                 <li>
@@ -76,13 +85,21 @@
                                 </li>
                             </ul>
                             <p>
-                                The IMFC advises and reports to the IMF Board of Governors on the supervision and management of the international monetary and financial system, including on responses to unfolding events that may disrupt the system.  Although the IMFC has no formal decision-making powers, in practice, it has become a key instrument for providing strategic direction to the work and policies of the Fund.
+                                The IMFC advises and reports to the IMF Board of Governors on the supervision and
+                                management of the international monetary and financial system, including on responses to
+                                unfolding events that may disrupt the system. Although the IMFC has no formal
+                                decision-making powers, in practice, it has become a key instrument for providing
+                                strategic direction to the work and policies of the Fund.
                             </p>
                             <p>
-                                The IMFC has 24 members who are central bank governors, ministers, or others of comparable rank and who are usually drawn from the governors of the Fund’s 189 member countries.
+                                The IMFC has 24 members who are central bank governors, ministers, or others of
+                                comparable rank and who are usually drawn from the governors of the Fund’s 189 member
+                                countries.
                             </p>
                             <p>
-                                At the end of the meetings, the Committee issues a communiqué summarizing its views. These communiqués provide guidance for the IMF’s work program during the half year leading up to the next Spring or Annual Meetings.
+                                At the end of the meetings, the Committee issues a communiqué summarizing its views.
+                                These communiqués provide guidance for the IMF’s work program during the half year
+                                leading up to the next Spring or Annual Meetings.
                             </p>
                         </div>
                     </li>
@@ -113,19 +130,13 @@
                         </div>
                         <div class="content">
                             <p>
-                                Seminars on issues over economic development and global development along with its
-                                challenges will be included in the IMF-WBG AM 2018 organized in different categories
-                                from high level seminar to technical seminar which are aimed for public and limited
-                                invitations.
-                            </p>
-                            <p>
-                                Key seminars will be organized by IMF and WB as part of the IMF-WBG AM 2018. Indonesia
-                                as the host country will propose several priority issues as topics in the key seminars.
-                                Moreover, Indonesia has the opportunity to hold its own seminar that attunes with the
-                                key seminars encompassing the Government of Indonesia policy agendas, such as improved
-                                investment, financial inclusive as well as fiscal and monetary policies that promote
-                                development in institutional capacity, regional government, and human resources so as to
-                                heighten Indonesia’s national economic capacity.
+                                The seminars and events that take place during the week of the Annual Meetings are
+                                designed to generate discussion and debate as well as promote partnership, cooperation,
+                                and knowledge-sharing. Key seminars will be organized by the IMF and WBG and Indonesia,
+                                as the host country, will contribute key experts to participate in discussion panels and
+                                thematic topics such as case studies on improved investment, financial inclusivity, as
+                                well as fiscal and monetary policies that promote development in human resources and
+                                institutional, regional government, and economic capacity.
                             </p>
                         </div>
                     </li>
@@ -135,7 +146,10 @@
                         </div>
                         <div class="content">
                             <p>
-                                coming soon
+                                Press Conferences are organized to highlight newsworthy announcements and events on
+                                matters of global or region-specific relevance that are being discussed at the Annual
+                                Meetings. These engagements with the media offer a platform for thought leaders to reach a
+                                wide audience and provide access to the latest news and updates.
                             </p>
                         </div>
                     </li>
