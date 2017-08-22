@@ -312,7 +312,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-3.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-3_thumbnail.JPG',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -331,7 +331,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-4.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-4_thumbnail.JPG',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -350,7 +350,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-5.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-5_thumbnail.JPG',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -369,7 +369,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-6.JPG', 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-6_thumbnail.JPG',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
