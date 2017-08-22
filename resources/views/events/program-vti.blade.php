@@ -29,7 +29,7 @@
                 showcasing Indonesia and ASEAN as a reformed, resilient, progressive, and pro-job economy. VTI
                 events will be integrated under four overarching themes:
             </p>
-            <ol>
+            <ol style="margin-left: 15px">
                 <li>
                     Development
                     <ul>
