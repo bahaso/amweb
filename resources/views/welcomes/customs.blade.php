@@ -33,7 +33,7 @@
 				https://www.embassyofindonesia.org/index.php/customs-declaration/</a>
 		</p>
 		<p>
-			Information regarding customs procedure forthis events will be provided in early 2018.
+			Information regarding customs procedure for this events will be provided in early 2018.
 		</p>
 	</div>
 </section>
