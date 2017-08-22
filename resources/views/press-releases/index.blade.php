@@ -45,15 +45,15 @@
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [2, 'indonesia-menjadi-tuan-rumah' ]) }}">
                             Indonesia Menjadi Tuan Rumah Pertemuan Ekonomi dan Keuangan Terbesar di Dunia: IMF-World
-                            Bank Annual Meetings 2018
+                            Bank Group Annual Meetings 2018
                         </a>
                     </td>
                 </tr>
                 <tr>
                     <td>April 17, 2017</td>
                     <td>
-                        <a href="{{ route( 'f.press-releases.detail', [3, 'indonesia-in-IMF-WB-2017' ]) }}">
-                            Indonesia in IMF-WB Spring Meetings 2017
+                        <a href="{{ route( 'f.press-releases.detail', [3, 'indonesia-in-IMF-WBG-2017' ]) }}">
+                            Indonesia in IMF-WBG Spring Meetings 2017
                         </a>
                     </td>
                 </tr>
@@ -66,9 +66,22 @@
             Media Contact
         </h1>
         <div class="content">
-            Indonesia Planning Team <br>
-            Telp: +62-21-3849315, +62-21-29815250 <br>
-            Email: am_2018@kemenkeu.go.is, AM2018_BI@bi.go.id <br>
+            <div class="row" style="font-size: 13px">
+                <div class="col-sm-6">
+                    <b>Nufransa Wira Sakti</b><br>
+                    Head of Communication and Information Services Bureau, Ministry of Finance of Indonesia<br />
+                    Email : nufransa.sakti@kemenkeu.go.id<br/>
+                    Phone : +62-21-3500849<br/>
+                    Address : Juanda I Building, 11th floor, Dr. Wahidin Raya St No.1, Jakarta Pusat 10710<br/>
+                </div>
+                <div class="col-sm-6">
+                    <b>Andiwiana Septonarwanto</b><br>
+                    Director of Communication Department, Bank of Indonesia<br/>
+                    Email : dkom@bi.go.id<br/>
+                    Phone : +62-21-1500131<br/>
+                    Address : MH Thamrin St No.2, Jakarta Pusat 10350<br/>
+                </div>
+            </div>
         </div>
     </section>
 

@@ -32,13 +32,13 @@
                 <tr>
                     <th width="20%">Title</td>
                     <td>
-                        Indonesia in IMF-WB Spring Meetings 2017
+                        Indonesia in IMF-WBG Spring Meetings 2017
                     </td>
                 </tr>
                 <tr>
                     <th>Event</td>
                     <td>
-                        IMF-WB Spring Meetings 2017
+                        IMF-WBG Spring Meetings 2017
                     </td>
                 </tr>
                 <tr>
@@ -58,7 +58,7 @@
                     <td>
                         Minister of Finance of Republic of Indonesia (RI), Sri Mulyani Indrawati will depart
 
-                        to Washington DC, US in April, 18 2017 for attending IMF – WB 2017 Spring
+                        to Washington DC, US in April, 18 2017 for attending IMF – WBG 2017 Spring
 
                         Meetings. The event is going to be commenced in April, 19 to April, 24 2017. There
 
@@ -77,7 +77,7 @@
                     <th>Attachment</td>
                     <td>
                         <a href="{{ asset( 'uploads/public/Press-Release-IMF.pdf' ) }}" class="txt-underline">
-                            Press Release IMF-World Bank Spring Meetings 2017.pdf
+                            Press Release IMF-World Bank Group Spring Meetings 2017.pdf
                         </a>
                     </td>
                 </tr>
