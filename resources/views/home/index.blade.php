@@ -142,6 +142,7 @@
 	        <section id="news" class="row">
                 <div class="row masonry fadeIn">
                     <div class="col-sm-4 post-snippet masonry-item">
+                        <div align="center">News</div>
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
 								<li>
@@ -206,6 +207,7 @@
                     </div>
                     <!--end of snippet-->
                		<div class="col-sm-4 post-snippet masonry-item">
+                        <div align="center">Tourism Packages</div>
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
 				            <ul class="slides">
                                 <li>
@@ -270,6 +272,7 @@
                     </div>
                     <!--end of snippet-->
                     <div class="col-sm-4 post-snippet masonry-item">
+                        <div align="center">Indonesia Updates</div>
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
                                 <li>
