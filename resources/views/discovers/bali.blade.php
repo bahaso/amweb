@@ -43,46 +43,8 @@
                 'h' => 'auto'
             ]) !!}
         </p>
-        <div class="info-split-column">
-            <div class="sc-col">
-                <div class="sc-label big">Population</div>
-                <div class="sc-value big">263,645,474</div>
-            </div>
-            <div class="sc-col right">
-                <div class="sc-label big">Area</div>
-                <div class="sc-value big">1,812,108 Km2</div>
-            </div>
-            <div class="sc-col heighten">
-                <div class="sc-label">Languages</div>
-                <div class="sc-value">Bahasa Indonesia</div>
-            </div>
-            <div class="sc-col right">
-                <div class="sc-label">Religion</div>
-                <div class="sc-value">
-                    Islam, Protestantism, Catholicism, Hinduism, Buddhism and Confucianism
-                </div>
-            </div>
-            <div class="sc-col">
-                <div class="sc-label">Government    </div>
-                <div class="sc-value">Constitutional Republic</div>
-            </div>
-            <div class="sc-col right">
-                <div class="sc-label">Currency</div>
-                <div class="sc-value">
-                    (Rp) Indonesian Rupiah
-                </div>
-            </div>
-        </div>
 
-        <div class="mix-bar-full"></div>
-        
-        <p class="fm-helvetica">
-            Bali, known as The Land of Gods, has natural beauties of the serene terraced rice fields and looming mighty volcanoes.
-             From intricately carved temples, dramatic dances, colorful ceremonies, uniques arts and crafts, up to the luxurious beach 
-             resorts and unforgettable nightlife are just a few things that you can easily find in Bali.
-        </p>
 
-        <div class="mix-bar-full no-mb"></div>
 
         <div class="faq-title-link">
             <h4 class="ftl-title">Things to do in Bali</h4>
