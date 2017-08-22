@@ -4,7 +4,7 @@
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
             {!! html_img( 'img/am2018/logo-garuda-indonesia.png',
                 [ 
-                    'w'     => 230,
+                    'w'     => 285,
                     'h'     => 62,
                     'class' => 'logo logo-dark' 
                 ]) !!}
