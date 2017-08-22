@@ -27,7 +27,7 @@
         <p>
             {!! html_img( 'img/am2018/public/about-imf_article.jpg',
             [
-                'w' => '50%',
+                'w' => '40%',
                 'h' => 'auto'
             ]) !!}
         </p>
@@ -38,7 +38,7 @@
 		 The IMF's responsibilities: The IMF's primary purpose is to ensure the stability of the international monetary system—the system of exchange rates and international payments that enables countries (and their citizens) to transact with each other. The Fund's mandate was updated in 2012 to include all macroeconomic and financial sector issues that bear on global stability.
 		</p>
 		<p>
-		 [To see more information on the IMF, go to <a target="_blank" href="http://www.imf.org/en/About">http://www.imf.org/en/About</a>.]
+		 [For information on the IMF, go to <a target="_blank" href="http://www.imf.org/en/About">http://www.imf.org/en/About</a>.]
 		</p>
     </div>
 </section>
