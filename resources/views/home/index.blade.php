@@ -432,7 +432,7 @@
 	        			Follow us at:
 	        		</div>
 	        		<div class="fo-col text-center">
-	                    <a href="#" target="_blank">
+	                    <a href="https://www.facebook.com/The-2018-IMF-WBG-Annual-Meetings-Bali-301090217025165" target="_blank">
 	                        <i class="ti-facebook color-white"></i>
 	                    </a>
 	                    <a href="https://www.instagram.com/am_2018_bali/" target="_blank">
@@ -441,7 +441,7 @@
 	                    <a href="https://twitter.com/am2018bali" target="_blank">
 	                        <i class="ti-twitter-alt color-white"></i>
 	                    </a>
-	                    <a href="#" target="_blank">
+	                    <a href="https://www.youtube.com/channel/UCWmYsuSF_Iz3IHCOTO7nGlA" target="_blank">
 	                        <i class="ti-youtube color-white"></i>
 	                    </a>
 	        		</div>
