@@ -21,7 +21,7 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600">
-        About Annual Meeting
+        About Annual Meetings
     </h1>
     <div class="content">
         <p>
