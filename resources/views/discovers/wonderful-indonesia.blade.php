@@ -37,14 +37,11 @@
             <span class="mix-color-bar right" style="width:170px;margin-top:23px;"></span>
         </div>
         
-        <p class="fm-helvetica">
-            Indonesia has various natural wonders that you can explore. Bali, known as the Island of God, 
-            is a great destination for your family trip with its alluring beaches and dramatic dances. Explore further to the islands around 
-            and meet the real life dragons at the Komodo Island or to visit divine hidden beaches and marine life at Lombok Island.
-            If you want to learn and live as locals, Yogyakarta as the cradle of civilization on Java and Tana Toraja with its traditional
-            culture in the highland can be your next destinaton with its unique culture and traditions. Lake Toba is a perfect place to
-            relax and living in the moment to escape all of the city hustle in your daily life. Discover your adventure and choose one of
-            your favourite destination now!
+        <p>
+            Indonesia has various natural wonders to explore and Bali, known as the Island of Gods, is an alluring destination for all travelers. Explore beyond the green cascading rice fields in Bali where you can witness real-life dragons known as Komodo in Labuan Bajo, or swim with the stingless jellyfish in Kalimantan! If you want something more magical, visit the mystifying White Crater in Bandung or visit the biggest Buddhist temple known as Borobudur Temple near Yogyakarta. You can also stroll around and taste the unique cuisines from each area or enjoy the metropolitan hub of Jakarta. We invite you to travel to the surrounding islands – there are more than 16,000 for you to discover!
+        </p>
+        <p>
+            It’s all in Wonderful Indonesia!
         </p>
 
         <section class="faq">
