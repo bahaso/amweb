@@ -405,7 +405,7 @@
 	        <div class="row">
 	        	<div id="timer" class="col-md-6">
 	        		<div class="text-center countdown-timer">
-                        <div class="countdown" data-date="2018/10/14"></div>
+                        <div class="countdown" data-date="2018/10/8"></div>
                         <div class="sep">
                         	<span class="text">Voyage To Indonesia in</span>
                         </div>
