@@ -23,13 +23,10 @@
 
 @section( 'rhs_content' )
 
-    <div class="container">
+    <div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4 class="mb16">FAQ</h4>
-                <p class="lead mb64">
-                    Website IMF-WBG AM 2018
-                </p>
+                <h4 class="mb16">Frequently Asked Questions (FAQ)</h4>
             </div>
         </div>
         <!--end of row-->
@@ -38,132 +35,73 @@
                 <ul class="accordion accordion-2">
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">What is IMF-WBG Annual Meetings?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">What are the IMF-WBG Annual Meetings?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                It is the annual meeting that brings together Central Bank Governors and Ministers
-                                of
-                                Finance from 189 countries along with prominent persons from private sector,
-                                academics, NGO, and media, to discuss developments in the economy and finance.
-                                For two consecutive years, it takes place in Washington DC, USA. Meanwhile, in the
-                                third year, the selected member country gets to host the Meetings.
+                                The Annual Meetings bring together Central Bank and Ministry of Finance governors from the 189 member countries of the IMF-WBG along with prominent persons from private sector, academia, civil society organizations, and media to discuss developments in the global economy and finance. For two consecutive years, the Meetings take place in Washington, DC, USA, and in the third year, they are hosted by a member country.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">When will IMF-WBG Annual Meetings 2018 take
-                                place?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">When and where will the 2018 Annual Meetings take place?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                It will take place on 12th – 14th October 2018 in Nusa Dua, Bali, Indonesia.
+                                Annual Meetings events will take place between 8-14 of October in Nusa Dua, Bali, Indonesia.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">How many meetings that will be held during
-                                IMF-WBG Annual Meetings 2018?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">How many meetings will be held during the IMF-WBG Annual Meetings?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                There will be more or less 2.000 meetings running simultaneously. As parts of its
-                                main agenda, there will be Plenary Session, International Monetary and Financial
-                                Committee (IMFC) Meeting, and Development Committee (DC) Meeting. In addition,
-                                other official meetings will occur, such as G-7, G-20, G-24, BRICS, and etc. Also
-                                featured are seminars, regional briefings, press conferences, and many other events
-                                focused on the global economy, international development, and the world's financial
-                                system.
+                                There will be approximately 2,000 meetings convened during the week of the Annual Meetings. As part of the main agenda, there will be a Plenary Session, the International Monetary and Financial Committee (IMFC) Meeting, and the Development Committee (DC) Meeting. In addition, the IMF and the WBG will also help organize and host a number of related meetings of groups of country delegations such as the G-20, G-24, Commonwealth, BRICS, as well as the Program of Seminars, regional briefings, press conferences, and other events.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">How many participants of IMF-WBG Annual
-                                Meetings 2018?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">How many participants attend the Annual Meetings?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                In total, the estimated number of participants is 15.000, consisting of official
-                                delegates, investors, IMF-WBG staffs, Civil Society Organizations (CSOs), academics,
-                                media, observers, and others.
+                                In total, the estimated number of participants is 15.000, consisting of official delegates, observers, IMF-WBG staff, Civil Society Organizations (CSOs), academics, media, guests, and other participant categories.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">How did Indonesia end up hosting IMF-WBG
-                                Annual Meetings 2018?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">How was Indonesia selected as host country of the Annual Meetings?</h4>
                         </div>
                         <div class="content">
                             <p>
-                                Indonesia underwent a series of selection process. In September 2014, Indonesia
-                                expressed interest and submitted bid proposal. Proceeding with Indonesia’s
-                                candidacy, IMF-WBG carried out site inspection in December 2014. Onto the next
-                                stage, Indonesia was shortlisted along with several other countries. Finally,
-                                Indonesia
-                                was officially selected as a host country in 10th October 2015.
+                                In September 2014, Indonesia expressed interest and submitted a proposal as part of the selection process. The IMF-WBG carried out site inspections of candidate countries in December 2014 and Indonesia was selected by shareholders as 2018 host country after an official announcement during the 2015 Annual Meetings in Lima, Peru.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">What are the benefits for Indonesia as a
-                                host country of IMF-WBG Annual Meetings 2018?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">What is the Voyage to Indonesia?</h4>
                         </div>
                         <div class="content">
                             <p class="mb0">
-                                There are two types of benefits. First are short-term benefits. The cost of hosting
-                                IMF-WBG Annual Meetings 2018 is worth spending, knowing the potential of foreign
-                                exchange reserve gains from the spending of all participants prior, during, and post
-                                IMF-WBG AM 2018. The potentials are coming from:
-                                i) meetings (private sector), ii)
-                                transportation &amp; accommodation, iii) foods &amp; beverages, iv) shopping &amp;
-                                entertainment, v) tourism (nature &amp; culture). Second, is long-term benefits.
-                            </p>
-                            <p>
-                                Second, long-term benefits that are resulted from hosting IMF-WBG Annual Meetings
-                                2018, they are: i) knowledge-transfer, lessons on hosting international event, ii)
-                                trade
-                                and investment, the exposure of local products and investment opportunities as well
-                                as trade transaction, iii) the increasing number of tourists to top 10 main
-                                destinations
-                                in Indonesia, iv) Indonesia’s leadership in hosting international event and
-                                discussing
-                                global issues.
+                                The Voyage to Indonesia is a series of pre-events prior to the Annual Meetings. It is designed to showcase Indonesia as a reformed, resilient, progressive, and pro-job economy. There are four over-arching themes: <a href="{{ route( 'f.events.program_vti' ) }}">Development, Economy & Finance, Indonesia’s Diversity, and Indonesia’s Potential</a>.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">What is Voyage to Indonesia?</h4>
+                            <h4 class="inline-block mb0 custom-faq-title">What are the events of the Voyage to Indonesia?</h4>
                         </div>
                         <div class="content">
-                            <p>
-                                Voyage to Indonesia is a series of pre-events prior to IMF-WBG Annual Meetings
-                                2018. It is designed to showcase Indonesia as a reformed, resilient, progressive,
-                                and
-                                pro-job economy. It is covered in 5 themes, they are: i) Reformed and Resilient
-                                Economy, ii) Digitalized Economy, iii) Towards a Modern and Inclusive Sharia, iv)
-                                Women Empowerment, v) Inclusive Growth.
+                            <p>There are a wide range of events such as seminars, panel discussion, community and regional outreach, meetings with stakeholders, workshops, contests, and exhibitions.
                             </p>
                         </div>
                     </li>
-                    <li>
-                        <div class="title">
-                            <h4 class="inline-block mb0 custom-faq-title">What are the events of Voyage to
-                                Indonesia?</h4>
-                        </div>
-                        <div class="content">
-                            <p>
-                                There is a wide range of events, such as seminars, outreach, meeting with
-                                stakeholders, workshops, contests, and exhibitions.
-                            </p>
-                        </div>
-                    </li>
-
                 </ul>
                 <!--end of accordion-->
             </div>
