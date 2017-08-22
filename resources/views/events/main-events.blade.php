@@ -65,20 +65,10 @@
                                 </li>
                             </ul>
                             <p>
-                                Development Committee serves as an advisory body whose function is to provide directions
-                                for World Bank and IMF operational activities. Currently, the Minister of Finance of the
-                                Republic of Indonesia, Sri Mulyani Indrawati stands as the first person in history to
-                                lead as Chairwoman, running DC meetings with its 25 members, consisting of the governors
-                                (ministers of finance/ministers of economy) representing 189 countries of World Bank and
-                                IMF.
+                                The Development Committee serves as an advisory body whose function is to provide direction and discuss the operational activities of the IMF-WBG. Currently the Minister of Finance of the Republic of Indonesia, Sri Mulyani Indrawati, stands as the first woman to serve as DC Chair and lead the committee’s meetings of its 25 governors (ministers of finance/ministers of economy) representing the 189 member countries of the IMF-WBG.
                             </p>
                             <p>
-                                Generally, DC will discuss a number of global development agenda turning into priorities
-                                in the future. Several issues that had been discussed, e.g. sustainable economic growth,
-                                poverty eradication, economic transformation, financing climate change, natural
-                                disaster, migration and refuges, gender equality in economy sector, job opportunities,
-                                urbanization, and demographic changes. In this case, DC will adhere to committing to the
-                                achievements of Sustainable Development Goals (SDGs).
+                                Generally, the DC will discuss issues related to global economic development such as sustainable economic growth, poverty eradication, economic transformation, climate change, natural disaster relief, migration and refugees, gender equality, employment outlook, urbanization, and population/demographic changes.
                             </p>
                             <ul>
                                 <li>
