@@ -25,7 +25,7 @@
     </h1>
     <div class="content">
         <p class="no-mb">
-            Main events are principal activities that will be held on the Annual Meetings of International Monetary Funds & World Bank (IMF-WB AM 2018) during 8 –14 October 2018 in Nusa Dua, Bali. These activities are as follow:
+            Main events are principal activities that will be held during the Annual Meetings of International Monetary Fund & World Bank Group (IMF-WBG AM 2018) during 8 –14 October 2018 in Nusa Dua, Bali. These activities are as follows:
         </p>
         <section class="faq">
             <ul class="accordion accordion-2 one-open">
@@ -36,15 +36,16 @@
                     <div class="content">
                         <ul>
                             <li>
-                                <h2 class="sub-title">Board of Governors Annual Meeting Plenary</h2>
+                                <h2 class="sub-title">Annual Meetings Plenary</h2>
                             </li>
                         </ul>
                         <p>
-                            The IMF-WB AM 2018 will be inaugurated by the President of Republic of Indonesia, Joko Widodo who will convey the importance of mobilizing mutual forces in overcoming intimidations against global utilization cooperation and improve the economic development for the common good. Opportunities for global economic cooperation are aimed at priority issues.
+                            During the plenary, Managing Director of the IMF and President of the World Bank Group will communicate significant points to be discussed collectively in accordance with mission and responsibilities of both institutions, which is addressing economic challenges and existing global development, including poverty eradication.
                         </p>
                         <p>
-                            During this annual meeting plenary, Managing Director of IMF and President of World Bank will communicate significant points to be discussed collectively in accordance with mission and responsibilities of both institutions, which is addressing economic challenges and existing global development, including poverty eradication.
+                            IMF-WBG AM 2018 will be inaugurated by the President of Republic of Indonesia, Joko Widodo who will convey the importance of mobilizing mutual forces in overcoming intimidations against global utilization cooperation and improve the economic development for the common good. Opportunities for global economic cooperation are aimed at priority issues.
                         </p>
+
 
                         <ul>
                             <li>
@@ -95,10 +96,10 @@
                 </div>
                 <div class="content">
                     <p>
-                        Seminars on issues over economic development and global development along with its challenges will be included in the IMF-WB AM 2018 organized in different categories from high level seminar to technical seminar which are aimed for public and limited invitations.
+                        Seminars on issues over economic development and global development along with its challenges will be included in the IMF-WBG AM 2018 organized in different categories from high level seminar to technical seminar which are aimed for public and limited invitations.
                     </p>
                     <p>
-                        Key seminars will be organized by IMF and WB as part of the IMF-WB AM 2018. Indonesia as the host country will propose several priority issues as topics in the key seminars. Moreover, Indonesia has the opportunity to hold its own seminar that attunes with the key seminars encompassing the Government of Indonesia policy agendas, such as improved investment, financial inclusive as well as fiscal and monetary policies that promote development in institutional capacity, regional government, and human resources so as to heighten Indonesia’s national economic capacity.
+                        Key seminars will be organized by IMF and WB as part of the IMF-WBG AM 2018. Indonesia as the host country will propose several priority issues as topics in the key seminars. Moreover, Indonesia has the opportunity to hold its own seminar that attunes with the key seminars encompassing the Government of Indonesia policy agendas, such as improved investment, financial inclusive as well as fiscal and monetary policies that promote development in institutional capacity, regional government, and human resources so as to heighten Indonesia’s national economic capacity.
                     </p>
                 </div>
                 </li>
