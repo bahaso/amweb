@@ -12,7 +12,7 @@
         <ul class="slides">
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti1.jpg', 
+		            {!! html_img( 'img/am2018/slides/background-vti1.jpg',
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -312,7 +312,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-3_thumbnail.JPG',
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-3_thumbnail.jpg',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -331,7 +331,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-4_thumbnail.JPG',
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-4_thumbnail.jpg',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -350,7 +350,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-5_thumbnail.JPG',
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-5_thumbnail.jpg',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -369,7 +369,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-6_thumbnail.JPG',
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-6_thumbnail.jpg',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
