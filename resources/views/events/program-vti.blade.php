@@ -21,7 +21,7 @@
 
     <section class="wysiwyg">
         <h1 class="title fw600">
-            Voyage To Indonesia Program (Ministry Of Finance)
+            Voyage To Indonesia Program
         </h1>
         <div class="content">
             <p>
