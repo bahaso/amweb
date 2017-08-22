@@ -21,7 +21,7 @@
 
 <section class="wysiwyg">
     <h1 class="title fw600">
-        THE WORLD BANK GROUP
+        About the World Bank Group (WBG)
     </h1>
     <div class="content">
         <p>
