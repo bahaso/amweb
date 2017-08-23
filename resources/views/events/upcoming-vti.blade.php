@@ -40,14 +40,14 @@
             </ul>
             <ul style="margin-left: 15px">
                 <li>
-                    <h4 style="color:#87CEFA";">Sharia Economic Festival in 3 Cities (Makassar, Medan, Bandung), August – September 2017 and International Sharia Economic Festival, Surabaya – November 2017</h4>
-                    <p style="color:#87CEFA";">Sharia Economic Festival carries the spirit of showcasing the development of sharia economy and finance in Indonesia. The events are held in 3 cities across Indonesia, such as Makassar (25th-27th August 2017), Medan (8th -10th September 2017), and Bandung (14th – 16th September 2017). These events also precedes the International Sharia Economic Festival in Surabaya (November 2017).</p>
+                    <h4>Sharia Economic Festival in 3 Cities (Makassar, Medan, Bandung), August – September 2017 and International Sharia Economic Festival, Surabaya – November 2017</h4>
+                    <p>Sharia Economic Festival carries the spirit of showcasing the development of sharia economy and finance in Indonesia. The events are held in 3 cities across Indonesia, such as Makassar (25th-27th August 2017), Medan (8th -10th September 2017), and Bandung (14th – 16th September 2017). These events also precedes the International Sharia Economic Festival in Surabaya (November 2017).</p>
                 </li>
             </ul>
             <ul style="margin-left: 15px">
                 <li>
-                    <h4 style="color:#87CEFA";">International Seminar on “National And Regional Balance Sheet: Toward An Integrated Macrofinancial System Stability”, 1st-2nd November 2017 in Bali</h4>
-                    <p style="color:#87CEFA";">The two-day seminar will be conducted by Bank Indonesia, discussing on the importance of integrated sectoral balance sheet. The theme has been regarded an important issue as it provides powerful information to identify financial imbalances that could lead to financial crisis. The seminar will bring up the issue through 4 sessions, namely i) Seminar on Data Compilation; ii) Seminar on Data Analysis; iii) Sharing Session on NFABS Data Compilation; and iv) Sharing Session on NFABS Data Analysis.  </p>
+                    <h4>International Seminar on “National And Regional Balance Sheet: Toward An Integrated Macrofinancial System Stability”, 1st-2nd November 2017 in Bali</h4>
+                    <p>The two-day seminar will be conducted by Bank Indonesia, discussing on the importance of integrated sectoral balance sheet. The theme has been regarded an important issue as it provides powerful information to identify financial imbalances that could lead to financial crisis. The seminar will bring up the issue through 4 sessions, namely i) Seminar on Data Compilation; ii) Seminar on Data Analysis; iii) Sharing Session on NFABS Data Compilation; and iv) Sharing Session on NFABS Data Analysis.  </p>
                 </li>
             </ul>
             <ul style="margin-left: 15px">

@@ -64,8 +64,8 @@
             </ul>
             <ul style="margin-left: 15px">
                 <li>
-                    <h4 style="color:#87CEFA";">Seminar on ASEAN: 50 Years of Growth, 19th July 2017 in Jakarta</h4>
-                    <p style="color:#87CEFA">This seminar was held under the collaboration of Bank Indonesia and The Jakarta Post. This event aims to mark the anniversary of ASEAN as a regional integration. This also intended to celebrate the economic achievements and progress that was accomplished amongst ASEAN countries.</p>
+                    <h4>Seminar on ASEAN: 50 Years of Growth, 19th July 2017 in Jakarta</h4>
+                    <p>This seminar was held under the collaboration of Bank Indonesia and The Jakarta Post. This event aims to mark the anniversary of ASEAN as a regional integration. This also intended to celebrate the economic achievements and progress that was accomplished amongst ASEAN countries.</p>
                 </li>
             </ul>
             <ul style="margin-left: 15px">
