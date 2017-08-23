@@ -100,7 +100,7 @@
                         {!! html_img( 'img/am2018/amf2018-logo.jpg', 
                             [ 
                                 'w'     => 388,
-                                'h'     => 142,
+                                'h'     => 163,
                                 'class' => 'logo logo-dark' 
                             ]) !!}
                     </div>

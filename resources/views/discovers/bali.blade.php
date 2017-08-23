@@ -28,13 +28,14 @@
     <div class="content">
 
 
-
         <div class="mix-color-title mb-50">
-            <span class="mix-color-bar left" style="width:170px;margin-top:23px;"></span>
+            <span class="mix-color-bar mobile-full"></span>
+            <span class="mix-color-bar left"></span>
             <span class="mct-row fm-signika-reg sm-font">
                 Bali (Land of the Gods)
             </span>
-            <span class="mix-color-bar right" style="width:170px;margin-top:23px;"></span>
+            <span class="mix-color-bar right"></span>
+            <span class="mix-color-bar mobile-full"></span>
         </div>
         <p class="no-mb">
             {!! html_img( 'img/am2018/public/discover-indonesia/bali/bali-location.png',

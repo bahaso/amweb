@@ -30,11 +30,13 @@
 
 
         <div class="mix-color-title mb-50">
-            <span class="mix-color-bar left" style="width:170px;margin-top:23px;"></span>
+            <span class="mix-color-bar mobile-full"></span>
+            <span class="mix-color-bar left"></span>
             <span class="mct-row fm-signika-reg sm-font">
                 Wonderful Indonesia
             </span>
-            <span class="mix-color-bar right" style="width:170px;margin-top:23px;"></span>
+            <span class="mix-color-bar right"></span>
+            <span class="mix-color-bar mobile-full"></span>
         </div>
         
         <p>
@@ -48,7 +50,8 @@
             <ul class="accordion accordion-2 one-open">
                 <li class="active">
                     <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-bali.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-bali.jpg');background-size:cover;width:100%;">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > BALI</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle yellow"></div>
@@ -63,7 +66,7 @@
                                     ]) !!}
                                 </a>
                                 <div class="fi-box">
-                                    <<a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-label">
+                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-label">
                                         FOLLOW THE HOLIDAY OF THE OBAMAS: PLAN YOUR ULTIMATE BALI FAMILY TRIP
                                     </a>
                                     <div class="fi-desc">
@@ -79,6 +82,7 @@
                 <li>
                     <div class="title set-background height-big" 
                         style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-lombok.jpg');">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > LOMBOK</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle dark-blue"></div>
@@ -109,6 +113,7 @@
                 <li>
                     <div class="title set-background height-big" 
                         style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-yogyakarta.jpg');">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > YOGYAKARTA</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle yellow"></div>
@@ -140,6 +145,7 @@
                 <li>
                     <div class="title set-background height-big" 
                         style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-komodo-island.jpg');">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > KOMODO ISLAND</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle dark-blue"></div>
@@ -170,12 +176,13 @@
                 <li>
                     <div class="title set-background height-big" 
                         style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-toraja.jpg');">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > TORAJA</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle yellow"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <<a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi">
+                                <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/toraja-house.jpg',
                                     [
                                         'w' => '181',
@@ -197,9 +204,10 @@
                     </div>
                 </li>
 
-                                <li>
+                <li>
                     <div class="title set-background height-big" 
                         style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-lake-toba.jpg');">
+                        <h4 class="inline-block mb0 set-title">EXPLORE > LAKE TOBA</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle blue"></div>

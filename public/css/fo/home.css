@@ -170,7 +170,7 @@
 
 /* line 107, ../../../resources/assets/sass/f/home.scss */
 .about-section .well {
-  min-height: 520px;
+  min-height: 667px;
   background: none;
 }
 /* line 112, ../../../resources/assets/sass/f/home.scss */
@@ -235,7 +235,7 @@
   padding: 0 5px 5px;
   min-height: 45px;
   line-height: 1.5;
-  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1496999866');
+  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495096686');
   background: rgba(48, 60, 141, 0.5);
 }
 /* line 176, ../../../resources/assets/sass/f/home.scss */
@@ -303,6 +303,10 @@
   margin: 0 25px 0 0;
 }
 /* line 242, ../../../resources/assets/sass/f/home.scss */
+.countdown-timer .secs {
+  margin: 0;
+}
+/* line 246, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .ti-time {
   display: inline-block;
   vertical-align: middle;
@@ -312,12 +316,12 @@
   font-size: 3rem;
   margin: 0 15px 15px 0;
 }
-/* line 249, ../../../resources/assets/sass/f/home.scss */
+/* line 253, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .sep {
   margin: 0 25px 20px 0;
   font-size: 25px;
 }
-/* line 254, ../../../resources/assets/sass/f/home.scss */
+/* line 258, ../../../resources/assets/sass/f/home.scss */
 .countdown-timer .label {
   margin: 5px 0 0;
   padding: 0;
@@ -325,26 +329,26 @@
   background: none;
 }
 
-/* line 266, ../../../resources/assets/sass/f/home.scss */
+/* line 270, ../../../resources/assets/sass/f/home.scss */
 #follow i {
   font-size: 4rem;
   margin: 0 25px 0 0;
 }
-/* line 270, ../../../resources/assets/sass/f/home.scss */
+/* line 274, ../../../resources/assets/sass/f/home.scss */
 #follow .fo-col {
   display: block;
 }
-/* line 273, ../../../resources/assets/sass/f/home.scss */
+/* line 277, ../../../resources/assets/sass/f/home.scss */
 #follow .header-title {
   margin: 0 0 20px;
 }
 
-/* line 280, ../../../resources/assets/sass/f/home.scss */
+/* line 284, ../../../resources/assets/sass/f/home.scss */
 .btn-blue, .btn-blue:visited {
   color: #688CA7;
   border-color: #688CA7;
 }
-/* line 285, ../../../resources/assets/sass/f/home.scss */
+/* line 289, ../../../resources/assets/sass/f/home.scss */
 .btn-blue:hover {
   background: #688CA7;
 }
@@ -353,9 +357,154 @@
  * MEDIA QUERIES
  */
 @media screen and (max-width: 990px) {
-  /* line 296, ../../../resources/assets/sass/f/home.scss */
+  /* line 300, ../../../resources/assets/sass/f/home.scss */
   #about .logo-voyage {
     margin-top: 0;
     text-align: center;
+  }
+
+  /* line 307, ../../../resources/assets/sass/f/home.scss */
+  .about-section .img {
+    height: auto;
+  }
+
+  /* line 313, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .sep {
+    margin: 0 0 20px 0;
+  }
+
+  /* line 318, ../../../resources/assets/sass/f/home.scss */
+  #follow {
+    padding: 20px 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 326, ../../../resources/assets/sass/f/home.scss */
+  .container .masonry-item {
+    margin-bottom: 0;
+  }
+
+  /* line 332, ../../../resources/assets/sass/f/home.scss */
+  #news .logo-carousel img {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 341, ../../../resources/assets/sass/f/home.scss */
+  #about_imf {
+    padding: 30px 15px 0;
+  }
+
+  /* line 344, ../../../resources/assets/sass/f/home.scss */
+  #about_voyage {
+    padding: 0 15px 30px;
+  }
+
+  /* line 349, ../../../resources/assets/sass/f/home.scss */
+  #slideshow .image-bg.bg-light p {
+    font-size: 1.5rem;
+  }
+
+  /* line 354, ../../../resources/assets/sass/f/home.scss */
+  .background-text-overlay {
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 100px !important;
+    padding: 0 25px;
+  }
+
+  /* line 362, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header .module.left {
+    width: 100%;
+    padding: 0 16px 0 32px;
+  }
+  /* line 367, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header .ti-location-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+  }
+  /* line 370, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header .sub {
+    font-size: 1.3rem;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+  }
+}
+@media screen and (max-width: 620px) {
+  /* line 380, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header {
+    height: 50px;
+  }
+
+  /* line 384, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header .sub {
+    width: 92%;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 392, ../../../resources/assets/sass/f/home.scss */
+  #slideshow .image-bg.bg-light p {
+    font-size: 1.4rem;
+  }
+
+  /* line 398, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .days,
+  .countdown-timer .hours,
+  .countdown-timer .mins {
+    font-size: 3.2rem;
+    margin: 0 25px 0 0;
+  }
+  /* line 405, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .secs {
+    font-size: 3.2rem;
+  }
+  /* line 409, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .sep {
+    font-size: 2.5rem;
+    margin: 0 0 20px 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  /* line 420, ../../../resources/assets/sass/f/home.scss */
+  #st_top_header .sub {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  /* line 426, ../../../resources/assets/sass/f/home.scss */
+  #nav_logo {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 433, ../../../resources/assets/sass/f/home.scss */
+  #slideshow .image-bg.bg-light p {
+    font-size: 1.3rem;
+  }
+
+  /* line 439, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .days,
+  .countdown-timer .hours,
+  .countdown-timer .mins {
+    font-size: 2.4rem;
+    margin: 0 10px 0 0;
+  }
+  /* line 445, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .secs {
+    font-size: 2.4rem;
+  }
+  /* line 448, ../../../resources/assets/sass/f/home.scss */
+  .countdown-timer .sep {
+    font-size: 2.4rem;
   }
 }

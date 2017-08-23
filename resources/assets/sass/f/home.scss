@@ -105,7 +105,7 @@
 {
 
 	.well {
-		min-height : 520px;
+		min-height : 667px;
 		background : none;
 	}
 
@@ -236,9 +236,13 @@
 	.sep {
 		@include inline-block(middle);
 		font-size: rem(40px);
-
 		margin: 0 25px 0 0;
 	}
+
+	.secs{
+		margin: 0;
+	}
+
 	.ti-time {
 		@include inline-block(middle);
 		font-size: rem(30px);
@@ -296,6 +300,153 @@
 		.logo-voyage {
 			margin-top: 0;
 			text-align: center;
+		}
+	}
+
+	.about-section{
+		.img{
+			height : auto;
+		}
+	}
+
+	.countdown-timer {
+		.sep {
+			margin: 0 0 20px 0;
+		}
+	}
+
+	#follow{
+		padding : 20px 0 0;
+	}
+
+}
+
+@include max-screen( 767px )
+{
+	.container .masonry-item{
+		margin-bottom: 0;
+	}
+	#news .image-caption .caption{
+
+	}
+	#news .logo-carousel img{
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+		max-height: 300px;
+	}
+}
+
+@include max-screen($mq-size-m){
+	#about_imf{
+		padding : 30px 15px 0;
+	}
+	#about_voyage{
+		padding: 0 15px 30px;
+	}
+
+	#slideshow{
+		.image-bg.bg-light p{
+			font-size 	: rem(15px);
+		}
+	}
+
+	.background-text-overlay{
+		left 	: 0 !important;
+		right 	: 0 !important;
+		bottom  : 100px !important;
+		padding : 0 25px;
+	}
+
+	#st_top_header{
+		.module.left{
+			width: 100%;
+			padding : 0 16px 0 32px;
+		}
+
+		.ti-location-arrow{
+			@include inline-block();
+		}
+		.sub{
+			font-size: rem( 13px );
+			@include inline-block();
+		}
+	}
+
+}
+
+@include max-screen( 620px )
+{
+	#st_top_header{
+		height: 50px;
+	}
+
+	#st_top_header .sub{
+		width: 92%;
+		line-height: 1.6;
+	}
+}
+
+@include max-screen($mq-size-sm){
+	#slideshow{
+		.image-bg.bg-light p{
+			font-size 	: rem(14px);
+		}
+	}
+
+	.countdown-timer {
+		.days,
+		.hours,
+		.mins{
+			font-size: rem(32px);
+			margin: 0 25px 0 0;
+		}
+
+		.secs{
+			font-size: rem(32px);
+		}
+
+		.sep{
+			font-size: rem( 25px );
+			margin: 0 0 20px 0;
+		}
+	}
+
+}
+
+@include max-screen( 380px )
+{
+	#st_top_header{
+		.sub{
+			width: 90%;
+			font-size: rem( 12px );
+		}
+	}
+
+	#nav_logo{
+		width: 80%;
+	}
+}
+	
+@include max-screen($mq-size-s){
+	#slideshow{
+		.image-bg.bg-light p{
+			font-size 	: rem(13px);
+		}
+	}
+
+	.countdown-timer {
+		.days,
+		.hours,
+		.mins{
+			font-size: rem( 24px );
+			margin: 0 10px 0 0;
+		}
+		.secs{
+			font-size: rem( 24px );
+		}
+		.sep {
+			font-size: rem( 24px );
 		}
 	}
 }

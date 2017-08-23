@@ -1,6 +1,6 @@
 <div class="nav-bar">
 
-    <div class="module left">
+    <div id="nav_logo" class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
             {!! html_img( 'img/am2018/logo-garuda-indonesia.png',
                 [ 

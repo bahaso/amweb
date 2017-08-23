@@ -334,8 +334,18 @@ $(document).ready(function() {
 
     function prepareAnim( slider )
     {
-        var $container = slider.find( ".bg-text-wrapper" );
-        $container.height( slider.height() );
+        var window_w = $( window ).outerWidth(),
+
+        $container = slider.find( ".bg-text-wrapper" );
+
+        if( window_w < 768 )
+        {
+            $container.height( 320 );
+        }
+        else
+        {
+            $container.height( slider.height() );
+        }
 
         var $anim = null;
         if( $anim = slider.find(".background-text-overlay") )

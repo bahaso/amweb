@@ -103,7 +103,7 @@
 	padding-bottom: 50px;
 
 	.fs-box{
-		width: 400px;
+		width: 48.5%;
 		background-color : #F9F9F9;
 
 		&.left{
@@ -198,5 +198,85 @@
 	&.orange{
 		border-color: transparent transparent transparent #FF7600;
 		_border-color: #000000 #000000 #000000 #FF7600;
+	}
+}
+
+/**
+ * MEDIA QUERIES MOBILE
+ */
+
+@include max-screen( $mq-size-m ){
+	.fi-container .fi-label{
+		font-size: rem( 24px );
+	}
+	.fi-container .fi-desc{
+		font-size: rem( 17px );
+	}
+	.fi-container .fi-link{
+		font-size: rem( 17px );
+	}
+
+	.faq-split{
+		.fs-box{
+			p{
+				font-size 	: rem( 16px ); 
+			}
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+		.fs-title{
+			font-size 	: rem( 22px ); 
+		}
+	}
+}
+
+@include max-screen( 640px ){
+	.fi-container .fi-image{
+		float 	: none;
+		display : block;
+		width   : 100%;
+		height  : auto;
+	}
+
+	.fi-container .fi-box{
+		padding : 20px 0 0;
+	}
+}
+
+@include max-screen( $mq-size-sm ){
+	.fi-container .fi-label{
+		font-size: rem( 22px );
+	}
+	.fi-container .fi-desc{
+		font-size: rem( 16px );
+	}
+	.fi-container .fi-link{
+		font-size: rem( 16px );
+	}
+
+	.faq-split{
+		.fs-box{
+			width: 100%;
+
+			&.left{
+				float: none;
+			}
+			&.right{
+				float: none;
+			}
+		}
+	}
+
+}
+
+@include max-screen( 380px ){
+	.faq-triangle{
+		display: none;
+	}
+
+	.fi-container{
+		padding : 0 0 30px 0;
 	}
 }
