@@ -80,7 +80,6 @@
         <div class="mix-bar-full"></div>
         
         <p>The Indonesian Archipelago straddles the equator with raw, natural surroundings such as majestic mountains and pristine beaches. Located between the Pacific and Indian Oceans, Indonesia has a tropical climate which is enjoyable year-round. From land to sea, Indonesia offers extraordinary destinations and attractions found nowhere else in the world.</p>
-        <p>Explore beyond the green cascading rice fields in Bali where you can witness real-life dragons known as Komodo in Labuan Bajo, or swim with the stingless jellyfish in Kalimantan! If you want something more magical, visit the mystifying White Crater in Bandung or visit the biggest Buddhist temple known as Borobudur Temple near Yogyakarta. You can also stroll around and taste the unique cuisines from each area or enjoy the metropolitan hub of Jakarta. Discover it all in Wonderful Indonesia!</p>
         <p>One of the most versatile meeting and convention locations in Indonesia, Nusa Dua is an ideal venue to host the Annual Meetings due to its two large convention centers, namely the Bali International Convention Center and the Bali Nusa Dua Convention Center, and nearby hotel facilities. The proximity to the Ngurah Rai International Airport makes the area a convenient destination for international business travelers.</p>
         <div class="mix-bar-full"></div>
 
