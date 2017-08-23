@@ -295,6 +295,19 @@
 /**
  * MEDIA QUERIES
  */
+@include max-screen( 1199px )
+{
+	.about-section .well{
+		min-height: 724px;
+	}
+
+	.about-section{
+		img{
+			height : auto;
+		}
+	}
+}
+
 @include max-screen($mq-size-l) {
 	#about {
 		.logo-voyage {
@@ -303,11 +316,6 @@
 		}
 	}
 
-	.about-section{
-		.img{
-			height : auto;
-		}
-	}
 
 	.countdown-timer {
 		.sep {
@@ -318,7 +326,9 @@
 	#follow{
 		padding : 20px 0 0;
 	}
-
+	.about-section .well{
+		min-height: 857px;
+	}
 }
 
 @include max-screen( 767px )
@@ -335,15 +345,23 @@
 		min-height: 300px;
 		max-height: 300px;
 	}
-}
 
-@include max-screen($mq-size-m){
 	#about_imf{
 		padding : 30px 15px 0;
 	}
 	#about_voyage{
 		padding: 0 15px 30px;
 	}
+
+	.about-section .well{
+		min-height: auto;
+	}
+}
+
+@include max-screen($mq-size-m){
+
+
+
 
 	#slideshow{
 		.image-bg.bg-light p{
