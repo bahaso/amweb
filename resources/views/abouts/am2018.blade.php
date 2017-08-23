@@ -34,10 +34,10 @@
             Around 12,000 up to 15,000 people attend the Annual Meetings, including about 3,500 delegates from 189 member countries, roughly 1,000 media representatives, and more than 5,000 participants representing the private sector, the banking community, academic institutions, civil society organizations, and also observers and parliamentarians.
         </p>
         <p>
-            For more about IMF-WBG Annual Metings, please go to:<br>
-            WBG: <a href="http://www.worldbank.org/en/about/what-we-do/annual-meetings">www.worldbank.org/en/about/what-we-do/annual-meetings</a>
-            <br>
-            IMF: <a href="https://www.imf.org/external/am/2017/index.htm">www.imf.org/external/am/2017/index.htm</a>
+            For more about World Bank Group, please go to:
+            <a href="http://www.worldbank.org/en/about/what-we-do/annual-meetings">World Bank Group</a>
+            <br>For more about IMF, please go to:
+            <a href="https://www.imf.org/external/am/2017/index.htm">IMF</a>
 
         </p>
 
