@@ -67,6 +67,8 @@ Route::group(
 		Route::get( 'events', 'EventController@index' )->name( 'events.index' );
 		Route::get( 'events/{id}/{slug}', 'EventController@detail' )->name( 'events.detail' );
 		Route::get( 'events/program-vti', 'EventController@programVTI' )->name( 'events.program_vti' );
+		Route::get( 'events/past-vti', 'EventController@pastVTI' )->name( 'events.past_vti' );
+		Route::get( 'events/upcoming-vti', 'EventController@upcomingVTI' )->name( 'events.upcoming_vti' );
 		Route::get( 'events/bank-indonesia', 'EventController@bank' )->name( 'events.bank' );
 		Route::get( 'events/ministry-of-finance', 'EventController@ministry' )->name( 'events.ministry' );
 		Route::get( 'events/main', 'EventController@mainEvents' )->name( 'events.main' );

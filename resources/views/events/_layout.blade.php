@@ -16,11 +16,11 @@
             Voyage To Indonesia (VTI)
         </a>
         <ul>
-            <li>
-                <a href="#" class="lbl">Upcoming VTI Events</a>
+            <li class="has-children {{ isActiveRoute( 'f.events.upcoming_vti' ) }}">
+                <a href="{{ route( 'f.events.upcoming_vti' ) }}" class="lbl">Upcoming VTI Events</a>
             </li>
-            <li>
-                <a href="#" class="lbl">Past VTI Events</a>
+            <li class="has-children {{ isActiveRoute( 'f.events.past_vti' ) }}">
+                <a href="{{ route( 'f.events.past_vti' ) }}" class="lbl">Past VTI Events</a>
             </li>
 
             {{--<li class="{{ isActiveRoute( 'f.events.bank' ) }}">--}}
