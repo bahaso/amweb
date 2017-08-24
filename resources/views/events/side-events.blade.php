@@ -24,8 +24,8 @@
             Host Country Hospitality During the Annual Meetings
         </h1>
         <div class="content">
-            <p>The host country will welcome all Annual Meetings participants with a program of events, seminars, exhibitions, performances, and activities designed to spotlight the people, heritage, cultural diversity, art, products, and economic development of Indonesia.
-               <br> The Hospitality Program consists of the following activities scheduled during the Meetings:</p>
+            <p>The host country will welcome all Annual Meetings participants with a program of events, seminars, exhibitions, performances, and activities designed to spotlight the people, heritage, cultural diversity, art, products, and economic development of Indonesia. The detail of hospitality program will be announced in the early 2018. Please follow us for further updates.
+                 <br> The Hospitality Program consists of the following activities scheduled during the Meetings:</p>
 
             <ul>
                 <li>
