@@ -85,6 +85,17 @@
                     </li>
                     <li>
                         <div class="title">
+                            <h4 class="inline-block mb0 custom-faq-title">What are the benefits to Indonesia as host country of the Annual Meetings?</h4>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Hosting this event is an investment that will result in a boost to the local economy and several industries such as convention and meetings support services, transportation, hotels and accommodations, restaurants, retail, entertainment, tourism, and cultural points of interest.
+                                Lasting economic benefits result from Indonesia being showcased internationally as a destination for culture, tourism, and trade and investment opportunities.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
                             <h4 class="inline-block mb0 custom-faq-title">What is the Voyage to Indonesia?</h4>
                         </div>
                         <div class="content">
