@@ -33,6 +33,14 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>Agustus 25, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [4, 'indonesia-ready-to-host' ]) }}">
+                            Indonesia Ready to Host 2018 Annual Meetings of the International Monetary Fund and World Bank Group: Voyage to Indonesia
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>July 12-13, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [1, 'international-taxation-in-asia' ]) }}">
