@@ -39,133 +39,94 @@
 /* Paths */
 /* Fonts */
 /* line 3, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style {
-  /*set outer container default is 820px*/
+.owl-carousel {
+  list-style: none;
+  padding: 0 0 40px;
 }
-/* line 5, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel-container {
-  width: 820px;
+/* line 7, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.owl-carousel.gl .owl-item {
+  text-align: center;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
 }
-/* line 9, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .title-carousel {
+/* line 12, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.owl-carousel.gl .owl-item img {
+  width: 100%;
+  height: auto;
+}
+/* line 19, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  width: 21px;
+  height: 42px;
+  position: absolute;
+  top: 40%;
+}
+/* line 28, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.owl-carousel .owl-nav .owl-prev {
+  background: url("../../img/am2018/public/arrow-left.png");
+  left: 0;
+}
+/* line 32, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.owl-carousel .owl-nav .owl-next {
+  background: url("../../img/am2018/public/arrow-right.png");
+  right: 0;
+}
+
+/*title sub heading*/
+/* line 39, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.title-carousel {
   text-align: center;
 }
-/* line 11, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .title-carousel h3 {
+/* line 41, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.title-carousel h3 {
   font-size: 3rem;
   font-family: "Signika Regular";
   color: #4C4C4C;
 }
-/* line 16, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .title-carousel .tc-small {
+/* line 46, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.title-carousel .tc-small {
   font-size: 2rem;
   font-family: "Signika Light";
 }
-/* line 22, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel {
-  /*set inside width depend on data-item*/
-  width: 770px;
-  margin-left: 15px;
-}
-/* line 27, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel ul {
-  list-style-type: none;
-}
-/* line 30, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel li {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
-/* line 34, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel img {
-  max-height: initial;
-}
-/* line 38, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .flex-direction-nav a {
-  margin: -20px 0 0;
-}
-/* line 42, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .flex-direction-nav a.flex-next {
+
+/*caption text inside owl carousel each image*/
+/* line 53, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.caption {
+  position: absolute;
+  bottom: 0;
   right: 0;
-  background: url("../../img/am2018/public/arrow-right.png");
-  width: 21px;
-  height: 42px;
+  width: 99%;
+  text-align: left;
+  padding: 10px 0 10px 10px;
+  min-height: 45px;
+  line-height: 1.5;
+  background: url('/images/../public/img/am2018/rgba/00000066-8.png?1499872718');
+  background: rgba(0, 0, 0, 0.4);
 }
-/* line 48, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .flex-direction-nav a.flex-prev {
-  left: 0;
-  background: url("../../img/am2018/public/arrow-left.png");
-  width: 21px;
-  height: 42px;
+/* line 68, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.caption:hover .text-info {
+  display: block;
 }
-/* line 54, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .flex-direction-nav {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-}
-/* line 58, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .subtitle {
+/* line 74, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.caption .subtitle {
   line-height: 1.7;
   color: #FFF;
+  font-family: "Helvetica";
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
-/* line 62, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .logo-carousel .subtext {
+/* line 84, ../../../resources/assets/sass/f/carousel-3-images.scss */
+.caption .subtext {
   padding: 0;
   margin: 0;
   font-family: "Helvetica";
   font-size: 1.3rem;
   color: #FFF;
-}
-/* line 72, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  width: 231px;
-}
-/* line 78, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption .caption {
-  text-align: left;
-  padding: 10px 0 10px 10px;
-  min-height: 45px;
-  line-height: 1.5;
-  background: url('/images/../public/img/am2018/rgba/00000066-8.png?1499924348');
-  background: rgba(0, 0, 0, 0.4);
-}
-/* line 87, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption .caption:hover .text-info {
-  display: block;
-}
-/* line 93, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption .text-info {
-  display: none;
-  color: #FFF;
-}
-/* line 97, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption .text-info .btn-link {
-  display: inline-block;
-  padding: 5px 20px;
-  margin: 10px 0 0;
-  position: relative;
-  z-index: 1000;
-  color: #FFF;
-  text-decoration: none;
-  background-color: #486174;
-}
-/* line 109, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption .text-info .btn-link:hover {
-  background-color: #374a58;
-}
-/* line 115, ../../../resources/assets/sass/f/carousel-3-images.scss */
-#carousel-custom-style .image-caption h4 {
-  color: #FFF;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 127, ../../../resources/assets/sass/f/carousel-3-images.scss */
-.flex-direction-nav a.flex-next:before, .flex-direction-nav a.flex-prev:before {
-  font-size: 0;
 }

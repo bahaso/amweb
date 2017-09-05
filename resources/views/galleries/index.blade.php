@@ -1,5 +1,10 @@
 @extends( 'galleries._layout' )
 
+@section( 'head_page_css' )
+    @parent
+    {!! html_css( 'gallery-custom.css', 'css/fo' ) !!}
+@stop
+
 @section( 'top_content' )
     @include( '_partials._navbar',
     [

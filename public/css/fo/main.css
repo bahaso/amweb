@@ -947,18 +947,30 @@ section {
     display: block;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   /* line 891, ../../../resources/assets/sass/f/_partials/_common.scss */
+  .custom-faq-title {
+    width: 92%;
+  }
+
+  /*for open tab with right plus ex: main events*/
+  /* line 896, ../../../resources/assets/sass/f/_partials/_common.scss */
+  .faq .title h4 {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 903, ../../../resources/assets/sass/f/_partials/_common.scss */
   .mix-color-title .mct-row {
     font-size: 5rem;
   }
-  /* line 894, ../../../resources/assets/sass/f/_partials/_common.scss */
+  /* line 906, ../../../resources/assets/sass/f/_partials/_common.scss */
   .mix-color-title .mct-row.sm-font {
     font-size: 3.6rem;
   }
 }
 @media screen and (max-width: 420px) {
-  /* line 902, ../../../resources/assets/sass/f/_partials/_common.scss */
+  /* line 914, ../../../resources/assets/sass/f/_partials/_common.scss */
   .faq .accordion-2 .title.set-background .set-title {
     font-size: 2.6rem;
   }

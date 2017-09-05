@@ -886,6 +886,18 @@ $color-tertiary : #323347;
 
 }
 
+@include max-screen( 540px )
+{
+	.custom-faq-title{
+		width: 92%;
+	}
+
+	/*for open tab with right plus ex: main events*/
+	.faq .title h4{
+		width: 85%;
+	}
+}
+
 @include max-screen( $mq-size-sm ){
 	.mix-color-title{
 		.mct-row{

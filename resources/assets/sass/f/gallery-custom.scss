@@ -1,0 +1,12 @@
+@import "_partials/base";
+
+@include max-screen( 768px ){
+	.image-caption{
+		img{
+			width: 100%;
+			min-height: 225px;
+			height: auto;
+		}
+	}
+}
+

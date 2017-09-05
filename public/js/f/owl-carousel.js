@@ -25,11 +25,17 @@ function initOwlCarousel( $carousel, $gallery )
 
 	if( data.nav )
 	{
+
 		data.navText = 
 		[ 
 			'<span class="ico arrow left"></span>', 
 			'<span class="ico arrow right"></span>' 
 		];
+	}
+
+	if( data.pad ){
+		data.stagePadding= 30;
+		data.margin=30;
 	}
 
 	$carousel.owlCarousel( data );
@@ -83,5 +89,11 @@ $(function()
 	 * G.C
 	 */
 	i = len = $carousels = null;
+
+    $('.owl-carousel').owlCarousel({
+   		stagePadding: 50,
+	    margin:50,
+	})
+
 
 });

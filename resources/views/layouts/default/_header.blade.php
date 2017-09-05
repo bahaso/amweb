@@ -91,13 +91,13 @@
                              <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
                          </li>
                          <li>
-                             <a href="{{ route( 'f.informations.facilities', ['Information', 'Other Facilities']) }}">Other Facilities</a>
+                             <a href="{{ route( 'f.informations.facilities', ['Information', 'Other-Facilities']) }}">Other Facilities</a>
                          </li>
                           <li>
                              <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
                          </li>
                          <li>
-                             <a href="{{ route( 'f.maps.index', ['Information', 'Interactive Maps']) }}">Interactive Maps</a>
+                             <a href="{{ route( 'f.maps.index', ['Information', 'Interactive-Maps']) }}">Interactive Maps</a>
                          </li>
                          <li>
                              <a href="{{ route( 'f.welcomes.tourism', ['Travel Information', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
@@ -113,14 +113,14 @@
                             <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
                         </li> -->
                         <li>
-                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover Indonesia', 'Wonderful Indonesia']) }}">Wonderful
+                            <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover-Indonesia', 'Wonderful-Indonesia']) }}">Wonderful
                                 Indonesia</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.discovers.bali', ['Discover Indonesia', 'Bali']) }}">Bali</a>
+                            <a href="{{ route( 'f.discovers.bali', ['Discover-Indonesia', 'Bali']) }}">Bali</a>
                         </li>
                         <li>
-                            <a href="{{ route( 'f.discovers.tourism', ['Discover Indonesia', 'Paket Wisata']) }}">Tourism
+                            <a href="{{ route( 'f.discovers.tourism', ['Discover-Indonesia', 'Paket-Wisata']) }}">Tourism
                                 Package</a>
                         </li>
                     </ul>

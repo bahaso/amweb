@@ -233,6 +233,9 @@
 }
 
 @include max-screen( 640px ){
+	.faq-triangle{
+		margin: 15px 15px 0 0;
+	}
 	.fi-container .fi-image{
 		float 	: none;
 		display : block;

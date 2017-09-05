@@ -39,11 +39,13 @@
 
 
         <div class="mix-color-title">
+            <span class="mix-color-bar mobile-full"></span>
             <span class="mix-color-bar left"></span>
             <span class="mct-row fm-indonesiana">
                 indonesia
             </span>
             <span class="mix-color-bar right"></span>
+            <span class="mix-color-bar mobile-full"></span>
         </div>
 
         <div class="info-split-column">
