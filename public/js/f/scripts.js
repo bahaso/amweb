@@ -677,6 +677,8 @@ $(document).ready(function() {
         if ($(this).closest('.accordion').hasClass('one-open')) {
             $(this).closest('.accordion').find('li').removeClass('active');
             $(this).addClass('active');
+
+            $(window).scrollTop( $(this).offset().top );
         } else {
             $(this).toggleClass('active');
         }
