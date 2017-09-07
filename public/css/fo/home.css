@@ -235,7 +235,7 @@
   padding: 0 5px 5px;
   min-height: 45px;
   line-height: 1.5;
-  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1495096686');
+  background: url('/images/../public/img/am2018/rgba/303c8d7f-8.png?1496999866');
   background: rgba(48, 60, 141, 0.5);
 }
 /* line 176, ../../../resources/assets/sass/f/home.scss */
@@ -419,107 +419,60 @@
   }
 }
 @media screen and (max-width: 720px) {
-  /* line 367, ../../../resources/assets/sass/f/home.scss */
+  /* line 363, ../../../resources/assets/sass/f/home.scss */
   #slideshow .image-bg.bg-light p {
     font-size: 1.5rem;
   }
 
-  /* line 372, ../../../resources/assets/sass/f/home.scss */
+  /* line 368, ../../../resources/assets/sass/f/home.scss */
   .background-text-overlay {
     left: 0 !important;
     right: 0 !important;
     bottom: 100px !important;
     padding: 0 25px;
   }
-
-  /* line 380, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header .module.left {
-    width: 100%;
-    padding: 0 16px 0 32px;
-  }
-  /* line 385, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header .ti-location-arrow {
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-  }
-  /* line 388, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header .sub {
-    font-size: 1.3rem;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    *zoom: 1;
-    *display: inline;
-  }
-}
-@media screen and (max-width: 620px) {
-  /* line 398, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header {
-    height: 50px;
-  }
-
-  /* line 402, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header .sub {
-    width: 92%;
-    line-height: 1.6;
-  }
 }
 @media screen and (max-width: 480px) {
-  /* line 410, ../../../resources/assets/sass/f/home.scss */
+  /* line 378, ../../../resources/assets/sass/f/home.scss */
   #slideshow .image-bg.bg-light p {
     font-size: 1.4rem;
   }
 
-  /* line 416, ../../../resources/assets/sass/f/home.scss */
+  /* line 384, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .days,
   .countdown-timer .hours,
   .countdown-timer .mins {
     font-size: 3.2rem;
     margin: 0 25px 0 0;
   }
-  /* line 423, ../../../resources/assets/sass/f/home.scss */
+  /* line 391, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .secs {
     font-size: 3.2rem;
   }
-  /* line 427, ../../../resources/assets/sass/f/home.scss */
+  /* line 395, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .sep {
     font-size: 2.5rem;
     margin: 0 0 20px 0;
   }
 }
-@media screen and (max-width: 380px) {
-  /* line 438, ../../../resources/assets/sass/f/home.scss */
-  #st_top_header .sub {
-    width: 90%;
-    font-size: 1.2rem;
-  }
-
-  /* line 444, ../../../resources/assets/sass/f/home.scss */
-  #nav_logo {
-    width: 80%;
-  }
-}
 @media screen and (max-width: 320px) {
-  /* line 451, ../../../resources/assets/sass/f/home.scss */
+  /* line 405, ../../../resources/assets/sass/f/home.scss */
   #slideshow .image-bg.bg-light p {
     font-size: 1.3rem;
   }
 
-  /* line 457, ../../../resources/assets/sass/f/home.scss */
+  /* line 411, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .days,
   .countdown-timer .hours,
   .countdown-timer .mins {
     font-size: 2.4rem;
     margin: 0 10px 0 0;
   }
-  /* line 463, ../../../resources/assets/sass/f/home.scss */
+  /* line 417, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .secs {
     font-size: 2.4rem;
   }
-  /* line 466, ../../../resources/assets/sass/f/home.scss */
+  /* line 420, ../../../resources/assets/sass/f/home.scss */
   .countdown-timer .sep {
     font-size: 2.4rem;
   }

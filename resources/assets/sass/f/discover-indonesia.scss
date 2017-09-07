@@ -201,6 +201,8 @@
 	}
 }
 
+
+
 /**
  * MEDIA QUERIES MOBILE
  */
@@ -230,6 +232,11 @@
 			font-size 	: rem( 22px ); 
 		}
 	}
+
+	.faq-title-link{
+		padding  	: 50px 0 32px;
+	}
+
 }
 
 @include max-screen( 640px ){

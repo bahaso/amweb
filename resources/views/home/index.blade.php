@@ -12,7 +12,7 @@
         <ul class="slides">
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti1.jpg',
+		            {!! html_img( 'img/am2018/slides/background-vti-resize.jpg',
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -31,7 +31,7 @@
             </li>
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti2.jpg', 
+		            {!! html_img( 'img/am2018/slides/background-vti2-resize.jpg', 
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -50,7 +50,7 @@
             </li>
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti3.jpg', 
+		            {!! html_img( 'img/am2018/slides/background-vti3-resize.jpg', 
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -69,7 +69,7 @@
             </li>
             <li class="overlay image-bg bg-light">
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti4.jpg', 
+		            {!! html_img( 'img/am2018/slides/background-vti4-resize.jpg', 
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -147,7 +147,7 @@
                             <ul class="slides">
 								<li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/IIFF_Thumbnail.jpg', 
+                                        {!! html_img( 'img/am2018/public/LWP_5689.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
@@ -185,7 +185,7 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                    {!! html_img( 'img/am2018/public/sri-mulyani_thumbnail.jpg', 
+                                    {!! html_img( 'img/am2018/public/sri-mulyani.jpg', 
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,

@@ -55,7 +55,8 @@
             <ul class="accordion accordion-2 one-open">
                 <li class="active">
                     <div class="title set-background" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/sensory-wonders.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/sensory-wonders.jpg');background-size:cover;width:100%;background-position:center center;">
+                        <h4 class="inline-block mb0 set-title-bali">Sensory Wonders</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle purple"></div>
@@ -100,7 +101,8 @@
 
                 <li>
                     <div class="title set-background" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/modern-wonders.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/modern-wonders.jpg');background-size:cover;width:100%;background-position:center center;">
+                        <h4 class="inline-block mb0 set-title-bali">Modern Wonders</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle dark-purple"></div>
@@ -145,7 +147,8 @@
 
                 <li>
                     <div class="title set-background" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/natural-wonders.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/natural-wonders.jpg');background-size:cover;width:100%;background-position:center center;">
+                        <h4 class="inline-block mb0 set-title-bali">Natural Wonders</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle blue"></div>
@@ -190,7 +193,8 @@
 
                 <li>
                     <div class="title set-background" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/cultural-wonders.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/cultural-wonders.jpg');background-size:cover;width:100%;background-position:center center;">
+                        <h4 class="inline-block mb0 set-title-bali">Cultural Wonders</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle yellow"></div>
@@ -237,7 +241,8 @@
 
                 <li>
                     <div class="title set-background" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/adventurous-wonders.jpg');">
+                        style="background-image:url('../img/am2018/public/discover-indonesia/bali/adventurous-wonders.jpg');background-size:cover;width:100%;background-position:center center;">
+                        <h4 class="inline-block mb0 set-title-bali">Adventurous Wonders</h4>
                     </div>
                     <div class="content">
                         <div class="faq-triangle orange"></div>

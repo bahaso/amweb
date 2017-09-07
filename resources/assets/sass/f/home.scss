@@ -359,10 +359,6 @@
 }
 
 @include max-screen($mq-size-m){
-
-
-
-
 	#slideshow{
 		.image-bg.bg-light p{
 			font-size 	: rem(15px);
@@ -374,34 +370,6 @@
 		right 	: 0 !important;
 		bottom  : 100px !important;
 		padding : 0 25px;
-	}
-
-	#st_top_header{
-		.module.left{
-			width: 100%;
-			padding : 0 16px 0 32px;
-		}
-
-		.ti-location-arrow{
-			@include inline-block();
-		}
-		.sub{
-			font-size: rem( 13px );
-			@include inline-block();
-		}
-	}
-
-}
-
-@include max-screen( 620px )
-{
-	#st_top_header{
-		height: 50px;
-	}
-
-	#st_top_header .sub{
-		width: 92%;
-		line-height: 1.6;
 	}
 }
 
@@ -432,20 +400,6 @@
 
 }
 
-@include max-screen( 380px )
-{
-	#st_top_header{
-		.sub{
-			width: 90%;
-			font-size: rem( 12px );
-		}
-	}
-
-	#nav_logo{
-		width: 80%;
-	}
-}
-	
 @include max-screen($mq-size-s){
 	#slideshow{
 		.image-bg.bg-light p{

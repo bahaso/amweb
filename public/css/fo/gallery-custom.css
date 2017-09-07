@@ -45,4 +45,9 @@
     min-height: 225px;
     height: auto;
   }
+
+  /* line 12, ../../../resources/assets/sass/f/gallery-custom.scss */
+  .mb30 {
+    margin-bottom: 0;
+  }
 }

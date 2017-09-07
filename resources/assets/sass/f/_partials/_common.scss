@@ -501,6 +501,16 @@ $color-tertiary : #323347;
 						margin-top 	: 43px;
 						line-height : 1;
 					}
+
+					.set-title-bali{
+						font-family : $font-signika-reg;
+						font-size 	: rem( 27px );
+						font-weight : normal;
+						line-height : 1;
+						text-align: left;
+
+						margin: 18px 0 0;
+					}
 				}
 			}
 		}
@@ -884,6 +894,28 @@ $color-tertiary : #323347;
 		display: block;
 	}
 
+
+	/*for breadcrumb margin top and bottom padding, base default from theme is 50% top and transform*/
+	.page-title-4 .breadcrumb{
+		margin: 0;
+	}
+
+	.page-title .container{
+		transform : none;
+		-webkit-transform : none;
+
+		top : auto;
+	}
+
+	.navbar{
+		margin-bottom: 0;
+	}
+
+	.navbar.thin{
+		padding: 6px 0 20px;
+	}
+
+
 }
 
 @include max-screen( 540px )
@@ -908,10 +940,21 @@ $color-tertiary : #323347;
 			}
 		}
 	}
+
+	.faq .accordion-2 .title.set-background .set-title-bali{
+		font-size: rem(24px);
+	}
+
 }
 
 @include max-screen( 420px ){
 	.faq .accordion-2 .title.set-background .set-title{
 		font-size: rem( 26px );
+	}
+}
+
+@include max-screen( 380px ){
+	.faq .accordion-2 .title.set-background .set-title-bali{
+		font-size: rem(22px);
 	}
 }
