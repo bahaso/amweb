@@ -26,8 +26,12 @@ Route::group(
 		Route::get( 'discovers/indonesia-in-brief', 'DiscoverController@indonesia' )->name( 'discovers.indonesia' );
 		Route::get( 'discovers/main-destination', 'DiscoverController@destination' )->name( 'discovers.destination' );
 		Route::get( 'discovers/bali', 'DiscoverController@bali' )->name( 'discovers.bali' );
-		Route::get( 'discovers/tourism-package', 'DiscoverController@tourism' )->name( 'discovers.tourism' );
+
 		Route::get( 'discovers/wonderful-indonesia', 'DiscoverController@wonderful_indonesia' )->name( 'discovers.wonderful_indonesia' );
+
+		Route::get( 'discovers/tourism-package', 'DiscoverController@tourism' )->name( 'discovers.tourism' );
+		Route::get( 'discovers/tourism-package/list/{location}/{date?}/{people?}', 'DiscoverController@tourism_list' )->name( 'discovers.tourism_list' );
+		Route::get( 'discovers/tourism-package/show/{location}/{slug}', 'DiscoverController@tourism_detail' )->name( 'discovers.tourism_detail' );
 		/**
 		 * FAQS
 		 */

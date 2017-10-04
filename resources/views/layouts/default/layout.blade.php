@@ -57,6 +57,7 @@
 	{!! html_js( 'smooth-scroll.min.js' ) !!}
 	{!! html_js( 'parallax.js' ) !!}
 	{!! html_js( 'scripts.js' ) !!}
+    {!! html_js( 'zebra_datepicker/dist/zebra_datepicker.min.js', 'vendor' ) !!}
 @stop
 
 @section( 'foot_page_js' )

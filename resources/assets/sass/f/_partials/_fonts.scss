@@ -54,3 +54,12 @@ $font-path : '' !default;
 
 	src : url( $font-path + "fonts/Indonesiana-Serif.ttf" ); 
 }
+
+@font-face
+{
+	font-family : "HelveticaNeue";
+	font-weight : normal;
+	font-style  : normal;
+	
+	src : url( $font-path + "fonts/HelveticaNeue.ttf" ); 
+}

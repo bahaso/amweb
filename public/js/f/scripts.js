@@ -9,6 +9,11 @@ var mr_firstSectionHeight,
     mr_scrollTop = 0;
 
 $(document).ready(function() { 
+    $('.am-datepicker').Zebra_DatePicker({
+        direction: 1    // boolean true would've made the date picker future only
+                        // but starting from today, rather than tomorrow
+    });
+    
     "use strict";
 
     // Smooth scroll to inner links

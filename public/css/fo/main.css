@@ -31,6 +31,12 @@
   font-family: "Indonesiana Serif";
   src: url("fonts/Indonesiana-Serif.ttf");
 }
+@font-face {
+  font-family: "HelveticaNeue";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/HelveticaNeue.ttf");
+}
 /* Compass plugins */
 /* gem install compass-rgbapng */
 /* RGBAPNG Configuration */
@@ -299,7 +305,7 @@ section {
   top: 0;
   bottom: 0;
   padding: 20px 20px;
-  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497258379');
+  background: url('/images/../public/img/am2018/rgba/ffffffd9-8.png?1497422334');
   background: rgba(255, 255, 255, 0.85);
 }
 /* line 235, ../../../resources/assets/sass/f/_partials/_common.scss */

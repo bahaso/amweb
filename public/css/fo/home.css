@@ -31,6 +31,12 @@
   font-family: "Indonesiana Serif";
   src: url("fonts/Indonesiana-Serif.ttf");
 }
+@font-face {
+  font-family: "HelveticaNeue";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/HelveticaNeue.ttf");
+}
 /* Compass plugins */
 /* gem install compass-rgbapng */
 /* RGBAPNG Configuration */

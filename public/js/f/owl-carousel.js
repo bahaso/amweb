@@ -35,7 +35,7 @@ function initOwlCarousel( $carousel, $gallery )
 
 	if( data.pad ){
 		data.stagePadding= 30;
-		data.margin=30;
+		data.margin=31;
 	}
 
 	$carousel.owlCarousel( data );
