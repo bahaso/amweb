@@ -82,8 +82,8 @@
             {{ $packages['name'] }}
         </div>
         <div class="tch-right">
-            <div class="for-label">Start From</div>
-            <div class="for-price">IDR {{ number_format($packages['availabilities'][0]['price']) }}</div>
+            {{--<div class="for-label">Start From</div>--}}
+            {{--<div class="for-price">IDR {{ number_format($packages['availabilities'][0]['price']) }}</div>--}}
         </div>
     </div>
 
@@ -117,16 +117,11 @@
                 <div class="tb-box f-left">
                     <div class="tb-label day">{{ date('d F Y', strtotime($book['start_date'])) }} <span class="small-divider">|</span> {{ $adult }} Guests</div>
                     <!-- <div class="tb-label room">Price perpax (for 2-4 Guests/room)</div> -->
-                    <div class="tb-label price">IDR {{ number_format($book['price']) }}</div>
+                    {{--<div class="tb-label price">IDR {{ number_format($book['price']) }}</div>--}}
                 </div>
                 <div class="tb-box f-right">
-                    <a href="{{ $bookings['book_uri'] }}" target="_blank">
-                        {!! html_img( 'img/am2018/public/colorful-button.png',
-                        [
-                            'w' => '271',
-                            'h' => '55',
-                        ]) !!}
-                        <span class="tb-label-btn">Book Now</span>                
+                    <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $bookings['book_uri'] }}" target="_blank">
+                        <span style="color:white;">Check Package</span>
                     </a>
                 </div>
             </li>
@@ -167,12 +162,14 @@
                 {{ $packages['merchant']['email'] }}
             </div>
         </div>
+        @if(!empty($packages['merchant']['website']))
         <div class="tci-row no-pb">
             <span class="colorful-icon website"></span>
             <div class="tci-value">
                 {{ $packages['merchant']['website'] }}
             </div>
         </div>
+        @endif
     </div>
     <div class="mix-bar-full no-mb"></div>
 

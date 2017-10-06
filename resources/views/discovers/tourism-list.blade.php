@@ -87,7 +87,7 @@
                     <!-- <div class="tls-label">Price</div> -->
                     <select name="sort_name" class="tls-select">
                         <option value="Name" @if($sort_name == 'Name')selected="selected"@endif> Name </option>
-                        <option value="Price" @if($sort_name == 'Price')selected="selected"@endif> Price </option>
+                        {{--<option value="Price" @if($sort_name == 'Price')selected="selected"@endif> Price </option>--}}
                     </select>
                 </div>
 
@@ -133,7 +133,7 @@
                     </div>
                     <div class="tour-infos">
                         <div class="tour-company">
-                            <div class="c-label">IDR {{ number_format($pk['availabilities'][0]['price']) }} - return (lunch included)</div>
+                            {{--<div class="c-label">IDR {{ number_format($pk['availabilities'][0]['price']) }} - return (lunch included)</div>--}}
                             <div class="c-name">
                                 {{ $pk['merchant']['name'] }}
                             </div>
