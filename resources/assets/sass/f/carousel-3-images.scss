@@ -54,17 +54,17 @@
 		font-size 	: rem( 20px );
 		font-family : $font-signika-light;
 	}
+}
 
-	.tc-info{
-		@include inline-block();
-		float : right;
+.title-carousel-more{
+	float : right;
+	margin: -46px 0 0;
 
-		color: $color-purple-1;
-		font-family: $font-helvetica;
-		font-size: rem(14px);
+	line-height: normal;
+	color: $color-purple-1;
+	font-family: $font-helvetica;
+	font-size: rem(14px);
 
-		margin: 16px 0 0;
-	}
 }
 
 /*caption text inside owl carousel each image*/
@@ -90,10 +90,10 @@
 
 
 	.subtitle {
-		line-height : 1.7; 
+		line-height : 1.6; 
 		color 		: $color-white;
 		font-family : $font-helvetica;
-		font-size 	: rem(16px);
+		font-size 	: rem(15px);
 		font-weight : bold;
 
 		margin: 0;
@@ -125,15 +125,17 @@ ul.tourism-information{
 .tourism-information{
 	margin : 30px 0 0 !important;
 
+	.tour-container{
+		@include clearfix;
+	}
+
 	.tour-image{
-		@include inline-block;
+		float: left;
 	}
 
 	.tour-box{
-		@include inline-block(top);
-
-		width: 75%;
-		float: right;
+		overflow: hidden;
+		padding-left: 25px;
 	}
 
 	.tour-label{
@@ -154,7 +156,9 @@ ul.tourism-information{
 		min-height 	: 96px;
 	}
 
-
+	.tourism-mobile{
+		display: none;
+	}
 }
 
 .tour-infos{
@@ -163,17 +167,21 @@ ul.tourism-information{
 	.tour-company{
 		@include inline-block();
 		margin-right : 16px;
-		font-size 	 : rem(14px);
+
+		text-align: right;
 
 		.c-label{
 			color: $color-purple-1;
 			font-weight: bold;
 			line-height: normal;
+
+			font-size 	 : rem(16px);
 		}
 		.c-name{
-			color: grey;
-			text-align: right;
+			color: $color-black-4;
 			line-height: normal;
+
+			font-size 	 : rem(14px);
 		}
 	}
 
@@ -193,6 +201,11 @@ ul.tourism-information{
 	}
 }
 
+.tourism-filters-background{
+	height:121px;
+	width:100%;
+	margin-bottom:30px;
+}
 
 .tourism-filters-box{
 	padding: 20px 0 0 25px;
@@ -209,6 +222,10 @@ ul.tourism-information{
 
 	&.select{
 		width: 25%;
+	}
+
+	&.button{
+		width: 31%;
 	}
 	
 	.tf-label{
@@ -258,8 +275,6 @@ ul.tourism-information{
 		border: 1px solid white;
 		border-radius:  5px !important;
 
-		width: 250px;
-
 		background-color : $color-purple-1;
 		color: $color-white;
 
@@ -273,7 +288,7 @@ ul.tourism-information{
 
 #tour_list_sorting{
 
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 
 	.tls-box{
 		@include inline-block();
@@ -283,8 +298,12 @@ ul.tourism-information{
 
 		margin-right: 30px;
 
-		&.select{
-			width: 16%;
+		&.t-select{
+			width: 18%;
+		}
+
+		&.t-button{
+			width: 19%;
 		}
 	}
 	.tls-label{
@@ -298,15 +317,17 @@ ul.tourism-information{
 	.tls-select{
 		@include inline-block();
 
-		border-bottom: 1px solid $color-purple-1;
+		height 	: 35px;
+		margin 	: 0;
+		background-color: $color-white;
+		border-bottom 	: 1px solid $color-purple-1;
 
 		font-family : $font-helvetica;
-		font-family : $font-helvetica;
 
-		/*width: 55%;*/
-		height: 35px;
-
-		margin: 0;
+		option{
+			color: $color-purple-1;
+			background-color: #eaeaea;
+		}
 	}
 }
 
@@ -317,9 +338,11 @@ ul.tourism-information{
 }
 
 .tour-description{
-	font-family: $font-signika-reg;
-	font-size: rem(17px);
-	color: #4D4D4D;
+	font-family : $font-helvetica;
+	font-size 	: rem(16px);
+	color 		: $color-black-4;
+
+	margin-bottom: 25px;
 }
 
 #tour_company_name{
@@ -329,23 +352,23 @@ ul.tourism-information{
 
 	.tch-left{
 		float: left;
+		width : 76%;
+		padding-right: 15px;
 
-		font-family: $font-signika-reg;
-		font-size: rem( 29px );
-		color : #4D4D4D;
+		font-family : $font-signika-reg;
+		font-size 	: rem( 29px );
+		color 		: #4D4D4D;
+		line-height	: normal;
+
 	}
 	.tch-right{
-		float: right;
+		overflow 	: hidden;
+		border-left : 2px solid #8F8F8F;
 
-		border-left: 2px solid #8F8F8F;
-		padding-left: 25px;
-
-		font-family: $font-signika-reg;
-		color: #CB337C;
-
-		line-height: normal;
-
-		text-align: right;
+		font-family : $font-signika-reg;
+		color 		: #CB337C;
+		line-height : normal;
+		text-align 	: right;
 
 		.for-label{
 			font-size: rem(22px);
@@ -510,4 +533,273 @@ ul#tour_bookings{
 	font-family: $font-signika-reg;
 	font-size: rem( 30px );
 	color:  $color-black-4;
+}
+
+
+/**
+ * MEDIA QUERIES MOBILE
+ */
+
+@include max-screen(1200px)
+{
+ 	#tour_company_name .tch-left{
+ 		font-size: rem(27px);
+ 	}
+ 	#tour_company_name .tch-right .for-price{
+ 		font-size: rem(27px);
+ 	}
+ 	#tour_company_name .tch-right .for-label{
+ 		font-size: rem(21px);
+ 	} 
+
+ 	/*filter date , adult and button*/
+ 	.tourism-filters.select{
+ 		width: 21%;
+ 	}
+ 	.tourism-filters .tf-datepicker{
+ 		width: 225px;
+ 	}
+}
+
+@include max-screen( 991px )
+{
+ 	/*filter date , adult and button*/
+ 	.tourism-filters.select{
+ 		width: 24%;
+ 	}
+ 	.tourism-filters .tf-datepicker{
+ 		width: 220px;
+ 	}
+
+ 	.tourism-filters.button{
+ 		width: 32%;
+ 	}
+}
+
+@include max-screen( 720px )
+{
+ 	/*filter date , adult and button*/
+ 	.tourism-filters.select{
+ 		width: 22%;
+ 	}
+ 	.tourism-filters .tf-datepicker{
+ 		width: 210px;
+ 	}
+}
+
+@include max-screen( 680px )
+{
+ 	#tour_company_name .tch-left{
+ 		font-size: rem(24px);
+ 		width: 75%;
+ 		padding-right: 10px;
+ 	}
+ 	#tour_company_name .tch-right .for-price{
+ 		font-size: rem(24px);
+ 	}
+ 	#tour_company_name .tch-right .for-label{
+ 		font-size: rem(20px);
+ 	}
+ 	
+ 	/*filter date , adult and button*/
+ 	.tourism-filters{
+ 		display: block;
+ 		margin-right: 0;
+ 	}
+ 	.tourism-filters-background{
+ 		height: auto;
+ 	}
+
+ 	.tourism-filters-box{
+ 		padding: 20px 25px 0;
+ 	}
+
+ 	.Zebra_DatePicker_Icon_Wrapper{
+ 		width: 100%;
+ 	}
+
+ 	.tourism-filters .tf-datepicker{
+ 		width: 100%;
+ 	}
+
+ 	.tourism-filters.select{
+ 		width: 100%;
+ 	}
+
+ 	.tourism-filters.button{
+ 		margin: 0 auto;
+ 		width: 100%;
+ 	}
+
+ 	.tourism-filters .tf-button{
+ 		padding: 0 10px;
+ 		width: 100%;
+ 	}
+
+ 	/*sorting filters in tourism list*/
+ 	#tour_list_sorting .tls-box{
+ 		&.t-select{
+ 			width: 118px;
+ 		}
+ 		&.t-button{
+ 			margin-right: 0;
+ 		}
+ 	}
+
+ 	/*tourism list - list for all packages*/
+ 	.tourism-information{
+		.tourism-mobile{
+			display : block;
+			width 	: 100%;
+
+			margin-top: 16px;
+
+			img{
+				width: 100%;
+			}
+
+			.tm-label{
+				position: absolute;
+				right: 43%;
+				margin-top: -35px;
+
+				color : #FFF;
+				font-size 	: rem(15px); 
+				font-family : $font-helvetica;
+			}
+		}
+ 	}
+ 	.tour-infos{
+ 		margin-top: 10px;
+
+		.tour-company{
+			display: block;
+			margin-right : 0;
+		}
+
+		.tour-btn{
+			display: none;
+		}
+
+	}
+}
+
+@include max-screen( 600px )
+{
+	#tour_company_name{
+		padding-bottom: 20px;
+	}
+ 	#tour_company_name .tch-left{
+		float: none;
+		padding-right: 0;
+		width: auto;
+	}
+ 	#tour_company_name .tch-right{
+ 		border-left: none;
+ 		padding-top: 10px;
+
+ 		text-align: left;
+ 	}
+}
+
+@include max-screen( 580px )
+{
+	#tour_bookings .tb-box.f-right{
+		width: 200px;
+	}
+	#tour_bookings .tb-label-btn{
+		margin: -42px 55px 0 0;
+	}
+
+	/*tourism list - tourism package available list*/
+
+	.tourism-information .tour-image{
+		float: none;
+
+		width 	: 100%;
+		height 	: auto;
+	}
+	.tourism-information .tour-box{
+		padding-left: 0;
+		padding-top: 15px;
+	}
+	.tour-infos{
+		margin-top: 0;
+	}
+}
+
+@include max-screen( 510px )
+{
+ 	/*sorting filters in tourism list*/
+	#tour_list_sorting{
+		.tls-box{
+			display: block;
+			margin-right: 0;
+			margin-bottom: 15px;
+
+			&.t-title{
+				text-align 		: center;
+				text-transform 	: uppercase;
+				font-weight 	: bold;
+
+				margin-bottom: 0;
+
+				.tls-label{
+					font-size: rem( 16px );
+					color: $color-purple-1;
+				}
+			}
+
+			&.t-select{
+				width: 100%;
+			}
+
+			&.t-button{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@include max-screen( 480px )
+{
+ 	#tour_bookings .tb-box.f-right{
+ 		float: none;
+ 		margin: 0;
+		width: 100%;
+
+ 		img{
+ 			width: 100%;
+ 		}
+ 	}
+ 	#tour_bookings .tb-box.f-left{
+ 		float: none;
+ 		width: 100%;
+ 	}
+	#tour_bookings .tb-label-btn{
+		margin: -42px 40% 0 0;
+	}
+	.title-carousel{
+		padding-bottom: 10px;
+	}
+	.title-carousel-more{
+		float: none;
+		display: block;
+		text-align: center;
+
+		font-size: rem( 15px );	
+
+		margin: 0;
+		padding-bottom: 24px;
+	}
+	
+}
+
+@include max-screen( 360px )
+{
+	#tour_company_info .tci-value{
+		width: 85%;
+		padding: 4px 0 0 14px;
+		word-break : break-all;
+	}
 }

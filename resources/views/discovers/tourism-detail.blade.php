@@ -42,53 +42,55 @@
 
 <section class="wysiwyg">
     <div class="content">
-    <div id="tour_slideshow">
-        <div class="owl-carousel gl"
-            data-items="1"
-            data-nav = "true"
-            data-pad = "true"
-            data-loop="true"
-            data-autoplay="false"
-            data-autoplay-timeout="3000"
-            data-autoplay-hover-pause="true"
-            data-sizes="[
-            [ 0, 1 ],
-            [ 321, 1 ],
-            [ 481, 2 ],
-            [ 641, 3 ],
-            [ 721, 3 ],
-            [ 841, 3 ],
-            [ 1041 , 3 ],
-            [ 1220, 3 ]]"
-        >
-        @foreach( $packages['images'] as $sim )
-            <div class="owl-item link-img" style="text-align: center;">
-                @if( !empty( $sim ))
-                    <img src="http://book.itx.co.id{{ $sim }}">
-                @else
-                    {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
-                    [
-                        'w' => '762',
-                        'h' => '430'
-                    ]) !!}
-                @endif
+        <div id="tour_slideshow">
+            <div class="owl-carousel gl"
+                data-items="1"
+                data-nav = "true"
+                data-loop="true"
+                data-autoplay="true"
+                data-autoplay-timeout="3000"
+                data-autoplay-hover-pause="true"
+                data-sizes="[
+                [ 0, 1 ],
+                [ 321, 1 ],
+                [ 481, 2 ],
+                [ 641, 3 ],
+                [ 721, 3 ],
+                [ 841, 3 ],
+                [ 1041 , 3 ],
+                [ 1220, 3 ]]"
+            >
+            @foreach( $packages['images'] as $sim )
+                <div class="owl-item link-img" style="text-align: center;">
+                    @if( !empty( $sim ))
+                        <img src="http://book.itx.co.id{{ $sim }}">
+                    @else
+                        {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
+                        [
+                            'w' => '762',
+                            'h' => '430'
+                        ]) !!}
+                    @endif
+                </div>
+            @endforeach
             </div>
-        @endforeach
         </div>
-    </div>
 
-    <div id="tour_company_name">
-        <div class="tch-left">
-            {{ $packages['name'] }}
+        @php $avails = $bookings[ 'availabilities'] @endphp
+        <div id="tour_company_name">
+            <div class="tch-left">
+                {{ $packages['name'] }}
+            </div>
+            @if( !empty( $avails ) )
+            <div class="tch-right">
+                <!-- <div class="for-label">Start From</div> -->
+                <!-- <div class="for-price">IDR {{ number_format($packages['availabilities'][0]['price']) }}</div> -->
+            </div>
+            @endif
         </div>
-        <div class="tch-right">
-            {{--<div class="for-label">Start From</div>--}}
-            {{--<div class="for-price">IDR {{ number_format($packages['availabilities'][0]['price']) }}</div>--}}
-        </div>
-    </div>
 
         <form method="GET" action="">
-            <div style="background-image:url('../../../../img/am2018/public/colorful-filters.png');height:121px;width:100%;margin-bottom:30px;">
+            <div class="tourism-filters-background" style="background-image:url('../../../../img/am2018/public/colorful-filters.png');">
                 <div class="tourism-filters-box">
                     <div class="tourism-filters datepicker">
                         <div class="tf-label">Date</div>
@@ -104,23 +106,30 @@
                         </select>
                     </div>
 
-                    <div class="tourism-filters no-mr">
+                    <div class="tourism-filters button no-mr">
                         <input type="submit" value="Check Availability" class="tf-button">
                     </div>
                 </div>
             </div>
         </form>
         <ul id="tour_bookings">
-        @if( !empty($bookings) )
-        @foreach( $bookings['availabilities'] as $book)
+        @if( !empty($avails) )
+        @foreach( $avails as $book)
             <li>
                 <div class="tb-box f-left">
                     <div class="tb-label day">{{ date('d F Y', strtotime($book['start_date'])) }} <span class="small-divider">|</span> {{ $adult }} Guests</div>
                     <!-- <div class="tb-label room">Price perpax (for 2-4 Guests/room)</div> -->
-                    {{--<div class="tb-label price">IDR {{ number_format($book['price']) }}</div>--}}
+                    <!-- <div class="tb-label price">IDR {{ number_format($book['price']) }}</div> -->
                 </div>
                 <div class="tb-box f-right">
-                    <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $bookings['book_uri'] }}" target="_blank">
+                    <!-- <a href="{{ $book['book_uri'] }}" target="_blank">
+                        {!! html_img( 'img/am2018/public/colorful-button.png',
+                        [
+                            'w' => '271',
+                            'h' => '55',
+                        ]) !!}
+                        <span class="tb-label-btn">Book Now</span> -->
+                    <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $book['book_uri'] }}" target="_blank">
                         <span style="color:white;">Check Package</span>
                     </a>
                 </div>
@@ -179,7 +188,7 @@
         data-nav = "true"
         data-pad = "true"
         data-loop="true"
-        data-autoplay="false"
+        data-autoplay="true"
         data-autoplay-timeout="3000"
         data-autoplay-hover-pause="true"
         data-sizes="[

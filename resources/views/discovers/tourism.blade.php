@@ -72,10 +72,11 @@
                 <!-- Bali - Lombok Tour 2D/1N -->
                 {{ ucwords( $loc ) }}
             </h3>
-            <a href="{{ route( 'f.discovers.tourism_list', [ $loc ]) }}" class="tc-info">
-                More Package
-            </a>
         </div>
+        <a href="{{ route( 'f.discovers.tourism_list', [ $loc ]) }}" class="title-carousel-more">
+            More Package
+        </a>
+
         <div class="owl-carousel gl"
             data-items="3"
             data-nav = "true"

@@ -29,7 +29,7 @@ class DiscoverController extends BaseController
 
 	public function tourism()
 	{
-		$locations = [ 'denpasar','lombok', 'yogyakarta' ];
+		$locations = [ 'bali', 'lombok', 'komodo', 'toraja', 'toba' ];
 
 		$itx_repo = app( ITXInterface::class );
 		$packages = $itx_repo->packages( $locations );
@@ -52,7 +52,7 @@ class DiscoverController extends BaseController
 
 		$itx_repo = app( ITXInterface::class );
 
-		//if current data is null, show default data 
+		//if current data is null, show default data
 		// $default_data = $itx_repo->packageDetail( $slug, $location, "None", "Activities", $date, 1 );
 
 		if( empty($date) || empty($adult) ){
