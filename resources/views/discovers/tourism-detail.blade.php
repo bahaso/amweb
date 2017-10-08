@@ -146,7 +146,7 @@
     </div>
 
     <p class="tour-description">
-        {{ $packages['description'] }}
+        {!!nl2br($packages['description']) !!}
     </p>
 
     <div class="mix-bar-full no-mb"></div>
