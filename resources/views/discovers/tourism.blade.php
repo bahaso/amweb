@@ -62,7 +62,6 @@
         around the areas on Indonesia for your options. You can also read our articles for further information before you decide which
         packages to accompany you on your journey.
     </p>
-    <p>Information regarding the tourism packages will be provided in early October 2017.</p>
 
     @foreach( $locations as $loc )
         @if( !empty( $packages[ $loc ]))
