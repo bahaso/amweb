@@ -51,68 +51,74 @@ class ITXRepository implements ITXInterface
 				$search_content = $conn->getLocationSearchContent( $loc );
 				$dom = new DOMXML( $search_content );
 
-                /**
-                 * Business Detail
-                 */
-                $merchant = $dom->getTags( 'MerchantDetails' )->first();
-                if( !empty( $merchant ))
-                {
-                    $business = $merchant->getTags( 'BusinessDetail' )->first();
-                    $address  = $merchant->getTags( 'AddressDetails' )->first();
-                    $phone    = $merchant->getTags( 'MainPhone' )->first();
-                    $website  = $merchant->getTags( 'WebSite' )->first();
-                    $email    = $merchant->getTags( 'PublicEmail' )->first();
+				foreach($dom->getTags("Provider") as $provider){
+                    /**
+                     * Business Detail
+                     */
+                    $merchant = $provider->getTags( 'MerchantDetails' )->first();
+                    if( !empty( $merchant ))
+                    {
+                        $business = $merchant->getTags( 'BusinessDetail' )->first();
+                        $address  = $merchant->getTags( 'AddressDetails' )->first();
+                        $phone    = $merchant->getTags( 'MainPhone' )->first();
+                        $website  = $merchant->getTags( 'WebSite' )->first();
+                        $email    = $merchant->getTags( 'PublicEmail' )->first();
 
-                    $merchant_info =
-                    [
-                        'name'    => $business->getAttribute( 'FullName' ),
-                        'address' =>
-                        [
-                            $address->getAttribute( 'address_1' ),
-                            $address->getAttribute( 'address_2' )
-                        ],
-                        'phone'   =>
-                        [
-                            'country_code' => $phone->getAttribute( 'country_code' ),
-                            'area_code'    => $phone->getAttribute( 'area_code' ),
-                            'number'       => $phone->getAttribute( 'number' )
-                        ],
-                        'website' => $website? $website->getAttribute( 'url' ) : '',
-                        'email'   => $email? $email->getAttribute( 'email_address' ) :''
-                    ];
+                        $merchant_info =
+                            [
+                                'name'    => $business->getAttribute( 'FullName' ),
+                                'address' =>
+                                    [
+                                        $address->getAttribute( 'address_1' ),
+                                        $address->getAttribute( 'address_2' )
+                                    ],
+                                'phone'   =>
+                                    [
+                                        'country_code' => $phone->getAttribute( 'country_code' ),
+                                        'area_code'    => $phone->getAttribute( 'area_code' ),
+                                        'number'       => $phone->getAttribute( 'number' )
+                                    ],
+                                'website' => $website? $website->getAttribute( 'url' ) : '',
+                                'email'   => $email? $email->getAttribute( 'email_address' ) :''
+                            ];
+                    }
+                    else {
+                        $merchant_info =
+                            [
+                                'name'      => '',
+                                'address'   => '',
+                                'phone'     => [
+                                    'country_code' => '',
+                                    'area_code'    => '',
+                                    'number'       => ''
+                                ],
+                                'website' => '',
+                                'email'   => ''
+                            ];
+                    }
+
+
+                    /**
+                     * Product
+                     */
+                    foreach( $provider->getTags( 'Product' ) as $product )
+                    {
+                        $id   = $product->getAttribute( 'id' );
+                        $name = $product->getAttribute( 'name' );
+
+                        $defined_id = str_slug( $name );
+                        $data[ $loc ][ $defined_id ] = [
+                            'name'          => ucwords(strtolower( $name )),
+                            'code'          => $product->getAttribute( 'code' ),
+                            'images'        => $product->getImageUrls(),
+                            'description'   => $product->getTags( 'Description' )->first()->getValue(),
+                            'merchant'      => $merchant_info
+                        ];
+                    }
+
                 }
-                else {
-                    $merchant_info =
-                    [
-                        'name'      => '',
-                        'address'   => '',
-                        'phone'     => [
-                            'country_code' => '',
-                            'area_code'    => '',
-                            'number'       => ''
-                        ],
-                        'website' => '',
-                        'email'   => ''
-                    ];
-                }
 
-                /**
-                 * Product
-                 */
-				foreach( $dom->getTags( 'Product' ) as $product )
-				{
-                    $id   = $product->getAttribute( 'id' );
-                    $name = $product->getAttribute( 'name' );
 
-                    $defined_id = str_slug( $name );
-                    $data[ $loc ][ $defined_id ] = [
-                        'name'          => ucwords(strtolower( $name )),
-                        'code'          => $product->getAttribute( 'code' ),
-                        'images'        => $product->getImageUrls(),
-                        'description'   => $product->getTags( 'Description' )->first()->getValue(),
-                        'merchant'      => $merchant_info
-                    ];
-				}
 			}
 
 			return $data;
