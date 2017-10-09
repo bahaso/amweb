@@ -144,7 +144,7 @@
                             <div class="tour-company">
                                 <!-- <div class="c-label">IDR {{ number_format($pk['availabilities'][0]['price']) }} - return (lunch included)</div> -->
                                 <div class="c-name">
-                                    {{ $pk['merchant']['name'] }}
+                                    {{--{{ $pk['merchant']['name'] }}--}}
                                 </div>
                             </div>
                             <a href="{{ $link }}" class="tour-btn">

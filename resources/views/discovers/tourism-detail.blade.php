@@ -150,7 +150,7 @@
     </p>
 
     <div class="mix-bar-full no-mb"></div>
-    <div id="tour_company_info">
+   {{-- <div id="tour_company_info">
         <div class="tci-description">For further information and reservation :</div>
         <div class="tci-row">
             <span class="colorful-icon user"></span>
@@ -180,7 +180,7 @@
         </div>
         @endif
     </div>
-    <div class="mix-bar-full no-mb"></div>
+    <div class="mix-bar-full no-mb"></div>--}}
 
     <div class="similiar-title">Similiar Packages</div>
     <div class="owl-carousel gl"
