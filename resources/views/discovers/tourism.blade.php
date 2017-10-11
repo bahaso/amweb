@@ -62,6 +62,11 @@
         around the areas on Indonesia for your options. You can also read our articles for further information before you decide which
         packages to accompany you on your journey.
     </p>
+    <p>
+        <a href="{{ asset( 'uploads/public/Layout-Book-Tourism-Packages.pdf' ) }}" class="pull-left fw400 link-txt fs14" target="_blank">
+        Download The Booklet
+        </a>
+    </p>
 
     @foreach( $locations as $loc )
         @if( !empty( $packages[ $loc ]))

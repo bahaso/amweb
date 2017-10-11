@@ -130,7 +130,7 @@
                         ]) !!}
                         <span class="tb-label-btn">Book Now</span> -->
                     <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $book['book_uri'] }}" target="_blank">
-                        <span style="color:white;">Check Packages</span>
+                        <span style="color:white;">Check Package</span>
                     </a>
                 </div>
             </li>
