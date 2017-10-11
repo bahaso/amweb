@@ -30,7 +30,7 @@
                 'url' => route( 'f.discovers.indonesia' )
             ],
             [
-                'label' => 'Tourism Package',
+                'label' => 'Tourism Packages',
             ]
         ],
         'no_label' => true
@@ -73,7 +73,7 @@
             </h3>
         </div>
         <a href="{{ route( 'f.discovers.tourism_list', [ $loc ]) }}" class="title-carousel-more">
-            More Package
+            More Packages
         </a>
 
         <div class="owl-carousel gl"

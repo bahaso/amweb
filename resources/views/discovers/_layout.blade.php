@@ -18,7 +18,7 @@
     </li>
     <li class="{{ isActiveRoute( 'f.discovers.tourism' ) }}{{ isActiveRoute( 'f.discovers.tourism_list' ) }} {{ isActiveRoute( 'f.discovers.tourism_detail' ) }}">
         <a href="{{ route( 'f.discovers.tourism' ) }}" class="lbl">
-            Tourism Package
+            Tourism Packages
         </a>
     </li>
 

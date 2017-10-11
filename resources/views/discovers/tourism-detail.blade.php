@@ -130,7 +130,7 @@
                         ]) !!}
                         <span class="tb-label-btn">Book Now</span> -->
                     <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $book['book_uri'] }}" target="_blank">
-                        <span style="color:white;">Check Package</span>
+                        <span style="color:white;">Check Packages</span>
                     </a>
                 </div>
             </li>
@@ -222,6 +222,11 @@
             </div>
         </a>
     @endforeach
+    </div>
+    <div class="mix-bar-full no-mb"></div>
+    <div id="tour_company_info">
+        <div class="disclaimer">Disclaimer tourism packages:</div>
+        <div class="tci-description"><p>The information contained in this website is for information purposes only. Through this website you are able to link to other websites which are under the responsibility of the operators. Any purchases made through those sites are borne by the operators. Indonesia Planning Team has no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the contents.</p></div>
     </div>
 </section>
 

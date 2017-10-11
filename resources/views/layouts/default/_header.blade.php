@@ -121,7 +121,7 @@
                         </li>
                         <li>
                             <a href="{{ route( 'f.discovers.tourism', ['Discover-Indonesia', 'Paket-Wisata']) }}">Tourism
-                                Package</a>
+                                Packages</a>
                         </li>
                     </ul>
                 </li>

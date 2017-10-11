@@ -515,6 +515,13 @@ ul.tourism-information li {
   padding-bottom: 20px;
   line-height: normal;
 }
+
+#tour_company_info .disclaimer {
+  font-family: "Signika Regular";
+  font-size: 2rem;
+  color: black;
+  padding-bottom: 20px;
+  line-height: normal;
 /* line 419, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_company_info .tci-row {
   padding-bottom: 22px;
