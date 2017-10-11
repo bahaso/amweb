@@ -56,7 +56,7 @@
             'h' => 'auto'
         ]) !!}
     </p>
-    <p>
+    <p style="text-align: justify">
         As Indonesia has large area and various traditions to explore, it might be hard for travellers to find the best itinerary
         in a limited period. Wonderful Indonesia proudly presents to you some of the best tourism packages from our certified partners
         around the areas on Indonesia for your options. You can also read our articles for further information before you decide which
