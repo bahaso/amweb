@@ -145,6 +145,110 @@
             </div>
         </div>
     </div>
+    <div class="row mb30">
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 7, 'Building-bonds-accross-asia'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-1.jpg',
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            Building Bonds across Asia, Europe, and Beyond. Preston Auditorium WB - IMF- WBG Annual Meetings 2017
+                        </p>
+                        <p>
+                            15 Photos | 20 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail', [ 8, 'cnn_debate_on_the_global'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-1.jpg',
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            CNN Debate on the Global Economy How to Strengthen Global Economy - IMF - WBG Annual Meetings 2017
+                        </p>
+                        <p>
+                            29 Photos | 19 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row mb30">
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 9, 'global_press_briefing_vti'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-1.jpg',
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            Global Press Briefing Voyage to Indonesia 12 Oct 2017 - IMF - WBG Annual Meetings 2017
+                        </p>
+                        <p>
+                            45 Photos | 20 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail', [ 10, 'high_level_special_session'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-1.jpg',
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            High Level Special Session on Collaborative Behaviors between the Water and Health and Nutrition Sectors to Reduce Childhood Stunting - IMF - WBG Annual Meetings 2017
+                        </p>
+                        <p>
+                            16 Photos | 19 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row mb30">
+        <div class="col-sm-6">
+            <div class="image-caption mb-xs-32">
+                <a href="{{ route( 'f.galleries.detail',[ 11, 'indonesia_USINDO_gala_dinner'] ) }}">
+                    {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-1.jpg',
+                    [
+                        'w' => 400,
+                        'h' => 225
+                    ]) !!}
+                    <div class="caption">
+                        <p>
+                            Indonesia-USINDO Gala Dinner. IMF - WBG Annual Meetings 2017
+                        </p>
+                        <p>
+                            9 Photos | 20 Views
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+    </div>
 </div>
 
 @stop
