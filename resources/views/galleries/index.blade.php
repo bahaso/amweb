@@ -149,7 +149,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail',[ 7, 'Building-bonds-accross-asia'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-1.jpg',
+                    {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-1.JPG',
                     [
                         'w' => 400,
                         'h' => 225
@@ -168,7 +168,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 8, 'cnn_debate_on_the_global'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-1.jpg',
+                    {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-1.JPG',
                     [
                         'w' => 400,
                         'h' => 225
@@ -189,7 +189,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail',[ 9, 'global_press_briefing_vti'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-1.jpg',
+                    {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-1.JPG',
                     [
                         'w' => 400,
                         'h' => 225
@@ -208,7 +208,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail', [ 10, 'high_level_special_session'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-1.jpg',
+                    {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-1.JPG',
                     [
                         'w' => 400,
                         'h' => 225
@@ -229,7 +229,7 @@
         <div class="col-sm-6">
             <div class="image-caption mb-xs-32">
                 <a href="{{ route( 'f.galleries.detail',[ 11, 'indonesia_USINDO_gala_dinner'] ) }}">
-                    {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-1.jpg',
+                    {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-1.JPG',
                     [
                         'w' => 400,
                         'h' => 225
