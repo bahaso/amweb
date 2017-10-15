@@ -60,49 +60,49 @@
         data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-1.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-1.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-2.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-2.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-3.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-3.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-4.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-4.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-5.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-5.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-6.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-6.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-7.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-7.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-8.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-8.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-9.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-9.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-10.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-10.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-11.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-11.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-12.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-12.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-13.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-13.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-14.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-14.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-15.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/building_bonds_across_asia/bond-15.JPG', []) !!}
         </div>
     </div>
 </div>

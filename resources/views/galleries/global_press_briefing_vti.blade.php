@@ -60,139 +60,139 @@
         data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-1.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-1.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-2.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-2.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-3.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-3.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-4.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-4.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-5.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-5.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-6.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-6.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-7.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-7.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-8.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-8.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-9.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-9.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-10.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-10.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-11.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-11.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-12.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-12.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-13.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-13.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-14.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-14.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-15.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-15.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-16.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-16.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-17.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-17.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-18.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-18.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-19.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-19.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-20.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-20.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-21.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-21.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-22.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-22.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-23.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-23.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-24.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-24.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-25.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-25.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-26.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-26.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-27.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-27.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-28.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-28.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-29.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-29.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-30.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-30.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-31.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-31.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-32.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-32.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-33.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-33.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-34.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-34.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-35.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-35.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-36.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-36.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-37.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-37.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-38.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-38.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-39.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-39.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-40.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-40.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-41.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-41.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-42.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-42.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-43.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-43.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-44.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-44.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-45.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/global_press_briefing_vti/gp-vti-45.JPG', []) !!}
         </div>
     </div>
 </div>
