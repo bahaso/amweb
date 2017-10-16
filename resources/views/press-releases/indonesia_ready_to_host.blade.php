@@ -62,7 +62,7 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Press-Release-Indonesia-Ready-to-Host-the-2018-AM.pdf' ) }}" class="txt-underline">
+                        <a href="{{ asset( 'uploads/public/Press-Release-Indonesia-Ready-to-Host-the-2018.pdf' ) }}" class="txt-underline">
                             Press Release Indonesia Ready to Host 2018 Annual Meetings.pdf
                         </a><br><br>
                         <a href="{{ asset( 'uploads/public/Siaran-Pers-Indonesia-Siap-Menjadi-Tuan-Rumah-IMF-WBG-Annual-Meetings-2018-Voyage-to-Indonesia.pdf' ) }}" class="txt-underline">
