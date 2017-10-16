@@ -44,7 +44,7 @@
                 <tr>
                     <th>Date</td>
                     <td>
-                        Agustus 25, 2017
+                        October 12, 2017
                     </td>
                 </tr>
                 <tr>
@@ -56,7 +56,7 @@
                 <tr>
                     <th>Description</td>
                     <td>
-                        The National Committee for the Preparation of the Annual Meetings 2018 held High Level Meeting with the Meeting Team Secretariat (MTS) of the International Monetary Fund – World Bank Group (IMF-WBG) which was held in Nusa Dua, Bali on August 21-25, 2017. The High Level Meeting discussed infrastructure readiness and preparation of the supporting facilities of various sectors at the venue. All related Ministries/Government Bodies attended the meeting to coordinate and support the implementation of AM 2018 in accordance with their respective duties and functions, as stated by President Joko Widodo in the Presidential Decree of the Republic of Indonesia No. 11/2017.
+                        Indonesia is ready to host the upcoming 2018 Annual Meetings of the International Monetary Fund and World Bank Group (2018 AM). Delegation of Republic of Indonesia represented by Coordinating Minister for Maritime Affairs, Central Bank Governor and Minister of Finance elaborate further Indonesia’s preparation towards the event which will take place in Nusa Dua, Bali.
                     </td>
                 </tr>
                 <tr>
