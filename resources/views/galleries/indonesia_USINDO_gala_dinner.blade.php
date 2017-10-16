@@ -60,31 +60,31 @@
         data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-1.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-1.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-2.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-2.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-3.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-3.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-4.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-4.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-5.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-5.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-6.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-6.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-7.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-7.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-8.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-8.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-9.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/indonesia_USINDO_gala_dinner/indonesia_USINDO_gd-9.JPG', []) !!}
         </div>
     </div>
 </div>

@@ -60,52 +60,52 @@
         data-auto-width="true"
     >
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-1.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-1.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-2.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-2.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-3.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-3.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-4.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-4.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-5.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-5.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-6.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-6.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-7.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-7.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-8.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-8.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-9.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-9.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-10.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-10.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-11.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-11.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-12.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-12.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-13.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-13.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-14.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-14.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-15.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-15.JPG', []) !!}
         </div>
         <div class="owl-item link-img">
-            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-16.jpg', []) !!}
+            {!! html_img( 'img/am2018/public/upload/high_level_special_session/hlss-16.JPG', []) !!}
         </div>
     </div>
 </div>
