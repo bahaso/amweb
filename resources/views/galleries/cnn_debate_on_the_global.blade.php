@@ -68,6 +68,84 @@
         <div class="owl-item link-img">
             {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-3.jpg', []) !!}
         </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-4.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-5.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-6.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-7.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-8.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-9.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-10.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-11.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-12.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-13.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-14.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-15.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-16.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-17.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-18.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-19.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-20.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-21.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-22.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-23.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-24.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-25.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-26.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-27.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-28.jpg', []) !!}
+        </div>
+        <div class="owl-item link-img">
+            {!! html_img( 'img/am2018/public/upload/cnn_debate_on_the_global/cnn-29.jpg', []) !!}
+        </div>
     </div>
 </div>
 
