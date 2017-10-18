@@ -29,7 +29,7 @@ class DiscoverController extends BaseController
 
 	public function tourism()
 	{
-		$locations = [ 'bali', 'lombok', 'komodo', 'toraja', 'toba' ];
+		$locations = [ 'bali', 'lombok', 'komodo', 'toraja', 'toba' , 'yogya'];
 
 		$itx_repo = app( ITXInterface::class );
 		$packages = $itx_repo->packages( $locations );

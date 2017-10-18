@@ -27,7 +27,8 @@ class ITXRepository implements ITXInterface
             'lombok'     => 'ba_terimakasihindonesia,ba_panoramadestionation',
             'komodo'     => 'ba_seasafaricruises,nt_plataranindonesia,nt_oradive,nt_komodofantasticotour,flores_exotic,nt_flobamortours',
             'toraja'     => 'ss_dhifatours',
-            'toba'       => 'sa_asitadpdsumut'
+            'toba'       => 'sa_asitadpdsumut',
+            'yogya'      => 'yo_asitayogyakarta'
         ];
 
         return $short_names[ $location ];
