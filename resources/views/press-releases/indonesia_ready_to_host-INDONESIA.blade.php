@@ -14,7 +14,7 @@
                 'url' => route( 'f.press-releases.index' ) 
             ],
             [
-                'label' => 'Indonesia Ready To Host Annual Meeting 2018',
+                'label' => 'Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018',
             ]
         ],
         'no_label' => true
@@ -32,7 +32,7 @@
                 <tr>
                     <th width="20%">Title</td>
                     <td>
-                        Indonesia Ready to Host 2018 Annual Meetings of the International Monetary Fund and World Bank Group: Voyage to Indonesia
+                        Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018: Voyage to Indonesia
                     </td>
                 </tr>
                 <tr>
@@ -44,7 +44,7 @@
                 <tr>
                     <th>Date</td>
                     <td>
-                        October 12, 2017
+                        August 25, 2017
                     </td>
                 </tr>
                 <tr>
@@ -56,14 +56,14 @@
                 <tr>
                     <th>Description</td>
                     <td>
-                        Indonesia is ready to host the upcoming 2018 Annual Meetings of the International Monetary Fund and World Bank Group (2018 AM). Delegation of Republic of Indonesia represented by Coordinating Minister for Maritime Affairs, Central Bank Governor and Minister of Finance elaborate further Indonesia’s preparation towards the event which will take place in Nusa Dua, Bali.
+                        Indonesia siap menjadi Tuan Rumah Annual Meetings International Monetary Fund - World Bank Group 2018 (AM 2018).
                     </td>
                 </tr>
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Press-Release-Indonesia-Ready-to-Host-the-2018.pdf' ) }}" class="txt-underline">
-                            Press Release Indonesia Ready to Host 2018 Annual Meetings.pdf
+                        <a href="{{ asset( 'uploads/public/Siaran-Pers-Indonesia-Siap-Menjadi-Tuan-Rumah-IMF-WBG-Annual-Meetings-2018-Voyage-to-Indonesia.pdf' ) }}" class="txt-underline">
+                            Siaran Pers - Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018 - Voyage to Indonesia.pdf
                         </a>
                     </td>
                 </tr>

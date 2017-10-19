@@ -41,6 +41,14 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>August 25, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [5, 'indonesia-ready-to-host-INDONESIA' ]) }}">
+                            Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018: Voyage to Indonesia
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>July 12-13, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [1, 'international-taxation-in-asia' ]) }}">
