@@ -33,6 +33,14 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>November 6, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [6, 'indonesia-ready-to-host' ]) }}">
+                            Indonesia Infrastructure Week 2017: Bringing Together The Public and Private Sector in Support of Indonesia's Critical Infrastructure Development
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>October 12, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [4, 'indonesia-ready-to-host' ]) }}">
