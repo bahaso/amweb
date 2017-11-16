@@ -352,7 +352,7 @@ ul.tourism-information{
 
 	.tch-left{
 		float: left;
-		width : 76%;
+		/*width : 76%;*/
 		padding-right: 15px;
 
 		font-family : $font-signika-reg;
@@ -408,12 +408,12 @@ ul.tourism-information{
 	padding: 32px 0;
 
 	.tci-description{
-		font-family : $font-signika-reg;
-		font-size 	: rem(17px);
+		font-family : $font-helvetica;
 		color 		: #4D4D4D;
+		
+		line-height: 1.8;
 
 		padding-bottom: 20px;
-		line-height: normal;
 	}
 
 	.tci-row{
@@ -483,8 +483,8 @@ ul#tour_bookings{
 		@include clearfix();
 
 		border-bottom: 1px solid #CCC;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
+		padding-bottom: 18px;
+		margin-bottom: 18px;
 	}
 
 	.tb-box{
@@ -500,6 +500,15 @@ ul#tour_bookings{
 		}
 	}
 
+	.tb-button-check{
+		width 		: 260px; 
+		padding 	: 12px 0;
+		display		: block;
+		text-align 	: center;
+		border-radius : 6px;
+	}
+
+
 	.tb-label{
 		font-family: $font-signika-reg;
 		color: $color-black-4;
@@ -507,21 +516,9 @@ ul#tour_bookings{
 
 		&.price{
 			font-weight: bold;
-			font-size: rem(30px);
+			font-size: rem(24px);
 		}
-
 	}
-
-	.tb-label-btn{
-		position 	: absolute;
-		right: 0;
-		margin: -42px 90px 0 0;
-
-		font-family: $font-helvetica;
-		font-size: rem(18px);
-		color: $color-white;
-	}
-
 }
 
 .small-divider{
@@ -684,6 +681,28 @@ ul#tour_bookings{
 	}
 }
 
+@include max-screen ( 1200px )
+{
+	#tour_bookings .tb-button-check{
+		width 	: 200px;
+		padding : 10px 0;
+	}
+}
+
+@include max-screen ( 680px )
+{
+	#tour_bookings .tb-box.f-left{
+		float: none;
+		display: block;
+	}
+
+	#tour_bookings .tb-button-check{
+		width 	: 200px;
+		padding : 10px 0;
+	}
+}
+
+
 @include max-screen( 600px )
 {
 	#tour_company_name{
@@ -707,12 +726,8 @@ ul#tour_bookings{
 	#tour_bookings .tb-box.f-right{
 		width: 200px;
 	}
-	#tour_bookings .tb-label-btn{
-		margin: -42px 55px 0 0;
-	}
 
 	/*tourism list - tourism package available list*/
-
 	.tourism-information .tour-image{
 		float: none;
 
@@ -763,22 +778,18 @@ ul#tour_bookings{
 
 @include max-screen( 480px )
 {
- 	#tour_bookings .tb-box.f-right{
- 		float: none;
- 		margin: 0;
-		width: 100%;
-
- 		img{
- 			width: 100%;
- 		}
- 	}
- 	#tour_bookings .tb-box.f-left{
- 		float: none;
- 		width: 100%;
- 	}
-	#tour_bookings .tb-label-btn{
-		margin: -42px 40% 0 0;
+	#tour_bookings .tb-box.f-right{
+		display : block;
+		float 	: none;
+		width 	: 100%;
+		margin 	: 12px 0 0; 
 	}
+	/*check package button*/
+ 	#tour_bookings .tb-button-check{
+ 		width: 100%;
+ 		background-size: cover;
+ 	}
+
 	.title-carousel{
 		padding-bottom: 10px;
 	}

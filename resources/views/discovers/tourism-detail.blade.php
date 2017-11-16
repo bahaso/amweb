@@ -63,7 +63,7 @@
             @foreach( $packages['images'] as $sim )
                 <div class="owl-item link-img" style="text-align: center;">
                     @if( !empty( $sim ))
-                        <img src="http://book.itx.co.id{{ $sim }}">
+                        <img src="{{ $sim }}">
                     @else
                         {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
                         [
@@ -76,16 +76,16 @@
             </div>
         </div>
 
-        @php $avails = $bookings[ 'availabilities'] @endphp
+        @php $avails = $bookings[ 'children'] @endphp
         <div id="tour_company_name">
             <div class="tch-left">
                 {{ $packages['name'] }}
             </div>
             @if( !empty( $avails ) )
-            <div class="tch-right">
-                <!-- <div class="for-label">Start From</div> -->
-                <!-- <div class="for-price">IDR {{ number_format($packages['availabilities'][0]['price']) }}</div> -->
-            </div>
+<!--             <div class="tch-right">
+                <div class="for-label">Start From</div>
+                <div class="for-price">IDR </div>
+            </div> -->
             @endif
         </div>
 
@@ -117,19 +117,16 @@
         @foreach( $avails as $book)
             <li>
                 <div class="tb-box f-left">
-                    <div class="tb-label day">{{ date('d F Y', strtotime($book['start_date'])) }} <span class="small-divider">|</span> {{ $adult }} Guests</div>
-                    <!-- <div class="tb-label room">Price perpax (for 2-4 Guests/room)</div> -->
-                    <!-- <div class="tb-label price">IDR {{ number_format($book['price']) }}</div> -->
+                    <div class="tb-label day">{{ date('d F Y', strtotime($book['availabilities'][0]['start_date'])) }}</div>
+<!--                     <div class="tb-label price">
+                        IDR {{ number_format($book['availabilities'][0]['price']) }}
+                    </div> -->
+                    <div class="tb-label">
+                        {{ $book['name']}}
+                    </div>
                 </div>
                 <div class="tb-box f-right">
-                    <!-- <a href="{{ $book['book_uri'] }}" target="_blank">
-                        {!! html_img( 'img/am2018/public/colorful-button.png',
-                        [
-                            'w' => '271',
-                            'h' => '55',
-                        ]) !!}
-                        <span class="tb-label-btn">Book Now</span> -->
-                    <a style="width: 271px; height: 55px;padding:12px 0;display:block;text-align:center;background-image: url({{asset('img/am2018/public/colorful-button.png')}})" href="{{ $book['book_uri'] }}" target="_blank">
+                    <a class="tb-button-check" style="background-image: url({{asset('img/am2018/public/colorful-button.png')}});" href="{{ $book['availabilities']['0']['book_uri'] }}" target="_blank">
                         <span style="color:white;">Check Package</span>
                     </a>
                 </div>
@@ -145,11 +142,41 @@
         </ul>
     </div>
 
+<!--     <div class="mix-bar-full mb-top"></div>
+    <div>
+        <ul id="tour_bookings">
+        @foreach( $packages['children'] as $child)
+            @php $slug = str_slug( $child['name']) @endphp
+            @php $link = route( 'f.discovers.tourism_detail', [ $location, $slug ]); @endphp
+            @if( !empty( $date ) and !empty( $adult ))
+                @php $link = route( 'f.discovers.tourism_detail', [ $location, $slug, "date=$date", "adult=$adult" ]); @endphp
+            @endif
+
+            <li>
+                <div class="tb-box f-left">
+                    <div class="tb-label">
+                        {{ $child['name'] }}
+                    </div>
+                </div>
+                <div class="tb-box f-right" style="margin:0;">
+                    <a href="{{ $link }}" target="_blank">
+                        <span>Check Package</span>
+                    </a>
+                </div>
+            </li>
+        @endforeach
+        </ul>
+    </div> -->
+
+    @if( !empty( $packages['description']))
+    <div class="mix-bar-full mb-top"></div>
     <p class="tour-description">
         {!!nl2br($packages['description']) !!}
+        asd
     </p>
+    @endif
 
-    <div class="mix-bar-full no-mb"></div>
+    <div class="mix-bar-full no-mb mb-top"></div>
     <div id="tour_company_info">
         <div class="tci-description">For further information and reservation :</div>
         <div class="tci-row">
@@ -205,7 +232,7 @@
         <a href="{{ route( 'f.discovers.tourism_detail', [ $location, $slug ]) }}">
             <div class="owl-item link-img" style="text-align: center;">
                 @if( !empty( $sim['images']->first() ))
-                    <img src="http://book.itx.co.id{{ $sim['images']->first() }}" width="181" height="181">
+                    <img src="{{ $sim['images']->first() }}" width="181" height="181">
                 @else
                     {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
                     [

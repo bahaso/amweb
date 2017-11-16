@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Front;
 
 use App\Repositories\ITX\ITXInterface;
+use App\Repositories\ITX\ITXEntityInterface;
 use Illuminate\Http\Request;
 
 class DiscoverController extends BaseController
@@ -33,7 +34,6 @@ class DiscoverController extends BaseController
 
 		$itx_repo = app( ITXInterface::class );
 		$packages = $itx_repo->packages( $locations );
-
 
 		return $this->output( 'discovers.tourism', compact( 'locations', 'packages' ));
 	}
@@ -121,8 +121,6 @@ class DiscoverController extends BaseController
 
 		// $itx_repo = app( ITXInterface::class );
 		// $packages = $itx_repo->locationSearchAvailability( $location, "None", "Activities", "2017-11-14", 2 );
-
-
 
 		return $this->output( 'discovers.tourism-detail', compact( 'location', 'similars', 'packages', 'bookings', 'date', 'adult') );
 	}

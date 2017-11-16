@@ -51,16 +51,17 @@ class DOMXMLItem
 
     /**
      * get image url of a product node
+     * @param  string     $img_attr
      * @return Collection
      */
-    public function getImageUrls()
+    public function getImageUrls( $img_attr = 'relative_url' )
     {
         $imgs = [];
 
         $root_img = $this->getTags( 'Images' )->first();
         foreach( $root_img->getTags( 'Image' ) as $img )
         {
-            $imgs[] = $img->getAttribute( 'relative_url' );
+            $imgs[] = $img->getAttribute( $img_attr );
         }
 
         return collect( $imgs );
@@ -68,11 +69,12 @@ class DOMXMLItem
 
     /**
      * Get first image url of a product node
+     * @param  string $img_attr
      * @return string
      */
-    public function getImageUrl()
+    public function getImageUrl( $img_attr = 'relative_url' )
     {
-        $image_urls = $this->getImageUrls();
+        $image_urls = $this->getImageUrls( $img_attr );
         return $image_urls->first();
     }
 }

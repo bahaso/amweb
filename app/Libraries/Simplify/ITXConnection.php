@@ -9,10 +9,13 @@ use Exception;
 
 class ITXConnection
 {
-    private static $SOAP_URI = 'http://apis.itx.co.id/CABS.WebServices/SearchService.asmx';
-    private static $SOAP_ACT_SEARCH = 'http://www.v3leisure.com/CABS/V3Leisure.CABS.Services.WebServices/ProviderSearch';
-    private static $SOAP_ACT_AVAILABILITY = 'http://www.v3leisure.com/CABS/V3Leisure.CABS.Services.WebServices/ProductAvailability';
-    private static $BOOK_URI = 'https://book.itx.co.id/v4/Pages/Availability.aspx';
+    private static $SOAP_URI        = 'http://apis.itx.co.id/CABS.WebServices/SearchService.asmx';
+    private static $BOOK_URI        = 'https://book.itx.co.id/v4/Pages/Availability.aspx';
+    private static $SOAP_ENTITY_URI = 'https://book.itx.co.id/v4/Services/EntityService.asmx';
+
+    private static $SOAP_ACT_SEARCH         = 'http://www.v3leisure.com/CABS/V3Leisure.CABS.Services.WebServices/ProviderSearch';
+    private static $SOAP_ACT_AVAILABILITY   = 'http://www.v3leisure.com/CABS/V3Leisure.CABS.Services.WebServices/ProductAvailability';
+    private static $SOAP_ACT_ENTITY_SEARCH  = 'http://www.v3travel.com/CABS4/Services/EntityService/Search';
 
     /**
      * @return string
@@ -30,6 +33,12 @@ class ITXConnection
         return config( 'constants.vendors.itx.channel_key' );
     }
 
+    /**
+     * @param  string $date
+     * @param  string $product_code
+     * @param  string $shortname
+     * @return string
+     */
     public function getBookURI( $date, $product_code, $shortname )
     {
         return sprintf( '%s?exl_dn=%s&exl_dte=%s&exl_prd=%s&exl_psn=%s',
@@ -45,10 +54,15 @@ class ITXConnection
      * @param  string $soap_action
      * @return string
      */
-    protected function connect( $request_xml, $soap_action )
+    protected function connect( $request_xml, $soap_action, $uri = null )
     {
+        if( empty( $uri ))
+        {
+            $uri = self::$SOAP_URI;
+        }
+
         $client = new Client;
-        $request = new Request( 'POST', self::$SOAP_URI,
+        $request = new Request( 'POST', $uri,
                                 [
                                     'Content-Type'  => 'text/xml; charset=UTF8',
                                     'SOAPAction'    => $soap_action
@@ -92,13 +106,31 @@ class ITXConnection
     }
 
     /**
+     * @param  string|array  $location_ids
+     * @return string
+     */
+    public function getLocationEntitySearchContent( $location_ids, $at_date = null )
+    {
+        if( !is_array( $location_ids ) )
+        {
+            $location_ids = [ $location_ids ];
+        }
+
+        $filter_xml  = $this->getEntitySearchGeolocationSubQueryXML( $location_ids );
+        $request_xml = $this->getEntitySearchRequestXML( $filter_xml, $at_date );
+
+
+        return $this->sendRequestXML( $request_xml, self::$SOAP_ACT_ENTITY_SEARCH, self::$SOAP_ENTITY_URI );
+    }
+
+    /**
      * @param  string $xml
      * @param  string $action
      * @return string
      */
-    protected function sendRequestXML( $xml, $action_url )
+    protected function sendRequestXML( $xml, $action_url, $service_uri = null )
     {
-        $response    = $this->connect( $xml, $action_url );
+        $response    = $this->connect( $xml, $action_url, $service_uri );
 
         $content = $response->getBody()->getContents();
         return $content;
@@ -225,5 +257,98 @@ class ITXConnection
             $this->getChannelId(),
             $this->getChannelKey(),
             $search_xml);
+    }
+
+    /**
+     * @param  array  $location_ids
+     * @return string
+     */
+    protected function getEntitySearchGeolocationSubQueryXML( $location_ids = [] )
+    {
+        $str = '';
+        foreach( $location_ids as $id )
+        {
+            $str .= sprintf( '<LocationId>%s</LocationId>', $id );
+        }
+
+        return sprintf( '
+<Geolocation MustHaveGeocode="false">
+    <LocationIds>
+%s
+    </LocationIds>
+</Geolocation>
+        ', $str );
+    }
+
+    /**
+     * @param  string $filter_xml
+     * @return string
+     */
+    protected function getEntitySearchRequestXML( $filter_xml, $at_date )
+    {
+        return sprintf( '<?xml version="1.0"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <Search xmlns="http://www.v3travel.com/CABS4/Services/EntityService">
+            <EntitySearch_RQ Shortname="provider" xmlns="http://www.v3travel.com/CABS4/Services/EntityService/Models">
+                <Availability MergeMethod="NoMerge">
+<Window StartDate="%s" Size="12" />
+<Specific Date="%s" Duration="2" />
+                </Availability>
+                <Filter Type="Service" MustBeInAdCampaign="true" MustBeInDealCampaign="true">
+                    <Bookability IsBookable="false">
+                        <BlockUnavailableResults xsi:nil="true" />
+                        <GuestsCapability xsi:nil="true" />
+                        <NightsCapability xsi:nil="true" />
+                    </Bookability>
+%s
+                    <TagCriteria>
+                        <IndustryCategoryGroups>
+                            <IndustryCategoryGroup>Accommodation</IndustryCategoryGroup>
+                            <IndustryCategoryGroup>Activity</IndustryCategoryGroup>
+                        </IndustryCategoryGroups>
+                    </TagCriteria>
+                </Filter>
+                <Output AdvancedContent="true" Features="true" Settings="false">
+<Availability StartDate="%s" NumberOfDays="3" FlagCampaign="true" LowestRateOnly="false" MergeMethod="LowestRate" />
+                    <Bookability />
+                    <CommonContent Name="true" Description="true" Images="true" Capabilities="true" IndustryCategories="false" />
+                    <Geocodes />
+                    <Locations>
+                        <Types>
+                            <Type>City</Type>
+                            <Type>Country</Type>
+                            <Type>Landmark</Type>
+                            <Type>Region</Type>
+                            <Type>State</Type>
+                        </Types>
+                    </Locations>
+                    <Children>
+                        <Filter Type="Unspecified" MustBeInAdCampaign="false" MustBeInDealCampaign="false">
+                            <Names />
+                        </Filter>
+                        <Output AdvancedContent="true" Features="true" Settings="false">
+<Availability StartDate="%s" NumberOfDays="12" FlagCampaign="true" LowestRateOnly="false" MergeMethod="LowestRate" />
+                            <Bookability />
+                            <CommonContent Name="true" Description="true" Images="true" Capabilities="true" IndustryCategories="false" />
+                            <Geocodes />
+                        </Output>
+                    </Children>
+                    <Parents>
+                        <Filter Type="Unspecified" MustBeInAdCampaign="false" MustBeInDealCampaign="false" />
+                        <Output AdvancedContent="false" Features="false" Settings="false">
+                            <CommonContent All="true" />
+                        </Output>
+                    </Parents>
+                </Output>
+            </EntitySearch_RQ>
+        </Search>
+    </soap:Body>
+</soap:Envelope>',
+            $at_date,
+            $at_date,
+            $filter_xml,
+            $at_date,
+            $at_date );
     }
 }

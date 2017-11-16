@@ -22,4 +22,22 @@ trait DOMXMLItemTrait
         }
         return collect( $res );
     }
+
+    /**
+     * @param  string $tag_name
+     * @return mixed
+     */
+    public function getImmediateTags( $tag_name )
+    {
+        $res = [];
+        foreach( $this->getNode()->childNodes as $c )
+        {
+            if( $c->tagName == $tag_name )
+            {
+                $res[] = new DOMXMLItem( $c );
+            }
+        }
+
+        return collect( $res );
+    }
 }

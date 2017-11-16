@@ -101,10 +101,10 @@
         >
 
         @foreach( $packages[$loc] as $slug=>$dt )
-            <a href="{{ route( 'f.discovers.tourism_detail', [ $loc, $slug ]) }}">
+            <a href="{{ route( 'f.discovers.tourism_detail', [ $loc, str_slug($dt['name']) ]) }}">
             <div class="owl-item link-img">
                 @if( !empty( $dt['images']->first() ))
-                <img src="http://book.itx.co.id{{ $dt['images']->first() }}" width="234" height="232">
+                <img src="{{ $dt['images']->first() }}" width="234" height="232">
                 @else
                     {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
                     [

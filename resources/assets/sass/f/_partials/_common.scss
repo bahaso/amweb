@@ -797,6 +797,10 @@ $color-tertiary : #323347;
 	@include bg-img( 'rgba/mix-bar-full.png', 825px, 3px );
 	margin-bottom: 30px;
 
+	&.mb-top{
+		margin-top: 30px;
+	}
+
 	&.no-mb{
 		margin-bottom: 0;
 	}

@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            @if( !empty($packages))
+            @if( !empty($packages) )
             <div id="tour_list_sorting">
                 <div class="tls-box t-title">
                     <div class="tls-label">Sort By:</div>
@@ -111,16 +111,16 @@
         @if( !empty($packages) )
             @foreach( $packages as $slug=>$pk )
 
-				@php $link = route( 'f.discovers.tourism_detail', [ $location, $slug ]); @endphp
+				@php $link = route( 'f.discovers.tourism_detail', [ $location, $pk['name'] ]); @endphp
 				@if( !empty( $date ) and !empty( $adult ))
-					@php $link = route( 'f.discovers.tourism_detail', [ $location, $slug, "date=$date", "adult=$adult" ]); @endphp
+					@php $link = route( 'f.discovers.tourism_detail', [ $location, $pk['name'], "date=$date", "adult=$adult" ]); @endphp
 				@endif
 
             <li>
                 <div class="tour-container">
                     <a href="{{ $link }}">
                         @if( !empty( $pk['images']->first() ))
-                            <img src="http://book.itx.co.id{{ $pk[ 'images' ]->first() }}" class="tour-image" width="181" height="181">
+                            <img src="{{ $pk[ 'images' ]->first() }}" class="tour-image" width="181" height="181">
                         @else
                             {!! html_img( 'img/am2018/public/default-tourism-photo.jpg',
                             [
@@ -142,7 +142,6 @@
                         </div>
                         <div class="tour-infos">
                             <div class="tour-company">
-                                <!-- <div class="c-label">IDR {{ number_format($pk['availabilities'][0]['price']) }} - return (lunch included)</div> -->
                                 <div class="c-name">
                                     {{ $pk['merchant']['name'] }}
                                 </div>
@@ -159,7 +158,7 @@
                     </div>
                 </div>
                 <div class="tourism-mobile">
-                    <a href="{{ route( 'f.discovers.tourism_detail', [ $location, $slug ]) }}" class="tour-btn">
+                    <a href="{{ route( 'f.discovers.tourism_detail', [ $location, $pk['name'] ]) }}" class="tour-btn">
                         {!! html_img( 'img/am2018/public/colorful-button.png',
                         [
                             'w' => '118',

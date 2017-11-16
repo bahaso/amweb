@@ -8,11 +8,11 @@ use Cache;
 
 class ITXRepository implements ITXInterface
 {
-    private $conn;
+    protected $conn;
 
-    public function __construct()
+    public function __construct( ITXConnection $conn )
     {
-        $this->conn = new ITXConnection;
+        $this->conn = $conn;
     }
 
     /**
@@ -28,7 +28,7 @@ class ITXRepository implements ITXInterface
             'komodo'     => 'ba_seasafaricruises,nt_plataranindonesia,nt_oradive,nt_komodofantasticotour,flores_exotic,nt_flobamortours',
             'toraja'     => 'ss_dhifatours',
             'toba'       => 'sa_asitadpdsumut',
-            'yogya'      => 'yo_asitayogyakarta'
+            'yogya'      => 'yo_asitayogyakarta, jk_kencanatour, ba_panoramadestionation'
         ];
 
         return $short_names[ $location ];
@@ -128,7 +128,7 @@ class ITXRepository implements ITXInterface
 
     public function packagesAvails( $location, $industry_category, $industry_category_group, $at_date, $adult_count )
     {
-        return Cache::remember( "ITX:PACKAGES:AVAILS:${location}:${at_date}:${adult_count}", cache_long_ttl(), function()
+        return Cache::remember( "ITX:PACKAGES:AVAILS:${location}:${at_date}:${adult_count}", cache_medium_ttl(), function()
             use( $location, $industry_category, $industry_category_group, $at_date, $adult_count )
             {
                 $conn           = $this->conn;
@@ -147,6 +147,7 @@ class ITXRepository implements ITXInterface
 
                         $defined_id = str_slug( $name );
                         $data[ $location ][ $defined_id ] = [
+                            'id'        => $id,
                             'shortname' => $short_name,
                             'name'      => ucwords(strtolower( $name ))
                         ];

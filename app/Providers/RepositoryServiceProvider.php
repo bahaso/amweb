@@ -22,7 +22,7 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'App\Repositories\ITX\ITXInterface', 'App\Repositories\ITX\ITXRepository'
+            'App\Repositories\ITX\ITXInterface', 'App\Repositories\ITX\ITXEntityRepository'
         );
     }
 }

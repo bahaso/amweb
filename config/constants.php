@@ -17,7 +17,8 @@ return [
     [
         'ttl' =>
         [
-            'long' => 180 /* 60 * 3 hour */
+            'long'   => 180, /* 60 * 3 hour */
+            'medium' => 90,  /* 60 * 1.5 hour */
         ]
     ]
 ];
