@@ -126,6 +126,11 @@
                             {{ $book['name']}}
                         </div>
                     </div>
+                    <div class="tb-box f-right">
+                        <a class="tb-button-check" style="background-image: url({{asset('img/am2018/public/colorful-line.png')}});" href="{{ $book['availabilities']['0']['book_uri'] }}" target="_blank">
+                            <span style="color:white;">Check Package</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="tb-description">
                     @if( !empty( $book['description'] ))
@@ -134,7 +139,7 @@
                         {{ $book['short_description'] }}
                     @endif
                 </div>
-                <div class="tb-box f-right">
+                <div class="tb-box mobile f-right">
                     <a class="tb-button-check" style="background-image: url({{asset('img/am2018/public/colorful-line.png')}});" href="{{ $book['availabilities']['0']['book_uri'] }}" target="_blank">
                         <span style="color:white;">Check Package</span>
                     </a>

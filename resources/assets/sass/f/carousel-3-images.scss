@@ -497,7 +497,10 @@ ul#tour_bookings{
 		}
 		&.f-right{
 			float  : right;
-			margin : 15px 0 0;
+		}
+
+		&.mobile{
+			display : none;
 		}
 	}
 
@@ -715,6 +718,10 @@ ul#tour_bookings{
  	}
 
 	#tour_bookings .tb-box.f-right{
+		display : none;
+	}
+
+	#tour_bookings .tb-box.mobile.f-right{
 		display : block;
 		float 	: none;
 		width 	: 100%;

@@ -615,40 +615,43 @@ ul#tour_bookings {
 /* line 498, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_bookings .tb-box.f-right {
   float: right;
-  margin: 15px 0 0;
 }
-/* line 504, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 502, ../../../resources/assets/sass/f/carousel-3-images.scss */
+#tour_bookings .tb-box.mobile {
+  display: none;
+}
+/* line 507, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_bookings .tb-description {
   font-family: "Helvetica";
   font-size: 1.5rem;
   color: #4D4D4D;
 }
-/* line 510, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 513, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_bookings .tb-button-check {
   width: 260px;
   padding: 12px 0;
   display: block;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 5px;
 }
-/* line 519, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 522, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_bookings .tb-label {
   font-family: "Signika Regular";
   color: #4D4D4D;
   font-size: 1em;
 }
-/* line 524, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 527, ../../../resources/assets/sass/f/carousel-3-images.scss */
 #tour_bookings .tb-label.price {
   font-weight: bold;
   font-size: 2.4rem;
 }
 
-/* line 531, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 534, ../../../resources/assets/sass/f/carousel-3-images.scss */
 .small-divider {
   margin: 0 8px;
 }
 
-/* line 536, ../../../resources/assets/sass/f/carousel-3-images.scss */
+/* line 539, ../../../resources/assets/sass/f/carousel-3-images.scss */
 .warn-no-package {
   font-family: "Signika Regular";
   font-size: 3rem;
@@ -659,145 +662,145 @@ ul#tour_bookings {
  * MEDIA QUERIES MOBILE
  */
 @media screen and (max-width: 1200px) {
-  /* line 549, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 552, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-left {
     font-size: 2.7rem;
   }
 
-  /* line 552, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 555, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-right .for-price {
     font-size: 2.7rem;
   }
 
-  /* line 555, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 558, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-right .for-label {
     font-size: 2.1rem;
   }
 
   /*filter date , adult and button*/
-  /* line 560, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 563, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.select {
     width: 21%;
   }
 
-  /* line 563, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 566, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters .tf-datepicker {
     width: 225px;
   }
 }
 @media screen and (max-width: 991px) {
   /*filter date , adult and button*/
-  /* line 571, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 574, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.select {
     width: 24%;
   }
 
-  /* line 574, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 577, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters .tf-datepicker {
     width: 220px;
   }
 
-  /* line 578, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 581, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.button {
     width: 32%;
   }
 }
 @media screen and (max-width: 720px) {
   /*filter date , adult and button*/
-  /* line 586, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 589, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.select {
     width: 22%;
   }
 
-  /* line 589, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 592, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters .tf-datepicker {
     width: 210px;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 596, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 599, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-left {
     font-size: 2.4rem;
     width: 75%;
     padding-right: 10px;
   }
 
-  /* line 601, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 604, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-right .for-price {
     font-size: 2.4rem;
   }
 
-  /* line 604, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 607, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-right .for-label {
     font-size: 2rem;
   }
 
   /*filter date , adult and button*/
-  /* line 609, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 612, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters {
     display: block;
     margin-right: 0;
   }
 
-  /* line 613, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 616, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters-background {
     height: auto;
   }
 
-  /* line 617, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 620, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters-box {
     padding: 20px 25px 0;
   }
 
-  /* line 621, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 624, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .Zebra_DatePicker_Icon_Wrapper {
     width: 100%;
   }
 
-  /* line 625, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 628, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters .tf-datepicker {
     width: 100%;
   }
 
-  /* line 629, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 632, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.select {
     width: 100%;
   }
 
-  /* line 633, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 636, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters.button {
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 638, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 641, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-filters .tf-button {
     padding: 0 10px;
     width: 100%;
   }
 
   /*sorting filters in tourism list*/
-  /* line 645, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 648, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-select {
     width: 118px;
   }
-  /* line 648, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 651, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-button {
     margin-right: 0;
   }
 
   /*tourism list - list for all packages*/
-  /* line 655, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 658, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-information .tourism-mobile {
     display: block;
     width: 100%;
     margin-top: 16px;
   }
-  /* line 661, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 664, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-information .tourism-mobile img {
     width: 100%;
   }
-  /* line 665, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 668, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-information .tourism-mobile .tm-label {
     position: absolute;
     right: 43%;
@@ -807,49 +810,54 @@ ul#tour_bookings {
     font-family: "Helvetica";
   }
 
-  /* line 676, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 679, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tour-infos {
     margin-top: 10px;
   }
-  /* line 679, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 682, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tour-infos .tour-company {
     display: block;
     margin-right: 0;
   }
-  /* line 684, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 687, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tour-infos .tour-btn {
     display: none;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 693, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 696, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_bookings .tb-button-check {
     width: 200px;
     padding: 10px 0;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 701, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 704, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_bookings .tb-box.f-left {
     float: none;
     display: block;
   }
 
-  /* line 706, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 709, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_bookings .tb-button-check {
     width: 200px;
     padding: 10px 0;
   }
 
   /*full width button check package - tourism detail*/
-  /* line 712, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 715, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_bookings .tb-button-check {
     width: 100%;
     background-size: contain;
   }
 
-  /* line 717, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 720, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_bookings .tb-box.f-right {
+    display: none;
+  }
+
+  /* line 724, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  #tour_bookings .tb-box.mobile.f-right {
     display: block;
     float: none;
     width: 100%;
@@ -857,19 +865,19 @@ ul#tour_bookings {
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 728, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 735, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name {
     padding-bottom: 20px;
   }
 
-  /* line 731, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 738, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-left {
     float: none;
     padding-right: 0;
     width: auto;
   }
 
-  /* line 736, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 743, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_name .tch-right {
     border-left: none;
     padding-top: 10px;
@@ -878,60 +886,60 @@ ul#tour_bookings {
 }
 @media screen and (max-width: 580px) {
   /*tourism list - tourism package available list*/
-  /* line 747, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 754, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-information .tour-image {
     float: none;
     width: 100%;
     height: auto;
   }
 
-  /* line 753, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 760, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tourism-information .tour-box {
     padding-left: 0;
     padding-top: 15px;
   }
 
-  /* line 757, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 764, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .tour-infos {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 510px) {
   /*sorting filters in tourism list*/
-  /* line 766, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 773, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box {
     display: block;
     margin-right: 0;
     margin-bottom: 15px;
   }
-  /* line 771, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 778, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-title {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 0;
   }
-  /* line 778, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 785, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-title .tls-label {
     font-size: 1.6rem;
     color: #CF347C;
   }
-  /* line 784, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 791, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-select {
     width: 100%;
   }
-  /* line 788, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 795, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_list_sorting .tls-box.t-button {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 797, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 804, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .title-carousel {
     padding-bottom: 10px;
   }
 
-  /* line 800, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 807, ../../../resources/assets/sass/f/carousel-3-images.scss */
   .title-carousel-more {
     float: none;
     display: block;
@@ -942,7 +950,7 @@ ul#tour_bookings {
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 815, ../../../resources/assets/sass/f/carousel-3-images.scss */
+  /* line 822, ../../../resources/assets/sass/f/carousel-3-images.scss */
   #tour_company_info .tci-value {
     width: 85%;
     padding: 4px 0 0 14px;
