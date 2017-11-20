@@ -116,17 +116,26 @@
         @if( !empty($avails) )
         @foreach( $avails as $book)
             <li>
-                <div class="tb-box f-left">
-                    <div class="tb-label day">{{ date('d F Y', strtotime($book['availabilities'][0]['start_date'])) }}</div>
-<!--                     <div class="tb-label price">
-                        IDR {{ number_format($book['availabilities'][0]['price']) }}
-                    </div> -->
-                    <div class="tb-label">
-                        {{ $book['name']}}
+                <div class="tb-container">
+                    <div class="tb-box f-left">
+                        <div class="tb-label day">{{ date('d F Y', strtotime($book['availabilities'][0]['start_date'])) }}</div>
+    <!--                     <div class="tb-label price">
+                            IDR {{ number_format($book['availabilities'][0]['price']) }}
+                        </div> -->
+                        <div class="tb-label">
+                            {{ $book['name']}}
+                        </div>
                     </div>
                 </div>
+                <div class="tb-description">
+                    @if( !empty( $book['description'] ))
+                        {{ $book['description'] }}
+                    @else
+                        {{ $book['short_description'] }}
+                    @endif
+                </div>
                 <div class="tb-box f-right">
-                    <a class="tb-button-check" style="background-image: url({{asset('img/am2018/public/colorful-button.png')}});" href="{{ $book['availabilities']['0']['book_uri'] }}" target="_blank">
+                    <a class="tb-button-check" style="background-image: url({{asset('img/am2018/public/colorful-line.png')}});" href="{{ $book['availabilities']['0']['book_uri'] }}" target="_blank">
                         <span style="color:white;">Check Package</span>
                     </a>
                 </div>
@@ -172,8 +181,14 @@
     <div class="mix-bar-full mb-top"></div>
     <p class="tour-description">
         {!!nl2br($packages['description']) !!}
-        asd
     </p>
+    @else
+        @if( !empty( $packages['short_description'] ))
+            <div class="mix-bar-full mb-top"></div>
+            <p class="tour-description">
+                {!!nl2br($packages['short_description']) !!}
+            </p>
+        @endif
     @endif
 
     <div class="mix-bar-full no-mb mb-top"></div>

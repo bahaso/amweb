@@ -111,14 +111,18 @@ class ITXEntityRepository extends ITXRepository
         $description = $e->getTags( 'LongDescription' )->first();
         $description = $description? $description->getValue() : '';
 
+        $short_description = $e->getTags( 'ShortDescription' )->first();
+        $short_description = $short_description? $short_description->getValue() : '';
+
         return
         [
-            'parent_id'     => $e->getAttribute( 'ParentId' ),
-            'name'          => ucwords(strtolower( $name )),
-            'code'          => array_get( $merchant_info, 'code' ),
-            'images'        => $e->getImageUrls( 'Url' ),
-            'description'   => $description,
-            'merchant'      => $merchant_info
+            'parent_id'         => $e->getAttribute( 'ParentId' ),
+            'name'              => ucwords(strtolower( $name )),
+            'code'              => array_get( $merchant_info, 'code' ),
+            'images'            => $e->getImageUrls( 'Url' ),
+            'description'       => $description,
+            'short_description' => $short_description,
+            'merchant'          => $merchant_info
         ];
     }
 
@@ -288,6 +292,7 @@ class ITXEntityRepository extends ITXRepository
                 if( str_slug( $slug ) == str_slug( $parent_name ))
                 {
                     $detail = $d;
+                    break;
                 }
 
                 $children = array_get( $d, 'children' );

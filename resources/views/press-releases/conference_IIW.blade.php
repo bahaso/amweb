@@ -3,15 +3,15 @@
 @section( 'top_content' )
     @include( '_partials._navbar',
     [
-        'navs' => 
+        'navs' =>
         [
-            [ 
+            [
                 'label' => 'Media and Publications',
-                'url' => route( 'f.news.index' ) 
+                'url' => route( 'f.news.index' )
             ],
-            [ 
-                'label' => 'Press Releases', 
-                'url' => route( 'f.press-releases.index' ) 
+            [
+                'label' => 'Press Releases',
+                'url' => route( 'f.press-releases.index' )
             ],
             [
                 'label' => 'Conference Pers IIW',

@@ -111,9 +111,9 @@
         @if( !empty($packages) )
             @foreach( $packages as $slug=>$pk )
 
-				@php $link = route( 'f.discovers.tourism_detail', [ $location, $pk['name'] ]); @endphp
+				@php $link = route( 'f.discovers.tourism_detail', [ $location, str_slug($pk['name']) ]); @endphp
 				@if( !empty( $date ) and !empty( $adult ))
-					@php $link = route( 'f.discovers.tourism_detail', [ $location, $pk['name'], "date=$date", "adult=$adult" ]); @endphp
+					@php $link = route( 'f.discovers.tourism_detail', [ $location, str_slug($pk['name']), "date=$date", "adult=$adult" ]); @endphp
 				@endif
 
             <li>
@@ -134,11 +134,15 @@
 
                         <a href="{{ $link }}" class="tour-label">{{ $pk['name'] }}</a>
                         <div class="tour-desc">
-                        @if( strlen($pk['description']) > 170 )
-                            {{ substr($pk['description'], 0, 170) }}..
-                        @else
-                            {{ $pk['description'] }}
-                        @endif
+                            @if( !empty( $pk['description']) )
+                                @if( strlen($pk['description']) > 180 )
+                                    {{ substr($pk['description'], 0, 180) }}..
+                                @else
+                                    {{ $pk['description'] }}
+                                @endif
+                            @else
+                                {{ $pk['short_description']}}
+                            @endif
                         </div>
                         <div class="tour-infos">
                             <div class="tour-company">
@@ -147,10 +151,11 @@
                                 </div>
                             </div>
                             <a href="{{ $link }}" class="tour-btn">
-                                {!! html_img( 'img/am2018/public/colorful-button.png',
+                                {!! html_img( 'img/am2018/public/colorful-line.png',
                                 [
                                     'w' => '118',
                                     'h' => '40',
+                                    'style' => 'border-radius:5px'
                                 ]) !!}
                                 <span class="colorful-label">More Info</span>
                             </a>
@@ -158,11 +163,12 @@
                     </div>
                 </div>
                 <div class="tourism-mobile">
-                    <a href="{{ route( 'f.discovers.tourism_detail', [ $location, $pk['name'] ]) }}" class="tour-btn">
-                        {!! html_img( 'img/am2018/public/colorful-button.png',
+                    <a href="{{ route( 'f.discovers.tourism_detail', [ $location, str_slug($pk['name']) ]) }}" class="tour-btn">
+                        {!! html_img( 'img/am2018/public/colorful-line.png',
                         [
                             'w' => '118',
                             'h' => '40',
+                            'style' => 'border-radius:5px'
                         ]) !!}
                     </a>
                     <span class="tm-label">More Info</span>

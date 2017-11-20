@@ -487,17 +487,24 @@ ul#tour_bookings{
 		margin-bottom: 18px;
 	}
 
+	.tb-container{
+		@include clearfix;
+		padding-bottom : 10px;
+	}
 	.tb-box{
-		@include inline-block();
-
 		&.f-left{
 			float : left;
 		}
 		&.f-right{
-			float : right;
-
-			margin: 22px 0 0;
+			float  : right;
+			margin : 15px 0 0;
 		}
+	}
+
+	.tb-description{
+		font-family : $font-helvetica;
+		font-size 	: rem(15px);
+		color 		: $color-black-4;
 	}
 
 	.tb-button-check{
@@ -505,7 +512,7 @@ ul#tour_bookings{
 		padding 	: 12px 0;
 		display		: block;
 		text-align 	: center;
-		border-radius : 6px;
+		border-radius : 5px;
 	}
 
 
@@ -700,6 +707,19 @@ ul#tour_bookings{
 		width 	: 200px;
 		padding : 10px 0;
 	}
+
+	/*full width button check package - tourism detail*/
+ 	#tour_bookings .tb-button-check{
+ 		width: 100%;
+ 		background-size: contain;
+ 	}
+
+	#tour_bookings .tb-box.f-right{
+		display : block;
+		float 	: none;
+		width 	: 100%;
+		margin 	: 12px 0 0; 
+	}
 }
 
 
@@ -723,10 +743,6 @@ ul#tour_bookings{
 
 @include max-screen( 580px )
 {
-	#tour_bookings .tb-box.f-right{
-		width: 200px;
-	}
-
 	/*tourism list - tourism package available list*/
 	.tourism-information .tour-image{
 		float: none;
@@ -778,18 +794,6 @@ ul#tour_bookings{
 
 @include max-screen( 480px )
 {
-	#tour_bookings .tb-box.f-right{
-		display : block;
-		float 	: none;
-		width 	: 100%;
-		margin 	: 12px 0 0; 
-	}
-	/*check package button*/
- 	#tour_bookings .tb-button-check{
- 		width: 100%;
- 		background-size: cover;
- 	}
-
 	.title-carousel{
 		padding-bottom: 10px;
 	}
