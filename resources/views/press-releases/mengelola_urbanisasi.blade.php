@@ -56,7 +56,7 @@
                 <tr>
                     <th>Description</td>
                     <td>
-                        Mengelola Urbanisasi untuk Menciptakan Pembangunan Kota yang Berkesinambungan
+                        Fundamental ekonomi Indonesia tetap sehat. Pada kuartal III tahun 2017, ekonomi Indonesia tumbuh 5,06 persen.
                     </td>
                 </tr>
                 <tr>

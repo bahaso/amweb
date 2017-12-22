@@ -33,6 +33,22 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>December 22, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [7, 'bali_safe_indonesia_ready_to_host' ]) }}">
+                            Bali Aman, Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>December 19, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [8, 'mengelola_urbanisasi' ]) }}">
+                            Mengelola Urbanisasi untuk Menciptakan Pembangunan Kota yang Berkesinambungan
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>November 6, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [6, 'indonesia-ready-to-host' ]) }}">

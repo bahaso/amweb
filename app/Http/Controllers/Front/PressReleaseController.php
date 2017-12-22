@@ -25,6 +25,8 @@ class PressReleaseController extends BaseController
 			return $this->output( 'press-releases.conference_IIW' );
         }else if($id == 7){
 			return $this->output( 'press-releases.bali_safe_indonesia_ready_to_host' );
+        }else if($id == 8){
+            return $this->output( 'press-releases.mengelola_urbanisasi' );
         }else{
 			return $this->output( 'press-releases.detail' );
 		}
