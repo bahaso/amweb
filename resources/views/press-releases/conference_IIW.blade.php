@@ -62,7 +62,7 @@
                 <tr>
                     <th>Attachment</td>
                     <td>
-                        <a href="{{ asset( 'uploads/public/Press-Release_Konferensi Pers_IIW.pdf' ) }}" class="txt-underline">
+                        <a href="{{ asset( 'uploads/public/Press-Release_Konferensi_Pers_IIW.pdf' ) }}" class="txt-underline">
                             Press Release Conference IIW.pdf
                         </a>
                     </td>
