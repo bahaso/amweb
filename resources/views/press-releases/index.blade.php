@@ -33,6 +33,14 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>December 19, 2017</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [6, 'mengelola_urbanisasi' ]) }}">
+                            Mengelola Urbanisasi untuk Menciptakan Pembangunan Kota yang Berkesinambungan
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>November 6, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [6, 'indonesia-ready-to-host' ]) }}">
