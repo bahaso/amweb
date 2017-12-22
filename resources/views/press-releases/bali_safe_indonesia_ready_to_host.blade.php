@@ -57,12 +57,18 @@
                     <th>Description</td>
                     <td>
                         Denpasar, 22 Desember 2017 –  Bali tetap aman untuk menyelenggarakan Annual Meetings International Monetary Fund - World Bank Group 2018 (AM 2018) pada 8-14 Oktober 2018. Berdasarkan informasi dari otoritas kementerian dan lembaga terkait, Status Level IV (Awas) hanya berlaku pada radius 8 - 10 km dari Gunung Agung. Di luar area tersebut, semua aktivitas di wilayah Bali berjalan normal sehingga aman untuk aktivitas kunjungan wisatawan. Untuk kepentingan penyelenggaraan AM 2018, Panitia Nasional terus memonitor aktivitas Gunung Agung dan selalu berkomunikasi dengan Meetings Team Secretariat (MTS) International Monetary Fund - World Bank Group.
-                        <br>
+                        <br><br>
                         Panitia Nasional (PanNas) AM 2018 memastikan seluruh persiapan penyelenggaraan AM 2018 berjalan sesuai rencana dan target yang ditetapkan bersama dengan MTS. Untuk memastikan persiapan tersebut, MTS akan berkunjung ke Bali pada 29 Januari s.d. 9 Februari 2018 untuk melakukan pembahasan bersama Panitia Nasional terutama terkait aspek keamanan dan mitigasi risiko atas aktivitas Gunung Agung.
-                        <br>
+                        <br><br>
                         Menuju AM 2018, Indonesia telah melakukan berbagai persiapan, termasuk pembangunan infrastruktur di Bali. Dengan pembangunan underpass ke Bandara, Tanjung Benoa Cruise Terminal dan Tempat Pembuangan Akhir Suwung, AM 2018 diharapkan akan berjalan lancar dan nyaman. Dalam jangka panjang, infrastruktur yang baik akan memberikan dampak positif bagi Bali yang sumber utama perekonomiannya dari sektor pariwisata.
-                        <br>
+                        <br><br>
                         Perkembangan terkini Annual Meetings International Monetary Fund - World Bank Group 2018 (AM 2018) dapat dilihat dari situs resmi www.am2018bali.go.id yang akan memuat informasi terkini terkait penyelenggaraan AM 2018. Informasi detail juga tersedia melalui media sosial:
+                        <br><br>
+                        •Twitter: @am2018bali
+                        <br>
+                        •Instagram: @am_2018_bali
+                        <br>
+                        •Facebook page: The 2018 IMF WBG Annual Meeting Bali
                     </td>
                 </tr>
             </tbody>
