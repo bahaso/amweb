@@ -1,5 +1,16 @@
 <div class="nav-bar">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112667545-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-112667545-1');
+</script>
+
+    
     <div id="nav_logo" class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
             {!! html_img( 'img/am2018/logo-garuda-indonesia.png',
