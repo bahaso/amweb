@@ -115,6 +115,7 @@
         <ul id="tour_bookings">
         @if( !empty($avails) )
         @foreach( $avails as $book)
+            @if( !empty( $book['availabilities'] ))
             <li>
                 <div class="tb-container">
                     <div class="tb-box f-left">
@@ -145,6 +146,7 @@
                     </a>
                 </div>
             </li>
+            @endif
         @endforeach
         @else
             <li>
