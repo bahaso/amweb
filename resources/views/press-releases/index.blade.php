@@ -33,6 +33,14 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>January 23, 2018</td>
+                    <td>
+                        <a href="{{ route( 'f.press-releases.detail', [9, 'release_vti_jogja' ]) }}">
+                            Seminar Internasional: Inequality & the Role of Technology in Shaping The Future Work
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>December 22, 2017</td>
                     <td>
                         <a href="{{ route( 'f.press-releases.detail', [7, 'bali_safe_indonesia_ready_to_host' ]) }}">
