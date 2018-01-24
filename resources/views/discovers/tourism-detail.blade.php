@@ -251,7 +251,7 @@
         [ 1220, 3 ]]"
     >
     @foreach( $similars as $slug=>$sim )
-        <a href="{{ route( 'f.discovers.tourism_detail', [ $location, $slug ]) }}">
+        <a href="{{ route( 'f.discovers.tourism_detail', [ $location, str_slug($sim['name']) ]) }}">
             <div class="owl-item link-img" style="text-align: center;">
                 @if( !empty( $sim['images']->first() ))
                     <img src="{{ $sim['images']->first() }}" width="181" height="181">
