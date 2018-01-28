@@ -1,4 +1,4 @@
-@extends( 'events._layout' )
+@extends( 'discovers._layout' )
 
 @section( 'top_content' )
     @include( '_partials._navbar',
@@ -6,8 +6,8 @@
         'navs' => 
         [
             [ 
-                'label' => 'Events', 
-                'url' => route( 'f.events.detail', [ $curr_article->id, $curr_article->slug ] ) 
+                'label' => 'Travel Information', 
+                'url' => route( 'f.travels.detail', [ $curr_article->id, $curr_article->slug ] ) 
             ],
             [ 
                 'label' => $curr_article->title, 

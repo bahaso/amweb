@@ -6,20 +6,20 @@
             Indonesia in Brief
         </a>
     </li>
-    <li class="{{ isActiveRoute( 'f.welcomes.tips' ) }}">
-        <a href="{{ route( 'f.welcomes.tips') }}" class="lbl">
-            Travel Tips
+    @foreach( $side_nav as $ab )
+    <li class="{{ isActiveURL( route( 'f.events.detail', [$ab->id, $ab->slug ]) ) }}">
+        <a href="{{ route( 'f.events.detail', [$ab->id, $ab->slug ] ) }}" class="lbl">
+            {{ $ab->title }}
         </a>
+        @if( $side_nav_child[$ab->id]->count() > 0 )
+        <ul>
+            @foreach( $side_nav_child[$ab->id] as $sc )
+            <li class="has-children {{ isActiveRoute( 'f.events.upcoming_vti' ) }}">
+                <a href="{{ route( 'f.events.upcoming_vti' ) }}" class="lbl">{{ $sc->title }}</a>
+            </li>
+            @endforeach
+        </ul>
+        @endif
     </li>
-    <li class="{{ isActiveRoute( 'f.welcomes.visa' ) }}">
-        <a href="{{ route( 'f.welcomes.visa') }}" class="lbl">
-            Visa & Customs
-        </a>
-    </li>
-    {{--<li class="{{ isActiveRoute( 'f.welcomes.customs' ) }}">
-        <a href="{{ route( 'f.welcomes.customs') }}" class="lbl">
-            Customs
-        </a>
-    </li>--}}
-
+    @endforeach
 @stop

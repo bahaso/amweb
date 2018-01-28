@@ -11,39 +11,16 @@
                 
                 <div class="flex-viewport">
                     <ul class="slides">
+                        @foreach( $sponsors as $s )
                         <li>
-                            <a target="_blank" href="https://maritim.go.id/">
-                            {!! html_img( 'img/am2018/partners/logo-kemenkomar.png', []) !!}
+                            <a target="_blank" href="{{ $s->link_url }}">
+                                {!! html_img( $sponsor_img[$s->id], 
+                                    [ 'alt' => $s->title ]
+                                ) 
+                                !!}
                             </a>
                         </li>
-                        <li>
-                            <a target="_blank" href="https://www.kemenkeu.go.id/">
-                            {!! html_img( 'img/am2018/partners/logo-kemenkeu.png', []) !!}
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://www.bi.go.id/id/Default.aspx">
-                            {!! html_img( 'img/am2018/partners/logo-bi.png', []) !!}
-                            </a>
-                        </li>
-                        <li>
-                        <a target="_blank" href="http://www.imf.org/">
-                            {!! html_img( 'img/am2018/partners/logo-imf2.jpg', []) !!}
-                            </a>
-                        </li>
-                        <li>
-                        <a target="_blank" href="http://www.worldbank.org/">
-                            {!! html_img( 'img/am2018/partners/logo-worldbank.png', []) !!}
-                            </a>
-                        </li>
-                        <!--Hide for now
-                        <li>
-                            {!! html_img( 'img/am2018/partners/logo-vti.png', []) !!}
-                        </li>
-                        <li>
-                            {!! html_img( 'img/am2018/partners/logo-imf.png', []) !!}
-                        </li>
-                        -->
+                        @endforeach
                     </ul>
                 <!--end of logo slider-->
                 </div>

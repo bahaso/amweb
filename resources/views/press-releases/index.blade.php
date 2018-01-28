@@ -32,79 +32,16 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>January 23, 2018</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [9, 'release_vti_jogja' ]) }}">
-                            Seminar Internasional: Inequality & the Role of Technology in Shaping The Future Work
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>December 22, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [7, 'bali_safe_indonesia_ready_to_host' ]) }}">
-                            Bali Aman, Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>December 19, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [8, 'mengelola_urbanisasi' ]) }}">
-                            Mengelola Urbanisasi untuk Menciptakan Pembangunan Kota yang Berkesinambungan
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>November 6, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [6, 'indonesia-ready-to-host' ]) }}">
-                            Indonesia Infrastructure Week 2017: Bringing Together The Public and Private Sector in Support of Indonesia's Critical Infrastructure Development
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>October 12, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [4, 'indonesia-ready-to-host' ]) }}">
-                            Indonesia Ready to Host 2018 Annual Meetings of the International Monetary Fund and World Bank Group: Voyage to Indonesia
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>August 25, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [5, 'indonesia-ready-to-host-INDONESIA' ]) }}">
-                            Indonesia Siap Menjadi Tuan Rumah IMF-WBG Annual Meetings 2018: Voyage to Indonesia
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>July 12-13, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [1, 'international-taxation-in-asia' ]) }}">
-                            International Taxation in Asia: Issues and the Way Forward
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Juni 13, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [2, 'indonesia-menjadi-tuan-rumah' ]) }}">
-                            Indonesia Menjadi Tuan Rumah Pertemuan Ekonomi dan Keuangan Terbesar di Dunia: IMF-World
-                            Bank Group Annual Meetings 2018
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>April 17, 2017</td>
-                    <td>
-                        <a href="{{ route( 'f.press-releases.detail', [3, 'indonesia-in-IMF-WBG-2017' ]) }}">
-                            Indonesia in IMF-WBG Spring Meetings 2017
-                        </a>
-                    </td>
-                </tr>
+                    @foreach( $lists as $ls )
+                    <tr>
+                        <td>{{ $ls->date }}</td>
+                        <td>
+                            <a href="{{ route( 'f.press-releases.detail', [ $ls->id, str_slug($ls->title_short) ]) }}">
+                                {{ $ls->title_short }}
+                            </a>
+                        </td>
+                    </tr>
+                    @endforeach
                 </tbody>
             </table>
 

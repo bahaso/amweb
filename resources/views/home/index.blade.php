@@ -10,82 +10,29 @@
     <section id="slideshow" class="cover fullscreen image-slider slider-all-controls controls-inside parallax"
     		 data-h-diff="70">
         <ul class="slides">
+            @foreach( $slideshow as $ss )
             <li class="overlay image-bg bg-light">
+                @if( $slider[$ss->id] )
                 <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti-resize.jpg',
+		            {!! html_img( $slider[$ss->id],
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
                 </div>
+                @endif
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
                          style="left:0;right:0;bottom:100px;">
                         <h2 class="txt-title animate">
-                            Bali
+                            {{ $ss->title }}
                         </h2>
                         <p class="txt-desc animate">
-                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
+                            {{ $ss->description }}
                         </p>
                     </div>
                 </div>
             </li>
-            <li class="overlay image-bg bg-light">
-                <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti2-resize.jpg', 
-		                [ 
-		                    'class' => 'background-image' 
-		                ]) !!}
-                </div>
-                <div class="container bg-text-wrapper">
-                    <div class="background-text-overlay"
-                         style="left:0;right:0;bottom:100px;">
-                        <h2 class="txt-title animate">
-                            Borobudur
-                        </h2>
-                        <p class="txt-desc animate">
-                            Is a 9th-century Mahayana Buddhist temple in Central Java, Indonesia,<br/> as well as the world's largest Buddhist temple and also one<br/> of the greatest Buddhist monuments in the world..
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="overlay image-bg bg-light">
-                <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti3-resize.jpg', 
-		                [ 
-		                    'class' => 'background-image' 
-		                ]) !!}
-                </div>
-                <div class="container bg-text-wrapper">
-                    <div class="background-text-overlay"
-                         style="left:0;right:0;bottom:100px;">
-                        <h2 class="txt-title animate">
-                            Wonderful Indonesia
-                        </h2>
-                        <p class="txt-desc animate">
-                            Straddling the equator, situated between <br/>the continents of Asia and Australia and between the Pacific and the Indian Oceans, <br/>Indonesia has many magnificent islands waiting to be explored.
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="overlay image-bg bg-light">
-                <div class="background-image-holder">
-		            {!! html_img( 'img/am2018/slides/background-vti4-resize.jpg', 
-		                [ 
-		                    'class' => 'background-image' 
-		                ]) !!}
-                </div>
-                <div class="container bg-text-wrapper">
-                    <div class="background-text-overlay"
-                         style="left:0;right:0;bottom:100px;">
-                        <h2 class="txt-title animate ta-center">
-                            Bali
-                        </h2>
-                        <p class="txt-desc animate ta-center">
-                            Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity .
-                        </p>
-                    </div>
-                </div>
-            </li>
+            @endforeach
         </ul>
     </section>
 
@@ -107,7 +54,7 @@
                     <p class="desc">
                         Held annually since 1946, the Annual Meetings of the Boards of Governors of the International Monetary Fund & World Bank Group (IMF-WBG) bring together the finance ministers and central bank governors from 189 member countries to discuss a range of issues related to poverty reduction, international economic development and finance. The 2018 Annual Meetings will be held in Nusa Dua, Bali, Indonesia in October.
                     <br><br><br><br></p>
-                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.am2018') }}">
+                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.index') }}">
                         View More
                     </a>
                 </div>
@@ -145,63 +92,29 @@
                         <div align="center"><h4>News</h4></div>
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
+                                @foreach( $post_news as $pn )
 								<li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/LWP_5689.jpg', 
-                                            [ 
-                                                'w'     => 408,
-                                                'h'     => 300,
-                                                'class' => 'img-home' 
+                                        @if( $pn->coverOriginal())
+                                            {!! html_img( $pn->coverOriginal(),
+                                            [
+                                                'w' => '408',
+                                                'h' => '300',
+                                                'class' => 'img-home'
                                             ]) !!}
+                                        @endif
                                         <div class="caption text-center">
-                                            <h4 class="subtitle">Now is the Best time for Indonesia to Accelerate Infrastructure Project</h4>
+                                            <h4 class="subtitle">{{ $pn->title }}</h4>
                                             <span class="text-info">
                                                 <p>
-                                                    The Ministry of Finance held the Indonesia Infrastructure Finance Forum 2017 in Fairmont Hotel, Jakarta.
+                                                     {{ $pn->excerpt }}
                                                 </p>
-                                                <a href="{{ route( 'f.news.detail', [ 4, 'Now-is-the-Best-time-for-Indonesia-to-Accelerate-Infrastructure-Project' ]) }}" class="btn-link">View More</a>
+                                                <a href="{{ route( 'f.news.detail', [ $pn->id, $pn->slug ]) }}" class="btn-link">View More</a>
                                             </span>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/minister-of-finance.jpg', 
-                                            [ 
-                                                'w'     => 408,
-                                                'h'     => 300,
-                                                'class' => 'img-home' 
-                                            ]) !!}
-                                        <div class="caption text-center">
-                                            <h4 class="subtitle">Minister of Finance Chaired Development Committee of IMF-World Bank Spring Meetings</h4>
-                                            <span class="text-info">
-                                                <p>
-                                                    Coordinator Minister of Maritime Lead The Meeting On Preparing IMF-World Bank Annual Meetings 2018 In Indonesia.
-                                                </p>
-                                                <a href="{{ route( 'f.news.detail', [ 1, 'minister-of-finance' ]) }}" class="btn-link">View More</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 ">
-                                    {!! html_img( 'img/am2018/public/sri-mulyani.jpg', 
-                                            [ 
-                                                'w'     => 408,
-                                                'h'     => 300,
-                                                'class' => 'img-home' 
-                                            ]) !!}
-                                        <div class="caption text-center">
-                                            <h4 class="subtitle">Students in Indonesia Know That For Better Basic Services</h4>
-                                            <span class="text-info">
-                                                <p>
-                                                    “I want my future children to have better health and education services,” says Erikson Wijaya.
-                                                </p>
-                                                <a href="{{ route( 'f.news.detail', [ 2, 'students-in-indonesia' ]) }}" class="btn-link">View More</a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Eloquent\Relations\Relation;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Relation::morphMap([
+            'RainLab\Blog\Models\Post' => 'App\Models\Post',
+            'am\Attachments\Models\Publication' => 'App\Models\Publication',
+            'am\Attachments\Models\PressRelease' => 'App\Models\PressRelease',
+            'am\Variables\Models\Slide' => 'App\Models\Slide',
+            'am\Variables\Models\Sponsor' => 'App\Models\Sponsor',
+        ]);
     }
 
     /**

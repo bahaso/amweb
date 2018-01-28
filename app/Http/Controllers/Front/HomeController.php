@@ -5,12 +5,38 @@ namespace App\Http\Controllers\Front;
 use App\Libraries\Simplify\ITXConnection;
 use App\Libraries\XML\DOMXML;
 
+use App\Models\Post;
+use App\Models\Attachment;
+use App\Models\Slide;
+use App\Models\Sponsor;
+
 class HomeController extends BaseController
 {
 	public function index()
 	{
 		// $this->testITXQuery();
-		return $this->output( 'home.index' );
+
+		//main slideshow 
+		$slideshow = Slide::get();
+		$slider = [];
+		foreach( $slideshow as $s )
+		{
+			$slider[$s->id] = $s->file( 'img_slide' )->first()->original();
+		}
+
+		//get news articles
+		$post_news = Post::whereCategoryType( 'news' )->get();
+
+		$data = compact( 'slideshow', 'slider', 'post_news' );
+
+		return $this->output( 'home.index', $data );
+
+		// $test = Attachment::get();
+		// dd( $test );
+		// $first = $test->first();
+		// dd( $first->coverThumb( '220x212' ) );
+		// dd( $first->file( 'featured_images' )->first()->original() );
+		// dd( $first->coverOriginal() );
 	}
 
 	public function testITXQuery()

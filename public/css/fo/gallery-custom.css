@@ -44,15 +44,20 @@
 /* MEDIA QUERIES */
 /* Paths */
 /* Fonts */
+/* line 3, ../../../resources/assets/sass/f/gallery-custom.scss */
+.box-photos {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 5, ../../../resources/assets/sass/f/gallery-custom.scss */
+  /* line 9, ../../../resources/assets/sass/f/gallery-custom.scss */
   .image-caption img {
     width: 100%;
     min-height: 225px;
     height: auto;
   }
 
-  /* line 12, ../../../resources/assets/sass/f/gallery-custom.scss */
+  /* line 16, ../../../resources/assets/sass/f/gallery-custom.scss */
   .mb30 {
     margin-bottom: 0;
   }

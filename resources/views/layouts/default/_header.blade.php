@@ -1,16 +1,5 @@
 <div class="nav-bar">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112667545-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-112667545-1');
-</script>
-
-    
     <div id="nav_logo" class="module left">
         <a href="{{ route( 'f.home' ) }}" class="logo-link">
             {!! html_img( 'img/am2018/logo-garuda-indonesia.png',
@@ -37,26 +26,13 @@
                         About
                     </a>
                     <ul>
+                        @foreach( $art_about as $ab )
                         <li>
-                            <a href="{{ route( 'f.abouts.am2018' ) }}">2018 Annual Meetings</a>
+                            <a href="{{ route( 'f.abouts.detail', [ $ab->id, $ab->slug ] ) }}">{{ $ab->title }}</a>
                         </li>
+                        @endforeach
                         <li>
-                            <a href="{{ route( 'f.abouts.vti' ) }}">The Voyage to Indonesia</a>
-                        </li>
-                        <li>
-                        <!-- <a href="{{ route( 'f.abouts.imf_world_bank' ) }}">IMF - WB Annual Meeting 2018</a> -->
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.abouts.imf' ) }}">The International Monetary Fund</a>
-                        </li>
-                        <li>
-                            <a href="{{ route( 'f.abouts.world_bank' ) }}">The World Bank Group</a>
-                        </li>
-                    <!-- <li>
-                            <a href="{{ route( 'f.pages.index', ['about', 'National Committee']) }}">National Committee</a>
-                        </li> -->
-                        <li>
-                            <a href="{{ route( 'f.faqs.index' ) }}">FAQ</a>
+                            <a href="{{ route( 'f.abouts.faq' ) }}">FAQ</a>
                         </li>
                     </ul>
                 </li>
@@ -65,18 +41,11 @@
                         Events
                     </a>
                     <ul>
+                        @foreach( $art_event as $av )
                         <li>
-                            <a href="{{ route( 'f.events.main' ) }}">Main Events</a>
+                            <a href="{{ route( 'f.events.detail', [ $av->id, $av->slug ] ) }}">{{ $av->title }}</a>
                         </li>
-                        <li>
-                            <a href="{{ route( 'f.events.side' ) }}">Side Events</a>
-                        </li>
-                    <!--                         <li>
-                            <a href="{{ asset( 'uploads/public/Venue Map.pptx' ) }}">Venues Map</a>
-                        </li> -->
-                        <li>
-                            <a href="{{ route( 'f.events.program_vti' ) }}">VTI Program</a>
-                        </li>
+                        @endforeach
                     </ul>
                 </li>
                 <li class="has-dropdown">
@@ -84,35 +53,18 @@
                         Travel Information
                     </a>
                     <ul>
-                        <li>
-                            <a href="{{ route( 'f.discovers.indonesia', ['Discover Indonesia', 'Indonesia in Brief']) }}">Indonesia
-                                in Brief</a>
+                       <li>
+                            <a href="{{ route( 'f.travels.indonesia' ) }}">
+                                Indonesia in Brief
+                            </a>
                         </li>
+                        @foreach( $art_travel as $at)
                         <li>
-                            <a href="{{ route( 'f.welcomes.tips', ['Travel Information', 'Travel Tips']) }}">Travel
-                                Tips</a>
+                            <a href="{{ route( 'f.travels.detail', [ $at->id, $at->slug ]) }}">
+                                {{ $at->title }}
+                            </a>
                         </li>
-                        <li>
-                            <a href="{{ route( 'f.welcomes.visa', ['Travel Information', 'Visa']) }}">Visa and Customs</a>
-                        </li>
-                        {{--<li>
-                            <a href="{{ route( 'f.welcomes.customs', ['Travel Information', 'Customs']) }}">Customs</a>
-                        </li>--}}
-                        {{-- <li>
-                             <a href="{{ route( 'f.informations.transportation', ['Information', 'Transportation']) }}">Local Transportation</a>
-                         </li>
-                         <li>
-                             <a href="{{ route( 'f.informations.facilities', ['Information', 'Other-Facilities']) }}">Other Facilities</a>
-                         </li>
-                          <li>
-                             <a href="{{ route( 'f.informations.weather', ['Information', 'Weather']) }}">Weather</a>
-                         </li>
-                         <li>
-                             <a href="{{ route( 'f.maps.index', ['Information', 'Interactive-Maps']) }}">Interactive Maps</a>
-                         </li>
-                         <li>
-                             <a href="{{ route( 'f.welcomes.tourism', ['Travel Information', 'Free Tourism Visa']) }}">Free Tourism Visa</a>
-                         </li> --}}
+                        @endforeach
                     </ul>
                 </li>
                 <li class="has-dropdown">

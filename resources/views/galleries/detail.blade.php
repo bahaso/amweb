@@ -39,12 +39,12 @@
 @section( 'rhs_content' )
 
 <div class="wysiwyg aligned">
-    <h1 class="title fw600 min-mb15">
-        Visit Bali, Indonesia for Sun, Sea and Nightlife.
+    <h1 class="title fw600">
+        {{ $query->title }}
     </h1>
-    <p class="mb10">
-        Also take a banana boat trip or dance until dawn.
-    </p>
+    <div>
+        {!! $query->content_html !!}
+    </div>
 
     <a href="{{ route( 'f.galleries.index' ) }}" class="pull-right fw400">
         Back to Gallery
@@ -58,21 +58,11 @@
         data-autoplay-timeout="3000"
         data-autoplay-hover-pause="true"
     >
+        @foreach( $photos as $ph )
         <div class="owl-item link-img">
-            {!! html_img( 'img/cover12.jpg', []) !!}
+            {!! html_img( $ph->original(), []) !!}
         </div>
-        <div class="owl-item link-img">
-            {!! html_img( 'img/cover15.jpg', []) !!}
-        </div>
-        <div class="owl-item link-img">
-            {!! html_img( 'img/cover16.jpg', []) !!}
-        </div>
-        <div class="owl-item link-img">
-            {!! html_img( 'img/cover14.jpg', []) !!}
-        </div>
-        <div class="owl-item link-img">
-            {!! html_img( 'img/cover14.jpg', []) !!}
-        </div>
+        @endforeach
     </div>
 </div>
 

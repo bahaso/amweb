@@ -32,11 +32,17 @@ Route::group(
 		Route::get( 'discovers/tourism-package', 'DiscoverController@tourism' )->name( 'discovers.tourism' );
 		Route::get( 'discovers/tourism-package/list/{location}/{date?}/{people?}', 'DiscoverController@tourism_list' )->name( 'discovers.tourism_list' );
 		Route::get( 'discovers/tourism-package/show/{location}/{slug}', 'DiscoverController@tourism_detail' )->name( 'discovers.tourism_detail' );
+		
 		/**
 		 * FAQS
 		 */
-		Route::get( 'faq', 'FaqController@index' )->name( 'faqs.index' );
+		// Route::get( 'faq', 'FaqController@index' )->name( 'faqs.index' );
 
+		/**
+		 * TRAVEL INFORMATION
+		 */
+		Route::get( 'travel/indonesia-in-brief', 'TravelController@indonesia' )->name( 'travels.indonesia' );
+		Route::get( 'travel/{id}/{slug?}', 'TravelController@detail' )->name( 'travels.detail' );
 		/**
 		 * MEDIA
 		 */
@@ -63,13 +69,18 @@ Route::group(
 		Route::get( 'abouts/imf', 'AboutController@imf' )->name( 'abouts.imf' );
 		Route::get( 'abouts/imf-world-bank', 'AboutController@imfWorldBank' )->name( 'abouts.imf_world_bank' );
 		Route::get( 'abouts/world-bank', 'AboutController@worldBank' )->name( 'abouts.world_bank' );
-		Route::get( 'abouts/am2018', 'AboutController@am2018' )->name( 'abouts.am2018' );
+		Route::get( 'abouts/am2018', 'AboutController@index' )->name( 'abouts.index' );
 
+
+		Route::get( 'abouts/faq', 'AboutController@faq' )->name( 'abouts.faq' );
+
+		Route::get( 'abouts/{id}/{slug?}', 'AboutController@detail' )->name( 'abouts.detail' );
 		/**
 		 * EVENTS
 		 */
+		Route::get( 'events/{id}/{slug?}', 'EventController@detail' )->name( 'events.detail' );
+
 		Route::get( 'events', 'EventController@index' )->name( 'events.index' );
-		Route::get( 'events/{id}/{slug}', 'EventController@detail' )->name( 'events.detail' );
 		Route::get( 'events/program-vti', 'EventController@programVTI' )->name( 'events.program_vti' );
 		Route::get( 'events/past-vti', 'EventController@pastVTI' )->name( 'events.past_vti' );
 		Route::get( 'events/upcoming-vti', 'EventController@upcomingVTI' )->name( 'events.upcoming_vti' );

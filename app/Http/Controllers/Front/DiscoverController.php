@@ -6,11 +6,55 @@ use App\Repositories\ITX\ITXInterface;
 use App\Repositories\ITX\ITXEntityInterface;
 use Illuminate\Http\Request;
 
+use App\Models\Post;
+
 class DiscoverController extends BaseController
 {
+    public function detail( $id, $slug=null )
+    {
+        $curr_article = Post::find( $id );
+
+        //set side bar navigation and child
+        $side_nav = Post::whereCategoryType('tourism-information')
+            ->whereParentId(NULL)
+            ->get();
+
+        $side_nav_child = [];
+
+        foreach( $side_nav as $sn )
+        {
+            $side_nav_child[ $sn->id ] = Post::whereParentId( $sn->id )->get();
+        }
+
+        $data = compact( 
+            'curr_article', 
+            'side_nav',
+            'side_nav_child'
+        );
+
+        return $this->output('discovers.detail', $data);
+    }
+
 	public function indonesia()
 	{
-		return $this->output( 'discovers.indonesia' );
+        //set side bar navigation and child
+        $side_nav = Post::whereCategoryType('tourism-information')
+            ->whereParentId(NULL)
+            ->get();
+
+        $side_nav_child = [];
+
+        foreach( $side_nav as $sn )
+        {
+            $side_nav_child[ $sn->id ] = Post::whereParentId( $sn->id )->get();
+        }
+
+        $data = compact( 
+            'side_nav',
+            'side_nav_child'
+        );
+
+		return $this->output( 'travels.indonesia', $data );
 	}
 
 	public function bali()

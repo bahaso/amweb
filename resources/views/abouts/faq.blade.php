@@ -1,6 +1,4 @@
-@extends( 'faqs._layout' )
-
-
+@extends( 'abouts._layout' )
 
 @section( 'top_content' )
     @include( '_partials._navbar',
@@ -9,7 +7,7 @@
         [
             [
                 'label' => 'About',
-                'url' => route( 'f.abouts.imf_world_bank' )
+                'url' => route( 'f.abouts.faq' )
             ],
             [
                 'label' => 'FAQ',

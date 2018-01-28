@@ -1,9 +1,14 @@
 @extends( 'layouts.default.sidebar.layout' )
 
 @section( 'lhs_sidebar' )
+    <li class="{{ isActiveRoute( 'f.travels.indonesia' ) }}">
+        <a href="{{ route( 'f.travels.indonesia') }}" class="lbl">
+            Indonesia in Brief
+        </a>
+    </li>
     @foreach( $side_nav as $ab )
-    <li class="{{ isActiveURL( route( 'f.events.detail', [$ab->id, $ab->slug ]) ) }}">
-        <a href="{{ route( 'f.events.detail', [$ab->id, $ab->slug ] ) }}" class="lbl">
+    <li class="{{ isActiveURL( route( 'f.travels.detail', [$ab->id, $ab->slug ]) ) }}">
+        <a href="{{ route( 'f.travels.detail', [$ab->id, $ab->slug ] ) }}" class="lbl">
             {{ $ab->title }}
         </a>
         @if( $side_nav_child[$ab->id]->count() > 0 )
