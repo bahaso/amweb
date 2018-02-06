@@ -16,10 +16,10 @@
             Bali
         </a>
     </li>
-    <li class="{{ isActiveRoute( 'f.discovers.tourism' ) }}{{ isActiveRoute( 'f.discovers.tourism_list' ) }} {{ isActiveRoute( 'f.discovers.tourism_detail' ) }}">
+<!--    <li class="{{ isActiveRoute( 'f.discovers.tourism' ) }}{{ isActiveRoute( 'f.discovers.tourism_list' ) }} {{ isActiveRoute( 'f.discovers.tourism_detail' ) }}">
         <a href="{{ route( 'f.discovers.tourism' ) }}" class="lbl">
             Tourism Packages
         </a>
-    </li>
+    </li> -->
 
 @stop
