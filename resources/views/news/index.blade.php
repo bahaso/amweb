@@ -35,6 +35,16 @@
     </h1>
     <div class="content">
         <div class="news-item">
+            <a href="{{ route( 'f.news.detail', [ 5, 'mount-agung-alert-status-down-to-level-iii' ]) }}">
+                <h2 class="title">
+                    Mount Agung’s Alert Status Down to Level III
+                </h2>
+                <p class="txt">
+                    The Mount Agung alert status is reduced from radius of 6 kilometers (kms) from its crater to 4 kms. "Tourism is completely safe," said Minister of ESDM Ignasius Jonan who is currently in Bali, Saturday (10/02/2018).
+                </p>
+            </a>
+        </div>
+        <div class="news-item">
             <a href="{{ route( 'f.news.detail', [ 4, 'Now-is-the-Best-time-for-Indonesia-to-Accelerate-Infrastructure-Project' ]) }}">
                 <h2 class="title">
                     Now is the Best time for Indonesia to Accelerate Infrastructure Project

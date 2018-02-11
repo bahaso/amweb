@@ -145,6 +145,25 @@
                         <div align="center"><h4>News</h4></div>
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
                             <ul class="slides">
+                                <li>
+                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                        {!! html_img( 'img/am2018/public/bali-news-resize.jpg',
+                                            [
+                                                'w'     => 408,
+                                                'h'     => 300,
+                                                'class' => 'img-home'
+                                            ]) !!}
+                                        <div class="caption text-center">
+                                            <h4 class="subtitle">Mount Agung’s Alert Status Down to Level III</h4>
+                                            <span class="text-info">
+                                                <p>
+                                                     "Tourism is completely safe," said Minister of ESDM Ignasius Jonan
+                                                </p>
+                                                <a href="{{ route( 'f.news.detail', [ 5, 'mount-agung-alert-status-down-to-level-iii' ]) }}" class="btn-link">View More</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
 								<li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/LWP_5689.jpg', 
