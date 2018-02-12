@@ -166,7 +166,7 @@
                                 </li>
 								<li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/LWP_5689.jpg', 
+                                        {!! html_img( 'img/am2018/public/LWP_5689.JPG',
                                             [ 
                                                 'w'     => 408,
                                                 'h'     => 300,
