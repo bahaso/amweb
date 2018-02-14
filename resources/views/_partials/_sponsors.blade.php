@@ -13,12 +13,14 @@
                     <ul class="slides">
                         @foreach( $sponsors as $s )
                         <li>
+                            @if( $sponsor_img[$s->id] )
                             <a target="_blank" href="{{ $s->link_url }}">
-                                {!! html_img( $sponsor_img[$s->id], 
+                                {!! html_img( $sponsor_img[$s->id]->original(), 
                                     [ 'alt' => $s->title ]
                                 ) 
                                 !!}
                             </a>
+                            @endif
                         </li>
                         @endforeach
                     </ul>

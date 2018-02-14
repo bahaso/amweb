@@ -21,52 +21,36 @@
                         Home
                     </a>
                 </li>
+
+                @foreach( $menu_parents as $mp )
                 <li class="has-dropdown">
-                    <a href="#">
-                        About
+                    <a href="
+                    @if( $mp->url_link )
+                        {{ $mp->url_link }}
+                    @else
+                        {{ route( 'f.posts.index', [ 'id' => $mp->post_map_id, 'slug'=> str_slug($mp->title) ] ) }}
+                    @endif
+                    ">
+                        {{ $mp->title }}
                     </a>
+                    @if( $menu_childs[$mp->id]->count() > 0 )
                     <ul>
-                        @foreach( $art_about as $ab )
+                        @foreach( $menu_childs[$mp->id] as $mc )
                         <li>
-                            <a href="{{ route( 'f.abouts.detail', [ $ab->id, $ab->slug ] ) }}">{{ $ab->title }}</a>
-                        </li>
-                        @endforeach
-                        <li>
-                            <a href="{{ route( 'f.abouts.faq' ) }}">FAQ</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">
-                        Events
-                    </a>
-                    <ul>
-                        @foreach( $art_event as $av )
-                        <li>
-                            <a href="{{ route( 'f.events.detail', [ $av->id, $av->slug ] ) }}">{{ $av->title }}</a>
-                        </li>
-                        @endforeach
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">
-                        Travel Information
-                    </a>
-                    <ul>
-                       <li>
-                            <a href="{{ route( 'f.travels.indonesia' ) }}">
-                                Indonesia in Brief
-                            </a>
-                        </li>
-                        @foreach( $art_travel as $at)
-                        <li>
-                            <a href="{{ route( 'f.travels.detail', [ $at->id, $at->slug ]) }}">
-                                {{ $at->title }}
+                            <a href="@if( $mc->url_link )
+                                        {{ $mc->url_link }}
+                                    @else 
+                                        {{ route( 'f.posts.index', [ 'id' => $mc->post_map_id, 'slug'=> str_slug($mc->title) ] ) }}
+                                    @endif">
+                                {{ $mc->title }}
                             </a>
                         </li>
                         @endforeach
                     </ul>
+                    @endif
                 </li>
+                @endforeach
+
                 <li class="has-dropdown">
                     <a href="#">
                         Discover Indonesia
@@ -107,7 +91,6 @@
                         </li>
                     </ul>
                 </li>
-
 
             </ul>
         </div>

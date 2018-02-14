@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Post;
 use App\Models\Sponsor;
+use App\Models\Menu;
 
 class BaseController extends BlankController
 {
@@ -17,33 +18,29 @@ class BaseController extends BlankController
 
 	protected function beforeOutput()
 	{
-		//get article about
-		$art_about = Post::where('category_type', '=', 'about')
-			->whereParentId(NULL)
-			->get();
-
-		$art_event = Post::where('category_type', '=', 'events')
-			->whereParentId(NULL)
-			->get();
-
-		$art_travel = Post::where('category_type', '=', 'travel-information')
-			->whereParentId(NULL)
-			->get();	
-
         //sponsors
         $sponsors = Sponsor::get();
         $sponsor_img = [];
         foreach( $sponsors as $s )
         {
-            $sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
+            $sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first();
+        }
+
+        //get menu list and children menu
+        $menu_parents = Menu::where( 'nest_depth', '=', 0)->orderBy('nest_left', 'asc')->get();
+
+        $menu_childs = [];
+
+        foreach( $menu_parents as $mp )
+        {
+        	$menu_childs[ $mp->id ] = Menu::where( 'parent_id', '=', $mp->id )->where( 'nest_depth', '=', 1)->orderBy('nest_left', 'asc')->get();
         }
 
 		return [
-			'art_about' => $art_about,
-			'art_event' => $art_event,
-			'art_travel' => $art_travel,
 			'sponsors' => $sponsors,
-			'sponsor_img' => $sponsor_img
+			'sponsor_img' => $sponsor_img,
+			'menu_parents' => $menu_parents,
+			'menu_childs' => $menu_childs
 		];
 	}
 

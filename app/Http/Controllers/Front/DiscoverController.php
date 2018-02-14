@@ -7,6 +7,8 @@ use App\Repositories\ITX\ITXEntityInterface;
 use Illuminate\Http\Request;
 
 use App\Models\Post;
+use App\Models\Discover;
+use App\Models\DiscoverPost;
 
 class DiscoverController extends BaseController
 {
@@ -69,7 +71,34 @@ class DiscoverController extends BaseController
 
 	public function wonderful_indonesia()
 	{
-		return $this->output( 'discovers.wonderful-indonesia' );
+		$discover_tab = Discover::all();
+
+		$discover_post = [];
+		$tab_img 	= [];
+		$post_img 	= [];
+
+		// each tab image
+		foreach( $discover_tab as $dt )
+		{
+			$tab_img[$dt->id] = $dt->file( 'img_background_discover' )->first()->original();
+			$discover_post[ $dt->id ] = DiscoverPost::where( 'discover_id', '=', $dt->id )->get();
+	
+			// each post image
+			foreach( $discover_post[ $dt->id ] as $dp )
+			{
+				$valid_image = $dp->file( 'img_thumb_discover' )->first();
+				
+				if( $valid_image ){
+				 	$post_img[ $dp->id ] = $valid_image;
+				}else{
+					$post_img[ $dp->id ] = false;
+				}
+			}
+		}
+
+		$data = compact( 'discover_tab', 'discover_post', 'tab_img', 'post_img' );
+
+		return $this->output( 'discovers.wonderful-indonesia', $data );
 	}
 
 	public function tourism()

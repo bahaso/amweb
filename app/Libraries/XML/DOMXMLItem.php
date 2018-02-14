@@ -59,9 +59,12 @@ class DOMXMLItem
         $imgs = [];
 
         $root_img = $this->getTags( 'Images' )->first();
-        foreach( $root_img->getTags( 'Image' ) as $img )
-        {
-            $imgs[] = $img->getAttribute( $img_attr );
+
+        if( $root_img ){
+            foreach( $root_img->getTags( 'Image' ) as $img )
+            {
+                $imgs[] = $img->getAttribute( $img_attr );
+            }
         }
 
         return collect( $imgs );

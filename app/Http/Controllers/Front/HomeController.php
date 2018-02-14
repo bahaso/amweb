@@ -21,7 +21,12 @@ class HomeController extends BaseController
 		$slider = [];
 		foreach( $slideshow as $s )
 		{
-			$slider[$s->id] = $s->file( 'img_slide' )->first()->original();
+			$slider[$s->id] = $s->file( 'img_slide' )->first();
+
+			if( $slider[$s->id] )
+			{
+				$slider[$s->id] = $slider[$s->id]->original();
+			}
 		}
 
 		//get news articles

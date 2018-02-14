@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Front;
 
 use App\Models\Post;
 use App\Models\Faq;
+use App\Models\Menu;
 
 class AboutController extends BaseController
 {

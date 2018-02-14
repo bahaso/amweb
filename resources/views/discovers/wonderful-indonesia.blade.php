@@ -27,8 +27,6 @@
 <section class="wysiwyg">
     <div class="content">
 
-
-
         <div class="mix-color-title mb-50">
             <span class="mix-color-bar mobile-full"></span>
             <span class="mix-color-bar left"></span>
@@ -48,193 +46,42 @@
 
         <section class="faq">
             <ul class="accordion accordion-2 one-open">
-                <li class="active">
+                @foreach( $discover_tab as $key => $dt )
+                <li class="@if($key == 0) active @endif">
                     <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-bali.jpg');background-size:cover;width:100%;">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > BALI</h4>
+                        style="background-image:url( {{ $tab_img[$dt->id] }} );background-size:cover;width:100%;">
+                        <h4 class="inline-block mb0 set-title">{{ $dt->title }}</h4>
                     </div>
+                    @foreach( $discover_post[ $dt->id ] as $dp )
                     <div class="content">
-                        <div class="faq-triangle yellow"></div>
+                        <div class="faq-triangle {{ $dp->arrow_color }}"></div>
                         <div class="faq-inline">
                             <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/obama-in-bali.jpg',
+                                @if( $post_img[ $dp->id ] )
+                                <a target="_blank" href="{{ $dp->url_link }}">
+                                    {!! html_img( $post_img[ $dp->id ]->original(),
                                     [
                                         'w' => '181',
                                         'h' => '181',
                                         'class' => 'fi-image'
                                     ]) !!}
                                 </a>
+                                @endif
                                 <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-label">
-                                        FOLLOW THE HOLIDAY OF THE OBAMAS: PLAN YOUR ULTIMATE BALI FAMILY TRIP
+                                    <a target="_blank" href="{{ $dp->url_link }}" class="fi-label">
+                                        {{ $dp->title }}
                                     </a>
                                     <div class="fi-desc">
-                                        follow in the footsteps of Obama and experience the same attractions where Barack Obama, Michelle and daughters Malia
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-holiday-of-the-obamas-plan-your-ultimate-bali-family-trip" class="fi-link">Read More >></a>
+                                        {!! $dp->summary !!}
+                                    </div>
+                                    <a target="_blank" href="{{ $dp->url_link }}" class="fi-link">Read More >></a>
                                 </div>
                             </div> 
                         </div>                            
                     </div>
+                    @endforeach
                 </li>
-
-                <li>
-                    <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-lombok.jpg');">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > LOMBOK</h4>
-                    </div>
-                    <div class="content">
-                        <div class="faq-triangle dark-blue"></div>
-                        <div class="faq-inline">
-                            <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/lombok-sea.jpg',
-                                    [
-                                        'w' => '181',
-                                        'h' => '181',
-                                        'class' => 'fi-image'
-                                    ]) !!}
-                                </a>
-                                <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-label">
-                                        FOLLOW THE ACTION ON GILI TRAWANGAN
-                                    </a>
-                                    <div class="fi-desc">
-                                        While every year millions of tourists are attracted to Bali, the nighboring island of Lombok offers 3 tiny paradise islands off its north-west coast, known as “the Gilis”
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/follow-the-action-on-gili-trawangan" class="fi-link">Read More >></a>
-                                </div>
-                            </div> 
-                        </div>                            
-                    </div>
-                </li>
-
-                <li>
-                    <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-yogyakarta.jpg');">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > YOGYAKARTA</h4>
-                    </div>
-                    <div class="content">
-                        <div class="faq-triangle yellow"></div>
-                        <div class="faq-inline">
-                            <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/obama-in-yogyakarta.jpg',
-                                    [
-                                        'w' => '181',
-                                        'h' => '181',
-                                        'class' => 'fi-image'
-                                    ]) !!}
-                                </a>
-                                <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-label">
-                                        EXPLORE YOGYAKARTA & CENTRAL JAVA – OBAMA STYLE!
-                                    </a>
-                                    <div class="fi-desc">
-                                        Following in the footsteps of the Obamas, the choice of attractions and places they visited revealed
-                                        the deep interest 
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/explore-yogyakarta-and-central-java-obama-style" class="fi-link">Read More >></a>
-                                </div>
-                            </div> 
-                        </div>                            
-                    </div>
-                </li>
-
-                <li>
-                    <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-komodo-island.jpg');">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > KOMODO ISLAND</h4>
-                    </div>
-                    <div class="content">
-                        <div class="faq-triangle dark-blue"></div>
-                        <div class="faq-inline">
-                            <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/komodo.jpg',
-                                    [
-                                        'w' => '181',
-                                        'h' => '181',
-                                        'class' => 'fi-image'
-                                    ]) !!}
-                                </a>
-                                <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-label">
-                                        10 REASONS TO VISIT THE MAGNIFICENT KOMODO NATIONAL PARK
-                                    </a>
-                                    <div class="fi-desc">
-                                        In 1986, the park was declared a World Heritage Site and a Man and Biosphere Reserve by UNESCO.
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/10-reasons-to-visit-the-magnificent-komodo-national-park" class="fi-link">Read More >></a>
-                                </div>
-                            </div> 
-                        </div>                            
-                    </div>
-                </li>
-
-                <li>
-                    <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-toraja.jpg');">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > TORAJA</h4>
-                    </div>
-                    <div class="content">
-                        <div class="faq-triangle yellow"></div>
-                        <div class="faq-inline">
-                            <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/toraja-house.jpg',
-                                    [
-                                        'w' => '181',
-                                        'h' => '181',
-                                        'class' => 'fi-image'
-                                    ]) !!}
-                                </a>
-                                <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-label">
-                                        WHERE TO STAY IN TANA TORAJA HIGHLANDS IN SOUTH SULAWESI
-                                    </a>
-                                    <div class="fi-desc">
-                                        Tana Toraja is located in the norhtern highlands of South Sulawesi province. It is home to an indigenous population
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/where-to-stay-in-tana-toraja-highlands-in-south-sulawesi" class="fi-link">Read More >></a>
-                                </div>
-                            </div> 
-                        </div>                            
-                    </div>
-                </li>
-
-                <li>
-                    <div class="title set-background height-big" 
-                        style="background-image:url('../img/am2018/public/discover-indonesia/wonderful-indonesia/explore-lake-toba.jpg');">
-                        <h4 class="inline-block mb0 set-title">EXPLORE > LAKE TOBA</h4>
-                    </div>
-                    <div class="content">
-                        <div class="faq-triangle blue"></div>
-                        <div class="faq-inline">
-                            <div class="fi-container no-mb">
-                                <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/wonderful-indonesia/batak-village.jpg',
-                                    [
-                                        'w' => '181',
-                                        'h' => '181',
-                                        'class' => 'fi-image'
-                                    ]) !!}
-                                </a>
-                                <div class="fi-box">
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-label">
-                                        TOMOK AND SIMANINDO: THE TRADITIONAL BATAK VILLAGES IN LAKE TOBA
-                                    </a>
-                                    <div class="fi-desc">
-                                        The Batak ethnic group inhabiting the intererior of North Sumatra is devided into six sub-groups. They are the Toba, Karo,
-                                     </div>
-                                    <a target="_blank" href="http://www.indonesia.travel/en/post/tomok-and-simanindo-the-traditional-batak-villages-in-lake-toba" class="fi-link">Read More >></a>
-                                </div>
-                            </div> 
-                        </div>                            
-                    </div>
-                </li>
-
+                @endforeach
             </ul>
             <!--end of accordion-->
         </section>

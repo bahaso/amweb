@@ -20,6 +20,10 @@ class AppServiceProvider extends ServiceProvider
             'am\Attachments\Models\PressRelease' => 'App\Models\PressRelease',
             'am\Variables\Models\Slide' => 'App\Models\Slide',
             'am\Variables\Models\Sponsor' => 'App\Models\Sponsor',
+            'am\Post\Models\PostTravel'        => 'App\Models\PostTravel',
+            'am\Post\Models\PostDiscoverTab' => 'App\Models\PostDiscoverTab',
+            'am\Post\Models\PostDiscoverTabContent' => 'App\Models\PostDiscoverTabContent',
+            'am\Post\Models\PostDiscoverExtra' => 'App\Models\PostDiscoverExtra',
         ]);
     }
 
