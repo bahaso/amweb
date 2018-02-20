@@ -10,22 +10,30 @@ use App\Models\PostDiscoverTab;
 use App\Models\PostDiscoverTabContent;
 use App\Models\PostDiscoverExtra;
 use App\Models\Menu;
+use App\Models\Faq;
+use App\Models\FaqTab;
 
 class PostController extends BaseController
 {
 	public function index( $id=null )
 	{
-        if( empty($id) )
+        $curr_menu = Menu::find($id);
+
+        if( empty($id) || empty($curr_menu->post_map_id) )
         {
             return abort(404);
         }
 
-        $db_post_map = PostMap::find( $id );
+        $db_post_map = PostMap::find( $curr_menu->post_map_id );
 
-        $curr_menu = Menu::where( 'post_map_id', '=', $id)->first();
-
-        // if depth menu is 1
-        if( $curr_menu->nest_depth == 1 )
+        /**
+         * find side menu based on ID 
+         */
+        if( $curr_menu->nest_depth == 0 )
+        {
+            $parent_menu = Menu::where( 'parent_id', '=', $id )->orderBy('nest_left', 'asc')->get(); 
+        }
+        else if( $curr_menu->nest_depth == 1 )
         {
             $parent_menu = Menu::where( 'parent_id', '=', $curr_menu->parent_id )->orderBy('nest_left', 'asc')->get(); 
         }
@@ -35,17 +43,30 @@ class PostController extends BaseController
             $parent_menu = Menu::where( 'parent_id', '=', $to_curr_menu->parent_id )->orderBy('nest_left', 'asc')->get(); 
         }  
 
-
+        /**
+         * set child menu
+         * @var array
+         */
         $child_menu = [];
         foreach( $parent_menu as $pm )
         {
             $child_menu[$pm->id] = Menu::where( 'parent_id', '=', $pm->id)->orderBy('nest_left', 'asc')->get();
         }
 
-        // data to be display
-        $data = compact( 'db_post_map', 'parent_menu', 'child_menu' );
+        /**
+         * set display DATA
+         * @var [type]
+         */
+        $data = compact( 'db_post_map', 'parent_menu', 'child_menu', 'curr_menu' );
 
-        if( $db_post_map->post_type == 'travel' )
+        if( $db_post_map->post_type == 'faqs' )
+        {
+            $data['faq']     = Faq::find( $db_post_map->post_id );
+            $data['faq_tab'] = FaqTab::whereFaqId( $db_post_map->post_id)->get();
+
+            return $this->output( 'posts.faqs', $data );
+        }
+        else if( $db_post_map->post_type == 'travel' )
         {
             $db_travel = PostTravel::find( $db_post_map->post_id );
 

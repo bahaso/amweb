@@ -11,15 +11,7 @@ class PressReleaseController extends BaseController
 	{
 		$lists = PressRelease::whereCategory('press-release')->orderBy('date', 'desc')->get();
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-		$data = compact( 'lists', 'sponsors', 'sponsor_img' );
+		$data = compact( 'lists' );
 
 		return $this->output( 'press-releases.index', $data );
 	}
@@ -45,15 +37,7 @@ class PressReleaseController extends BaseController
 		$query = PressRelease::find($id);
 		$file = $query->file('pressfile')->first();
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-		$data = compact( 'query', 'file', 'sponsors', 'sponsor_img' );
+		$data = compact( 'query', 'file' );
 
 		return $this->output( 'press-releases.detail', $data );
 	}

@@ -28,7 +28,7 @@
                     @if( $mp->url_link )
                         {{ $mp->url_link }}
                     @else
-                        {{ route( 'f.posts.index', [ 'id' => $mp->post_map_id, 'slug'=> str_slug($mp->title) ] ) }}
+                        {{ route( 'f.posts.index', [ 'id' => $mp->id, 'slug'=> str_slug($mp->title) ] ) }}
                     @endif
                     ">
                         {{ $mp->title }}
@@ -40,7 +40,7 @@
                             <a href="@if( $mc->url_link )
                                         {{ $mc->url_link }}
                                     @else 
-                                        {{ route( 'f.posts.index', [ 'id' => $mc->post_map_id, 'slug'=> str_slug($mc->title) ] ) }}
+                                        {{ route( 'f.posts.index', [ 'id' => $mc->id, 'slug'=> str_slug($mc->title) ] ) }}
                                     @endif">
                                 {{ $mc->title }}
                             </a>

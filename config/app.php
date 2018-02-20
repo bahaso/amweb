@@ -181,6 +181,7 @@ return [
         Laravelista\Ekko\EkkoServiceProvider::class,
 
         App\Providers\RepositoryServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class
     ],
 
     /*
@@ -230,6 +231,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Ekko' => Laravelista\Ekko\Facades\Ekko::class,
+        'Image' => Intervention\Image\Facades\Image::class
     ],
 
 ];

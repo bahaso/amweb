@@ -22,26 +22,14 @@ class HomeController extends BaseController
 		foreach( $slideshow as $s )
 		{
 			$slider[$s->id] = $s->file( 'img_slide' )->first();
-
-			if( $slider[$s->id] )
-			{
-				$slider[$s->id] = $slider[$s->id]->original();
-			}
 		}
 
 		//get news articles
-		$post_news = Post::whereCategoryType( 'news' )->get();
+		$post_news = Post::whereCategoryType( 'news' )->wherePublishType( 'publish' )->get();
 
 		$data = compact( 'slideshow', 'slider', 'post_news' );
 
 		return $this->output( 'home.index', $data );
-
-		// $test = Attachment::get();
-		// dd( $test );
-		// $first = $test->first();
-		// dd( $first->coverThumb( '220x212' ) );
-		// dd( $first->file( 'featured_images' )->first()->original() );
-		// dd( $first->coverOriginal() );
 	}
 
 	public function testITXQuery()

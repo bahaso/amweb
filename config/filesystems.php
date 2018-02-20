@@ -55,6 +55,13 @@ return [
             'visibility' => 'public',
         ],
 
+        'web' => [
+            'driver'        => 'local',
+            'root'          => env( 'FILESYSTEM_WEB_ROOT', ''),
+            'web_root'      => env( 'FILESYSTEM_WEB_SHORTCUT', '' ),        //root directory using web http
+            'visibility'    => 'public'
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_KEY'),

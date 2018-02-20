@@ -10,11 +10,11 @@
     <section id="slideshow" class="cover fullscreen image-slider slider-all-controls controls-inside parallax"
     		 data-h-diff="70">
         <ul class="slides">
-            @foreach( $slideshow as $ss )
+            @foreach( $slideshow as $num=>$ss )
             <li class="overlay image-bg bg-light">
                 @if( $slider[$ss->id] )
                 <div class="background-image-holder">
-		            {!! html_img( $slider[$ss->id],
+		            {!! html_img( $slider[$ss->id]->original(),
 		                [ 
 		                    'class' => 'background-image' 
 		                ]) !!}
@@ -23,10 +23,10 @@
                 <div class="container bg-text-wrapper">
                     <div class="background-text-overlay"
                          style="left:0;right:0;bottom:100px;">
-                        <h2 class="txt-title animate">
+                        <h2 class="txt-title animate @if($num%2) ta-center @endif">
                             {{ $ss->title }}
                         </h2>
-                        <p class="txt-desc animate">
+                        <p class="txt-desc animate @if($num%2) ta-center @endif">
                             {{ $ss->description }}
                         </p>
                     </div>
@@ -124,7 +124,7 @@
                         <div class="logo-carousel id-update" data-max-items="1" data-direction-nav="true">
 				            <ul class="slides">
                                 <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    <div class="image-caption cast-shadow mb-xs-32">
                                         {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/bali-hotel.jpg', 
                                             [ 
                                                 'w'     => 408,
@@ -143,7 +143,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    <div class="image-caption cast-shadow mb-xs-32">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/lombok-lake.jpg', 
                                             [ 
                                                 'w'     => 408,
@@ -162,7 +162,7 @@
                                     </div>
                                 </li>
 								<li>
-                                    <div class="image-caption cast-shadow mb-xs-32 ">
+                                    <div class="image-caption cast-shadow mb-xs-32">
                                     {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/yogya-candi.jpg', 
                                             [ 
                                                 'w'     => 408,

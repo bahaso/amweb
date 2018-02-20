@@ -8,18 +8,7 @@ class EventController extends BaseController
 {
     public function index()
     {
-
-        //sponsors
-        $sponsors = Sponsor::get();
-        $sponsor_img = [];
-        foreach( $sponsors as $s )
-        {
-            $sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-        }
-
-        $data = compact( 'sponsors', 'sponsor_img' );
-
-        return $this->output('events.index', $data);
+        return $this->output('events.index');
     }
 
     public function detail( $id, $slug=null )

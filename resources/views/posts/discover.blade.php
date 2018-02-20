@@ -15,7 +15,7 @@
                 'url' => route( 'f.posts.index', [ $db_post_map->id, $db_post_map->slug ] ) 
             ],
             [ 
-                'label' => $db_post_map->title,
+                'label' => $curr_menu->title,
             ]
         ],
         'no_label' => true
@@ -26,7 +26,6 @@
 
 <section class="wysiwyg">
     <div class="content">
-
 
         <div class="mix-color-title mb-50">
             <span class="mix-color-bar mobile-full"></span>
@@ -112,96 +111,9 @@
                 </div>
                 @endforeach
 
-<!--                 <div class="fs-box ">
-                    {!! html_img( 'img/am2018/public/discover-indonesia/bali/ayam-betutu.jpg',
-                    [
-                        'w' => '400',
-                        'h' => '243',
-                    ]) !!}
-                    <div class="fs-container">
-                        <h5 class="fs-title">Ayam Betutu</h5>
-                        <p>
-                            Cooked and wrapped in banana leaf for 24 hours straight, Ayam Betutu offers rich flavour that you should not miss!
-                        </p>
-                    </div>
-                </div> -->
             </div>
             <div class="mix-bar-full no-mb"></div>
-
-            {{--<div class="faq-title-link">
-                <h4 class="ftl-title">Hotel & Resorts</h4>
-                <a href="http://www.indonesia.travel/en/post/bali-s-unique-hotel-resorts" class="ftl-link">More >></a>
-            </div>
-
-            <div class="fi-container">
-                {!! html_img( 'img/am2018/public/discover-indonesia/bali/four-season-Resort.jpg',
-                [
-                    'w' => '211',
-                    'h' => '211',
-                    'class' => 'fi-image'
-                ]) !!}
-                <div class="fi-box info">
-                    <div class="fi-label">Four Seasons Resort Bali Sayan</div>
-                    <div class="fi-desc info">
-                        Stay at the resort in the middle of breathtaking rainforest by the Ayung River in Ubud to rejuvenate your soul.
-                     </div>
-                     <div class="fi-info">
-                         <span class="icons marker"></span>
-                         <span>
-                             Jl. Raya Sayan, Ubud, Sayan Ubud, Bali 80571
-                         </span>
-                     </div>
-                      <div class="fi-info">
-                         <span class="icons telephone"></span>
-                         <span>
-                             (0361) 977577
-                         </span>
-                     </div>
-                      <div class="fi-info">
-                         <span class="icons globe"></span>
-                         <span>
-                             fourseasons.com
-                         </span>
-                     </div>
-                </div>
-            </div>
-
-            <div class="fi-container">
-                {!! html_img( 'img/am2018/public/discover-indonesia/bali/sandat-gampling-tent.jpg',
-                [
-                    'w' => '211',
-                    'h' => '211',
-                    'class' => 'fi-image'
-                ]) !!}
-                <div class="fi-box info">
-                    <div class="fi-label">Four Seasons Resort Bali Sayan</div>
-                    <div class="fi-desc info">
-                        Stay at the resort in the middle of breathtaking rainforest by the Ayung River in Ubud to rejuvenate your soul.
-                     </div>
-                     <div class="fi-info">
-                         <span class="icons marker"></span>
-                         <span>
-                             Jl. Raya Sayan, Ubud, Sayan Ubud, Bali 80571
-                         </span>
-                     </div>
-                      <div class="fi-info">
-                         <span class="icons telephone"></span>
-                         <span>
-                             (0361) 977577
-                         </span>
-                     </div>
-                      <div class="fi-info">
-                         <span class="icons globe"></span>
-                         <span>
-                             fourseasons.com
-                         </span>
-                     </div>
-                </div>
-            </div>--}}
-
-
-            <div class="mix-bar-full no-mb"></div>
-
+            <div class="mix-bar-full"></div>
             {!! $db_discover->content_bottom !!}
 
         </div>

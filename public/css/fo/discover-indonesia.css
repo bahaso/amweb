@@ -59,7 +59,6 @@
 .fi-container {
   border-bottom: 1px solid #CCC;
   padding: 0 0 30px 10px;
-  margin-bottom: 36px;
 }
 /* line 17, ../../../resources/assets/sass/modules/_helpers.scss */
 .fi-container:before, .fi-container:after {
@@ -72,72 +71,72 @@
 .fi-container:after {
   clear: both;
 }
-/* line 18, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 17, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container.no-mb {
   margin-bottom: 0;
 }
-/* line 21, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 20, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-box {
   /*@include inline-block(top);*/
   /*width: 75%;*/
   padding-left: 24px;
   overflow: hidden;
 }
-/* line 27, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 26, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-box.info {
   line-height: 2;
 }
-/* line 31, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 30, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-box a:hover {
   text-decoration: underline;
 }
-/* line 36, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 35, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-label {
   font-family: "Signika Semibold";
   font-size: 2.8rem;
   color: #4C4C4C;
   line-height: normal;
 }
-/* line 44, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 43, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-desc {
   font-family: "Helvetica";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #656565;
-  line-height: 1.8;
+  line-height: 2;
   padding: 10px 0 8px;
 }
-/* line 51, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 50, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-desc.info {
   padding: 5px 3px;
 }
-/* line 56, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 55, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-image {
   float: left;
 }
-/* line 59, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 58, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-link {
   font-family: "Signika Regular";
   font-size: 1.8rem;
   color: #323232;
   font-weight: normal;
 }
-/* line 64, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 63, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-link:hover {
   text-decoration: underline;
 }
-/* line 68, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 67, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .fi-container .fi-info {
   font-family: "Helvetica";
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: #656565;
 }
 
-/* line 75, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 74, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-title-link {
   text-align: center;
-  padding: 60px 0 20px;
+  padding: 50px 0 20px;
 }
-/* line 79, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 78, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-title-link .ftl-title {
   display: inline-block;
   vertical-align: middle;
@@ -149,21 +148,22 @@
   color: #4C4C4C;
   margin: 0;
 }
-/* line 88, ../../../resources/assets/sass/f/discover-indonesia.scss */
-.faq-title-link .ftl-link {
+
+/* line 90, ../../../resources/assets/sass/f/discover-indonesia.scss */
+.ftl-link {
   float: right;
   font-family: "Signika Light";
   font-size: 1.8rem;
   color: #CF347C;
 }
-/* line 95, ../../../resources/assets/sass/f/discover-indonesia.scss */
-.faq-title-link .ftl-link:hover {
+/* line 97, ../../../resources/assets/sass/f/discover-indonesia.scss */
+.ftl-link:hover {
   text-decoration: underline;
 }
 
-/* line 101, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 103, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split {
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 /* line 17, ../../../resources/assets/sass/modules/_helpers.scss */
 .faq-split:before, .faq-split:after {
@@ -176,7 +176,7 @@
 .faq-split:after {
   clear: both;
 }
-/* line 106, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 108, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-box {
   width: 48.5%;
   background-color: #F9F9F9;
@@ -187,37 +187,37 @@
   *display: inline;
   margin: 10px 0 15px;
 }
-/* line 112, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 114, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-box.right {
   float: right;
 }
-/* line 116, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 118, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-box p {
   text-align: left;
   line-height: 2;
   font-family: "Helvetica";
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #4C4C4C;
 }
-/* line 125, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 127, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-container {
-  padding: 20px 45px 0 23px;
+  padding: 16px 45px 0 23px;
   min-height: 275px;
 }
-/* line 129, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 131, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-title {
   font-family: "Signika Semibold";
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #4C4C4C;
   margin: 0;
   padding-bottom: 15px;
 }
-/* line 137, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 139, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-split .fs-title:hover {
   text-decoration: underline;
 }
 
-/* line 143, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 145, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .icons {
   display: inline-block;
   vertical-align: middle;
@@ -226,31 +226,31 @@
   *display: inline;
   margin-right: 12px;
 }
-/* line 147, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 149, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .icons.marker {
   background: url("../../img/am2018/public/icon-marker.png") no-repeat;
   width: 16px;
   height: 19px;
 }
-/* line 150, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 152, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .icons.globe {
   background: url("../../img/am2018/public/icon-globe.png") no-repeat;
   width: 19px;
   height: 19px;
 }
-/* line 153, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 155, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .icons.telephone {
   background: url("../../img/am2018/public/icon-telephone.png") no-repeat;
   width: 18px;
   height: 18px;
 }
 
-/* line 159, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 161, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq .accordion-2 .title:before {
   display: none;
 }
 
-/* line 163, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 165, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle {
   float: left;
   margin: 15px 20px 0 0;
@@ -263,32 +263,32 @@
   _border-color: #000000 #000000 #000000 #007bff;
   _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
-/* line 176, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 178, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.purple {
   border-color: transparent transparent transparent #F42A9E;
   _border-color: #000000 #000000 #000000 #F42A9E;
 }
-/* line 181, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 183, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.dark-purple {
   border-color: transparent transparent transparent #B8008A;
   _border-color: #000000 #000000 #000000 #B8008A;
 }
-/* line 186, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 188, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.blue {
   border-color: transparent transparent transparent #0097E7;
   _border-color: #000000 #000000 #000000 #0097E7;
 }
-/* line 191, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 193, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.dark-blue {
   border-color: transparent transparent transparent #0071BC;
   _border-color: #000000 #000000 #000000 #0071BC;
 }
-/* line 196, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 198, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.yellow {
   border-color: transparent transparent transparent #FFD500;
   _border-color: #000000 #000000 #000000 #FFD500;
 }
-/* line 202, ../../../resources/assets/sass/f/discover-indonesia.scss */
+/* line 204, ../../../resources/assets/sass/f/discover-indonesia.scss */
 .faq-triangle.orange {
   border-color: transparent transparent transparent #FF7600;
   _border-color: #000000 #000000 #000000 #FF7600;
@@ -298,47 +298,47 @@
  * MEDIA QUERIES MOBILE
  */
 @media screen and (max-width: 720px) {
-  /* line 215, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 217, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-label {
     font-size: 2.4rem;
   }
 
-  /* line 218, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 220, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-desc {
     font-size: 1.7rem;
   }
 
-  /* line 221, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 223, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-link {
     font-size: 1.7rem;
   }
 
-  /* line 227, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 229, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-box p {
     font-size: 1.6rem;
   }
-  /* line 230, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 232, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-box img {
     width: 100%;
     height: auto;
   }
-  /* line 235, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 237, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-title {
     font-size: 2.2rem;
   }
 
-  /* line 240, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 242, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-title-link {
     padding: 50px 0 32px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 247, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 249, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-triangle {
     margin: 15px 15px 0 0;
   }
 
-  /* line 250, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 252, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-image {
     float: none;
     display: block;
@@ -346,47 +346,47 @@
     height: auto;
   }
 
-  /* line 257, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 259, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-box {
     padding: 20px 0 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 263, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 265, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-label {
     font-size: 2.2rem;
   }
 
-  /* line 266, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 268, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-desc {
     font-size: 1.6rem;
   }
 
-  /* line 269, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 271, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container .fi-link {
     font-size: 1.6rem;
   }
 
-  /* line 274, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 276, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-box {
     width: 100%;
   }
-  /* line 277, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 279, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-box.left {
     float: none;
   }
-  /* line 280, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 282, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-split .fs-box.right {
     float: none;
   }
 }
 @media screen and (max-width: 380px) {
-  /* line 289, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 291, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .faq-triangle {
     display: none;
   }
 
-  /* line 293, ../../../resources/assets/sass/f/discover-indonesia.scss */
+  /* line 295, ../../../resources/assets/sass/f/discover-indonesia.scss */
   .fi-container {
     padding: 0 0 30px 0;
   }

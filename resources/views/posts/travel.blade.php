@@ -10,7 +10,7 @@
                 'url' => route( 'f.posts.index', [ $db_post_map->id, $db_post_map->slug ] ) 
             ],
             [ 
-                'label' => $db_post_map->title,
+                'label' => $curr_menu->title,
             ]
         ],
         'no_label' => true

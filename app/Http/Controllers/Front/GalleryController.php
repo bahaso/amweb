@@ -23,16 +23,7 @@ class GalleryController extends BaseController
 			$total_photo[$ga->id ] = $ga->files( 'featured_images' )->count();
 		}
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-
-		$data = compact( 'galleries', 'total_photo', 'sponsors', 'sponsor_img' );
+		$data = compact( 'galleries', 'total_photo' );
 
 		return $this->output( 'galleries.index', $data );
 	}
@@ -69,16 +60,7 @@ class GalleryController extends BaseController
 
 		$photos = $query->files( 'featured_images' )->get();
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-
-		$data = compact( 'query', 'photos', 'sponsors', 'sponsor_img' );
+		$data = compact( 'query', 'photos' );
 
 		return $this->output( 'galleries.detail', $data );
 	}

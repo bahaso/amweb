@@ -11,15 +11,7 @@ class PublicationController extends BaseController
 	{
 		$lists = Publication::whereCategory('publication')->orderBy('date', 'desc')->get();
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-		$data = compact( 'lists', 'sponsors', 'sponsor_img' );
+		$data = compact( 'lists' );
 		return $this->output( 'publications.index', $data );
 	}
 
@@ -43,15 +35,7 @@ class PublicationController extends BaseController
 		$query = Publication::find($id);
 		$file = $query->file('datafile')->first();
 
-		//sponsors
-		$sponsors = Sponsor::get();
-		$sponsor_img = [];
-		foreach( $sponsors as $s )
-		{
-			$sponsor_img[$s->id] = $s->file( 'img_sponsor' )->first()->original();
-		}
-
-		$data = compact( 'query', 'file', 'sponsors', 'sponsor_img' );
+		$data = compact( 'query', 'file' );
 
 		return $this->output( 'publications.detail', $data );
 	}
