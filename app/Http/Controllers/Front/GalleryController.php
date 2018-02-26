@@ -15,6 +15,7 @@ class GalleryController extends BaseController
 	{
 		$galleries = Post::where( 'category_type', '=', 'photo-gallery')
 			->where( 'publish_type', '=', 'publish')
+			->orderBy( 'published_at', 'desc')
 			->get();
 
 		$total_photo = [];

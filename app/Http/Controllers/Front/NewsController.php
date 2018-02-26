@@ -11,6 +11,7 @@ class NewsController extends BaseController
 	{
 		$queries = Post::where( 'category_type', '=', 'news')
 			->where( 'publish_type', '=', 'publish')
+			->orderBy( 'published_at', 'desc')
 			->get();
 
 
