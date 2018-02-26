@@ -27,9 +27,11 @@
                     <a href="
                     @if( $mp->url_link )
                         {{ $mp->url_link }}
-                    @else
+                    @elseif( $mp->post_map_id )
                         {{ route( 'f.posts.index', [ 'id' => $mp->id, 'slug'=> str_slug($mp->title) ] ) }}
-                    @endif
+                    @else
+                        #
+                    @endif 
                     ">
                         {{ $mp->title }}
                     </a>

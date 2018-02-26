@@ -40,7 +40,7 @@
 
                         <div class="caption">
                             <p>
-                               {{ $ga->title }}
+                               {{ $ga->excerpt }}
                             </p>
                             <p>
                                 {{ $total_photo[$ga->id] }} Photos | 52 Views
