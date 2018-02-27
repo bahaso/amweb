@@ -68,10 +68,10 @@
                         <li>
                             <a href="{{ route( 'f.discovers.bali', ['Discover-Indonesia', 'Bali']) }}">Bali</a>
                         </li>
-                        <li>
+                        {{--<li>
                             <a href="{{ route( 'f.discovers.tourism', ['Discover-Indonesia', 'Paket-Wisata']) }}">Tourism
                                 Packages</a>
-                        </li>
+                        </li>--}}
                     </ul>
                 </li>
                 <li class="has-dropdown">
