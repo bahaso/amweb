@@ -54,7 +54,7 @@
                     <p class="desc">
                         Held annually since 1946, the Annual Meetings of the Boards of Governors of the International Monetary Fund & World Bank Group (IMF-WBG) bring together the finance ministers and central bank governors from 189 member countries to discuss a range of issues related to poverty reduction, international economic development and finance. The 2018 Annual Meetings will be held in Nusa Dua, Bali, Indonesia in October.
                     <br><br><br><br></p>
-                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.index') }}">
+                    <a class="btn btn-sm btn-blue" href="{{ url('post/2/2018-annual-meetings') }}">
                         View More
                     </a>
                 </div>
@@ -74,7 +74,7 @@
                     <p class="desc">
                         Beginning in 2017, the “Voyage to Indonesia” or “VTI”, is a series of activities and events that will be conducted as part of the groundwork for the 2018 Annual Meetings to raise awareness of this event and promote Indonesia to participants and the international community. The Voyage to Indonesia and the 2018 Annual Meetings provide Indonesia with an opportunity to showcase its achievements in economic and social sectors, highlight the many facets of its culture, and promote the beautiful landscapes and multitude of tourism options that the country offers.
                     </p>
-                    <a class="btn btn-sm btn-blue" href="{{ route( 'f.abouts.vti' ) }}">
+                    <a class="btn btn-sm btn-blue" href="{{ url('post/3/the-voyage-to-indonesia') }}">
                         View More
                     </a>
                 </div>
