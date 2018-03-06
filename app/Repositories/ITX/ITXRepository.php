@@ -24,7 +24,7 @@ class ITXRepository implements ITXInterface
         $short_names =
         [
             'bali'       => 'ba_bharatourbali,ba_odysseysubmarine,ba_probalitour,ba_toureast,ba_melalibali,ba_gdtour,ba_jetwingsbali',
-            'lombok'     => 'ba_terimakasihindonesia,ba_panoramadestionation',
+            'lombok'     => 'ba_terimakasihindonesia,ba_panoramadestionation,nb_asitantb',
             'komodo'     => 'ba_seasafaricruises,nt_plataranindonesia,nt_oradive,nt_komodofantasticotour,flores_exotic,nt_flobamortours',
             'toraja'     => 'ss_dhifatours',
             'toba'       => 'sa_asitadpdsumut',
