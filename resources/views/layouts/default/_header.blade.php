@@ -53,7 +53,7 @@
                 </li>
                 @endforeach
 
-                <li class="has-dropdown">
+         {{--       <li class="has-dropdown">
                     <a href="#">
                         Discover Indonesia
                     </a>
@@ -73,7 +73,7 @@
                                 Packages</a>
                         </li>--}}
                     </ul>
-                </li>
+                </li>--}}
                 <li class="has-dropdown">
                     <a href="#">
                         Media and Publications
