@@ -119,11 +119,11 @@
                     <a href="#">
                         Discover Indonesia
                     </a>
-                    <ul>
+                    <ul>-->
                     <!--<li>
                             <a href="{{ route( 'f.discovers.destination', ['Discover Indonesia', 'Main Destination']) }}">Main Destination</a>
                         </li> -->
-                        <li>
+                  <!--      <li>
                             <a href="{{ route( 'f.discovers.wonderful_indonesia', ['Discover-Indonesia', 'Wonderful-Indonesia']) }}">Wonderful
                                 Indonesia</a>
                         </li>
