@@ -29,7 +29,7 @@
                 'url' => route( 'f.galleries.index' ) 
             ],
             [
-                'label' => 'Bali'
+                'label' => $query->title
             ]
         ],
         'no_label' => true

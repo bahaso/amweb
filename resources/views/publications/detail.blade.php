@@ -14,7 +14,7 @@
                 'url' => route( 'f.publications.index' ) 
             ],
             [
-                'label' => 'Indonesia\'s Leading Role', 
+                'label' => $query->title_short, 
             ]
         ],
         'no_label' => true

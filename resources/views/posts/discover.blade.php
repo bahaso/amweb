@@ -13,9 +13,6 @@
             [ 
                 'label' => $curr_menu->title, 
                 'url' => route( 'f.posts.index', [ $curr_menu->id, $db_post_map->slug ] ) 
-            ],
-            [ 
-                'label' => $curr_menu->title,
             ]
         ],
         'no_label' => true

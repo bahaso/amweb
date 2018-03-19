@@ -4,7 +4,7 @@
 	@parent
 	{!! html_css( 'home.css', 'css/fo' ) !!}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-@stop 
+@stop
 
 @section( 'content' )
     <section id="slideshow" class="cover fullscreen image-slider slider-all-controls controls-inside parallax"
@@ -15,8 +15,8 @@
                 @if( $slider[$ss->id] )
                 <div class="background-image-holder">
 		            {!! html_img( $slider[$ss->id]->original(),
-		                [ 
-		                    'class' => 'background-image' 
+		                [
+		                    'class' => 'background-image'
 		                ]) !!}
                 </div>
                 @endif
@@ -44,11 +44,11 @@
                 <div class="well feature bordered">
                     <h4 class="title mb40">INDONESIA IS PROUD TO HOST THE 2018 ANNUAL MEETINGS OF THE IMF/WBG</h4>
                     <div class="logo mb40">
-                        {!! html_img( 'img/am2018/amf2018-logo.jpg', 
-                            [ 
+                        {!! html_img( 'img/am2018/amf2018-logo.jpg',
+                            [
                                 'w'     => 388,
                                 'h'     => 163,
-                                'class' => 'logo logo-dark' 
+                                'class' => 'logo logo-dark'
                             ]) !!}
                     </div>
                     <p class="desc">
@@ -64,11 +64,11 @@
                 <div class="well feature bordered">
                     <h4 class="title mb40">THE VOYAGE TO INDONESIA: EVENTS & ACTIVITIES LEADING UP TO THE ANNUAL MEETINGS</h4>
                     <div class="logo mb40">
-                        {!! html_img( 'img/am2018/voyage-to-indonesia.png', 
-                            [ 
+                        {!! html_img( 'img/am2018/voyage-to-indonesia.png',
+                            [
                                 'w'     => 339,
                                 'h'     => 137,
-                                'class' => 'background-image' 
+                                'class' => 'background-image'
                             ]) !!}
                     </div>
                     <p class="desc">
@@ -125,11 +125,11 @@
 				            <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32">
-                                        {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/bali-hotel.jpg', 
-                                            [ 
+                                        {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/bali-hotel.jpg',
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Bali Tour</h4>
@@ -144,11 +144,11 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/lombok-lake.jpg', 
-                                            [ 
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/lombok-lake.jpg',
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Lombok Tour</h4>
@@ -163,11 +163,11 @@
                                 </li>
 								<li>
                                     <div class="image-caption cast-shadow mb-xs-32">
-                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/yogya-candi.jpg', 
-                                            [ 
+                                    {!! html_img( 'img/am2018/public/discover-indonesia/tourism-package/yogya-candi.jpg',
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Yogyakarta Tour</h4>
@@ -190,11 +190,11 @@
                             <ul class="slides">
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-1_thumbnail.jpg', 
-                                            [ 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-1_thumbnail.jpg',
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Institutional and Governance Effectiveness: Accelerated Reforms Agenda with Institutional Improvement</h4>
@@ -209,11 +209,11 @@
                                 </li>
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
-                                        {!! html_img( 'img/am2018/public/indonesia-updates-2_thumbnail.jpg', 
-                                            [ 
+                                        {!! html_img( 'img/am2018/public/indonesia-updates-2_thumbnail.jpg',
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Economic Factor: Strong and Stable Growth Prospects Remain Intact</h4>
@@ -229,10 +229,10 @@
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/indonesia-updates-3_thumbnail.jpg',
-                                            [ 
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">External Factor: Improved External Resilience</h4>
@@ -248,10 +248,10 @@
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/indonesia-updates-4_thumbnail.jpg',
-                                            [ 
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Fiscal Performance and Flexibility: More Fiscal Stimulus with Prudent Fiscal Management</h4>
@@ -267,10 +267,10 @@
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/indonesia-updates-5_thumbnail.jpg',
-                                            [ 
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Monetary and Financial Factor: Credible Monetary Policy Track Record and Favourable Financial Sector</h4>
@@ -286,10 +286,10 @@
                                 <li>
                                     <div class="image-caption cast-shadow mb-xs-32 ">
                                         {!! html_img( 'img/am2018/public/indonesia-updates-6_thumbnail.jpg',
-                                            [ 
+                                            [
                                                 'w'     => 408,
                                                 'h'     => 300,
-                                                'class' => 'img-home' 
+                                                'class' => 'img-home'
                                             ]) !!}
                                         <div class="caption text-center">
                                             <h4 class="subtitle">Progressive Infrastructure Development: Strong Commitment on Acceleration of Infrastructure Provision</h4>
@@ -304,7 +304,7 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <!--end of snippet-->
                 </div>
@@ -341,7 +341,7 @@
                         	</div>
                         </div>
 	        		</div>
-	        		
+
 	        	</div>
 	        	<div id="follow" class="col-md-6">
 	        		<div class="fo-col text-center header-title">
