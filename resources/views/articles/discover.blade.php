@@ -1,4 +1,4 @@
-@extends( 'posts._layout' )
+@extends( 'articles._layout' )
 
 @section( 'head_page_css' )
     @parent
@@ -12,7 +12,7 @@
         [
             [ 
                 'label' => $db_post_map->title, 
-                'url' => route( 'f.posts.index', [ $db_post_map->id, $db_post_map->slug ] ) 
+                'url' => route( 'f.articles.index', [ $db_post_map->id, $db_post_map->slug ] ) 
             ]
         ],
         'no_label' => true

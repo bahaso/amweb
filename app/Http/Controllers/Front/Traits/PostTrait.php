@@ -18,7 +18,17 @@ trait PostTrait
 
 	public function postMapOutput( $db_post_map, $data, $folder )
 	{
-        if( $db_post_map->post_type == 'publication' )
+        if( $db_post_map->post_type == 'photo-gallery' )
+        {
+            $record = Post::find($db_post_map->post_id);
+            $photos = $record->files( 'featured_images' )->get();
+
+            $data['record'] = $record;
+            $data['photos'] = $photos;
+
+            return $this->output( $folder.'.photo', $data );
+        }
+        else if( $db_post_map->post_type == 'publication' )
         {
             $record = Publication::find( $db_post_map->post_id );
             $file = $record->file('datafile')->first();
@@ -28,7 +38,7 @@ trait PostTrait
 
             return $this->output( $folder.'.publication', $data );
         }
-        if( $db_post_map->post_type == 'press-release' )
+        else if( $db_post_map->post_type == 'press-release' )
         {
             $record = PressRelease::find( $db_post_map->post_id );
             $file = $record->file('pressfile')->first();

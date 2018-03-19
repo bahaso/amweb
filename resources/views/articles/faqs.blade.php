@@ -8,7 +8,7 @@
             [ 
                 'label' => $db_post_map->title, 
                 'url' => route( 'f.articles.index', [ $db_post_map->id, $db_post_map->slug ] ) 
-            ],
+            ]
         ],
         'no_label' => true
     ])
