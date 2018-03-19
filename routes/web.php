@@ -21,6 +21,7 @@ Route::group(
 		Route::get( '/', 'HomeController@index' )->name( 'home' );
 
 		Route::get( 'post/{id?}/{slug?}', 'PostController@index')->name( 'posts.index');
+		Route::get( 'article/{id?}/{slug?}', 'ArticleController@index')->name( 'articles.index');
 
 		/**
 		 * DISCOVERS
