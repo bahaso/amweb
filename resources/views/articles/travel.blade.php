@@ -6,8 +6,8 @@
         'navs' => 
         [
             [ 
-                'label' => $curr_menu->title, 
-                'url' => route( 'f.posts.index', [ $curr_menu->id, $db_post_map->slug ] ) 
+                'label' => $db_post_map->title, 
+                'url' => route( 'f.posts.index', [ $db_post_map->id, $db_post_map->slug ] ) 
             ],
             [ 
                 'label' => $curr_menu->title,

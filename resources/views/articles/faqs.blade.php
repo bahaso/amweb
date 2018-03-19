@@ -1,4 +1,4 @@
-@extends( 'posts._layout' )
+@extends( 'articles._layout' )
 
 @section( 'top_content' )
     @include( '_partials._navbar',
@@ -6,12 +6,9 @@
         'navs' => 
         [
             [ 
-                'label' => $curr_menu->title, 
-                'url' => route( 'f.posts.index', [ $curr_menu->id, $db_post_map->slug ] ) 
+                'label' => $db_post_map->title, 
+                'url' => route( 'f.articles.index', [ $db_post_map->id, $db_post_map->slug ] ) 
             ],
-            [ 
-                'label' => $curr_menu->title,
-            ]
         ],
         'no_label' => true
     ])

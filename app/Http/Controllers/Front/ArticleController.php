@@ -13,7 +13,7 @@ use App\Models\Menu;
 use App\Models\Faq;
 use App\Models\FaqTab;
 
-class PostController extends BaseController
+class ArticleController extends BaseController
 {
 	public function index( $id=null )
 	{
@@ -28,14 +28,14 @@ class PostController extends BaseController
          * set display DATA
          * @var [type]
          */
-        $data = compact( 'db_post_map', 'parent_menu', 'child_menu', 'curr_menu' );
+        $data = compact( 'db_post_map' );
 
         if( $db_post_map->post_type == 'faqs' )
         {
             $data['faq']     = Faq::find( $db_post_map->post_id );
             $data['faq_tab'] = FaqTab::whereFaqId( $db_post_map->post_id)->get();
 
-            return $this->output( 'posts.faqs', $data );
+            return $this->output( 'articles.faqs', $data );
         }
         else if( $db_post_map->post_type == 'travel' )
         {
@@ -44,7 +44,7 @@ class PostController extends BaseController
             $data['db_travel'] = $db_travel;
             $data['db_travel_image'] = $db_travel->file( 'travelImage' )->first();
 
-            return $this->output( 'posts.travel', $data );
+            return $this->output( 'articles.travel', $data );
         }
         else if( $db_post_map->post_type == 'discover' )
         {
@@ -91,7 +91,7 @@ class PostController extends BaseController
             $data['tab_child_image']        = $tab_child_image;
             $data['extra_image']        = $extra_image;
 
-            return $this->output( 'posts.discover', $data );
+            return $this->output( 'articles.discover', $data );
         }
         else
         {
@@ -99,7 +99,7 @@ class PostController extends BaseController
 
             $data['db_post'] = $db_post;
 
-            return $this->output( 'posts.index', $data );
+            return $this->output( 'articles.index', $data );
         }
 	}
 }

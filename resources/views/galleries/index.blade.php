@@ -43,7 +43,8 @@
                                {{ $ga->excerpt }}
                             </p>
                             <p>
-                                {{ $total_photo[$ga->id] }} Photos | 52 Views
+                                {{ $total_photo[$ga->id] }} Photos
+                                <!-- {{ $total_photo[$ga->id] }} Photos | 52 Views -->
                             </p>
                         </div>
                     </a>
