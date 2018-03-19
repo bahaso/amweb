@@ -1097,13 +1097,38 @@ section {
   font-weight: bold;
 }
 
-/* line 83, ../../../resources/assets/sass/f/main.scss */
-#st_footer {
-  padding: 40px 0 30px;
-  background-color: #486174;
+/* line 84, ../../../resources/assets/sass/f/main.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-/* line 88, ../../../resources/assets/sass/f/main.scss */
+/* line 91, ../../../resources/assets/sass/f/main.scss */
+#st_container {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 95, ../../../resources/assets/sass/f/main.scss */
+#st_body {
+  height: 100%;
+  padding-bottom: 390px;
+}
+
+/* line 100, ../../../resources/assets/sass/f/main.scss */
+#st_footer {
+  background-color: #486174;
+  padding: 40px 0 30px;
+  height: 320px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 112, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl,
 #st_foot_contact .value {
   font-weight: 600;
@@ -1113,27 +1138,27 @@ section {
   *zoom: 1;
   *display: inline;
 }
-/* line 94, ../../../resources/assets/sass/f/main.scss */
+/* line 118, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl {
   width: 30%;
 }
-/* line 95, ../../../resources/assets/sass/f/main.scss */
+/* line 119, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl.full {
   width: auto;
 }
 
-/* line 105, ../../../resources/assets/sass/f/main.scss */
+/* line 129, ../../../resources/assets/sass/f/main.scss */
 #copyright {
   color: #FFF;
   text-align: center;
 }
 
-/* line 112, ../../../resources/assets/sass/f/main.scss */
+/* line 136, ../../../resources/assets/sass/f/main.scss */
 .menu li ul {
   background: #405767;
 }
 
-/* line 118, ../../../resources/assets/sass/f/main.scss */
+/* line 142, ../../../resources/assets/sass/f/main.scss */
 .logo {
   max-height: 100%;
   height: auto;
@@ -1143,7 +1168,7 @@ section {
  * MEDIA QUERIES
  */
 /*text MENU for navigation*/
-/* line 128, ../../../resources/assets/sass/f/main.scss */
+/* line 152, ../../../resources/assets/sass/f/main.scss */
 .ti-txt-menu {
   display: none;
   float: left;
@@ -1151,43 +1176,65 @@ section {
 }
 
 @media screen and (max-width: 1379px) {
-  /* line 137, ../../../resources/assets/sass/f/main.scss */
+  /* line 161, ../../../resources/assets/sass/f/main.scss */
   .ti-txt-menu {
     display: block;
   }
 
-  /* line 140, ../../../resources/assets/sass/f/main.scss */
+  /* line 164, ../../../resources/assets/sass/f/main.scss */
   .module.widget-handle i {
     font-size: 25px;
   }
 
-  /* line 146, ../../../resources/assets/sass/f/main.scss */
+  /* line 170, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 152, ../../../resources/assets/sass/f/main.scss */
+  /* line 176, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
     margin: 6px 0 0;
     border: 0 !important;
     display: block !important;
   }
 
-  /* line 160, ../../../resources/assets/sass/f/main.scss */
+  /* line 184, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module-group .module {
     display: block;
     float: none;
     width: 100%;
   }
 }
+@media screen and (max-width: 990px) {
+  /* line 193, ../../../resources/assets/sass/f/main.scss */
+  #st_body {
+    padding-bottom: 420px;
+  }
+
+  /* line 197, ../../../resources/assets/sass/f/main.scss */
+  #st_footer {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 204, ../../../resources/assets/sass/f/main.scss */
+  #st_body {
+    padding-bottom: 640px;
+  }
+
+  /* line 208, ../../../resources/assets/sass/f/main.scss */
+  #st_footer {
+    height: 640px;
+  }
+}
 @media screen and (max-width: 720px) {
-  /* line 170, ../../../resources/assets/sass/f/main.scss */
+  /* line 216, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .module.left {
     width: 100%;
     padding: 0 16px 0 32px;
   }
-  /* line 175, ../../../resources/assets/sass/f/main.scss */
+  /* line 221, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .ti-location-arrow {
     display: inline-block;
     vertical-align: middle;
@@ -1195,7 +1242,7 @@ section {
     *zoom: 1;
     *display: inline;
   }
-  /* line 178, ../../../resources/assets/sass/f/main.scss */
+  /* line 224, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     font-size: 1.3rem;
     display: inline-block;
@@ -1206,25 +1253,25 @@ section {
   }
 }
 @media screen and (max-width: 620px) {
-  /* line 187, ../../../resources/assets/sass/f/main.scss */
+  /* line 233, ../../../resources/assets/sass/f/main.scss */
   #st_top_header {
     height: 50px;
   }
 
-  /* line 191, ../../../resources/assets/sass/f/main.scss */
+  /* line 237, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     width: 92%;
     line-height: 1.6;
   }
 }
 @media screen and (max-width: 380px) {
-  /* line 200, ../../../resources/assets/sass/f/main.scss */
+  /* line 246, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     width: 90%;
     font-size: 1.2rem;
   }
 
-  /* line 206, ../../../resources/assets/sass/f/main.scss */
+  /* line 252, ../../../resources/assets/sass/f/main.scss */
   #nav_logo {
     width: 80%;
   }

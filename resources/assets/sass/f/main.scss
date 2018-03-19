@@ -80,10 +80,34 @@ $nav-height : 70px; /*default 100px*/
 	}
 }
 
-#st_footer {
-	padding : 40px 0 30px;
-	background-color: #486174;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
+#st_container{
+	position: relative;
+	min-height: 100%;
+}
+#st_body{
+	height: 100%;
+	padding-bottom: 390px;
+}
+
+#st_footer {
+	background-color: #486174;
+
+	padding: 40px 0 30px;
+	height: 320px;
+	position:absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+
 	#st_foot_contact {
 		.lbl,
 		.value {
@@ -161,6 +185,28 @@ $nav-height : 70px; /*default 100px*/
 		display: block;
 		float: none;
 		width: 100%;		
+	}
+}
+
+@include max-screen( $mq-size-l )
+{
+	#st_body{
+		padding-bottom: 420px;
+	}
+
+	#st_footer{
+		height: 420px;
+	}
+}
+
+@include max-screen( 768px )
+{
+	#st_body{
+		padding-bottom: 640px;
+	}
+	
+	#st_footer{
+		height: 640px;
 	}
 }
 
