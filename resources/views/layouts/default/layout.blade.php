@@ -36,10 +36,16 @@
 	@yield( 'content' )
 </div>
 
-<footer id="st_footer" class="footer-1 bg-dark" role="contentinfo">
-	@include( 'layouts.default._footer' )
-</footer>
+<div id="st_footer">
+	@include( '_partials._sponsors',
+	[
+	    'class' => 'bg-secondary'
+	])
+	<footer  class="footer-1 bg-dark" role="contentinfo">
 
+		@include( 'layouts.default._footer' )
+	</footer>
+</div>
 @stop
 
 @section( 'foot_vendor_js')

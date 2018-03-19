@@ -1114,21 +1114,24 @@ body {
 /* line 95, ../../../resources/assets/sass/f/main.scss */
 #st_body {
   height: 100%;
-  padding-bottom: 390px;
+  padding-bottom: 320px;
 }
 
 /* line 100, ../../../resources/assets/sass/f/main.scss */
 #st_footer {
-  background-color: #486174;
-  padding: 40px 0 30px;
+  padding: 0;
   height: 320px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
+/* line 109, ../../../resources/assets/sass/f/main.scss */
+#st_footer .footer-1 {
+  background-color: #486174;
+}
 
-/* line 112, ../../../resources/assets/sass/f/main.scss */
+/* line 115, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl,
 #st_foot_contact .value {
   font-weight: 600;
@@ -1138,27 +1141,27 @@ body {
   *zoom: 1;
   *display: inline;
 }
-/* line 118, ../../../resources/assets/sass/f/main.scss */
+/* line 121, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl {
   width: 30%;
 }
-/* line 119, ../../../resources/assets/sass/f/main.scss */
+/* line 122, ../../../resources/assets/sass/f/main.scss */
 #st_foot_contact .lbl.full {
   width: auto;
 }
 
-/* line 129, ../../../resources/assets/sass/f/main.scss */
+/* line 132, ../../../resources/assets/sass/f/main.scss */
 #copyright {
   color: #FFF;
   text-align: center;
 }
 
-/* line 136, ../../../resources/assets/sass/f/main.scss */
+/* line 139, ../../../resources/assets/sass/f/main.scss */
 .menu li ul {
   background: #405767;
 }
 
-/* line 142, ../../../resources/assets/sass/f/main.scss */
+/* line 145, ../../../resources/assets/sass/f/main.scss */
 .logo {
   max-height: 100%;
   height: auto;
@@ -1168,7 +1171,7 @@ body {
  * MEDIA QUERIES
  */
 /*text MENU for navigation*/
-/* line 152, ../../../resources/assets/sass/f/main.scss */
+/* line 155, ../../../resources/assets/sass/f/main.scss */
 .ti-txt-menu {
   display: none;
   float: left;
@@ -1176,30 +1179,30 @@ body {
 }
 
 @media screen and (max-width: 1379px) {
-  /* line 161, ../../../resources/assets/sass/f/main.scss */
+  /* line 164, ../../../resources/assets/sass/f/main.scss */
   .ti-txt-menu {
     display: block;
   }
 
-  /* line 164, ../../../resources/assets/sass/f/main.scss */
+  /* line 167, ../../../resources/assets/sass/f/main.scss */
   .module.widget-handle i {
     font-size: 25px;
   }
 
-  /* line 170, ../../../resources/assets/sass/f/main.scss */
+  /* line 173, ../../../resources/assets/sass/f/main.scss */
   #st_menu .module,
   .nav-bar .module {
     height: auto;
   }
 
-  /* line 176, ../../../resources/assets/sass/f/main.scss */
+  /* line 179, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module.widget-handle.mobile-toggle {
     margin: 6px 0 0;
     border: 0 !important;
     display: block !important;
   }
 
-  /* line 184, ../../../resources/assets/sass/f/main.scss */
+  /* line 187, ../../../resources/assets/sass/f/main.scss */
   .nav-bar .module-group .module {
     display: block;
     float: none;
@@ -1207,34 +1210,34 @@ body {
   }
 }
 @media screen and (max-width: 990px) {
-  /* line 193, ../../../resources/assets/sass/f/main.scss */
+  /* line 196, ../../../resources/assets/sass/f/main.scss */
   #st_body {
     padding-bottom: 420px;
   }
 
-  /* line 197, ../../../resources/assets/sass/f/main.scss */
+  /* line 200, ../../../resources/assets/sass/f/main.scss */
   #st_footer {
     height: 420px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 204, ../../../resources/assets/sass/f/main.scss */
+  /* line 207, ../../../resources/assets/sass/f/main.scss */
   #st_body {
     padding-bottom: 640px;
   }
 
-  /* line 208, ../../../resources/assets/sass/f/main.scss */
+  /* line 211, ../../../resources/assets/sass/f/main.scss */
   #st_footer {
     height: 640px;
   }
 }
 @media screen and (max-width: 720px) {
-  /* line 216, ../../../resources/assets/sass/f/main.scss */
+  /* line 219, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .module.left {
     width: 100%;
     padding: 0 16px 0 32px;
   }
-  /* line 221, ../../../resources/assets/sass/f/main.scss */
+  /* line 224, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .ti-location-arrow {
     display: inline-block;
     vertical-align: middle;
@@ -1242,7 +1245,7 @@ body {
     *zoom: 1;
     *display: inline;
   }
-  /* line 224, ../../../resources/assets/sass/f/main.scss */
+  /* line 227, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     font-size: 1.3rem;
     display: inline-block;
@@ -1253,25 +1256,25 @@ body {
   }
 }
 @media screen and (max-width: 620px) {
-  /* line 233, ../../../resources/assets/sass/f/main.scss */
+  /* line 236, ../../../resources/assets/sass/f/main.scss */
   #st_top_header {
     height: 50px;
   }
 
-  /* line 237, ../../../resources/assets/sass/f/main.scss */
+  /* line 240, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     width: 92%;
     line-height: 1.6;
   }
 }
 @media screen and (max-width: 380px) {
-  /* line 246, ../../../resources/assets/sass/f/main.scss */
+  /* line 249, ../../../resources/assets/sass/f/main.scss */
   #st_top_header .sub {
     width: 90%;
     font-size: 1.2rem;
   }
 
-  /* line 252, ../../../resources/assets/sass/f/main.scss */
+  /* line 255, ../../../resources/assets/sass/f/main.scss */
   #nav_logo {
     width: 80%;
   }

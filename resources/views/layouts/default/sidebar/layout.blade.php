@@ -19,9 +19,4 @@
     </div>
     <!--end of container-->
 
-    @include( '_partials._sponsors',
-    [
-        'class' => 'bg-secondary'
-    ])
-
 @stop

@@ -368,5 +368,4 @@
 	    <!--end of container-->
 	</div>
 
-	@include( '_partials._sponsors')
 @stop

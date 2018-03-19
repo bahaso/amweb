@@ -94,18 +94,21 @@ body {
 }
 #st_body{
 	height: 100%;
-	padding-bottom: 390px;
+	padding-bottom: 320px;
 }
 
 #st_footer {
-	background-color: #486174;
 
-	padding: 40px 0 30px;
+	padding: 0;
 	height: 320px;
 	position:absolute;
 	bottom:0;
 	left: 0;
 	right: 0;
+
+	.footer-1{
+		background-color: #486174;
+	}
 }
 
 	#st_foot_contact {
